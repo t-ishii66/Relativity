@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  version="1.1"
+  width="1024px"
+  height="1536px"
+  viewBox="0 0 1024 1536">
+  <defs>
+    <filter id="titleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="authorGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="lowerShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.28"/>
+    </linearGradient>
+  </defs>
+
+  <image xlink:href="book-cover3.png" x="0" y="0" width="1024" height="1536" preserveAspectRatio="none"/>
+  <rect x="0" y="920" width="1024" height="616" fill="url(#lowerShade)"/>
+
+  <g transform="translate(512 1135)">
+    <text
+      x="0"
+      y="0"
+      text-anchor="middle"
+      font-family="Avenir Next, Helvetica Neue, Arial, sans-serif"
+      font-size="102"
+      font-weight="800"
+      fill="#000000"
+      fill-opacity="0.82"
+      filter="url(#titleGlow)">Making Sense</text>
+    <text
+      x="0"
+      y="132"
+      text-anchor="middle"
+      font-family="Avenir Next, Helvetica Neue, Arial, sans-serif"
+      font-size="102"
+      font-weight="800"
+      fill="#000000"
+      fill-opacity="0.82"
+      filter="url(#titleGlow)">of Relativity</text>
+    <text
+      x="0"
+      y="0"
+      text-anchor="middle"
+      font-family="Avenir Next, Helvetica Neue, Arial, sans-serif"
+      font-size="102"
+      font-weight="800"
+      fill="#fffdf8">Making Sense</text>
+    <text
+      x="0"
+      y="132"
+      text-anchor="middle"
+      font-family="Avenir Next, Helvetica Neue, Arial, sans-serif"
+      font-size="102"
+      font-weight="800"
+      fill="#fffdf8">of Relativity</text>
+  </g>
+
+  <g transform="translate(512 1338)">
+    <text
+      x="0"
+      y="0"
+      text-anchor="middle"
+      font-family="Avenir Next, Helvetica Neue, Arial, sans-serif"
+      font-size="44"
+      font-weight="700"
+      fill="#000000"
+      fill-opacity="0.80"
+      filter="url(#authorGlow)">by t-ishii66</text>
+    <text
+      x="0"
+      y="0"
+      text-anchor="middle"
+      font-family="Avenir Next, Helvetica Neue, Arial, sans-serif"
+      font-size="44"
+      font-weight="700"
+      fill="#fff9ef">by t-ishii66</text>
+  </g>
+</svg>
