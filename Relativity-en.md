@@ -242,13 +242,17 @@ $$
 dw_A = w_Q - w_P.
 $$
 
+![](images/image5.png)
+
+*Figure 1.3 (SA view): Bob’s proper clock and SA coordinate clocks*
+
 |  | Bob (SB) | SA |
 | --- | --- | --- |
-| At P | Bob reads $\tau_P$ | SA clock at P reads $w_P$ |
-| At Q | Bob reads $\tau_Q$ | SA clock at Q reads $w_Q$ |
-| Interval P to Q | $d\tau_B$ | $dw_A$ |
+| At P | Bob looks at his own clock and reads $\tau_P$. | When Bob passes in front of the SA coordinate clock at P, that clock reads $w_P$. |
+| At Q | Bob looks at his own clock and reads $\tau_Q$. | When Bob passes in front of the SA coordinate clock at Q, that clock reads $w_Q$. |
+| Interval P to Q | Bob took $d\tau_B = \tau_Q - \tau_P$ to travel from P to Q. | Bob took $dw_A = w_Q - w_P$ to travel from P to Q, as measured by SA. |
 
-This distinction is crucial.
+This distinction is crucial: $d\tau_B$ is the elapsed time on Bob's single clock, while $dw_A$ is the difference between readings on two different SA clocks at P and Q. (This is not always the case, but it is for this situation.)
 
 Let SA spatial separation be $dx_A$. Define
 
@@ -266,6 +270,14 @@ $$
 ds^2 = -dw_B^2 = -d\tau_B^2.
 $$
 
+---
+
+Bob: “My $ds^2$ is this value, computed from my own clock.”
+
+Alice: “Wait... if I compute with my coordinate clocks... what, same $ds^2$!?”
+
+---
+
 Thus,
 
 $$
@@ -280,11 +292,36 @@ $$
 
 Therefore $d\tau_B < dw_A$. Since $\tau_A = w_A$ for Alice at rest in SA, Bob’s clock runs slower than Alice’s according to SA.
 
+---
+
+Alice: “Bob’s clock is ticking slowly. It must be broken.”
+
+---
+
 ![](images/image6.png)
 
 *Figure 1.4 (SA view): Proper-time interval vs coordinate-time interval*
 
-But Bob can make a symmetric claim from SB. Is that a contradiction? Next section.
+|  | Bob (SB) | SA |
+| --- | --- | --- |
+| Time from P to Q | Bob carries his own clock, so he measures this as $d\tau_B$. | Difference between the SA clock reading when Bob passes P and the SA clock reading when Bob passes Q. This is $dw_A$. |
+| Distance from P to Q | Zero. To make this intuitive: Bob is an SB resident and is at rest in SB. From Bob’s viewpoint, SA is what moves; first point P comes to him (first spacetime event), then point Q comes (second spacetime event). Between those two events, Bob’s traveled distance in SB is zero. | SA-measured distance $\overline{PQ}$, i.e. $dx_A$. |
+
+Bob, however, has been observing Alice using SB coordinate clocks and reaches the opposite claim:
+
+> Alice’s clock runs slower than Bob’s clock.
+
+This sounds contradictory, but it is not. Let us check why.
+
+![](images/Alice-Bob-compare.png)
+
+---
+
+Bob: “Alice’s clock is broken, isn’t it?”
+
+Alice: “No way. Maybe your clock is the broken one.”
+
+---
 
 ### Relativity of Simultaneity
 
@@ -304,11 +341,25 @@ If each SB clock runs slowly from SA’s viewpoint, how can Bob still claim Alic
 
 *Figure 1.7 (SA view): Another SB clock compares with Alice later*
 
-Even though each SB clock ticks slowly in SA, their displayed times are offset in SA slicing. This resolves the apparent paradox: both Alice and Bob can consistently conclude the other side’s moving clock is slow.
+From SA's fixed viewpoint, all SA clocks tick fast (in Figure 1.7, the blue coordinate clock hands move from 12 o'clock to 3 o'clock), while each SB clock ticks slowly (but all at the same slow rate).
+
+Focus on two adjacent SB coordinate clocks. Both tick slowly as seen from SA. "Slowly" here refers to the rate at which the hands move, not the displayed time. Surprisingly, these two SB clocks believe they show the same time as each other. When these two clocks observe Alice's proper clock, the following situation arises.
+
+When Alice passes in front of the rightmost SB clock, both clocks happen to show the same time (this is just a coincidence). But when Alice passes in front of the second SB clock (second from the right), that clock finds Alice's clock is behind. Since all SB coordinate clocks are synchronized with each other, SB concludes that Alice's clock is running slower than theirs.
+
+When we compare multiple SB coordinate clocks with an SA proper clock (Alice's clock, or any single SA coordinate clock treated as a proper clock), SA proper time still appears to run slower. Both Alice's and Bob's claims turn out to be correct. In special relativity, comparing one proper clock against two coordinate clocks leads to this seemingly strange result. But there is no contradiction.
 
 ![](images/image11-en.png)
 
-*Figure 1.8: Alice’s clock seen via multiple SB coordinate clocks*
+*Figure 1.8: Alice's clock seen via multiple SB coordinate clocks*
+
+---
+
+Alice: “Bob kept insisting, ‘Synchronize all the clocks properly.’ But what about his side? I’ll get him for this later.”
+
+Bob: “Hmm… still, I feel like Alice’s clock is the one that’s off.”
+
+---
 
 ### Length Contraction
 
@@ -322,17 +373,25 @@ Suppose a rod is at rest in SB and SA measures its endpoints as P and Q simultan
 
 Switch to SB viewpoint. SA’s two endpoint-identification events are not simultaneous in SB.
 
-![](images/image13.png)
+From SB’s viewpoint, when the rod front reaches SA point Q, SA marks that front position. The SA coordinate clock at Q reads 12 o'clock in the figure.
+
+![](images/image33.png)
 
 *Figure 1.10 (SB view): SA identifies the front endpoint*
 
-![](images/image14.png)
+But SA does not yet mark the rear endpoint. Looking at the rear side, the SA coordinate clock at the corresponding location X is still behind and has not reached 12 o'clock yet.
+
+![](images/image34.png)
 
 *Figure 1.11 (SB view): SA identifies the rear endpoint later*
 
-So SA’s “simultaneous in SA” measurement appears non-simultaneous in SB.
+Eventually the rear endpoint reaches point P, and at that moment the SA clock at P reads 12 o'clock. That is when SA identifies the rear endpoint as P.
 
-Conversely, if SB measures SA’s segment with simultaneity in SB, SA sees non-simultaneous events too.
+Alice gets excited and says the rod became shorter. But from Bob’s perspective, SA did not identify both endpoints simultaneously in SB, so he calls that measurement meaningless.
+
+![](images/Alice-measure-pole.png)
+
+Conversely, if SB measures SA’s segment with simultaneity in SB, SA also sees non-simultaneous events.
 
 ![](images/image15.png)
 
@@ -342,7 +401,15 @@ Conversely, if SB measures SA’s segment with simultaneity in SB, SA sees non-s
 
 *Figure 1.13 (SA view): SB identifies Q later in SA time*
 
-Hence each frame measures the other frame’s moving length as contracted. For a more explicit derivation, see Appendix B and C.
+Hence each frame measures the other frame’s moving length as contracted.
+
+---
+
+Bob: “Alice, that measurement is sloppy. I told you: you have to identify both ends at the same time.”
+
+---
+
+For a more explicit derivation, see Appendix B and C.
 
 ## Chapter 2: General Relativity
 
@@ -354,11 +421,13 @@ Consider an astronaut in a uniformly accelerating rocket, holding an apple. Thro
 
 From outside, however, the apple may follow straight inertial motion while the astronaut accelerates.
 
-Apply this perspective to Earth. An apple seems to arc downward. In GR language, the apple follows a geodesic (loosely: a “straightest” path in curved spacetime), while our frame is non-inertial in the gravitational field.
+Apply this perspective to Earth. An apple seems to follow a projectile arc. But one can also say: the apple is simply following a straight path, while we and the ground are in a non-inertial frame in gravity.
 
-(Strictly speaking, we use “shortest path” only as an intuitive phrase; the precise term is geodesic.)
+That sounds strange at first: “No, gravity is pulling the apple, so it cannot be straight inertial motion.” Here the key shift is to think of gravity as curvature of spacetime. Then the apple follows the straightest path between nearby events in curved spacetime (we will loosely say “shortest path” for readability; strictly this is a geodesic).
 
-Rocket acceleration is one-directional, but gravity points toward the massive body’s center, so the global situations are not identical.
+Rocket acceleration points in one direction, while gravity points toward the massive body's center, so the global situations are not identical.
+
+Trying to build one coordinate system where every point on Earth’s surface is “accelerating upward” becomes difficult. Einstein resolved this by introducing Riemannian geometry into physics.
 
 ![](images/Charlie-apple.png)
 
@@ -401,8 +470,24 @@ $$
 dX^\mu = \frac{\partial X^\mu}{\partial x^\nu}dx^\nu,
 $$
 
+and define the line element by
+
 $$
-ds^2 = \eta_{\mu\nu}dX^\mu dX^\nu = g_{\rho\tau}dx^\rho dx^\tau,
+ds^2=\eta_{\mu\nu}dX^\mu dX^\nu.
+$$
+
+Rewriting:
+
+$$
+ds^2=\eta_{\mu\nu}
+\frac{\partial X^\mu}{\partial x^\rho}dx^\rho
+\frac{\partial X^\nu}{\partial x^\tau}dx^\tau,
+$$
+
+and collecting terms gives
+
+$$
+ds^2=g_{\rho\tau}dx^\rho dx^\tau,
 $$
 
 with
@@ -411,7 +496,24 @@ $$
 g_{\rho\tau}=\eta_{\mu\nu}\frac{\partial X^\mu}{\partial x^\rho}\frac{\partial X^\nu}{\partial x^\tau}.
 $$
 
-So $ds^2$ is the same scalar, regardless of coordinates.
+So, for a line element $ds^2$ seen from a (local) inertial frame, a person in a gravity-field coordinate can compute the same scalar value by using $g_{\rho\tau}dx^\rho dx^\tau$.
+
+If the relation between $X^\mu$ and $x^\mu$ (equivalently $g_{\rho\tau}$) were already known, that would be convenient. In general, $g_{\rho\tau}$ is determined by energy-momentum distribution $T^{\mu\nu}$ (through Einstein’s equations; details are outside this book).
+
+Also, if basis vectors of $x^\mu$ are defined by
+
+$$
+{e_{\mu}}^{\lambda}=\frac{\partial X^{\lambda}}{\partial x^{\mu}},
+$$
+
+then
+
+$$
+g_{\rho\tau}=\eta_{\mu\nu}{e_{\rho}}^{\mu}{e_{\tau}}^{\nu}
+=(\mathbf{e}_{\rho}\cdot\mathbf{e}_{\tau}),
+$$
+
+so the metric is the inner product of basis vectors.
 
 ### Schwarzschild Solution
 
@@ -443,7 +545,29 @@ $$
 
 Coordinates from a solution are a computational canvas, not automatically “the directly experienced time and distance.”
 
-Even in flat space, a coordinate reparameterization changes coordinate increments. So values like $w,r,dw,dr$ in Schwarzschild coordinates should be interpreted carefully.
+For example, even in flat space, suppose we describe space by a flat coordinate $r$ and then apply an arbitrary reparameterization
+
+$$
+R=f(r).
+$$
+
+Then
+
+$$
+dR=f'(r)\,dr.
+$$
+
+Even though $dr$ is uniform in the original flat coordinate, $dR$ can vary with position. So coordinate increments themselves are not automatically physical ruler lengths.
+
+The same caution applies to Schwarzschild coordinates: coordinate values $(w,r)$ and coordinate increments $(dw,dr)$ are not automatically “time itself” or “distance itself.”
+
+More strongly, one can even mix time and space in a transformation like
+
+$$
+W=f(w,r),
+$$
+
+which makes naive interpretation even less meaningful.
 
 What we physically measure are proper time and proper length; relating these to the canvas coordinates is the key.
 
@@ -461,13 +585,68 @@ $$
 ds^{2}=-d\tau_C^{2}=-dw^{2}\Rightarrow d\tau_C=dw.
 $$
 
-At Alice’s radius $r_A$:
+So, at Charlie’s location, the coordinate-time increment $dw$ equals Charlie’s proper-time increment $d\tau_C$.
+But this statement is local: it is true for $dw$ at Charlie’s position. A $dw$ somewhere else may represent something different.
+
+Now write the line element at Alice’s radius $r_A$:
 
 $$
 ds^{2}=-\left(1-\frac{a}{r_A}\right)dw^{2}+\frac{1}{1-a/r_A}dr^{2}.
 $$
 
-For static Alice ($dr_A=0$):
+Suppose Alice emits light at coordinate time $w_{A1}$ and that light reaches Charlie after coordinate interval $W$:
+
+$$
+w_{A1}+W=w_{C1}.
+$$
+
+Later, Alice emits again at $w_{A2}$. The travel interval is again $W$, so
+
+$$
+w_{A2}+W=w_{C2}.
+$$
+
+Subtracting:
+
+$$
+(w_{A2}-w_{A1})=(w_{C2}-w_{C1}),
+$$
+
+or in differential form,
+
+$$
+dw_A=dw_C.
+$$
+
+This is why coordinate time can directly relate events at different places. Proper time cannot do that by itself, because it is local to each clock.
+
+Still, we must be careful: coordinate time $w$ is a canvas variable. It is not automatically “experienced time.”
+
+Now ask: is proper time in gravity still defined by
+
+$$
+ds^2=-d\tau^2
+$$
+
+for a clock attached to an object? Yes.
+
+Intuitively: if Alice carries her own clock and ruler into a gravitational field, her local neighborhood, clock, and ruler are all affected together. She does not notice a local “rate change” by comparing against herself. Over sufficiently small spacetime neighborhoods, her local measurements are approximately inertial:
+
+$$
+ds^{2}\simeq -dw_A^{2}+dr_A^{2}.
+$$
+
+Here $dw_A,dr_A$ mean time and length measured by Alice’s own local clock and ruler, and $\\simeq$ means local approximation (small region, short duration), not exact global equality.
+
+For Alice’s own clock worldline, $dr_A=0$, so
+
+$$
+ds^{2}(=-d\tau^{2})\simeq -dw_A^{2},
+$$
+
+hence her carried clock is precisely the proper-time clock in the operational sense.
+
+Return now to Schwarzschild coordinates (without subscript $A$). For static Alice ($dr_A=0$):
 
 $$
 ds^{2}=-d\tau_A^{2}=-\left(1-\frac{a}{r_A}\right)dw^{2},
@@ -479,59 +658,109 @@ $$
 d\tau_A=dw\sqrt{1-\frac{a}{r_A}}.
 $$
 
-So compared at the same coordinate increment $dw$, Alice’s proper-time increment is smaller than Charlie’s.
+So for the same coordinate increment $dw$, Alice’s proper-time increment is smaller than Charlie’s.
+
+In other words, for proper-time flow (the clocks they carry), Alice ticks slower than Charlie.
+
+![](images/Alice-Charlie-agree.png)
+
+---
+
+Alice: “Charlie’s clock runs faster.”
+
+Charlie: “Yes, mine runs faster.”
+
+Alice: “Unlike that mean Bob, we finally agree.”
+
+Charlie: “Yep!”
+
+---
 
 ### Gravitational Redshift
 
-If Alice emits light during proper interval $d\tau_A$, convert to coordinate interval:
+Consider light emitted by Alice and received by Charlie. Suppose Alice keeps emitting during her own proper-time interval (experienced time) $d\tau_A$. Converting that interval to Schwarzschild coordinate time gives
 
 $$
 dw=d\tau_A\sqrt{\frac{1}{1-a/r_A}}.
 $$
 
-Charlie at infinity has $d\tau_C=dw$, so
+From the discussion above, Charlie also keeps receiving during that same coordinate-time interval. And at Charlie (infinity), the experienced time is proper time, with $d\tau_C=dw$. Therefore
 
 $$
 d\tau_C=d\tau_A\sqrt{\frac{1}{1-a/r_A}}.
 $$
 
-Same number of cycles spread over longer received time means lower observed frequency at Charlie: redshift.
+Suppose Alice counts $N$ oscillations during $d\tau_A$. Charlie receives the same $N$ oscillations during $d\tau_C$. The oscillation count is unchanged, but it is spread over a longer reception time, so Charlie observes a lower frequency.
 
 ![](images/Alice-Charlie-laser.png)
 
 ### Proper Length and Coordinate Length
 
-For simultaneous spatial separation in Schwarzschild coordinates ($dw=0$):
+Now consider how a rod of inertial-frame length $\Delta L$ appears in a gravitational field.
+
+Length means identifying both endpoints simultaneously, so set $dw=0$. Then Schwarzschild gives
 
 $$
 ds^2=\frac{1}{1-a/r}dr^2.
 $$
 
-At infinity, this reduces to $ds^2=dr^2$.
-
-Define proper length element $d\sigma$ by
+Near Charlie, $r=\infty$, so
 
 $$
-d\sigma^2 = ds^2.
+ds^2=dr^2.
 $$
 
-At $r_A$:
+If we choose the two spacetime points as the two rod endpoints, then
+
+$$
+ds^2=\Delta L^2.
+$$
+
+Write
+
+$$
+d\sigma^2=ds^2=\Delta L^2
+$$
+
+and call $d\sigma$ the proper length; this is the physical rod length in the inertial sense.
+
+At Alice’s location,
 
 $$
 ds^{2}=\frac{1}{1-a/r_A}dr^{2},
 $$
 
-hence
+holds.
+
+If Alice carries that rod from infinity down to her location, local space around her may be curved, but her ruler and rod are affected together. So in her local measurement she still reads the rod length as $\Delta L$.
+
+Alice’s experienced coordinates and Schwarzschild coordinates are related by coordinate transformation, and the key point is that $ds^2$ is a scalar with the same value in either description. Therefore in Alice’s local frame
 
 $$
-dr = d\sigma\sqrt{1-a/r_A}.
+d\sigma^2=ds^2=\Delta L^2
 $$
 
-So coordinate distance $dr$ can be smaller than local proper length in strong gravity regions.
+is true, and expressing this in the Schwarzschild canvas coordinate $r$ gives
+
+$$
+ds^2=\Delta L^2=\frac{1}{1-a/r_A}dr^2.
+$$
+
+So
+
+$$
+dr=\Delta L\sqrt{1-\frac{a}{r_A}}.
+$$
+
+For example, a 10 m rod in an inertial frame remains 10 m when directly measured locally in gravity (both rod and ruler are affected together). But in the Schwarzschild $w-r$ canvas coordinate description, the corresponding $dr$ value can be less than 10 m.
+
+So at $r_A$, it is better not to over-interpret this as “the rod itself became shorter.” It is a canvas-coordinate statement. If one goes there and directly measures with local instruments, it is still 10 m.
+
+![](images/Alice-clock-measure.png)
 
 ### Speed of Light in a Gravitational Field
 
-For light, $ds^2=0$:
+From special relativity we know light follows paths with $ds^2=0$. Do the same in gravity:
 
 $$
 -\left(1-\frac{a}{r}\right)dw^2+\frac{1}{1-a/r}dr^2=0
@@ -543,47 +772,92 @@ $$
 \left|\frac{dr}{dw}\right|=1-\frac{a}{r}.
 $$
 
-This is coordinate speed on the $w-r$ canvas.
+This is the coordinate speed magnitude on the Schwarzschild canvas. On this canvas, invariant light speed no longer appears as a constant coordinate slope.
 
-At infinity, Charlie has $d\tau_C=dw$ and locally measures light speed $c$.
+However, at infinity the Schwarzschild coordinate time $w$ equals Charlie’s proper time $\tau_C$. So as long as Charlie is far away, he may read this canvas time as his own time. At Charlie’s location $r=\infty$,
 
-At Alice’s location, local proper measures satisfy
+$$
+\frac{dr}{dw}=1.
+$$
+
+So near himself, Charlie measures inertial light speed $c$ as usual.
+
+Alice should also measure local light speed $c$ in her experienced frame. Let us compute that using the same $w-r$ canvas.
+
+Alice’s experienced time is proper time, and we had
 
 $$
 d\tau_A^2=\left(1-\frac{a}{r_A}\right)dw^2,
 $$
 
+while Alice’s experienced length is proper length, with
+
 $$
 d\sigma = dr\sqrt{\frac{1}{1-a/r_A}},
 $$
 
-hence
+so
 
 $$
-\frac{d\sigma}{d\tau_A}=1,
+\frac{d\sigma}{d\tau_A}
+=\frac{dr\sqrt{\frac{1}{1-a/r_A}}}{d\tau_A}
 $$
 
-so local measured light speed remains $c$.
+$$
+=\frac{dr\sqrt{\frac{1}{1-a/r_A}}}{dw\sqrt{1-a/r_A}}
+$$
+
+$$
+=\frac{dr}{dw(1-a/r_A)}=1.
+$$
+
+Thus Alice also observes light speed $c$ locally.
+
+![](images/speed_of_light.png)
 
 ### Coordinate Systems as a Canvas
 
-The Schwarzschild coordinates are a useful computational canvas.
+The coordinate system obtained from the Schwarzschild solution is a canvas coordinate system.
 
-Local measurements use local clocks/rulers, not raw coordinate values themselves. So when calculating trajectories near massive bodies, the physically observed quantity is what detectors record in local proper units.
+Times and lengths actually experienced or measured are proper time and proper length.
+
+Let us think about this more concretely.
+
+Charlie’s experienced world is of course described by Charlie’s proper time and proper length. The Schwarzschild coordinates $w,r$ happened to coincide with those proper quantities only near Charlie.
+
+So $w,r$ looked like Charlie’s own coordinates, but that is only near Charlie.
+
+Now consider a concrete situation: light bends due to the gravity of a massive star and eventually reaches Charlie.
+
+The bending is computed on the $w-r$ canvas. But trying to treat the $w-r$ coordinates themselves as directly observable near the strong-gravity region has limits. What matters is that the calculation can be done consistently.
+
+If Charlie places a detector near the strong-gravity region to observe the bending there, that detector uses the local observer’s proper clock and proper ruler at that location. So it is not directly reading raw $w,r$ values.
+
+Therefore, rather than staring at the literal curve drawn in $w-r$, it is better to focus on what happens when the light reaches near Charlie.
+
+Near Charlie, observation is performed in Charlie’s proper time/length, and there those coincide with $w,r$. So the trajectory computed on the canvas is observed directly there (near Charlie).
 
 ![](images/Alice-Charlie-massive.png)
 
-*Figure 2.1: Light trajectory on a coordinate canvas*
+*Figure 2.1: Draw the light trajectory on the coordinate canvas*
 
-In short: near a massive body, what matters is that the trajectory is computable on the canvas; instruments there do not directly read coordinate values.
+In short: near a massive body, what matters is that the trajectory is computable. Even if one places detectors in that region, they do not directly read canvas coordinates themselves. By contrast, when Charlie waits in a far region without felt gravity and observes the arriving light, canvas coordinates and Charlie’s proper units coincide, so he observes the computed canvas trajectory directly there.
 
 ### A Freely Falling Observer
 
-Now let Bob free-fall from Alice’s location.
+Alice seemed able to describe her experienced world locally with metric $\eta_{\mu\nu}$.
 
-Near Bob’s worldline and over a sufficiently small region, Bob can use a local inertial description (metric approximately $\eta_{\mu\nu}$). But this is local: one must re-choose such local frames point by point along the worldline.
+Now let Bob free-fall from Alice’s location. (Bob has a parachute, so no worries.) Since Bob is in free fall, in a very small neighborhood around him he can also be approximated as in a local inertial frame (metric approximately $\eta_{\mu\nu}$). But strictly, if one extends the region, caution is needed: the local inertial frame must be re-chosen point by point along Bob’s worldline, not one single frame for the entire fall.
 
-Alice/Charlie see Bob accelerated in Schwarzschild coordinates, so they are not globally related to Bob by one Lorentz transformation. Differences appear in accumulated proper time.
+Then a natural question appears: if Alice and Bob both locally use $\eta_{\mu\nu}$, are they just in a special-relativistic relative-velocity relation?
+
+From Alice/Charlie, Bob is accelerated, so they are not globally connected by one Lorentz transformation. All three can still use $\eta_{\mu\nu}$ locally around themselves. Where does the difference show up? One place is that accumulated proper times differ.
+
+Let us show the relation.
+
+We already derived Alice–Charlie proper-time relation.
+
+Now examine Bob–Charlie.
 
 Using Bob-local and Charlie coordinates for the same nearby events:
 
@@ -591,63 +865,115 @@ $$
 ds^{2}=-dw_B^{2}+dr_B^{2}
 $$
 
-and
+For the same two spacetime points, Charlie’s coordinates satisfy
 
 $$
 ds^{2}=-\left(1-\frac{a}{r_B}\right)dw_C^{2}+\frac{1}{1-a/r_B}dr_C^{2}.
 $$
 
-For Bob’s own proper-time increment ($dr_B=0$):
+Since both describe the same two endpoints and $ds^2$ is a scalar, we can write
+
+$$
+ds^{2}=-dw_B^{2}+dr_B^{2}
+=-\left(1-\frac{a}{r_B}\right)dw_C^{2}+\frac{1}{1-a/r_B}dr_C^{2}.
+$$
+
+Now consider Bob’s proper time. Set $dr_B=0$:
 
 $$
 -d\tau_B^{2}=-\left(1-\frac{a}{r_B}\right)dw_C^{2}+\frac{1}{1-a/r_B}dr_C^{2},
 $$
 
-thus at least
+thus
 
 $$
-d\tau_B < dw_C.
+d\tau_B^{2}
+=\left(1-\frac{a}{r_B}\right)dw_C^{2}
+-\frac{1}{1-a/r_B}dr_C^{2}
+< dw_C^{2}.
 $$
 
-If Alice and Bob are compared at nearly same radius ($r_A\sim r_B$), gravitational slowing is similar, and Bob’s extra relative motion implies: from Alice’s perspective Bob’s clock is further slowed. So
+So at least $d\tau_B<dw_C$ holds.
+
+Now make comparison conditions explicit. If Alice and Bob are at nearly the same radius ($r_A\sim r_B$), gravitational slowing is nearly the same for both. But Bob is moving relative to Alice, so by the special-relativistic motion effect Bob’s clock is further slowed from Alice’s perspective. Therefore
+
+$$
+d\tau_B<d\tau_A.
+$$
+
+Combine with the already shown gravitational relation
+
+$$
+d\tau_A<d\tau_C
+$$
+
+to get
 
 $$
 d\tau_B<d\tau_A<d\tau_C.
 $$
 
+This conclusion is under the condition that Alice and Bob are compared at nearly the same $r$.
+
 ![](images/Alice-Bob-fall.png)
+
+---
+
+Alice: “Come on, Bob, be brave. Jump!”
+
+Bob: “Give me a break...”
+
+Alice: “Go!”
+
+Bob: “Waaah...!”
+
+---
 
 ### Light Signals from Falling Bob
 
-Bob emits flashes every 1 second of his proper time while free-falling toward Charlie (far away).
+Consider Bob free-falling while emitting blinking light toward Charlie (at infinity). Bob emits once every 1 second on his own proper clock.
 
-Bob feels ordinary passage of time. But Charlie sees longer and longer intervals between received flashes as Bob approaches $r=a$.
+For Bob, nothing unusual happens: ordinary time passes, and he emits every second.
 
-For qualitative trend, use the static-like relation as an approximation:
+But for Charlie, things look different. At first flashes arrive every second, then intervals become longer: every 2 seconds, 5 seconds, 10 seconds, and so on. As Bob approaches Schwarzschild radius $a$, arrival intervals keep stretching.
+
+Quantitatively: at Bob position $r_B$, the relation between Bob proper time $d\tau_B$ and Charlie coordinate time $dw_C$ includes both gravitational and motion effects. Here, to capture the trend, use the static relation as an approximate guide:
 
 $$
 d\tau_B = dw_C\sqrt{1-\frac{a}{r_B}}.
 $$
 
-As $r_B\to a$, a fixed $d\tau_B$ corresponds to very large $dw_C$, so received intervals stretch greatly.
+From this, as $r_B\to a$, a fixed $d\tau_B$ corresponds to very large $dw_C$. So flashes Bob emits every second are received by Charlie with very long spacing. Since Charlie is at infinity, $d\tau_C=dw_C$ holds, so he directly reads that spacing on his own clock.
 
-Frequency ratio from cycle counting:
+Also, the received light is redshifted and dimmed. Suppose Bob emits $N$ wave cycles during $d\tau_B$. Charlie receives the same $N$ cycles during $dw_C$. Let emitted frequency be $\nu_B$ and observed frequency be $\nu_C$:
 
 $$
 \nu_B=\frac{N}{d\tau_B},\quad \nu_C=\frac{N}{dw_C},
 $$
 
 $$
-\frac{\nu_C}{\nu_B}=\frac{d\tau_B}{dw_C}\approx\sqrt{1-\frac{a}{r_B}}\to 0.
+\frac{\nu_C}{\nu_B}=\frac{d\tau_B}{dw_C}.
 $$
 
-So received light is strongly redshifted and dimmed.
-
-To Charlie, Bob appears to freeze near the horizon; Bob crosses in finite proper time. This “freezing” is the Schwarzschild-coordinate description.
+Using the same approximation as above (static relation as guide), substitute $d\tau_B = dw_C\sqrt{1-\frac{a}{r_B}}$:
 
 $$
-\left|\frac{dr}{dw}\right|=1-\frac{a}{r}\to 0\quad (r\to a).
+\frac{\nu_C}{\nu_B}
+=\frac{dw_C\sqrt{1-\frac{a}{r_B}}}{dw_C}
+=\sqrt{1-\frac{a}{r_B}}.
 $$
+
+As $r_B\to a$, this ratio approaches zero, so observed frequency becomes arbitrarily small.
+
+When Bob gets arbitrarily close to the horizon ($r=a$), for Charlie the blink interval stretches without bound and almost no light arrives. Bob appears to freeze on the horizon.
+
+This is an extreme manifestation of coordinate-time vs proper-time difference. Bob crosses the horizon in finite Bob proper time, but in Charlie coordinate time Bob reaches the horizon only at “infinite future.” This is the appearance in Schwarzschild coordinates (the $w-r$ canvas). The coordinate light speed
+
+$$
+\left|\frac{dr}{dw}\right|=1-\frac{a}{r}
+$$
+
+correspondingly approaches zero as $r\to a$.
 
 ![](images/Bob-falling.png)
 
@@ -667,9 +993,15 @@ Bob: “I fell quite far. Still feels normal. Maybe I should head back.”
 
 Thought experiment: Bob falls deep, then briefly fires a rocket to reverse direction and return to Charlie at infinity.
 
-Keep thrust duration short; focus on free-motion segments. On both outbound and inbound parts, Bob’s proper time tends to accumulate more slowly than Charlie’s far-away time.
+Keep thrust duration short; focus on free-motion segments. On the outbound leg, as we have seen, Bob's clock runs slower than Charlie's from Charlie's viewpoint. What about the return leg? On the return leg, Bob is still moving through the gravitational field while ascending, so his proper time still runs slower than Charlie's.
 
-So over the full trip,
+That is, on both outbound and inbound parts,
+
+$$
+d\tau_{B} < dw_{C}(=d\tau_{C})
+$$
+
+holds in segments along the way. So over the full trip,
 
 $$
 \tau_{B,\mathrm{total}}<\tau_{C,\mathrm{total}}.
@@ -679,36 +1011,95 @@ When they reunite and compare clocks directly, Bob is younger.
 
 Not necessarily exactly “double” any one-way effect; magnitude depends on turning radius and velocity history.
 
+![](images/compare-clocks.png)
+
+---
+
+Bob: “Ah… my clock is behind.”
+
+Charlie: “It really is!”
+
+Alice: “You kept treating me like a little kid, Bob. Looks like the age gap just got a little smaller!”
+
+Bob: “Ugh… by only a few seconds…”
+
+---
+
 ### Metric and Coordinate Transformations
 
-From any coordinates $x^\mu$ with metric $g_{\mu\nu}$ to another $x'^\lambda$:
+Earlier we wrote expressions such as
 
 $$
-ds^2=g_{\mu\nu}dx^\mu dx^\nu
-= g'_{\lambda\sigma}dx'^\lambda dx'^\sigma.
+ds^{2}=\eta_{\mu\nu}dX^{\mu}dX^{\nu}
 $$
 
-Same form, same scalar value.
-
-Locally (in sufficiently small neighborhood), one can choose coordinates where the metric at that point is Minkowskian:
-
 $$
-ds^2=g_{\mu\nu}dx^\mu dx^\nu = \eta_{\mu\nu}dX^\mu dX^\nu \quad (\text{locally}).
+=g_{\lambda\sigma}dx^{\lambda}dx^{\sigma},
 $$
 
-Local measurements always use proper clocks/rulers. Coordinate transformations are the language linking different descriptions.
+and explained it as “a person in gravity can compute the same $ds^2$ by multiplying with $g_{\lambda\sigma}$ in their own coordinates.” Let us refine that view.
+
+For a transformation from coordinates $x^\mu$ (metric $g_{\mu\nu}$) to another coordinates $x'^\lambda$:
+
+$$
+ds^{2}=g_{\mu\nu}dx^{\mu}dx^{\nu}
+$$
+
+$$
+=g_{\mu\nu}\frac{\partial x^{\mu}}{\partial x'^{\lambda}}dx'^{\lambda}
+\frac{\partial x^{\nu}}{\partial x'^{\sigma}}dx'^{\sigma}
+$$
+
+$$
+=g_{\mu\nu}\frac{\partial x^{\mu}}{\partial x'^{\lambda}}
+\frac{\partial x^{\nu}}{\partial x'^{\sigma}}dx'^{\lambda}dx'^{\sigma}
+$$
+
+$$
+=g'_{\lambda\sigma}dx'^{\lambda}dx'^{\sigma}.
+$$
+
+So the form is preserved, and the scalar value $ds^2$ is preserved.
+
+Pushing this further: in a local neighborhood around a point, one can transform to coordinates with metric $\eta_{\mu\nu}$. If that coordinate is $X^\mu$, then
+
+$$
+ds^{2}=g_{\mu\nu}dx^{\mu}dx^{\nu}
+$$
+
+$$
+=\eta_{\mu\nu}dX^{\mu}dX^{\nu}.
+$$
+
+This suggests a useful perspective shift. Perhaps it is not that we always start from $\eta_{\mu\nu}$ and then “add” $g_{\mu\nu}$. Rather, for a chosen coordinate system $x^\mu$, the corresponding $g_{\mu\nu}$ appears as part of that description from the start (as in Schwarzschild, where coordinate system and metric come together), and then we may transform locally to a coordinate where the metric is $\eta_{\mu\nu}$.
+
+If we place an experiment anywhere and observe, instruments always measure values based on local proper time and proper length. So transforming to a local $\eta_{\mu\nu}$ coordinate is exactly the transformation that tells us what a local measurement at that place records.
 
 ![](images/resolving-problems.png)
 
 ### Interferometer Thought Experiment
 
-In flat space, place a light source and mirrors at equal distance $L$ on left/right. Returned beams interfere.
+In an inertial frame, prepare one light source and place mirrors at distance $L$ on both left and right:
 
-Move this setup into a gravitational field while holding the apparatus static against gravity. If one arm samples stronger gravity than the other, spacetime geometry changes effective optical path lengths differently.
+mirror <---------- $L$ ----------> source <---------- $L$ ----------> mirror
 
-Then interference fringes shift.
+Light leaves the source, reflects at both mirrors, returns to the source position, and interferes.
 
-If the metric changes in time (for example, due to a passing perturbation), corresponding path-length changes can be detected through interference.
+Now move this whole setup into a gravitational field.
+
+Assume the right mirror feels strong gravity while the source and left mirror feel almost none (because $L$ is very large), and assume the apparatus is held static against gravity by some support.
+
+What happens to interference at the source position?
+
+Light making round trips in gravity is affected by spacetime curvature along its path.
+
+As a result, the effective optical path lengths (the round-trip path quantity) for left and right change differently.
+
+So interference fringes shift.
+
+What if the gravitational influence comes not from a celestial body, but from a metric that flies through?
+
+If changes in the metric alter the optical path length, then conversely we can detect such metric changes by observing those shifts.
 
 ![](images/metric-tensor.png)
 
@@ -722,7 +1113,7 @@ $$
 ds^2=-dw^2+dx^2
 $$
 
-(with $w=ct$).
+(with $w=ct$). Some texts use the opposite sign convention $ds^2=+dw^2-dx^2$, but the physical content is the same.
 
 Lorentz transform:
 
@@ -772,73 +1163,117 @@ This is exactly why multiple SB clocks can appear offset in SA while each still 
 
 ### Appendix C: Deriving Length Contraction with Lorentz Transformations
 
-Consider a rod at rest in SB with endpoints at $x_B=0$ and $x_B=L_B$.
+Let us compute length contraction of SB as seen from SA using Lorentz transformations.
 
-If SA marks positions simultaneously at $t_A=0$, transformed spacing in SB is
+In SA, at time $t_A=0$, suppose SA marks two simultaneous positions $x_{A0}$ and $x_{A1}$ on the SB side. Compute where those marks lie in SB coordinates:
+
+$$
+x_{B0}=\frac{x_{A0}-V\times 0}{\sqrt{1-(V/c)^2}},
+$$
+
+$$
+x_{B1}=\frac{x_{A1}-V\times 0}{\sqrt{1-(V/c)^2}}.
+$$
+
+Hence spacing between the two SB marks is
 
 $$
 x_{B1}-x_{B0}=\frac{x_{A1}-x_{A0}}{\sqrt{1-(V/c)^2}}.
 $$
 
-So the SA-simultaneous measured length of the moving SB rod is contracted.
+So the spacing is longer than SA spacing, meaning equivalently: if SA measures an SB-rest rod simultaneously in SA, SA gets a shorter length. That already gives the standard result.
 
-Now follow the book’s event flow using
+But this is not in the same narrative flow as the main text, so below we derive it in the same event-by-event style. If this is enough for you, you can skip the rest.
+
+Take Lorentz relation
 
 $$
 w_A = \frac{Vx_B/c + w_B}{\sqrt{1-(V/c)^2}}.
 $$
 
-At SB time $w_{B0}$, front endpoint event Q ($x_B=L_B$):
+Let the SB-rest rod length be $L_B$, with rear at $x_B=0$ and front at $x_B=L_B$ (SB coordinates). In SB view, at time $w_{B0}$, suppose rod front reaches SA point Q. Compute SA clock reading $w_A(Q)$:
 
 $$
-w_A(Q)=\frac{VL_B/c+w_{B0}}{\sqrt{1-(V/c)^2}}\equiv w_{A0}.
+x_B=L_B,
 $$
 
-SA measures both endpoints at this same SA time $w_{A0}$.
+$$
+w_B=w_{B0}.
+$$
 
-For rear endpoint event P, $x_B=0$ and $w_A=w_{A0}$ gives
+So
+
+$$
+w_A(Q)=\frac{VL_B/c+w_{B0}}{\sqrt{1-(V/c)^2}}.
+$$
+
+SA measures rod length at this SA time. Define $w_A(Q)=w_{A0}$ (constant).
+
+Now change viewpoint and work backward from SA’s measurement event. SA measures both endpoints simultaneously at time $w_{A0}$. Seen from SB, front event (Q) and rear event (P) are not simultaneous. Let us compute this simultaneity offset explicitly.
+
+First look at the rear event (P) in SB. The rear endpoint always has
+
+$$
+x_B=0.
+$$
+
+Substitute $w_A=w_{A0}, x_B=0$ into
+
+$$
+w_A=\frac{Vx_B/c+w_B}{\sqrt{1-(V/c)^2}}
+$$
+
+to get
 
 $$
 w_B(P)=w_{A0}\sqrt{1-(V/c)^2}.
 $$
 
-At event X where rear endpoint has SB time $w_{B0}$:
+Next, define X as the rear-endpoint event at the same SB time $w_{B0}$ as front event Q. Then X has $x_B=0,\ w_B=w_{B0}$, so
 
 $$
 w_A(X)=\frac{w_{B0}}{\sqrt{1-(V/c)^2}}.
 $$
 
-Therefore
+From earlier,
+
+$$
+w_{A0}=w_A(Q)=\frac{VL_B/c+w_{B0}}{\sqrt{1-(V/c)^2}}.
+$$
+
+Subtract:
 
 $$
 \Delta w_A=w_{A0}-w_A(X)=\frac{VL_B/c}{\sqrt{1-(V/c)^2}}.
 $$
 
-So in SA,
+This is the SA time difference during which the rear endpoint moves from X to P. Therefore
 
 $$
 \overline{XP}=V\frac{\Delta w_A}{c}=\frac{V^2L_B/c^2}{\sqrt{1-(V/c)^2}}.
 $$
 
-Also,
+Now, from SB viewpoint, SA effectively measures the rod while omitting this X-to-P segment. If SA-measured length $\overline{PQ}$ is $L_A$, then adding $\overline{XP}$ gives $\overline{QX}$.
+
+If SB simultaneously records both rod endpoints as Q and X into SA, then SA length $\overline{QX}$ is
 
 $$
 \overline{QX}=\frac{L_B}{\sqrt{1-(V/c)^2}}.
 $$
 
-And
+Therefore
 
 $$
 L_A+\frac{V^2L_B/c^2}{\sqrt{1-(V/c)^2}}=\frac{L_B}{\sqrt{1-(V/c)^2}},
 $$
 
-thus
+and rearranging:
 
 $$
 L_A=L_B\sqrt{1-(V/c)^2}.
 $$
 
-So SA sees the moving rod contracted.
+So SA sees the rod contracted by this factor.
 
 ![](images/image33.png)
 
@@ -850,31 +1285,53 @@ So SA sees the moving rod contracted.
 
 ### Appendix D: Four-Momentum and $E = mc^{2}$
 
-Define four-velocity
+Since this is a relativity book, let us derive $E=mc^2$.
+
+To describe moving objects, define four-velocity:
 
 $$
 \mathbf{u}=(u^0,u^1,u^2,u^3)=\left(\frac{dw}{d\tau},\frac{dx}{d\tau},\frac{dy}{d\tau},\frac{dz}{d\tau}\right),
 $$
 
-and four-momentum
+$d\tau$ is proper time of the moving object, and $dw,dx,dy,dz$ are coordinate time/space in the observer coordinates (strictly, with our convention they have length units because of factors of $c$). This is a definition.
+
+Multiply by $mc$ to define four-momentum:
 
 $$
-\mathbf{p}=mc\,\mathbf{u}.
+\mathbf{p}=(p^0,p^1,p^2,p^3)=mc\mathbf{u}
+=\left(mc\frac{dw}{d\tau},mc\frac{dx}{d\tau},mc\frac{dy}{d\tau},mc\frac{dz}{d\tau}\right).
 $$
 
-In 1D space:
+In one spatial dimension:
 
 $$
-\mathbf{p}=(p^0,p^1)=\left(mc\frac{dw}{d\tau},mc\frac{dx}{d\tau}\right).
+\mathbf{p}=(p^0,p^1)=mc\mathbf{u}
+=\left(mc\frac{dw}{d\tau},mc\frac{dx}{d\tau}\right).
 $$
 
-From
+Up to here, there is no mystery: just definitions.
+
+Now consider the Lorentz-invariant quantity
 
 $$
-ds^2=-dw^2+dx^2=-d\tau^2,
+ds^2=-dw^2+dx^2.
 $$
 
-divide by $d\tau^2$:
+Proper time is the time indicated by a clock attached to the object. Looking at the expression above, an object moving by $dx$ during coordinate interval $dw$ carries that attached-clock time as proper time.
+
+For $dx=0$ (object at rest in that coordinate system), coordinate time and proper time coincide:
+
+$$
+ds^2=-dw^2+dx^2=-d\tau^2+0^2=-d\tau^2.
+$$
+
+So $ds^2$ can be written in terms of proper time. In general, relation between attached-clock proper time and observer coordinate variables is
+
+$$
+-d\tau^2(=ds^2)=-dw^2+dx^2.
+$$
+
+Divide by $d\tau^2$:
 
 $$
 -1=-\left(\frac{dw}{d\tau}\right)^2+\left(\frac{dx}{d\tau}\right)^2.
@@ -886,26 +1343,42 @@ $$
 -(mc)^2=-\left(mc\frac{dw}{d\tau}\right)^2+\left(mc\frac{dx}{d\tau}\right)^2,
 $$
 
-so
+rearrange:
+
+$$
+\left(mc\frac{dw}{d\tau}\right)^2=(mc)^2+\left(mc\frac{dx}{d\tau}\right)^2.
+$$
+
+Rewrite using four-momentum symbols:
 
 $$
 (p^0)^2=(mc)^2+(p^1)^2.
 $$
 
-Then
+Now take the low-speed limit (speed much smaller than light speed), so $p^1$ is small, and calculate $p^0c$:
 
 $$
 p^0c=c\sqrt{(mc)^2+(p^1)^2}
 =mc^2\sqrt{1+\left(\frac{p^1}{mc}\right)^2}.
 $$
 
-For low speed, with $d\tau\simeq cdt$ and $p^1\simeq mv_x$,
+$$
+\simeq mc^2\left(1+\frac{1}{2}\left(\frac{p^1}{mc}\right)^2\right).
+$$
+
+Let $t$ denote ordinary time in seconds. Since $d\tau\simeq cdt$,
+
+$$
+p^1=mc\frac{dx}{d\tau}\simeq mc\frac{dx}{cdt}=mv_x.
+$$
+
+Therefore
 
 $$
 p^0c\simeq mc^2+\frac{(p^1)^2}{2m}\simeq mc^2+\frac{1}{2}mv_x^2.
 $$
 
-Thus total energy is $E=p^0c$, with rest-energy term $mc^2$.
+The kinetic-energy term appears. So the first term $mc^2$ is an energy term existing in addition to kinetic energy. In this way, $p^0c$ is identified as total energy.
 
 ![](images/Alice-e-mc2.png)
 
@@ -918,7 +1391,11 @@ Thus total energy is $E=p^0c$, with rest-energy term $mc^2$.
 
 ## Credits
 
-- Review: ChatGPT 5.3, Claude
+- Book title: Making Sense of Relativity
+- Version: 1.0
+- Release date: 2026/3/7
+- Author: t-ishii66
+- Review: GPT 5.3 Codex, Claude Opus 4.5
 - Illustrations: ChatGPT 5.3
 
 ## Closing
