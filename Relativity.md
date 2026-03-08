@@ -1463,9 +1463,9 @@ $$
 ## 制作
 
 - 書籍タイトル: Making Sense of Relativity
-- Version: 1.0
+- Version: 1.0.0
 - 発行日: 2026/3/7
-- 著者: t-ishii66 / 大学で物理を学ぶ。システムエンジニア。最近の興味はAI。英会話苦戦中。
+- 著者: t-ishii66 / 大学で物理を学ぶ。システムエンジニア。X68000でプログラミングを学び、Linuxに関心を持つ。最近の興味はAI。英会話は悪戦苦闘中。
 - 監修: GPT 5.3 Codex, Claude Opus 4.5
 - イラスト: ChatGPT 5.3
 

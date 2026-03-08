@@ -49,3 +49,10 @@ From special relativity to general relativity, it explains proper time, coordina
   - Simultaneity offset in moving frames
   - Length contraction derivation
   - Four-momentum and $E = mc^2$
+
+## Comics
+
+A short coffee-break comic corner.
+
+- Comic 1: [manga-1.png](./images/manga-1.png)
+- Comic 2: [manga-2.png](./images/manga-2.png)
