@@ -7,6 +7,10 @@ title: Making Sense of Relativity
 
 ![](images/top.png)
 
+Last updated: 2026-03-09
+
+Purpose: This site focuses on conceptual understanding for beginners in relativity.
+
 Relativity can feel clear in equations but unclear in physical meaning.  
 This site provides a narrative guide with concrete observation setups.
 
@@ -56,3 +60,8 @@ A short coffee-break comic corner.
 
 - Comic 1: [manga-1.png](./images/manga-1.png)
 - Comic 2: [manga-2.png](./images/manga-2.png)
+- Comic 3: [manga-3.png](./images/manga-3.png)
+
+---
+
+Copyright 2026 t-ishii66. All rights reserved.
