@@ -64,4 +64,4 @@ A short coffee-break comic corner.
 
 ---
 
-Copyright 2026 t-ishii66. All rights reserved.
+Copyright(C) 2026 t-ishii66. All rights reserved.
