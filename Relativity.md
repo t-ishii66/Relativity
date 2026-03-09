@@ -1468,6 +1468,8 @@ $$
 - 著者: t-ishii66 / 大学で物理を学ぶ。システムエンジニア。X68000でプログラミングを学び、Linuxに関心を持つ。最近の興味はAI。英会話は悪戦苦闘中。
 - 監修: GPT 5.3 Codex, Claude Opus 4.5
 - イラスト: ChatGPT 5.3
+- 漫画制作: ChatGPT 5.3
+- 英語版翻訳: GPT 5.3 Codex, Claude Opus 4.5, t-ishii66
 
 ## おわりに
 
@@ -1477,6 +1479,7 @@ $$
 
 
 本書は著作権で保護されております。内容の一部または全ての複製は禁止されています。
+Copyright 2026 t-ishii66. All rights reserved.
 
 ![](images/book-end.png)
 

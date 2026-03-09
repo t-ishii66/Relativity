@@ -1397,6 +1397,8 @@ The kinetic-energy term appears. So the first term $mc^2$ is an energy term exis
 - Author: t-ishii66 / Studied physics at university. Systems engineer. Learned programming on the X68000 and became interested in Linux. Recently interested in AI. Still struggling with English conversation.
 - Review: GPT 5.3 Codex, Claude Opus 4.5
 - Illustrations: ChatGPT 5.3
+- Comics: ChatGPT 5.3
+- English translation: GPT 5.3 Codex, Claude Opus 4.5, t-ishii66
 
 ## Closing
 
@@ -1406,6 +1408,7 @@ Contact form:
 https://forms.gle/d5QrngqCdRKYXhzs8
 
 This work is protected by copyright. Partial or full reproduction is prohibited.
+Copyright 2026 t-ishii66. All rights reserved.
 
 ![](images/book-end.png)
 
