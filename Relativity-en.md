@@ -395,6 +395,12 @@ Alice gets excited and says the rod became shorter. But from Bob’s perspective
 
 ![](images/Alice-measure-pole.png)
 
+---
+
+Bob: “Alice, that measurement is sloppy. I told you: you have to identify both ends at the same time.”
+
+---
+
 Conversely, if SB measures SA’s segment with simultaneity in SB, SA also sees non-simultaneous events.
 
 ![](images/image15.png)
@@ -407,11 +413,7 @@ Conversely, if SB measures SA’s segment with simultaneity in SB, SA also sees 
 
 Hence each frame measures the other frame’s moving length as contracted.
 
----
 
-Bob: “Alice, that measurement is sloppy. I told you: you have to identify both ends at the same time.”
-
----
 
 For a more explicit derivation, see Appendix B and C.
 

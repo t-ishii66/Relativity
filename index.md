@@ -36,6 +36,8 @@ This site provides a narrative guide with concrete observation setups.
 This project is a reader-friendly guide for people who can follow the equations of relativity but still feel unclear about their physical meaning.  
 From special relativity to general relativity, it explains proper time, coordinate time, simultaneity, and gravitational effects through concrete thought experiments with Alice, Bob, and Charlie.
 
+- Note: The English edition is currently under review.
+
 - English manuscript: [Relativity-en.md](./Relativity-en.md)
 - Contact form: <https://forms.gle/d5QrngqCdRKYXhzs8>
 
