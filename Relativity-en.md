@@ -182,7 +182,11 @@ That is the whole setup.
 
 In SA, imagine many clocks fixed to the coordinate grid (square clocks in figures). They define coordinate time. Let us call them coordinate clocks.
 
+![](images/image1.png)
+
 Alice’s own clock (round clock in figures) measures Alice’s proper time. Proper time means the time shown by a clock attached to the object.
+
+![](images/image2.png)
 
 Coordinate clocks and proper clocks are physically the same type of clock; only how we use them differs.
 
