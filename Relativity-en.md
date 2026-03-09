@@ -1408,7 +1408,10 @@ Contact form:
 https://forms.gle/d5QrngqCdRKYXhzs8
 
 This work is protected by copyright. Partial or full reproduction is prohibited.
-Copyright 2026 t-ishii66. All rights reserved.
+
+Copyright(C) 2026 t-ishii66. All rights reserved.
+
+---
 
 ![](images/book-end.png)
 

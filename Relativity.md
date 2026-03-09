@@ -1479,7 +1479,10 @@ $$
 
 
 本書は著作権で保護されております。内容の一部または全ての複製は禁止されています。
-Copyright 2026 t-ishii66. All rights reserved.
+
+Copyright(C) 2026 t-ishii66. All rights reserved.
+
+---
 
 ![](images/book-end.png)
 
