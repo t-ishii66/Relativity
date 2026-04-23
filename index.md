@@ -29,7 +29,6 @@ From special relativity to general relativity, it explains proper time, coordina
 
 **Topics covered:** Einstein's special theory of relativity, general theory of relativity, invariance of the speed of light, Lorentz transformation, time dilation, length contraction (Lorentz contraction), relativity of simultaneity, twin paradox, proper time vs coordinate time, equivalence principle, gravitational time dilation, gravitational redshift, Schwarzschild solution, black holes and event horizons, free fall and geodesics, curved spacetime, metric tensor, four-momentum, $E = mc^2$ (mass-energy equivalence)
 
-- Note: The English edition is currently under review.
 - English manuscript: [Relativity-en.md](./Relativity-en.md)
 - Contact form: <https://forms.gle/d5QrngqCdRKYXhzs8>
 
