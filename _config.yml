@@ -1,3 +1,23 @@
+title: "Making Sense of Relativity — An intuitive guide to special and general relativity"
+description: >-
+  An intuitive guide to special and general relativity. Understand
+  the physical meaning of Einstein's theory through concrete thought
+  experiments — time dilation, length contraction, the equivalence
+  principle, curved spacetime, and more.
+
+url: "https://t-ishii66.github.io"
+baseurl: "/Relativity"
+repository: t-ishii66/Relativity
+
+theme: jekyll-theme-cayman
+
+author: t-ishii66
+lang: en
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 exclude:
   - PROBLEMS.md
 

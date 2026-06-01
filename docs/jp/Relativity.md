@@ -1,4 +1,4 @@
-![](images/book-cover3-title.png)
+![](../../images/book-cover3-title.png)
 
 # Making Sense of Relativity
 
@@ -56,7 +56,7 @@ _Notes Toward Understanding Relativity_
 
 ### Alice
 
-![](images/Alice-icon.png)
+![](../../images/Alice-icon.png)
 
 年齢: 10歳
 
@@ -69,7 +69,7 @@ _Notes Toward Understanding Relativity_
 
 ### Bob
 
-![](images/Bob-icon.png)
+![](../../images/Bob-icon.png)
 
 年齢: 12歳
 
@@ -82,7 +82,7 @@ _Notes Toward Understanding Relativity_
 
 ### Charlie
 
-![](images/Charlie-icon.png)
+![](../../images/Charlie-icon.png)
 
 年齢: 11歳
 
@@ -169,7 +169,7 @@ $$
 
 と書ける。
 
-![](images/lorentz.png)
+![](../../images/lorentz.png)
 
 ---
 
@@ -196,11 +196,11 @@ Charlie「ぼくはもう少し式を追ってみるよ。」
 
 SA 系に密にちりばめられ座標系に固定された時計（図中、四角い時計）があり、これが座標時を刻む時計である。座標時計とでも呼んでおこう。座標時とはこのように座標系に固定された時計が刻む時刻のことである。座標時と言えばこの四角い時計の時刻を考えれば良い。
 
-![](images/image1.png)
+![](../../images/image1.png)
 
 Alice は時計を持っており、これが Alice の固有時を刻む。固有時の定義としては物体に取り付けられた時計が刻む時刻である。図中は丸い時計（固有時計）として表示する。Alice の姿をわざわざ描かないが、丸い時計は Alice のことだと考えてほしい。
 
-![](images/image2.png)
+![](../../images/image2.png)
 
 座標時計と固有時計の製造過程は特に違わない。同じメーカーが同じ精度で生産している。単に形が違うだけだ。
 
@@ -216,11 +216,11 @@ $$
 
 SB 系は SA 系に対して速度 $V$ で移動している。SA 系で静止している Alice の固有時 $\tau_{A}$ と座標時 $w_{A}$ の関係は、同期しているのだからもちろん $\tau_{A} = w_{A}$ である。どの座標時計も同じ時刻を刻んでいる。Bob のいる SB 系も同じ事情だから $\tau_{B} = w_{B}$ である。さて以上を踏まえて調査にのり出そう。
 
-![](images/image3.png)
+![](../../images/image3.png)
 
 *図 1.1 （視点：SA系）固有時計と座標時計*
 
-![](images/image4.png)
+![](../../images/image4.png)
 
 *図 1.2 （視点：SA系）SA系とSB系の関係（イメージ）*
 
@@ -231,9 +231,9 @@ Alice「えっ、私の丸い時計が固有時計で、四角いのが座標時
 ---
 
 
-![](images/Alice-clock.png)
+![](../../images/Alice-clock.png)
 
-![](images/Bob-clock2.png)
+![](../../images/Bob-clock2.png)
 
 ### 時計の進み方
 
@@ -243,7 +243,7 @@ Bob は移動しているので、SA 系上の P 点と Q 点を通過する。�
 
 P 点、Q 点に置かれた座標時計と、Bob の固有時計の関係を表にしてみた。
 
-![](images/image5.png)
+![](../../images/image5.png)
 
 *図 1.3 （視点：SA系）Bob の固有時計と SA 系の座標時計*
 
@@ -263,7 +263,7 @@ $$
 
 で定義される量はローレンツ変換で不変な量である（導出は Appendix A）。
 
-![](images/Alice-Bob-ds2-annotated.png)
+![](../../images/Alice-Bob-ds2-annotated.png)
 
 Bob は自分の慣性系 SB で静止しているので、Bob から見れば $dx_{B} = 0$ である。したがって Bob 側では $ds^{2} = -dw_{B}^{2}$ ($=-d\tau_{B}^{2}$)となる。
 
@@ -303,7 +303,7 @@ Alice「Bobの時計、ゆっくり進んでる。壊れてるね。」
 
 ---
 
-![](images/image6.png)
+![](../../images/image6.png)
 
 *図 1.4 （視点：SA系）固有時の経過と座標時の経過*
 
@@ -318,7 +318,7 @@ Alice は知らなかったのだが、Bob は SB 系の座標時計を使って
 
 という結論を得ていたのだ。まぁ立場を逆転させただけだから同じ事を言うのは当たり前だろう。
 
-![](images/Alice-Bob-compare.png)
+![](../../images/Alice-Bob-compare.png)
 
 ---
 
@@ -342,19 +342,19 @@ Alice「そんなことないよ。Bob の時計が壊れてるんじゃない�
 
 SB 系の座標時計が Alice の固有時計をどのように観測するか考えてみよう。
 
-![](images/image8.png)
+![](../../images/image8.png)
 
 *図 1.5 （視点：SA系）SA系から見た SB 系の座標時計*
 
 図のように SB 系の先頭の時計と Alice の時計がたまたま12時を指していたとしよう。
 
-![](images/image9.png)
+![](../../images/image9.png)
 
 *図 1.6 （視点：SA系）SB系の先頭（右端）の座標時計の時刻がたまたま Alice の時計と一致*
 
 少し時間が経過した後の図を描けばこうなるだろう。
 
-![](images/image10.png)
+![](../../images/image10.png)
 
 *図 1.7 （視点：SA系）SB系の2番目の座標時計が Alice の固有時計を観測*
 
@@ -367,7 +367,7 @@ SB 系先頭（右端）の時計の前を Alice が通過した瞬間、指し�
 SB 系の複数の座標時計と、SA 系の固有時計（Alice や各座標時計1個を固有時計と考える等）を比較すると、やはり SA 系の固有時の方が遅れるということが言えるのだ。Alice、Bob の主張はどちらも正しいことがわかる。特殊相対論では1つの固有時計と2つの座標時計を比較してしまうためこのような一見不思議な事が起きてしまう。しかし、なんの矛盾もないのだ。
 
 
-![](images/image11.png)
+![](../../images/image11.png)
 
 *図 1.8 SB系の複数の座標時計から見た Alice の時計の進み*
 
@@ -388,14 +388,14 @@ Bob「うーん……でもやっぱり、Alice の時計のほうが壊れて�
 
 SA 系から観測して、その棒の両端を P 点と Q 点と特定（これらの2点は SA 系上の点である）したとする。
 
-![](images/image12.png)
+![](../../images/image12.png)
 
 *図 1.9 （視点：SA系）SB系に置かれた棒の長さを SA 系で測定する状況*
 
 この SA 系での測定作業を SB 系から見たらどうなるのだろうか？ ここからは SB 系の視点で図を描いていこう。SB 系からの視点でみると、棒の先端が SA 系の Q 点に来たときに、その Q 点を棒の先端としたようだ。SA 系の Q 点の座標時計は（図1.10の Q 点）12時だった。
 
 
-![](images/image33.png)
+![](../../images/image33.png)
 
 
 *図 1.10 （視点：SB系）SB系に置かれた棒の先端の位置を SA 系で特定*
@@ -403,7 +403,7 @@ SA 系から観測して、その棒の両端を P 点と Q 点と特定（こ�
 しかし不思議なことに、棒の後端の位置を測定する気配は無かった。ふと棒の後端を見ると、後端の場所に対応する SA 系の場所 X の座標時計はとても遅れていて、まだ時刻12時になっていなかった。
 
 
-![](images/image34.png)
+![](../../images/image34.png)
 
 
 *図 1.11 （視点：SB系）SB系に置かれた棒の後端の位置を SA 系で特定*
@@ -412,7 +412,7 @@ SA 系から観測して、その棒の両端を P 点と Q 点と特定（こ�
 
 Alice は棒が短くなった！ と騒いでいるが、Bob から見れば、Alice は同時に棒の両端の位置を特定していないのだから無意味な測定である。
 
-![](images/Alice-measure-pole.png)
+![](../../images/Alice-measure-pole.png)
 
 ---
 
@@ -425,13 +425,13 @@ Bob「Alice、どんくさすぎるよ。同時に両端の位置を測らない
 
 もちろん SB 系にて「同時」に P 点と Q 点の位置を特定する必要がある。座標時計の針がちょうど真下を向いたときに測定するとしよう。再び視点を SA 系に戻そう。まず最初に P 点に対応する SB 系の座標時計が位置を特定する。
 
-![](images/image15.png)
+![](../../images/image15.png)
 
 *図 1.12 （視点：SA系）SB系が P 点の位置を計測*
 
 しかし Q 点を計る座標時計はまだ針が真下を向いていない。しばらくするとようやく Q 点を特定できた。
 
-![](images/image16.png)
+![](../../images/image16.png)
 
 *図 1.13 （視点：SA系）SB系が Q 点の位置を計測*
 
@@ -441,7 +441,7 @@ Bob「Alice、どんくさすぎるよ。同時に両端の位置を測らない
 
 一定の加速度で加速するロケットの中の宇宙飛行士と、彼が手にするりんごを考えよう。りんごを投げれば、それは放物運動をするように見える。
 
-![](images/Charlie-rocket.png)
+![](../../images/Charlie-rocket.png)
 
 *加速するロケットの中のりんご*
 
@@ -459,7 +459,7 @@ Bob「Alice、どんくさすぎるよ。同時に両端の位置を測らない
 
 
 
-![](images/Charlie-apple.png)
+![](../../images/Charlie-apple.png)
 
 - Projectile path is a misconception: 放物軌道は錯覚
 - Actually a constant velocity path: 本当は等速直線運動
@@ -735,7 +735,7 @@ $ds$ とくれば、どの時空の2点に注目しているのか？ がいつ�
 
 だから数値的には $dw$ より $d\tau_{A}$ の方が小さい。$dw$ という大きさは Charlie の付近の進む時間（Charlie の固有時と言って良い）を意味的に表していた。つまり、固有時（持っている時計）に関しては Charlie より Alice の方がゆっくりと進む。
 
-![](images/Alice-Charlie-agree.png)
+![](../../images/Alice-Charlie-agree.png)
 
 ---
 
@@ -765,7 +765,7 @@ $$
 
 Alice が $d\tau_{A}$ の間に $N$ 回の光の振動を確認したとする。その光を Charlie は $d\tau_{C}$ の間で受け取るのだが、振動した回数は変わらない。同じ振動回数の光を、長い時間かかって受け取ることになる。こうして Charlie の場所では周波数の減少が観測される。
 
-![](images/Alice-Charlie-laser.png)
+![](../../images/Alice-Charlie-laser.png)
 
 ### 固有長と座標長
 
@@ -827,7 +827,7 @@ $$
 
 しかし、$r_{A}$ における長さは、長さそのものと言うよりはキャンバスとしての値以上の意味は考えない方がいいように思える。あくまでキャンバス上では棒が短くなるが、それでは本当に短くなったのか？ と調べようとして現場に行けば、常に10[m]でしか無いのだ。
 
-![](images/Alice-clock-measure.png)
+![](../../images/Alice-clock-measure.png)
 
 ### 重力場での光速
 
@@ -883,7 +883,7 @@ $$
 
 となり、Alice は光速 $c$ を観測することになる。
 
-![](images/speed_of_light.png)
+![](../../images/speed_of_light.png)
 
 ### キャンバスとしての座標系
 
@@ -909,7 +909,7 @@ Charlie 付近に到着した光を Charlie の固有時、固有長さを基準
 
 
 
-![](images/Alice-Charlie-massive.png)
+![](../../images/Alice-Charlie-massive.png)
 
 *図 2.1 キャンバスとしての座標系上に光の軌道を描く*
 
@@ -981,7 +981,7 @@ $$
 
 となる。なおこの結論は「Alice と Bob がほぼ同じ $r$ で比較される」という条件つきである。
 
-![](images/Alice-Bob-fall.png)
+![](../../images/Alice-Bob-fall.png)
 
 ---
 
@@ -1042,7 +1042,7 @@ $$
 
 は $r \to a$ でゼロに近づくことと対応している。
 
-![](images/Bob-falling.png)
+![](../../images/Bob-falling.png)
 
 ---
 
@@ -1079,7 +1079,7 @@ $$
 
 なお「往復だからちょうど2倍遅れる」とまでは一般には言えない。どこで折り返すか、どんな速度履歴をたどるかで差の大きさは変わる。しかし、向きを反転して戻る過程でも Bob の時計が遅れ続ける、という点が重要である。
 
-![](images/compare-clocks.png)
+![](../../images/compare-clocks.png)
 
 ---
 
@@ -1137,7 +1137,7 @@ $$
 
 実験装置を任意の場所に置いて観測すればそれは常に固有時、固有長さを基準とした値しか計測できない。だから計量 $\eta_{\mu\nu}$ への座標変換とは、まさに考えているその場所で、測定を行ったら何が計測されるかを知るための座標変換だと言えよう。
 
-![](images/resolving-problems.png)
+![](../../images/resolving-problems.png)
 
 ### 干渉計の思考実験
 
@@ -1165,7 +1165,7 @@ $$
 
 計量の変化によって光路長が変われば、逆にそのことをもって計量の変化を検出できるということになる。
 
-![](images/metric-tensor.png)
+![](../../images/metric-tensor.png)
 
 
 ## Appendix
@@ -1220,15 +1220,15 @@ $$
 
 このように分析すると、実は今まで描いていた SA 系視点での SB 系との重なりの図は、イベント $e_{1}, e_{2}, e_{3}$ を横に並べて描いた図だったというわけだ。
 
-![](images/image30.png)
+![](../../images/image30.png)
 
 *図 3.1 ミンコフスキー図。視点は SA 系。e1, e2, e3 の3つの同時刻（SA系）を考える。*
 
-![](images/image31.png)
+![](../../images/image31.png)
 
 *図 3.2 （視点：SA系）3つの時空のイベント e1, e2, e3 を考える。イベント e1 とは XB1 と XA1 が重なった瞬間のこと。*
 
-![](images/image32.png)
+![](../../images/image32.png)
 
 *図 3.3 （視点：SA系）3つのイベントの SB 系での時刻の考察。e3 イベントの時刻 WB3（SB系）が、e2 イベントの時刻 WB2（SB系）より進んでいることがわかる。*
 
@@ -1354,11 +1354,11 @@ $$
 
 これだけ SA 系では棒が縮んで見えるという事を表している。
 
-![](images/image33.png)
+![](../../images/image33.png)
 
 *図 3.4 （視点：SB系）棒の先端が SA 系の Q 点に来た時、SA 系は棒の先端だとして記録する。*
 
-![](images/image34.png)
+![](../../images/image34.png)
 
 *図 3.5 （視点：SB系）棒の後端が、SA 系の X 点から P 点に到着した状況。*
 ### Appendix D: 4元運動量と $E = mc^{2}$
@@ -1455,7 +1455,7 @@ $$
 
 となり運動エネルギーが出て来た。すると第一項の $mc^{2}$ はエネルギーを表す項であり、運動エネルギーとは別に存在するエネルギーだと読み取れる。こうして $p^{0}c$ が全エネルギーを表していることがわかる。
 
-![](images/Alice-e-mc2.png)
+![](../../images/Alice-e-mc2.png)
 
 ## 参考文献
 
@@ -1488,6 +1488,6 @@ Copyright(C) 2026 t-ishii66. All rights reserved.
 
 ---
 
-![](images/book-end.png)
+![](../../images/book-end.png)
 
 ## END

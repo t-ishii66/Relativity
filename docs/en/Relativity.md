@@ -1,4 +1,4 @@
-![](images/book-cover3-title.png)
+![](../../images/book-cover3-title.png)
 
 # Making Sense of Relativity
 
@@ -55,7 +55,7 @@ Let us begin.
 
 ### Alice
 
-![](images/Alice-icon.png)
+![](../../images/Alice-icon.png)
 
 Age: 10
 
@@ -67,7 +67,7 @@ Likes: Strawberry milk, blue ribbons, mysterious stories.
 
 ### Bob
 
-![](images/Bob-icon.png)
+![](../../images/Bob-icon.png)
 
 Age: 12
 
@@ -79,7 +79,7 @@ Likes: Hamburgers, toolboxes, new notebooks.
 
 ### Charlie
 
-![](images/Charlie-icon.png)
+![](../../images/Charlie-icon.png)
 
 Age: 11
 
@@ -155,7 +155,7 @@ $$
 t_B = \frac{t_A - Vx_A/c^2}{\sqrt{1-(V/c)^2}}.
 $$
 
-![](images/lorentz.png)
+![](../../images/lorentz.png)
 
 ---
 
@@ -182,11 +182,11 @@ That is the whole setup.
 
 In SA, imagine many clocks fixed to the coordinate grid (square clocks in figures). They define coordinate time. Let us call them coordinate clocks.
 
-![](images/image1.png)
+![](../../images/image1.png)
 
 Alice’s own clock (round clock in figures) measures Alice’s proper time. Proper time means the time shown by a clock attached to the object.
 
-![](images/image2.png)
+![](../../images/image2.png)
 
 Coordinate clocks and proper clocks are physically the same type of clock; only how we use them differs.
 
@@ -212,11 +212,11 @@ $$
 \tau_B = w_B.
 $$
 
-![](images/image3.png)
+![](../../images/image3.png)
 
 *Figure 1.1 (SA view): Proper clock and coordinate clocks*
 
-![](images/image4.png)
+![](../../images/image4.png)
 
 *Figure 1.2 (SA view): Relationship between SA and SB (conceptual)*
 
@@ -226,9 +226,9 @@ Alice: “So the round one is proper time and the square one is coordinate time?
 
 ---
 
-![](images/Alice-clock.png)
+![](../../images/Alice-clock.png)
 
-![](images/Bob-clock2.png)
+![](../../images/Bob-clock2.png)
 
 ### How Clocks Tick
 
@@ -246,7 +246,7 @@ $$
 dw_A = w_Q - w_P.
 $$
 
-![](images/image5.png)
+![](../../images/image5.png)
 
 *Figure 1.3 (SA view): Bob’s proper clock and SA coordinate clocks*
 
@@ -266,7 +266,7 @@ $$
 
 This quantity is Lorentz invariant (derivation in Appendix A).
 
-![](images/Alice-Bob-ds2-annotated.png)
+![](../../images/Alice-Bob-ds2-annotated.png)
 
 In Bob’s own frame, Bob is at rest so $dx_B=0$, hence
 
@@ -302,7 +302,7 @@ Alice: “Bob’s clock is ticking slowly. It must be broken.”
 
 ---
 
-![](images/image6.png)
+![](../../images/image6.png)
 
 *Figure 1.4 (SA view): Proper-time interval vs coordinate-time interval*
 
@@ -317,7 +317,7 @@ Bob, however, has been observing Alice using SB coordinate clocks and reaches th
 
 This sounds contradictory, but it is not. Let us check why.
 
-![](images/Alice-Bob-compare.png)
+![](../../images/Alice-Bob-compare.png)
 
 ---
 
@@ -333,15 +333,15 @@ Now compare SB coordinate clocks as seen from SA.
 
 If each SB clock runs slowly from SA’s viewpoint, how can Bob still claim Alice’s clock is slower? The key is that SB clocks are not judged simultaneous in SA in the same way.
 
-![](images/image8.png)
+![](../../images/image8.png)
 
 *Figure 1.5 (SA view): SB coordinate clocks from SA*
 
-![](images/image9.png)
+![](../../images/image9.png)
 
 *Figure 1.6 (SA view): Rightmost SB clock happens to match Alice at one event*
 
-![](images/image10.png)
+![](../../images/image10.png)
 
 *Figure 1.7 (SA view): Another SB clock compares with Alice later*
 
@@ -353,7 +353,7 @@ When Alice passes in front of the rightmost SB clock, both clocks happen to show
 
 When we compare multiple SB coordinate clocks with an SA proper clock (Alice's clock, or any single SA coordinate clock treated as a proper clock), SA proper time still appears to run slower. Both Alice's and Bob's claims turn out to be correct. In special relativity, comparing one proper clock against two coordinate clocks leads to this seemingly strange result. But there is no contradiction.
 
-![](images/image11-en.png)
+![](../../images/image11-en.png)
 
 *Figure 1.8: Alice's clock seen via multiple SB coordinate clocks*
 
@@ -371,7 +371,7 @@ Length measurement means identifying both endpoints simultaneously in the measur
 
 Suppose a rod is at rest in SB and SA measures its endpoints as P and Q simultaneously in SA.
 
-![](images/image12.png)
+![](../../images/image12.png)
 
 *Figure 1.9 (SA view): SA measuring a rod at rest in SB*
 
@@ -379,13 +379,13 @@ Switch to SB viewpoint. SA’s two endpoint-identification events are not simult
 
 From SB’s viewpoint, when the rod front reaches SA point Q, SA marks that front position. The SA coordinate clock at Q reads 12 o'clock in the figure.
 
-![](images/image33.png)
+![](../../images/image33.png)
 
 *Figure 1.10 (SB view): SA identifies the front endpoint*
 
 But SA does not yet mark the rear endpoint. Looking at the rear side, the SA coordinate clock at the corresponding location X is still behind and has not reached 12 o'clock yet.
 
-![](images/image34.png)
+![](../../images/image34.png)
 
 *Figure 1.11 (SB view): SA identifies the rear endpoint later*
 
@@ -393,7 +393,7 @@ Eventually the rear endpoint reaches point P, and at that moment the SA clock at
 
 Alice gets excited and says the rod became shorter. But from Bob’s perspective, SA did not identify both endpoints simultaneously in SB, so he calls that measurement meaningless.
 
-![](images/Alice-measure-pole.png)
+![](../../images/Alice-measure-pole.png)
 
 ---
 
@@ -403,11 +403,11 @@ Bob: “Alice, that measurement is sloppy. I told you: you have to identify both
 
 Conversely, if SB measures SA’s segment with simultaneity in SB, SA also sees non-simultaneous events.
 
-![](images/image15.png)
+![](../../images/image15.png)
 
 *Figure 1.12 (SA view): SB identifies P*
 
-![](images/image16.png)
+![](../../images/image16.png)
 
 *Figure 1.13 (SA view): SB identifies Q later in SA time*
 
@@ -421,7 +421,7 @@ For a more explicit derivation, see Appendix B and C.
 
 Consider an astronaut in a uniformly accelerating rocket, holding an apple. Throw the apple, and inside the rocket it appears to follow a curved trajectory.
 
-![](images/Charlie-rocket.png)
+![](../../images/Charlie-rocket.png)
 
 *Apple in an accelerating rocket*
 
@@ -435,7 +435,7 @@ Rocket acceleration points in one direction, while gravity points toward the mas
 
 Trying to build one coordinate system where every point on Earth’s surface is “accelerating upward” becomes difficult. Einstein resolved this by introducing Riemannian geometry into physics.
 
-![](images/Charlie-apple.png)
+![](../../images/Charlie-apple.png)
 
 *Viewing projectile motion as an effect of curved spacetime description*
 
@@ -668,7 +668,7 @@ So for the same coordinate increment $dw$, Alice’s proper-time increment is sm
 
 In other words, for proper-time flow (the clocks they carry), Alice ticks slower than Charlie.
 
-![](images/Alice-Charlie-agree.png)
+![](../../images/Alice-Charlie-agree.png)
 
 ---
 
@@ -698,7 +698,7 @@ $$
 
 Suppose Alice counts $N$ oscillations during $d\tau_A$. Charlie receives the same $N$ oscillations during $d\tau_C$. The oscillation count is unchanged, but it is spread over a longer reception time, so Charlie observes a lower frequency.
 
-![](images/Alice-Charlie-laser.png)
+![](../../images/Alice-Charlie-laser.png)
 
 ### Proper Length and Coordinate Length
 
@@ -762,7 +762,7 @@ For example, a 10 m rod in an inertial frame remains 10 m when directly measured
 
 So at $r_A$, it is better not to over-interpret this as “the rod itself became shorter.” It is a canvas-coordinate statement. If one goes there and directly measures with local instruments, it is still 10 m.
 
-![](images/Alice-clock-measure.png)
+![](../../images/Alice-clock-measure.png)
 
 ### Speed of Light in a Gravitational Field
 
@@ -819,7 +819,7 @@ $$
 
 Thus Alice also observes light speed $c$ locally.
 
-![](images/speed_of_light.png)
+![](../../images/speed_of_light.png)
 
 ### Coordinate Systems as a Canvas
 
@@ -843,7 +843,7 @@ Therefore, rather than staring at the literal curve drawn in $w-r$, it is better
 
 Near Charlie, observation is performed in Charlie’s proper time/length, and there those coincide with $w,r$. So the trajectory computed on the canvas is observed directly there (near Charlie).
 
-![](images/Alice-Charlie-massive.png)
+![](../../images/Alice-Charlie-massive.png)
 
 *Figure 2.1: Draw the light trajectory on the coordinate canvas*
 
@@ -921,7 +921,7 @@ $$
 
 This conclusion is under the condition that Alice and Bob are compared at nearly the same $r$.
 
-![](images/Alice-Bob-fall.png)
+![](../../images/Alice-Bob-fall.png)
 
 ---
 
@@ -981,7 +981,7 @@ $$
 
 correspondingly approaches zero as $r\to a$.
 
-![](images/Bob-falling.png)
+![](../../images/Bob-falling.png)
 
 ---
 
@@ -1017,7 +1017,7 @@ When they reunite and compare clocks directly, Bob is younger.
 
 Not necessarily exactly “double” any one-way effect; magnitude depends on turning radius and velocity history.
 
-![](images/compare-clocks.png)
+![](../../images/compare-clocks.png)
 
 ---
 
@@ -1081,7 +1081,7 @@ This suggests a useful perspective shift. Perhaps it is not that we always start
 
 If we place an experiment anywhere and observe, instruments always measure values based on local proper time and proper length. So transforming to a local $\eta_{\mu\nu}$ coordinate is exactly the transformation that tells us what a local measurement at that place records.
 
-![](images/resolving-problems.png)
+![](../../images/resolving-problems.png)
 
 ### Interferometer Thought Experiment
 
@@ -1107,7 +1107,7 @@ What if the gravitational influence comes not from a celestial body, but from a 
 
 If changes in the metric alter the optical path length, then conversely we can detect such metric changes by observing those shifts.
 
-![](images/metric-tensor.png)
+![](../../images/metric-tensor.png)
 
 ## Appendix
 
@@ -1155,15 +1155,15 @@ In a Minkowski diagram drawn in SA coordinates, SB axes are tilted. SA simultane
 
 This is exactly why multiple SB clocks can appear offset in SA while each still runs uniformly in its own frame.
 
-![](images/image30.png)
+![](../../images/image30.png)
 
 *Figure 3.1: Minkowski diagram (SA viewpoint)*
 
-![](images/image31.png)
+![](../../images/image31.png)
 
 *Figure 3.2: Three events $e_1,e_2,e_3$ in SA view*
 
-![](images/image32.png)
+![](../../images/image32.png)
 
 *Figure 3.3: SB-time ordering of those events*
 
@@ -1281,11 +1281,11 @@ $$
 
 So SA sees the rod contracted by this factor.
 
-![](images/image33.png)
+![](../../images/image33.png)
 
 *Figure 3.4 (SB view): Rod front reaches SA point Q*
 
-![](images/image34.png)
+![](../../images/image34.png)
 
 *Figure 3.5 (SB view): Rod rear moves from SA point X to P*
 
@@ -1386,7 +1386,7 @@ $$
 
 The kinetic-energy term appears. So the first term $mc^2$ is an energy term existing in addition to kinetic energy. In this way, $p^0c$ is identified as total energy.
 
-![](images/Alice-e-mc2.png)
+![](../../images/Alice-e-mc2.png)
 
 ## References
 
@@ -1419,6 +1419,6 @@ Copyright(C) 2026 t-ishii66. All rights reserved.
 
 ---
 
-![](images/book-end.png)
+![](../../images/book-end.png)
 
 ## END
