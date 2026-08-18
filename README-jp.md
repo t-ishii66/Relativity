@@ -9,14 +9,9 @@ lang: ja
 
 # Making Sense of Relativity
 
-[English](README.md) | **日本語**
+[English](README.md) ・ **日本語**
 
 Last updated: 2026-08-18
-
-- 入門編（日本語）: [docs/jp/LorentzInvariantIntroduction.md](./docs/jp/LorentzInvariantIntroduction.md)
-- 本編（日本語）: [docs/jp/Relativity.md](./docs/jp/Relativity.md)
-- English: [Introduction](./docs/en/LorentzInvariantIntroduction.md) / [Main text](./docs/en/Relativity.md)
-- 問い合わせフォーム (JP/EN): <https://forms.gle/d5QrngqCdRKYXhzs8>
 
 ---
 
@@ -28,7 +23,7 @@ Last updated: 2026-08-18
 相対論の「式は追えるのに腑に落ちない」というつまずきを、具体的な状況設定と観測手順でほどいていく読み物です。
 特殊相対論から一般相対論まで、固有時・座標時・同時性・重力場での見え方を、Alice / Bob / Charlie の対話を通してたどります。
 
-**取り扱うトピック:** アインシュタインの特殊相対性理論、一般相対性理論、光速不変の原理、ローレンツ変換、時間の遅れ（時間遅延）、ローレンツ収縮（長さの収縮）、同時性の相対性、双子のパラドックス、固有時と座標時、等価原理、重力による時間の遅れ、重力赤方偏移、シュヴァルツシルト解、ブラックホールと事象の地平面、自由落下と測地線、時空の曲がり、計量テンソル、四元運動量、$E = mc^2$（質量とエネルギーの等価性）
+**取り扱うトピック:** アインシュタインの特殊相対性理論、一般相対性理論、光速不変の原理、ローレンツ変換、時間の遅れ（時間遅延）、ローレンツ収縮（長さの収縮）、同時性の相対性、双子のパラドックス、固有時と座標時、等価原理、重力による時間の遅れ、重力赤方偏移、シュヴァルツシルト解、ブラックホールと事象の地平面、自由落下と測地線、時空の曲がり、計量テンソル、四元運動量、 $E = mc^2$（質量とエネルギーの等価性）
 
 ## 読む順番
 
@@ -38,8 +33,6 @@ Last updated: 2026-08-18
    空間を1次元に限定し、ローレンツ変換とは何か、それによって何が変わり、何が変わらないのかを、ガリレイ変換との比較から順に導きます。線素 $ds^2 = -c^2 dt^2 + dx^2$ が「観測者によらない時空の間隔」を表すところまでを、式を追いながら確認します。相対論に初めて触れる方は、まずこちらから。
 2. **本編: [Making Sense of Relativity](./docs/jp/Relativity.md)**
    入門編で導いた道具立てを前提に、特殊相対論から一般相対論までを通して読みます。導出そのものよりも、固有時・座標時・同時性・重力場での見え方といった「物理的な意味」に重心を置いた読み物です。
-
-- 問い合わせフォーム: <https://forms.gle/d5QrngqCdRKYXhzs8>
 
 ## 目次
 
@@ -74,6 +67,10 @@ Last updated: 2026-08-18
 - 第1話: [manga-1.png](./images/manga-1.png)
 - 第2話: [manga-2.png](./images/manga-2.png)
 - 第3話: [manga-3.png](./images/manga-3.png)
+
+## お問い合わせ
+
+ご質問・ご指摘は問い合わせフォームからどうぞ (JP/EN): <https://forms.gle/d5QrngqCdRKYXhzs8>
 
 ## 関連キーワード
 

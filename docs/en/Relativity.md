@@ -1171,7 +1171,7 @@ This is exactly why multiple SB clocks can appear offset in SA while each still 
 
 ![](../../images/image31.png)
 
-*Figure 3.2: Three events $e_1,e_2,e_3$ in SA view*
+*Figure 3.2: Three events* $e_1,e_2,e_3$ *in SA view*
 
 ![](../../images/image32.png)
 

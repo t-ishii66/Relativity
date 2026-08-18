@@ -16,3 +16,20 @@
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
+<!-- keep wide display math and wide tables inside their own scroll box,
+     so a phone-width page never scrolls sideways as a whole -->
+<style>
+  mjx-container[display="true"] {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 4px 0;
+    max-width: 100%;
+  }
+  .main-content table {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+</style>
+

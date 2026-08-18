@@ -9,14 +9,9 @@ permalink: /
 
 # Making Sense of Relativity
 
-**English** | [日本語](README-jp.md)
+**English** ・ [日本語](README-jp.md)
 
 Last updated: 2026-08-18
-
-- Introduction (English): [docs/en/LorentzInvariantIntroduction.md](./docs/en/LorentzInvariantIntroduction.md)
-- Main text (English): [docs/en/Relativity.md](./docs/en/Relativity.md)
-- 日本語: [入門編](./docs/jp/LorentzInvariantIntroduction.md) / [本編](./docs/jp/Relativity.md)
-- Inquiry form / 問い合わせフォーム (JP/EN): <https://forms.gle/d5QrngqCdRKYXhzs8>
 
 ---
 
@@ -38,8 +33,6 @@ The material comes in two parts: an introduction and the main text.
    Restricting space to one dimension, it builds up what the Lorentz transformation is, what it changes, and what it leaves untouched — starting from a comparison with the Galilean transformation. It works through the algebra up to the line element $ds^2 = -c^2 dt^2 + dx^2$ as the observer-independent interval of spacetime. If relativity is new to you, start here.
 2. **Main text: [Making Sense of Relativity](./docs/en/Relativity.md)**
    Taking the tools from the introduction as given, it runs from special to general relativity. Rather than the derivations themselves, the weight is on *physical meaning* — proper time, coordinate time, simultaneity, and how things look in a gravitational field.
-
-- Contact form: <https://forms.gle/d5QrngqCdRKYXhzs8>
 
 ## Table of Contents
 
@@ -74,6 +67,10 @@ A short coffee-break comic corner.
 - Comic 1: [manga-1.png](./images/manga-1.png)
 - Comic 2: [manga-2.png](./images/manga-2.png)
 - Comic 3: [manga-3.png](./images/manga-3.png)
+
+## Contact
+
+Questions and corrections are welcome via the inquiry form (JP/EN): <https://forms.gle/d5QrngqCdRKYXhzs8>
 
 ## Related Keywords
 

@@ -125,7 +125,7 @@ Alice: “Then perhaps we have to question the idea that time is always the same
 
 ![](../../images/lorentz-light-speed.png)
 
-*Whether measured by Alice or Bob, the speed of light is the same value $c$*
+*Whether measured by Alice or Bob, the speed of light is the same value* $c$
 
 Therefore, we cannot continue to use the everyday idea of time expressed by
 
@@ -362,8 +362,8 @@ When the squares are expanded, the terms containing $\Delta w_{A}\Delta x_{A}$ c
 $$
 \begin{aligned}
 -(\Delta w_{B})^{2}+(\Delta x_{B})^{2}
-&=\gamma^{2}(1-\beta^{2})
-\left[-(\Delta w_{A})^{2}+(\Delta x_{A})^{2}\right].
+&=\gamma^{2}(1-\beta^{2})\\
+&\quad\times\left[-(\Delta w_{A})^{2}+(\Delta x_{A})^{2}\right].
 \end{aligned}
 $$
 
