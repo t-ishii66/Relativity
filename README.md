@@ -1,7 +1,7 @@
 ---
 title: "Making Sense of Relativity — An intuitive guide to special and general relativity"
 description: "An intuitive guide to special and general relativity. Understand the physical meaning of Einstein's theory through concrete thought experiments — time dilation, length contraction, equivalence principle, curved spacetime, and more."
-keywords: "relativity, special relativity, general relativity, Einstein, time dilation, Lorentz transformation, proper time, coordinate time, simultaneity, length contraction, gravitational redshift, Schwarzschild, black hole, equivalence principle, spacetime, metric tensor, geodesic, thought experiment, twin paradox, E=mc2, mass-energy equivalence, four-momentum, free fall, event horizon"
+keywords: "relativity, special relativity, general relativity, Einstein, time dilation, Lorentz transformation, Galilean transformation, spacetime interval, invariant interval, line element, timelike spacelike lightlike, proper time, coordinate time, simultaneity, length contraction, gravitational redshift, Schwarzschild, black hole, equivalence principle, spacetime, metric tensor, geodesic, thought experiment, twin paradox, E=mc2, mass-energy equivalence, four-momentum, free fall, event horizon"
 permalink: /
 ---
 
@@ -11,10 +11,11 @@ permalink: /
 
 **English** | [日本語](README-jp.md)
 
-Last updated: 2026-03-09
+Last updated: 2026-08-18
 
-- English manuscript: [docs/en/Relativity.md](./docs/en/Relativity.md)
-- 日本語版本文: [docs/jp/Relativity.md](./docs/jp/Relativity.md)
+- Introduction (English): [docs/en/LorentzInvariantIntroduction.md](./docs/en/LorentzInvariantIntroduction.md)
+- Main text (English): [docs/en/Relativity.md](./docs/en/Relativity.md)
+- 日本語: [入門編](./docs/jp/LorentzInvariantIntroduction.md) / [本編](./docs/jp/Relativity.md)
 - Inquiry form / 問い合わせフォーム (JP/EN): <https://forms.gle/d5QrngqCdRKYXhzs8>
 
 ---
@@ -29,10 +30,29 @@ From special relativity to general relativity, it explains proper time, coordina
 
 **Topics covered:** Einstein's special theory of relativity, general theory of relativity, invariance of the speed of light, Lorentz transformation, time dilation, length contraction (Lorentz contraction), relativity of simultaneity, twin paradox, proper time vs coordinate time, equivalence principle, gravitational time dilation, gravitational redshift, Schwarzschild solution, black holes and event horizons, free fall and geodesics, curved spacetime, metric tensor, four-momentum, $E = mc^2$ (mass-energy equivalence)
 
-- English manuscript: [docs/en/Relativity.md](./docs/en/Relativity.md)
+## Reading Order
+
+The material comes in two parts: an introduction and the main text.
+
+1. **Introduction: [A First Introduction to the Lorentz Transformation and Spacetime Invariants](./docs/en/LorentzInvariantIntroduction.md)**
+   Restricting space to one dimension, it builds up what the Lorentz transformation is, what it changes, and what it leaves untouched — starting from a comparison with the Galilean transformation. It works through the algebra up to the line element $ds^2 = -c^2 dt^2 + dx^2$ as the observer-independent interval of spacetime. If relativity is new to you, start here.
+2. **Main text: [Making Sense of Relativity](./docs/en/Relativity.md)**
+   Taking the tools from the introduction as given, it runs from special to general relativity. Rather than the derivations themselves, the weight is on *physical meaning* — proper time, coordinate time, simultaneity, and how things look in a gravitational field.
+
 - Contact form: <https://forms.gle/d5QrngqCdRKYXhzs8>
 
 ## Table of Contents
+
+### Introduction: A First Introduction to the Lorentz Transformation and Spacetime Invariants
+
+- Coordinates as numbers assigned to events, two observers
+- The Galilean transformation, and the trouble with applying it to light
+- The Lorentz transformation, what changes and what does not
+- Verifying the invariance of the spacetime interval, comparison with distance in a plane
+- The spacetime interval of light, its three types (timelike, spacelike, lightlike)
+- From a finite interval to the line element $ds^2$
+
+### Main text: Making Sense of Relativity
 
 - **Chapter 1: Special Relativity**
   - Invariant speed of light, Lorentz transformation, proper time vs coordinate time, time dilation

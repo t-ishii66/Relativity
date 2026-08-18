@@ -228,16 +228,16 @@ Alice: “So the round one is proper time and the square one is coordinate time?
 
 First, observe Bob’s clock from SA.
 
-As seen in SA, Bob moves uniformly and passes points P and Q. Bob’s proper interval from P to Q is measured by one Bob clock:
+As seen in SA, Bob moves uniformly and passes points P and Q. Bob’s finite proper-time difference from P to Q is measured by one Bob clock:
 
 $$
-d\tau_B = \tau_Q - \tau_P.
+\Delta\tau_B = \tau_Q - \tau_P.
 $$
 
-But SA’s coordinate interval is measured by two different SA clocks at P and Q:
+But SA’s finite coordinate-time difference is measured by two different SA clocks at P and Q:
 
 $$
-dw_A = w_Q - w_P.
+\Delta w_A = w_Q - w_P.
 $$
 
 ![](../../images/image5.png)
@@ -248,11 +248,21 @@ $$
 | --- | --- | --- |
 | At P | Bob looks at his own clock and reads $\tau_P$. | When Bob passes in front of the SA coordinate clock at P, that clock reads $w_P$. |
 | At Q | Bob looks at his own clock and reads $\tau_Q$. | When Bob passes in front of the SA coordinate clock at Q, that clock reads $w_Q$. |
-| Interval P to Q | Bob took $d\tau_B = \tau_Q - \tau_P$ to travel from P to Q. | Bob took $dw_A = w_Q - w_P$ to travel from P to Q, as measured by SA. |
+| Interval P to Q | Bob took $\Delta\tau_B = \tau_Q - \tau_P$ to travel from P to Q. | Bob took $\Delta w_A = w_Q - w_P$ to travel from P to Q, as measured by SA. |
 
-This distinction is crucial: $d\tau_B$ is the elapsed time on Bob's single clock, while $dw_A$ is the difference between readings on two different SA clocks at P and Q. (This is not always the case, but it is for this situation.)
+This distinction is crucial: the proper-time difference $\Delta\tau_B$ is the elapsed time on Bob's single clock, while the coordinate-time difference $\Delta w_A$ is the difference between readings on two different SA clocks at P and Q. (This is not always the case, but it is for this situation.)
 
-Let SA spatial separation be $dx_A$. Define
+Let the spatial separation between P and Q, as measured in SA, be $\Delta x_A$.
+
+Up to this point, we have used $\Delta$ for the finite differences between the separated points P and Q. To treat them mathematically from this point onward, consider the limit in which the separation between P and Q becomes indefinitely small. In that limit, write
+
+$$
+\Delta\tau_B\longrightarrow d\tau_B,\qquad
+\Delta w_A\longrightarrow dw_A,\qquad
+\Delta x_A\longrightarrow dx_A.
+$$
+
+Below, we use $d$ to represent these infinitesimal differences. If the line element is $ds^{2}$, define
 
 $$
 ds^2 = -dw_A^2 + dx_A^2.
@@ -302,8 +312,8 @@ Alice: “Bob’s clock is ticking slowly. It must be broken.”
 
 |  | Bob (SB) | SA |
 | --- | --- | --- |
-| Time from P to Q | Bob carries his own clock, so he measures this as $d\tau_B$. | Difference between the SA clock reading when Bob passes P and the SA clock reading when Bob passes Q. This is $dw_A$. |
-| Distance from P to Q | Zero. To make this intuitive: Bob is an SB resident and is at rest in SB. From Bob’s viewpoint, SA is what moves; first point P comes to him (first spacetime event), then point Q comes (second spacetime event). Between those two events, Bob’s traveled distance in SB is zero. | SA-measured distance $\overline{PQ}$, i.e. $dx_A$. |
+| Time from P to Q | Bob carries his own clock, so he measures this as $\Delta\tau_B$. | Difference between the SA clock reading when Bob passes P and the SA clock reading when Bob passes Q. This is $\Delta w_A$. |
+| Distance from P to Q | Zero. To make this intuitive: Bob is an SB resident and is at rest in SB. From Bob’s viewpoint, SA is what moves; first point P comes to him (first spacetime event), then point Q comes (second spacetime event). Between those two events, Bob’s traveled distance in SB is zero. | SA-measured distance $\overline{PQ}$, i.e. $\Delta x_A$. |
 
 Bob, however, has been observing Alice using SB coordinate clocks and reaches the opposite claim:
 
@@ -385,7 +395,7 @@ But SA does not yet mark the rear endpoint. Looking at the rear side, the SA coo
 
 Eventually the rear endpoint reaches point P, and at that moment the SA clock at P reads 12 o'clock. That is when SA identifies the rear endpoint as P.
 
-Alice gets excited and says the rod became shorter. But from Bob’s perspective, SA did not identify both endpoints simultaneously in SB, so he calls that measurement meaningless.
+Alice gets excited and says that the rod became shorter. For Alice, this is a correct length measurement because the positions of both ends of the rod were identified simultaneously in SA. From Bob’s point of view, however, those two measurement events are not simultaneous. Therefore, the result cannot be called the length of the rod in Bob’s frame.
 
 ![](../../images/Alice-measure-pole.png)
 
@@ -405,11 +415,7 @@ Conversely, if SB measures SA’s segment with simultaneity in SB, SA also sees 
 
 *Figure 1.13 (SA view): SB identifies Q later in SA time*
 
-Hence each frame measures the other frame’s moving length as contracted.
-
-
-
-For a more explicit derivation, see Appendix B and C.
+In this way, when SB measures a length in SA, it also measures it as shorter. In fact, this explanation is far too rough. If you would like a more accurate account, see Appendix B and C. Otherwise, let us proceed to general relativity.
 
 ## Chapter 2: General Relativity
 
@@ -446,7 +452,7 @@ Both have their own clocks and can always read their own proper time.
 | Alice | Static at $r_A$, feels strong gravity |
 | Charlie | Far away at $r_C \approx \infty$, effectively inertial |
 
-<img src="images/Alice-Charlie-earth.png" width="300">
+<img src="../../images/Alice-Charlie-earth.png" width="300" alt="Alice near the massive body and Charlie far away">
 
 ### Metric
 
@@ -523,7 +529,7 @@ $$
 ds^{2}=-\left(1-\frac{a}{r}\right)dw^{2}+\frac{1}{1-a/r}dr^{2}+r^{2}d\Omega^{2},
 $$
 
-where
+where $a$ is called the Schwarzschild radius and
 
 $$
 a=\frac{2GM}{c^{2}},
@@ -630,13 +636,19 @@ $$
 
 for a clock attached to an object? Yes.
 
-Intuitively: if Alice carries her own clock and ruler into a gravitational field, her local neighborhood, clock, and ruler are all affected together. She does not notice a local “rate change” by comparing against herself. Over sufficiently small spacetime neighborhoods, her local measurements are approximately inertial:
+Intuitively, suppose Alice initially stays in an inertial frame with her own clock and ruler. If she is then moved into a gravitational field, her local neighborhood, clock, ruler, and Alice herself are all affected together. She cannot notice a local change in the rate of time or in length by comparing them with herself.
+
+Therefore, Alice notices no particular change in temporal or spatial length compared with when she was in the inertial frame, although she does feel gravity. A caution is necessary here. Alice is stationary in the gravitational field and is not in free fall. Therefore, Alice’s own coordinate system must not simply be treated as an inertial frame.
+
+However, if we consider only Alice’s immediate neighborhood over a very short time and a very short distance, the world measured using her clock and ruler is very close to the world in an inertial frame. In this extremely small neighborhood, spacetime may be regarded as almost flat.
+
+For the local coordinate system Alice establishes around herself, let $dw_A$ be the time measured by coordinate clocks and let $dr_A$ be the length measured by rulers. As long as we consider only Alice’s neighborhood,
 
 $$
 ds^{2}\simeq -dw_A^{2}+dr_A^{2}.
 $$
 
-Here $dw_A,dr_A$ mean time and length measured by Alice’s own local clock and ruler, and $\\simeq$ means local approximation (small region, short duration), not exact global equality.
+Here $\simeq$ does not mean exact identity. It means that this form is a good approximation in an infinitesimal region near Alice. The conditions are an infinitesimal distance near Alice and an instantaneous interval.
 
 For Alice’s own clock worldline, $dr_A=0$, so
 
@@ -752,9 +764,9 @@ $$
 dr=\Delta L\sqrt{1-\frac{a}{r_A}}.
 $$
 
-For example, a 10 m rod in an inertial frame remains 10 m when directly measured locally in gravity (both rod and ruler are affected together). But in the Schwarzschild $w-r$ canvas coordinate description, the corresponding $dr$ value can be less than 10 m.
+For example, a $10\,\mathrm{m}$ rod in an inertial frame remains $10\,\mathrm{m}$ when directly measured locally in gravity (both rod and ruler are affected together). But in the Schwarzschild $w-r$ canvas coordinate description, the corresponding $dr$ value can be less than $10\,\mathrm{m}$.
 
-So at $r_A$, it is better not to over-interpret this as “the rod itself became shorter.” It is a canvas-coordinate statement. If one goes there and directly measures with local instruments, it is still 10 m.
+So at $r_A$, it is better not to over-interpret this as “the rod itself became shorter.” It is a canvas-coordinate statement. If one goes there and directly measures with local instruments, it is still $10\,\mathrm{m}$.
 
 ![](../../images/Alice-clock-measure.png)
 
@@ -845,7 +857,7 @@ In short: near a massive body, what matters is that the trajectory is computable
 
 ### A Freely Falling Observer
 
-Alice seemed able to describe her experienced world locally with metric $\eta_{\mu\nu}$.
+Near a single point where Alice measures with the clock and ruler at hand, it seems reasonable to express the metric in the form $\eta_{\mu\nu}$. However, this does not mean that Alice herself, supported by the ground, is in a local inertial frame.
 
 Now let Bob free-fall from Alice’s location. (Bob has a parachute, so no worries.) Since Bob is in free fall, in a very small neighborhood around him he can also be approximated as in a local inertial frame (metric approximately $\eta_{\mu\nu}$). But strictly, if one extends the region, caution is needed: the local inertial frame must be re-chosen point by point along Bob’s worldline, not one single frame for the entire fall.
 
@@ -967,6 +979,8 @@ As $r_B\to a$, this ratio approaches zero, so observed frequency becomes arbitra
 
 When Bob gets arbitrarily close to the horizon ($r=a$), for Charlie the blink interval stretches without bound and almost no light arrives. Bob appears to freeze on the horizon.
 
+However, as Bob approaches the horizon, his falling speed also increases, and the Doppler effect caused by his motion can no longer be ignored. Therefore, the approximation above does not accurately describe the frequency near the horizon. An exact calculation must include both gravitational redshift and the Doppler effect. Nevertheless, the conclusion does not change: the intervals between the flashes reaching Charlie grow longer, and the light becomes redder and dimmer.
+
 This is an extreme manifestation of coordinate-time vs proper-time difference. Bob crosses the horizon in finite Bob proper time, but in Charlie coordinate time Bob reaches the horizon only at “infinite future.” This is the appearance in Schwarzschild coordinates (the $w-r$ canvas). The coordinate light speed
 
 $$
@@ -992,6 +1006,8 @@ Bob: “I fell quite far. Still feels normal. Maybe I should head back.”
 ### Bob and Charlie Meet Again
 
 Thought experiment: Bob falls deep, then briefly fires a rocket to reverse direction and return to Charlie at infinity.
+
+Bob fires the rocket at a point with $r>a$, before reaching the event horizon.
 
 Keep thrust duration short; focus on free-motion segments. On the outbound leg, as we have seen, Bob's clock runs slower than Charlie's from Charlie's viewpoint. What about the return leg? On the return leg, Bob is still moving through the gravitational field while ascending, so his proper time still runs slower than Charlie's.
 
@@ -1392,13 +1408,13 @@ The kinetic-energy term appears. So the first term $mc^2$ is an energy term exis
 ## Credits
 
 - Book title: Making Sense of Relativity
-- Version: 1.0.0
-- Release date: 2026/3/7
-- Author: t-ishii66 / Studied physics at university. Systems engineer. Learned programming on the X68000 and became interested in Linux. Recently interested in AI. Still struggling with English conversation.
-- Review: GPT 5.3 Codex, Claude Opus 4.5
-- Illustrations: ChatGPT 5.3
+- Version: 1.1.0
+- Release date: 2026/8/18
+- Author: t-ishii66 / Studied physics at university. Systems engineer. Working hard on spoken English.
+- Review: Codex GPT 5.6, Claude Opus 4.5
+- Illustrations: Codex GPT 5.6
 - Comics: ChatGPT 5.3
-- English translation: GPT 5.3 Codex, Claude Opus 4.5, t-ishii66
+- English translation: Codex GPT 5.6, Claude Opus 4.5, t-ishii66
 
 ## Closing
 
