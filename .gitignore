@@ -19,3 +19,6 @@ _site/
 # Secrets
 .env
 .env.*
+!.env.example
+!.env.template
+!.env.sample

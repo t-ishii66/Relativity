@@ -57,8 +57,6 @@ Let us begin.
 
 ![](../../images/Alice-icon.png)
 
-Age: 10
-
 Personality: Curious, outspoken, never satisfied with vague answers.
 
 Hobbies: Watching stars, reading storybooks, collecting pretty stones.
@@ -69,8 +67,6 @@ Likes: Strawberry milk, blue ribbons, mysterious stories.
 
 ![](../../images/Bob-icon.png)
 
-Age: 12
-
 Personality: Calm and a bit logical. Observes before concluding.
 
 Hobbies: Crafting, maps, taking clocks apart and reassembling them.
@@ -80,8 +76,6 @@ Likes: Hamburgers, toolboxes, new notebooks.
 ### Charlie
 
 ![](../../images/Charlie-icon.png)
-
-Age: 11
 
 Personality: Relaxed but sharp. Good at seeing the big picture from a distance.
 
