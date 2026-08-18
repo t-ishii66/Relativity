@@ -351,9 +351,9 @@ Substituting these into the spacetime interval calculated by Bob gives
 
 $$
 \begin{aligned}
--(\Delta w_{B})^{2}+(\Delta x_{B})^{2}
-&=-\gamma^{2}(\Delta w_{A}-\beta\Delta x_{A})^{2} \\
-&\quad+\gamma^{2}(\Delta x_{A}-\beta\Delta w_{A})^{2}.
+&-(\Delta w_{B})^{2}+(\Delta x_{B})^{2} \\
+&\quad=-\gamma^{2}(\Delta w_{A}-\beta\Delta x_{A})^{2} \\
+&\qquad+\gamma^{2}(\Delta x_{A}-\beta\Delta w_{A})^{2}.
 \end{aligned}
 $$
 
@@ -361,9 +361,9 @@ When the squares are expanded, the terms containing $\Delta w_{A}\Delta x_{A}$ c
 
 $$
 \begin{aligned}
--(\Delta w_{B})^{2}+(\Delta x_{B})^{2}
-&=\gamma^{2}(1-\beta^{2})\\
-&\quad\times\left[-(\Delta w_{A})^{2}+(\Delta x_{A})^{2}\right].
+&-(\Delta w_{B})^{2}+(\Delta x_{B})^{2} \\
+&\quad=\gamma^{2}(1-\beta^{2}) \\
+&\qquad\times\left[-(\Delta w_{A})^{2}+(\Delta x_{A})^{2}\right].
 \end{aligned}
 $$
 
@@ -376,8 +376,10 @@ $$
 so
 
 $$
--(\Delta w_{B})^{2}+(\Delta x_{B})^{2}
-=-(\Delta w_{A})^{2}+(\Delta x_{A})^{2}.
+\begin{aligned}
+&-(\Delta w_{B})^{2}+(\Delta x_{B})^{2} \\
+&\quad=-(\Delta w_{A})^{2}+(\Delta x_{A})^{2}.
+\end{aligned}
 $$
 
 The left-hand side is the spacetime interval $\Delta s_{B}^{2}$ calculated by Bob, and the right-hand side is the spacetime interval $\Delta s_{A}^{2}$ calculated by Alice. In other words,

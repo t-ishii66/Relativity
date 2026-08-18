@@ -367,9 +367,9 @@ Bobが計算する時空間隔に代入すると、
 
 $$
 \begin{aligned}
--(\Delta w_{B})^{2}+(\Delta x_{B})^{2}
-&=-\gamma^{2}(\Delta w_{A}-\beta\Delta x_{A})^{2} \\
-&\quad+\gamma^{2}(\Delta x_{A}-\beta\Delta w_{A})^{2}.
+&-(\Delta w_{B})^{2}+(\Delta x_{B})^{2} \\
+&\quad=-\gamma^{2}(\Delta w_{A}-\beta\Delta x_{A})^{2} \\
+&\qquad+\gamma^{2}(\Delta x_{A}-\beta\Delta w_{A})^{2}.
 \end{aligned}
 $$
 
@@ -377,9 +377,9 @@ $$
 
 $$
 \begin{aligned}
--(\Delta w_{B})^{2}+(\Delta x_{B})^{2}
-&=\gamma^{2}(1-\beta^{2})\\
-&\quad\times\left[-(\Delta w_{A})^{2}+(\Delta x_{A})^{2}\right].
+&-(\Delta w_{B})^{2}+(\Delta x_{B})^{2} \\
+&\quad=\gamma^{2}(1-\beta^{2}) \\
+&\qquad\times\left[-(\Delta w_{A})^{2}+(\Delta x_{A})^{2}\right].
 \end{aligned}
 $$
 
@@ -392,8 +392,10 @@ $$
 だから、
 
 $$
--(\Delta w_{B})^{2}+(\Delta x_{B})^{2}
-=-(\Delta w_{A})^{2}+(\Delta x_{A})^{2}
+\begin{aligned}
+&-(\Delta w_{B})^{2}+(\Delta x_{B})^{2} \\
+&\quad=-(\Delta w_{A})^{2}+(\Delta x_{A})^{2}
+\end{aligned}
 $$
 
 となる。左辺は Bob が計算した時空間隔 $\Delta s_{B}^{2}$、右辺は Alice が計算した時空間隔 $\Delta s_{A}^{2}$ である。つまり、
