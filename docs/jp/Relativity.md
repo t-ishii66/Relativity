@@ -284,7 +284,7 @@ $ds^{2}$ は時空（時間と空間。この本では空間が1次元なので�
 $ds^{2}$ はローレンツ変換で不変、つまり Bob が計算しても、SA 系で計算しても同じ大きさなのだから
 
 $$
-- d\tau_{B}^{2} = - dw_{A}^{2} + dx_{A}^{2}
+-d\tau_{B}^{2} = - dw_{A}^{2} + dx_{A}^{2}
 $$
 
 と書ける。変形して
@@ -959,7 +959,7 @@ $$
 さて Bob の固有時を考えてみよう。 $dr_{B} = 0$ とすればよい。
 
 $$
-- d\tau_{B}^{2} = - \left( 1 - \frac{a}{r_{B}} \right)dw_{C}^{2} + \frac{1}{1 - a/r_{B}}dr_{C}^{2}
+-d\tau_{B}^{2} = - \left( 1 - \frac{a}{r_{B}} \right)dw_{C}^{2} + \frac{1}{1 - a/r_{B}}dr_{C}^{2}
 $$
 
 従って
@@ -1411,19 +1411,19 @@ $$
 となる。ローレンツ変換不変量の $ds^{2}$ を固有時で表すことができた。つまり、運動する物体に取り付けた時計（固有時 $\tau$）とその運動を外から眺めている座標系での座標時 $dw$ と進んだ距離 $dx$ との関係は
 
 $$
-- d\tau^{2}( = ds^{2}) = - dw^{2} + dx^{2}
+-d\tau^{2}( = ds^{2}) = - dw^{2} + dx^{2}
 $$
 
 である。両辺を $d\tau$ で割ると
 
 $$
-- 1 = - \left( \frac{dw}{d\tau} \right)^{2} + \left( \frac{dx}{d\tau} \right)^{2}
+-1 = - \left( \frac{dw}{d\tau} \right)^{2} + \left( \frac{dx}{d\tau} \right)^{2}
 $$
 
 両辺に $(mc)^{2}$ をかけると
 
 $$
-- (mc)^{2} = - \left( mc\frac{dw}{d\tau} \right)^{2} + \left( mc\frac{dx}{d\tau} \right)^{2}
+-(mc)^{2} = - \left( mc\frac{dw}{d\tau} \right)^{2} + \left( mc\frac{dx}{d\tau} \right)^{2}
 $$
 
 変形して
