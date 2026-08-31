@@ -983,56 +983,106 @@ $$
 
 と表したい。
 
-ここで、
+極座標基底は互いに直交し、その内積は、
 
 $$
-V^r=\cos\theta,
+\boldsymbol{e}_r\cdot\boldsymbol{e}_r=1,
 \qquad
-V^\theta=-\frac{\sin\theta}{r}
+\boldsymbol{e}_r\cdot\boldsymbol{e}_\theta=0,
+\qquad
+\boldsymbol{e}_\theta\cdot\boldsymbol{e}_\theta=r^2
 $$
 
-とすると、
+だった。
+
+まず、$\boldsymbol{V}$ と $\boldsymbol{e}_r$ の内積を取ると、
 
 $$
 \begin{aligned}
-V^r\boldsymbol{e}_r
+\boldsymbol{V}\cdot\boldsymbol{e}_r
+&=
+V^r
+\left(
+\boldsymbol{e}_r\cdot\boldsymbol{e}_r
+\right)
 +
-V^\theta\boldsymbol{e}_\theta
-&=
-\cos\theta
-\begin{pmatrix}
-\cos\theta\\
-\sin\theta
-\end{pmatrix}
--
-\frac{\sin\theta}{r}
-\begin{pmatrix}
--r\sin\theta\\
-r\cos\theta
-\end{pmatrix}\\
-&=
-\begin{pmatrix}
-\cos^2\theta\\
-\sin\theta\cos\theta
-\end{pmatrix}
-+
-\begin{pmatrix}
-\sin^2\theta\\
--\sin\theta\cos\theta
-\end{pmatrix}\\
-&=
+V^\theta
+\left(
+\boldsymbol{e}_\theta\cdot\boldsymbol{e}_r
+\right)\\
+&=V^r
+\end{aligned}
+$$
+
+となる。
+
+一方、直交座標の成分を使って計算すれば、
+
+$$
+\boldsymbol{V}\cdot\boldsymbol{e}_r
+=
 \begin{pmatrix}
 1\\
 0
 \end{pmatrix}
-\end{aligned}
+\cdot
+\begin{pmatrix}
+\cos\theta\\
+\sin\theta
+\end{pmatrix}
+=
+\cos\theta
 $$
 
-となり、もとのベクトル $\boldsymbol{V}$ と一致する。
+なので、
+
+$$
+V^r=\cos\theta
+$$
+
+である。
+
+同様に、$\boldsymbol{e}_\theta$ との内積を取ると、
+
+$$
+\boldsymbol{V}\cdot\boldsymbol{e}_\theta
+=
+r^2V^\theta
+$$
+
+である。一方、
+
+$$
+\boldsymbol{V}\cdot\boldsymbol{e}_\theta
+=
+\begin{pmatrix}
+1\\
+0
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+-r\sin\theta\\
+r\cos\theta
+\end{pmatrix}
+=
+-r\sin\theta
+$$
+
+なので、
+
+$$
+r^2V^\theta=-r\sin\theta
+$$
 
 したがって、
 
-極座標の基底で表すと、
+$$
+V^\theta=-\frac{\sin\theta}{r}
+$$
+
+となる。
+
+以上から、同じベクトルを極座標基底で表すと、
 
 $$
 \boldsymbol{V}
@@ -1043,18 +1093,6 @@ $$
 $$
 
 となる。
-
-したがって成分は、
-
-$$
-V^r=\cos\theta
-$$
-
-$$
-V^\theta=-\frac{\sin\theta}{r}
-$$
-
-である。
 
 このベクトルを平面上の別の場所へ平行移動しても、矢印そのものは $x$ 軸の正方向を向く長さ $1$ のベクトルのままである。
 
@@ -1215,7 +1253,75 @@ $$
 
 ここまでは上付き添字を持つベクトルを考えた。
 
-下付き添字を持つ共変ベクトル $A_\nu$ では、接続の項の符号が反対になる。
+下付き添字を持つ共変ベクトル $A_\nu$ の式は、上付き添字の場合から導くことができる。
+そのために、$A_\nu$ と任意のベクトル $V^\nu$ を縮約して作ったスカラー
+
+$$
+f=A_\nu V^\nu
+$$
+
+を考える。
+
+スカラーの共変微分は通常の偏微分と同じなので、
+
+$$
+\nabla_\mu f
+=
+\partial_\mu f
+$$
+
+でなければならない。一方、共変微分にも積の微分法則を要求すると、
+
+$$
+\nabla_\mu(A_\nu V^\nu)
+=
+(\nabla_\mu A_\nu)V^\nu
++
+A_\nu(\nabla_\mu V^\nu)
+$$
+
+となる。右辺に、すでに分かっているベクトルの共変微分
+
+$$
+\nabla_\mu V^\nu
+=
+\partial_\mu V^\nu
++
+\Gamma^\nu_{\mu\rho}V^\rho
+$$
+
+を代入する。一方、左辺はスカラーの偏微分だから、
+
+$$
+\partial_\mu(A_\nu V^\nu)
+=
+(\partial_\mu A_\nu)V^\nu
++
+A_\nu\partial_\mu V^\nu
+$$
+
+である。両者を等しいと置き、共通する
+$A_\nu\partial_\mu V^\nu$ を消すと、添字をそろえて
+
+$$
+(\partial_\mu A_\rho)V^\rho
+=
+(\nabla_\mu A_\rho)V^\rho
++
+A_\nu\Gamma^\nu_{\mu\rho}V^\rho
+$$
+
+を得る。これは任意の $V^\rho$ に対して成り立たなければならないので、
+
+$$
+\nabla_\mu A_\rho
+=
+\partial_\mu A_\rho
+-
+\Gamma^\nu_{\mu\rho}A_\nu
+$$
+
+である。自由添字とダミー添字の名前を付け替えれば、
 
 $$
 \boxed{
@@ -1227,11 +1333,66 @@ $$
 }
 $$
 
-上付き添字には接続の項を足し、下付き添字には接続の項を引く。
+となる。下付き添字の接続項がマイナスになるのは、縮約したスカラーの中で、
+上付き添字から生じるプラスの接続項を打ち消すためである。
 
-例えば、上付きと下付きの添字を一つずつ持つテンソルでは、
+## 二階テンソルの共変微分
+
+二階テンソルについても、同じ考え方を使える。
+上付き添字と下付き添字を一つずつ持つ混合テンソル $T^\rho{}_\nu$ を考えよう。
+共変ベクトル $A_\rho$ とベクトル $V^\nu$ を使ってすべての添字を縮約すると、
 
 $$
+S
+=
+A_\rho T^\rho{}_\nu V^\nu
+$$
+
+はスカラーになる。したがって、
+
+$$
+\nabla_\mu S
+=
+\partial_\mu S
+$$
+
+でなければならない。積の微分法則を使うと、
+
+$$
+\begin{aligned}
+\nabla_\mu S
+={}&
+(\nabla_\mu A_\rho)T^\rho{}_\nu V^\nu\\
+&+
+A_\rho(\nabla_\mu T^\rho{}_\nu)V^\nu\\
+&+
+A_\rho T^\rho{}_\nu(\nabla_\mu V^\nu)
+\end{aligned}
+$$
+
+となる。ここに、すでに導いた
+
+$$
+\nabla_\mu A_\rho
+=
+\partial_\mu A_\rho
+-
+\Gamma^\sigma_{\mu\rho}A_\sigma,
+\qquad
+\nabla_\mu V^\nu
+=
+\partial_\mu V^\nu
++
+\Gamma^\nu_{\mu\sigma}V^\sigma
+$$
+
+を代入する。全体が通常の積の偏微分になるには、$A_\rho$ と $V^\nu$ から生じる接続項が
+$\nabla_\mu T^\rho{}_\nu$ の中の接続項によって打ち消されなければならない。
+そのため、混合テンソルの共変微分は
+
+
+$$
+\boxed{
 \nabla_\mu T^\rho{}_\nu
 =
 \partial_\mu T^\rho{}_\nu
@@ -1239,9 +1400,37 @@ $$
 \Gamma^\rho_{\mu\sigma}T^\sigma{}_\nu
 -
 \Gamma^\sigma_{\mu\nu}T^\rho{}_\sigma
+}
 $$
 
 となる。
+
+実際、第2項
+
+$$
++
+\Gamma^\rho_{\mu\sigma}T^\sigma{}_\nu
+$$
+
+は $A_\rho$ の共変微分から生じるマイナスの接続項を打ち消す。
+また第3項
+
+$$
+-
+\Gamma^\sigma_{\mu\nu}T^\rho{}_\sigma
+$$
+
+は $V^\nu$ の共変微分から生じるプラスの接続項を打ち消す。
+ダミー添字の名前を付け替えれば、それぞれの項が正負ちょうど反対になっていることを確認できる。
+したがって接続項はすべて相殺され、
+
+$$
+\nabla_\mu S
+=
+\partial_\mu\left(A_\rho T^\rho{}_\nu V^\nu\right)
+$$
+
+が成り立つ。
 
 スカラー $f$ には補うべき添字がないため、
 
@@ -1253,7 +1442,7 @@ $$
 
 である。
 
-個々の式を別々に暗記するより、
+以上から、個々の式を別々に暗記するより、
 
 - 上付き添字一つにつき、接続の項を一つ足す
 - 下付き添字一つにつき、接続の項を一つ引く
