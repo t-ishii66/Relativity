@@ -228,7 +228,93 @@ $$
 \boldsymbol{e}_\beta
 $$
 
-と書ける。この式を $x'^\mu$ で微分すると、座標変換の係数を微分する項と、古い基底 $\boldsymbol{e}_\beta$ を微分する項の二つが現れる。それぞれを新しい座標の基底で表し、
+と書ける。この式を $x'^\mu$ で微分すると、積の微分から、
+
+$$
+\begin{aligned}
+\partial'_\mu\boldsymbol{e}'_\nu
+&=
+\partial'_\mu
+\left(
+\frac{\partial x^\beta}{\partial x'^\nu}
+\boldsymbol{e}_\beta
+\right)\\
+&=
+\frac{\partial^2x^\beta}
+{\partial x'^\mu\partial x'^\nu}
+\boldsymbol{e}_\beta
++
+\frac{\partial x^\beta}{\partial x'^\nu}
+\partial'_\mu\boldsymbol{e}_\beta
+\end{aligned}
+$$
+
+となる。第二項の基底の微分には、連鎖律、
+
+$$
+\partial'_\mu
+=
+\frac{\partial x^\alpha}{\partial x'^\mu}
+\partial_\alpha
+$$
+
+と、クリストッフェル記号の定義、
+
+$$
+\partial_\alpha\boldsymbol{e}_\beta
+=
+\Gamma^\lambda_{\alpha\beta}
+\boldsymbol{e}_\lambda
+$$
+
+を使える。したがって、
+
+$$
+\begin{aligned}
+\partial'_\mu\boldsymbol{e}'_\nu
+&=
+\frac{\partial^2x^\beta}
+{\partial x'^\mu\partial x'^\nu}
+\boldsymbol{e}_\beta\\
+&\quad+
+\frac{\partial x^\alpha}{\partial x'^\mu}
+\frac{\partial x^\beta}{\partial x'^\nu}
+\Gamma^\lambda_{\alpha\beta}
+\boldsymbol{e}_\lambda
+\end{aligned}
+$$
+
+となる。
+
+ここまでは右辺を古い座標の基底で表している。古い基底は、新しい座標の基底を使って、
+
+$$
+\boldsymbol{e}_\lambda
+=
+\frac{\partial x'^\rho}{\partial x^\lambda}
+\boldsymbol{e}'_\rho
+$$
+
+と書ける。第一項の $\boldsymbol{e}_\beta$ にも同じ変換を使い、その項の和の添字 $\beta$ を $\lambda$ と書き換えると、
+
+$$
+\begin{aligned}
+\partial'_\mu\boldsymbol{e}'_\nu
+&=
+\frac{\partial x'^\rho}{\partial x^\lambda}
+\frac{\partial^2x^\lambda}
+{\partial x'^\mu\partial x'^\nu}
+\boldsymbol{e}'_\rho\\
+&\quad+
+\frac{\partial x'^\rho}{\partial x^\lambda}
+\frac{\partial x^\alpha}{\partial x'^\mu}
+\frac{\partial x^\beta}{\partial x'^\nu}
+\Gamma^\lambda_{\alpha\beta}
+\boldsymbol{e}'_\rho
+\end{aligned}
+$$
+
+となる。一方、新しい座標でクリストッフェル記号を定義すれば、
 
 $$
 \partial'_\mu\boldsymbol{e}'_\nu
@@ -237,7 +323,7 @@ $$
 \boldsymbol{e}'_\rho
 $$
 
-と比較すると、クリストッフェル記号の変換則、
+である。独立な基底 $\boldsymbol{e}'_\rho$ に掛かる係数を比較すると、クリストッフェル記号の変換則、
 
 $$
 \begin{aligned}
@@ -323,14 +409,16 @@ $$
 
 となる。
 
-これは、下付き添字 $\mu$ には逆向きの座標変換を、上付き添字 $\rho$ には順向きの座標変換を掛けるという、$(1,1)$ 型テンソルの変換規則そのものである。
+途中の式変形を一行ずつ確かめたい読者は、直前に得た二つの式を実際に代入してみてほしい。二階微分を含む項が符号違いで消え、残った項から共通する座標変換の係数をくくり出せば、上の式を自分の手で再現できる。
+
+これは、下付き添字 $\mu$ には逆向きの座標変換を、上付き添字 $\rho$ には順向きの座標変換を掛けるという、テンソルの変換規則そのものである。
 
 したがって、
 
 $$
 \boxed{
 \nabla_\mu V^\rho
-\text{ は }(1,1)\text{ 型テンソルである}
+\text{ はテンソルである}
 }
 $$
 
@@ -392,7 +480,7 @@ $$
 
 と定義する。$D/D\lambda$ は、経路に沿う共変微分を表す。
 
-$dx^\mu/d\lambda$ は上付き添字を持つベクトルであり、$\nabla_\mu V^\rho$ は $(1,1)$ 型テンソルだった。下付き添字 $\mu$ と上付き添字 $\mu$ を縮約した $DV^\rho/D\lambda$ は、上付き添字 $\rho$ を一つ持つベクトルとして変換する。
+$dx^\mu/d\lambda$ は上付き添字を持つベクトルであり、$\nabla_\mu V^\rho$ はテンソルだった。下付き添字 $\mu$ と上付き添字 $\mu$ を縮約した $DV^\rho/D\lambda$ は、上付き添字 $\rho$ を一つ持つベクトルとして変換する。
 
 展開すると、
 
@@ -663,7 +751,29 @@ $$
 U^\mu=\frac{dx^\mu}{d\tau}
 $$
 
-である。四元速度を経路に沿って平行移動する条件は、
+である。
+
+経路に沿う共変微分は、一般のベクトル $V^\mu$ と経路のパラメータ $\lambda$ に対して、
+
+$$
+\frac{D V^\mu}{D\lambda}
+=
+\frac{dx^\nu}{d\lambda}
+\nabla_\nu V^\mu
+$$
+
+だった。ここで、経路のパラメータを固有時 $\tau$ とし、経路に沿って運ぶベクトル $V^\mu$ として四元速度 $U^\mu$ 自身を選ぶ。すると、
+
+$$
+\frac{D U^\mu}{D\tau}
+=
+\frac{dx^\nu}{d\tau}
+\nabla_\nu U^\mu
+=
+U^\nu\nabla_\nu U^\mu
+$$
+
+となる。四元速度を経路に沿って平行移動する条件 $DU^\mu/D\tau=0$ は、したがって、
 
 $$
 U^\nu\nabla_\nu U^\mu=0
@@ -705,7 +815,7 @@ $$
 
 - ベクトル成分の普通の偏微分は、座標変換の二階微分を含む余分な項が現れるため、それだけではテンソルにならない。
 - クリストッフェル記号もテンソルではなく、その変換則には座標変換の二階微分を含む項が現れる。
-- 二つの余分な項は共変微分の中で打ち消し合うため、$\nabla_\mu V^\rho$ は $(1,1)$ 型テンソルとして変換する。
+- 二つの余分な項は共変微分の中で打ち消し合うため、$\nabla_\mu V^\rho$ はテンソルとして変換する。
 - 接続 $\nabla$ 自体ではなく、ベクトル場に作用させて得られる $\nabla_\mu V^\rho$ がテンソルである。
 - 経路は $x^\mu=x^\mu(\lambda)$ と表せる。
 - 経路の接ベクトルは $U^\mu=dx^\mu/d\lambda$ である。
