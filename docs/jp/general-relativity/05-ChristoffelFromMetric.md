@@ -59,7 +59,169 @@ $$
 
 座標基底を $\boldsymbol{e}_\mu$ とする。
 
-計量成分は、二つの基底の内積として、
+前の文書では、二つのベクトルの内積を、
+
+$$
+\boldsymbol{A}\cdot\boldsymbol{B}
+=
+g_{\rho\sigma}A^\rho B^\sigma
+$$
+
+と書いた。
+
+まず、基底自身の成分表示について確認しておこう。
+
+任意のベクトル $\boldsymbol{V}$ は、座標基底を使って、
+
+$$
+\boldsymbol{V}
+=
+V^\rho\boldsymbol{e}_\rho
+$$
+
+と表せる。ここで $\boldsymbol{V}=\boldsymbol{e}_\mu$ とすると、
+
+$$
+\boldsymbol{e}_\mu
+=
+(\boldsymbol{e}_\mu)^\rho\boldsymbol{e}_\rho
+$$
+
+となる。
+
+例えば二次元なら、
+
+$$
+\boldsymbol{e}_1
+=
+1\boldsymbol{e}_1+0\boldsymbol{e}_2,
+\qquad
+\boldsymbol{e}_2
+=
+0\boldsymbol{e}_1+1\boldsymbol{e}_2
+$$
+
+である。基底ベクトルを同じ基底で成分表示すると、自分自身に対応する成分だけが $1$ で、ほかは $0$ になる。したがって、
+
+$$
+(\boldsymbol{e}_\mu)^\rho
+=
+{\delta^\rho}_\mu
+$$
+
+と書ける。
+
+この式が成り立つのは、$\mu$ と $\rho$ が同じ座標基底のラベルである場合である。
+
+例えば、極座標基底 $\{\boldsymbol{e}_r,\boldsymbol{e}_\theta\}$ を使って基底自身を表すと、
+
+$$
+\boldsymbol{e}_r
+=
+1\boldsymbol{e}_r+0\boldsymbol{e}_\theta,
+\qquad
+\boldsymbol{e}_\theta
+=
+0\boldsymbol{e}_r+1\boldsymbol{e}_\theta
+$$
+
+となる。したがって、極座標基底に対する成分は、
+
+$$
+(\boldsymbol{e}_r)^r=1,
+\qquad
+(\boldsymbol{e}_r)^\theta=0
+$$
+
+$$
+(\boldsymbol{e}_\theta)^r=0,
+\qquad
+(\boldsymbol{e}_\theta)^\theta=1
+$$
+
+である。
+
+一方、同じ二つのベクトルを、平面の直交座標基底 $\{\boldsymbol{e}_x,\boldsymbol{e}_y\}$ で表すと、
+
+$$
+\boldsymbol{e}_r
+=
+\cos\theta\,\boldsymbol{e}_x
++\sin\theta\,\boldsymbol{e}_y
+$$
+
+$$
+\boldsymbol{e}_\theta
+=
+-r\sin\theta\,\boldsymbol{e}_x
++r\cos\theta\,\boldsymbol{e}_y
+$$
+
+となる。したがって、直交座標基底に対する成分は、
+
+$$
+(\boldsymbol{e}_r)^x=\cos\theta,
+\qquad
+(\boldsymbol{e}_r)^y=\sin\theta
+$$
+
+$$
+(\boldsymbol{e}_\theta)^x=-r\sin\theta,
+\qquad
+(\boldsymbol{e}_\theta)^y=r\cos\theta
+$$
+
+である。
+
+異なる座標基底をまたいで見た成分には、クロネッカーのデルタではなく、座標変換の微分が現れる。例えば、
+
+$$
+(\boldsymbol{e}_r)^x
+=
+\frac{\partial x}{\partial r}
+=
+\cos\theta,
+\qquad
+(\boldsymbol{e}_r)^y
+=
+\frac{\partial y}{\partial r}
+=
+\sin\theta
+$$
+
+である。
+
+つまり、
+
+$$
+(\boldsymbol{e}_\mu)^\rho
+=
+{\delta^\rho}_\mu
+$$
+
+は、基底ベクトルを同じ基底で成分表示した場合の式である。どの基底から見ても成分が常に $0$ と $1$ になるという意味ではない。
+
+また、極座標基底に対する $\boldsymbol{e}_\theta$ の成分が $(0,1)$ であっても、その長さが $1$ とは限らない。成分とベクトルの長さは別のものである。
+
+この区別に注意して、二つの座標基底の内積を計算しよう。前の文書で導入した内積の式へ、$(\boldsymbol{e}_\mu)^\rho={\delta^\rho}_\mu$ を代入すると、
+
+$$
+\begin{aligned}
+\boldsymbol{e}_\mu\cdot\boldsymbol{e}_\nu
+&=
+g_{\rho\sigma}
+(\boldsymbol{e}_\mu)^\rho
+(\boldsymbol{e}_\nu)^\sigma\\
+&=
+g_{\rho\sigma}
+{\delta^\rho}_\mu
+{\delta^\sigma}_\nu\\
+&=
+g_{\mu\nu}
+\end{aligned}
+$$
+
+となる。つまり、計量成分は、その座標基底どうしの内積として、
 
 $$
 \boxed{
@@ -69,19 +231,7 @@ $$
 
 と読める。
 
-例えば、平面の極座標では、
-
-$$
-\boldsymbol{e}_r=
-\begin{pmatrix}\cos\theta\\\sin\theta\end{pmatrix},
-\qquad
-\boldsymbol{e}_\theta=
-\begin{pmatrix}-r\sin\theta\\r\cos\theta\end{pmatrix}
-$$
-
-だった。
-
-したがって、
+上で直交座標基底を使って表した極座標基底の内積を計算すると、
 
 $$
 g_{rr}=\boldsymbol{e}_r\cdot\boldsymbol{e}_r=1
