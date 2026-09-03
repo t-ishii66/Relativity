@@ -191,6 +191,28 @@ $$
 
 である。
 
+> **Tips：なぜ $(\boldsymbol{e}_r)^x=\partial x/\partial r$ なのか**
+>
+> 位置ベクトルを
+> $\boldsymbol{R}(r,\theta)=x(r,\theta)\boldsymbol{e}_x+y(r,\theta)\boldsymbol{e}_y$
+> と書く。$\theta$ を固定して $r$ だけを変化させると、$\boldsymbol{R}(r,\theta)$ の先端は $r$ 座標線に沿って動く。その接ベクトルが座標基底 $\boldsymbol{e}_r$ なので、
+>
+> $$
+> \boldsymbol{e}_r
+> =
+> \frac{\partial\boldsymbol{R}}{\partial r}
+> =
+> \frac{\partial x}{\partial r}\boldsymbol{e}_x
+> +
+> \frac{\partial y}{\partial r}\boldsymbol{e}_y
+> $$
+>
+> 一方、$\boldsymbol{e}_r$ を直交座標基底で成分表示すれば、
+> $\boldsymbol{e}_r=(\boldsymbol{e}_r)^x\boldsymbol{e}_x+(\boldsymbol{e}_r)^y\boldsymbol{e}_y$
+> である。両者の係数を比べると、
+> $(\boldsymbol{e}_r)^x=\partial x/\partial r$、
+> $(\boldsymbol{e}_r)^y=\partial y/\partial r$ が得られる。つまり、$r$ 座標線に沿って進んだときの $x$ と $y$ の変化率が、接ベクトル $\boldsymbol{e}_r$ の直交座標成分になる。
+
 つまり、
 
 $$
