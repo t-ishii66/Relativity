@@ -95,6 +95,8 @@ $$
 
 これは第1章で見た、「座標軸を変えると同じ矢印の成分が変わる」という話を、基底という言葉を使って書き直したものである。
 
+![山道の異なる地点で、同じ成分から異なる向きの矢印が組み立てられることを確かめるAliceとBob](../../../images/general-relativity/04/local-basis-on-mountain-trail.webp)
+
 ## 座標ごとに基底を作る
 
 一般の座標を $x^\mu$ と書く。
@@ -218,6 +220,8 @@ Bob「うん。どの方向の矢印を何倍するのか、その方向を与�
 Alice「しかも極座標では、その基底の向きや長さが場所によって変わるんだね。」
 
 ---
+
+![海辺の灯台を中心に、場所によって向きと長さが変わる極座標の基底を観察するAliceとBob](../../../images/general-relativity/04/polar-basis-by-the-sea.webp)
 
 ## 同じ成分でも同じ向きとは限らない
 
@@ -938,6 +942,8 @@ Bob「そう。普通の微分に現れる余分な変化を、クリストッ�
 
 このベクトルはどこでも同じ向きを向いており、平面上で変化していない。
 
+![グラウンド上で一定方向を向くベクトルを、場所ごとに異なる極座標基底へ分解するAliceとBob](../../../images/general-relativity/04/fixed-vector-changing-components.webp)
+
 直交座標の成分で書けば、
 
 $$
@@ -1407,32 +1413,144 @@ $$
 
 となる。
 
-実際、第2項
+実際に、三つの共変微分の式を、先ほどの積の微分法則に代入してみよう。
 
 $$
-+
-\Gamma^\rho_{\mu\sigma}T^\sigma{}_\nu
-$$
-
-は $A_\rho$ の共変微分から生じるマイナスの接続項を打ち消す。
-また第3項
-
-$$
--
-\Gamma^\sigma_{\mu\nu}T^\rho{}_\sigma
-$$
-
-は $V^\nu$ の共変微分から生じるプラスの接続項を打ち消す。
-ダミー添字の名前を付け替えれば、それぞれの項が正負ちょうど反対になっていることを確認できる。
-したがって接続項はすべて相殺され、
-
-$$
+\begin{aligned}
 \nabla_\mu S
-=
-\partial_\mu\left(A_\rho T^\rho{}_\nu V^\nu\right)
+={}&
+\left(\partial_\mu A_\rho
+-\Gamma^\sigma_{\mu\rho}A_\sigma\right)
+T^\rho{}_\nu V^\nu\\
+&+A_\rho\left(
+\partial_\mu T^\rho{}_\nu
++\Gamma^\rho_{\mu\sigma}T^\sigma{}_\nu
+-\Gamma^\sigma_{\mu\nu}T^\rho{}_\sigma
+\right)V^\nu\\
+&+A_\rho T^\rho{}_\nu
+\left(\partial_\mu V^\nu
++\Gamma^\nu_{\mu\sigma}V^\sigma\right).
+\end{aligned}
 $$
 
-が成り立つ。
+偏微分を含む項が三つ、クリストッフェル記号を含む接続項が四つある。
+接続項が二つずつ打ち消し合うことを確認しよう。
+
+まず、$A_\rho$ の共変微分から生じた項は、
+
+$$
+-\Gamma^\sigma_{\mu\rho}A_\sigma T^\rho{}_\nu V^\nu
+=-A_\rho\Gamma^\rho_{\mu\sigma}T^\sigma{}_\nu V^\nu
+$$
+
+と書き直せる。ここでは、和を取る添字 $\rho$ と $\sigma$ の名前を同時に交換した。
+これは、$T^\rho{}_\nu$ の共変微分から生じた項
+
+$$
++A_\rho\Gamma^\rho_{\mu\sigma}T^\sigma{}_\nu V^\nu
+$$
+
+と打ち消し合う。
+
+次に、$V^\nu$ の共変微分から生じた項は、
+
+$$
++A_\rho T^\rho{}_\nu\Gamma^\nu_{\mu\sigma}V^\sigma
+=+A_\rho T^\rho{}_\sigma\Gamma^\sigma_{\mu\nu}V^\nu
+$$
+
+と書き直せる。今度は、和を取る添字 $\nu$ と $\sigma$ の名前を同時に交換した。
+これは、$T^\rho{}_\nu$ の共変微分から生じた項
+
+$$
+-A_\rho\Gamma^\sigma_{\mu\nu}T^\rho{}_\sigma V^\nu
+$$
+
+と打ち消し合う。どちらの付け替えでも、微分の方向を表す自由添字 $\mu$ は変えていない。
+
+したがって、残るのは通常の偏微分を含む三つの項だけである。
+
+$$
+\begin{aligned}
+\nabla_\mu S
+={}&(\partial_\mu A_\rho)T^\rho{}_\nu V^\nu\\
+&+A_\rho(\partial_\mu T^\rho{}_\nu)V^\nu\\
+&+A_\rho T^\rho{}_\nu(\partial_\mu V^\nu)\\
+={}&\partial_\mu\left(A_\rho T^\rho{}_\nu V^\nu\right)
+=\partial_\mu S.
+\end{aligned}
+$$
+
+これで、縮約して作ったスカラーの共変微分が、通常の偏微分と一致することを確認できた。
+
+続いて、下付き添字を二つ持つテンソル $T_{\mu\nu}$ を考えよう。
+任意の二つのベクトル $V^\mu,W^\nu$ と縮約すると、
+
+$$
+F=T_{\mu\nu}V^\mu W^\nu
+$$
+
+はスカラーになる。したがって、$\nabla_\lambda F=\partial_\lambda F$ である。
+左辺に共変微分の積の微分法則を使うと、
+
+$$
+\begin{aligned}
+\nabla_\lambda F
+={}&(\nabla_\lambda T_{\mu\nu})V^\mu W^\nu\\
+&+T_{\mu\nu}(\nabla_\lambda V^\mu)W^\nu\\
+&+T_{\mu\nu}V^\mu(\nabla_\lambda W^\nu)
+\end{aligned}
+$$
+
+となる。ここに、ベクトルの共変微分
+
+$$
+\nabla_\lambda V^\mu
+=\partial_\lambda V^\mu+\Gamma^\mu_{\lambda\rho}V^\rho,
+\qquad
+\nabla_\lambda W^\nu
+=\partial_\lambda W^\nu+\Gamma^\nu_{\lambda\rho}W^\rho
+$$
+
+を代入する。一方、右辺の通常の偏微分は、
+
+$$
+\begin{aligned}
+\partial_\lambda F
+={}&(\partial_\lambda T_{\mu\nu})V^\mu W^\nu\\
+&+T_{\mu\nu}(\partial_\lambda V^\mu)W^\nu\\
+&+T_{\mu\nu}V^\mu(\partial_\lambda W^\nu)
+\end{aligned}
+$$
+
+である。両者を等しいと置き、ベクトルの偏微分を含む共通項を消す。
+残った接続項のダミー添字を付け替え、$V^\mu W^\nu$ でまとめると、
+
+$$
+\left(
+\nabla_\lambda T_{\mu\nu}
++\Gamma^\rho_{\lambda\mu}T_{\rho\nu}
++\Gamma^\rho_{\lambda\nu}T_{\mu\rho}
+\right)V^\mu W^\nu
+=
+(\partial_\lambda T_{\mu\nu})V^\mu W^\nu
+$$
+
+となる。これは任意の $V^\mu,W^\nu$ に対して成り立つので、
+
+$$
+\boxed{
+\nabla_\lambda T_{\mu\nu}
+=\partial_\lambda T_{\mu\nu}
+-\Gamma^\rho_{\lambda\mu}T_{\rho\nu}
+-\Gamma^\rho_{\lambda\nu}T_{\mu\rho}
+}
+$$
+
+を得る。下付き添字 $\mu,\nu$ のそれぞれに対して、マイナスの接続項が一つずつ現れる。
+これらは、縮約に使った二つのベクトルから生じるプラスの接続項を打ち消す。
+
+次章では、この式を計量 $g_{\mu\nu}$ に適用する。
 
 スカラー $f$ には補うべき添字がないため、
 
@@ -1492,7 +1610,7 @@ $$
 
   である。
 - 共変微分は、ベクトル全体の変化をその場所の基底で表した成分である。
-- 固定されたベクトルの共変微分がゼロになるのは、成分変化と基底変化が偶然打ち消し合うからではない。
+- 平面上で固定されたベクトルでは、ベクトル全体が変化しないため、成分の変化と基底の変化が必ず打ち消し合い、共変微分はゼロになる。
 - クリストッフェル記号そのものはテンソルではない。
 - 上付き添字には接続の項を足し、下付き添字には接続の項を引く。
 
