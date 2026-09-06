@@ -112,6 +112,7 @@ V^\sigma
 {\partial x^\alpha\partial x^\sigma}
 V^\sigma
 \end{aligned}
+\tag{1}
 $$
 
 となる。
@@ -198,7 +199,7 @@ $$
 
 と書き換えられる。
 
-したがって、ベクトルの偏微分の変換は、
+この書き換えを式 (1) の第二項に代入すると、式 (1) は、
 
 $$
 \begin{aligned}
@@ -213,6 +214,7 @@ $$
 {\partial x'^\mu\partial x'^\nu}
 V'^\nu
 \end{aligned}
+\tag{2}
 $$
 
 となる。最後の項が、テンソルの変換を妨げている項である。
@@ -373,7 +375,7 @@ $$
 
 となる。
 
-最後の項は、先ほど $\partial'_\mu V'^\rho$ に現れた余分な項と同じ形で、符号だけが反対になっている。
+最後の項は、式 (2) の第二項と同じ形で、符号だけが反対になっている。
 
 ### 二つの余分な項が打ち消し合う
 
@@ -480,7 +482,7 @@ $$
 
 と定義する。$D/D\lambda$ は、経路に沿う共変微分を表す。
 
-これは、各座標方向への共変微分 $\nabla_\mu$ に、その方向への経路の進み方 $dx^\mu/d\lambda$ を重みとして掛け、足し合わせたものである。足し合わせる添字は座標方向を表す $\mu$ であり、微分されるベクトルの成分を足し合わせているわけではない。
+これは、各座標方向への共変微分 $\nabla_\mu$ に、その方向への経路の進み方 $dx^\mu/d\lambda$ を重みとして掛け、足し合わせたものである。足し合わせる添字は座標方向を表す $\mu$ であり、微分されるベクトルの成分を指定する添字 $\rho$ について、足し合わせているわけではない。
 
 $dx^\mu/d\lambda$ は上付き添字を持つベクトルであり、$\nabla_\mu V^\rho$ はテンソルだった。下付き添字 $\mu$ と上付き添字 $\mu$ を縮約した $DV^\rho/D\lambda$ は、上付き添字 $\rho$ を一つ持つベクトルとして変換する。
 
@@ -504,7 +506,123 @@ $$
 
 ## 平行移動
 
-経路に沿ってベクトル全体を変化させずに運ぶことを、平行移動と呼ぶ。その条件は、
+まず、平らな紙の上に描いた矢印を考えよう。その矢印を、回転させず、伸ばしたり縮めたりもせず、別の場所へ滑らせる。これが、平面でいう平行移動である。
+
+このとき、矢印の置かれた場所は変わる。しかし、矢印そのものの向きと長さは変わらない。「移動すること」と「矢印そのものが変化すること」は別なのである。
+
+では、「矢印そのものが変化していない」を、成分を使ってどう表せばよいだろうか。
+
+直交座標のように基底がどこでも同じなら、各成分を一定にすればよい。しかし、極座標では、移動先で基底の向きや長さが変わる。同じ矢印を表し続けるためには、基底の変化に合わせて成分の数字を変えなければならない。
+
+第4章「[場所の違うベクトルをどう比べるか](./04-CovariantDerivative.md#基底の変化を成分で表す)」では、成分の変化と基底の変化を合わせると、ベクトル全体の変化になることを確かめた。つまり、平面上で、
+
+$$
+\partial_\mu\boldsymbol V
+=
+(\nabla_\mu V^\rho)\boldsymbol e_\rho
+$$
+
+という式を導いた。この式から、経路に沿う微分の式を順に導こう。
+
+まず、両辺に $dx^\mu/d\lambda$ を掛け、座標方向を表す $\mu$ について和を取る。
+
+$$
+\frac{dx^\mu}{d\lambda}\partial_\mu\boldsymbol V
+=
+\frac{dx^\mu}{d\lambda}
+(\nabla_\mu V^\rho)\boldsymbol e_\rho
+$$
+
+左辺では、経路上のベクトルを $\boldsymbol V(x(\lambda))$ と見て、通常の微分の連鎖律を使う。
+
+$$
+\frac{d\boldsymbol V}{d\lambda}
+=
+\frac{dx^\mu}{d\lambda}\partial_\mu\boldsymbol V
+$$
+
+したがって、
+
+$$
+\frac{d\boldsymbol V}{d\lambda}
+=
+\frac{dx^\mu}{d\lambda}
+(\nabla_\mu V^\rho)\boldsymbol e_\rho
+$$
+
+となる。次に、右辺の共変微分を、
+
+$$
+\nabla_\mu V^\rho
+=\partial_\mu V^\rho+\Gamma^\rho_{\mu\nu}V^\nu
+$$
+
+と展開して代入する。
+
+$$
+\begin{aligned}
+\frac{d\boldsymbol V}{d\lambda}
+&=
+\frac{dx^\mu}{d\lambda}
+\left(
+\partial_\mu V^\rho+\Gamma^\rho_{\mu\nu}V^\nu
+\right)\boldsymbol e_\rho\\
+&=
+\left(
+\frac{dx^\mu}{d\lambda}\partial_\mu V^\rho
++\Gamma^\rho_{\mu\nu}\frac{dx^\mu}{d\lambda}V^\nu
+\right)\boldsymbol e_\rho
+\end{aligned}
+$$
+
+括弧の第一項にも、各成分 $V^\rho(x(\lambda))$ に対する連鎖律を使える。
+
+$$
+\frac{dx^\mu}{d\lambda}\partial_\mu V^\rho
+=\frac{dV^\rho}{d\lambda}
+$$
+
+ここで和を取るのは $\mu$ であり、この式は各成分 $\rho$ ごとに成り立つ。これを代入すると、
+
+$$
+\frac{d\boldsymbol V}{d\lambda}
+=
+\left(
+\frac{dV^\rho}{d\lambda}
++\Gamma^\rho_{\mu\nu}
+\frac{dx^\mu}{d\lambda}V^\nu
+\right)\boldsymbol e_\rho
+$$
+
+を得る。
+
+一方、経路に沿う共変微分の定義を展開すると、
+
+$$
+\begin{aligned}
+\frac{DV^\rho}{D\lambda}
+&=\frac{dx^\mu}{d\lambda}\nabla_\mu V^\rho\\
+&=\frac{dx^\mu}{d\lambda}
+\left(\partial_\mu V^\rho+\Gamma^\rho_{\mu\nu}V^\nu\right)\\
+&=\frac{dV^\rho}{d\lambda}
++\Gamma^\rho_{\mu\nu}\frac{dx^\mu}{d\lambda}V^\nu
+\end{aligned}
+$$
+
+となり、先ほどの括弧の中と一致する。したがって、
+
+$$
+\boxed{
+\frac{d\boldsymbol V}{d\lambda}
+=\frac{DV^\rho}{D\lambda}\boldsymbol e_\rho
+}
+$$
+
+と書ける。右辺では、各成分 $\rho$ の共変微分に基底 $\boldsymbol e_\rho$ を掛け、$\rho$ について和を取って、ベクトル全体の変化を組み立てている。
+
+つまり、経路に沿う共変微分は、成分の数字だけでなく、基底の変化も含めて測った変化を表している。
+
+矢印を回転させず、伸び縮みさせずに運ぶなら、左辺はゼロになる。基底は互いに独立なので、それぞれの基底に掛かる係数もゼロでなければならない。したがって、平面での平行移動は、
 
 $$
 \boxed{
@@ -512,7 +630,13 @@ $$
 }
 $$
 
-である。成分で書けば、
+という条件で表せる。
+
+曲がった空間では、離れた場所の矢印を紙の上のように直接重ねて比べることはできない。そこで、接続が定める比較の規則を使い、この条件を平行移動の定義として採用する。
+
+つまり、経路を少しずつ進みながら、その規則で測ったベクトルの変化が毎回ゼロになるように運ぶのである。出発点で矢印を一つ決めれば、この条件に従って、その先の矢印を順に決めていける。
+
+この条件を成分で書けば、
 
 $$
 \boxed{
@@ -574,7 +698,53 @@ $$
 I=g_{\mu\nu}A^\mu B^\nu=A_\nu B^\nu
 $$
 
-である。$I$ はスカラーなので、その共変微分は通常の微分と同じになる。積の微分法則を使うと、
+である。この内積が経路に沿ってどう変わるかを、順に計算しよう。
+
+まず、通常の微分の連鎖律を使う。さらに、$I$ はスカラーなので、$\partial_\alpha I=\nabla_\alpha I$ と書ける。したがって、
+
+$$
+\frac{dI}{d\lambda}
+=\frac{dx^\alpha}{d\lambda}\partial_\alpha I
+=\frac{dx^\alpha}{d\lambda}\nabla_\alpha I
+$$
+
+となる。次に、$I=g_{\mu\nu}A^\mu B^\nu$ を代入し、三つの因子に共変微分の積の微分法則を使う。
+
+$$
+\begin{aligned}
+\nabla_\alpha I
+&=\nabla_\alpha(g_{\mu\nu}A^\mu B^\nu)\\
+&=(\nabla_\alpha g_{\mu\nu})A^\mu B^\nu\\
+&\quad+g_{\mu\nu}(\nabla_\alpha A^\mu)B^\nu\\
+&\quad+g_{\mu\nu}A^\mu(\nabla_\alpha B^\nu).
+\end{aligned}
+$$
+
+計量を微分する項、$A^\mu$ を微分する項、$B^\nu$ を微分する項の三つに分かれた。この式に $dx^\alpha/d\lambda$ を掛けると、
+
+$$
+\begin{aligned}
+\frac{dI}{d\lambda}
+={}&\frac{dx^\alpha}{d\lambda}
+(\nabla_\alpha g_{\mu\nu})A^\mu B^\nu\\
+&+g_{\mu\nu}
+\left(\frac{dx^\alpha}{d\lambda}\nabla_\alpha A^\mu\right)B^\nu\\
+&+g_{\mu\nu}A^\mu
+\left(\frac{dx^\alpha}{d\lambda}\nabla_\alpha B^\nu\right)
+\end{aligned}
+$$
+
+となる。第二項と第三項の括弧の中は、経路に沿う共変微分の定義そのものである。
+
+$$
+\frac{dx^\alpha}{d\lambda}\nabla_\alpha A^\mu
+=\frac{DA^\mu}{D\lambda},
+\qquad
+\frac{dx^\alpha}{d\lambda}\nabla_\alpha B^\nu
+=\frac{DB^\nu}{D\lambda}
+$$
+
+これらを書き換えると、
 
 $$
 \begin{aligned}

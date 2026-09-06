@@ -81,11 +81,13 @@ $$
 1. [座標をまとめて書いてみる](./01-VectorsAndIndices.md)
 2. [座標を変えても壊れない式](./02-IntroductionToTensors.md)
 3. [計量は時空の物差し](./03-MetricAsRuler.md)
-4. 場所の違うベクトルをどう比べるか
-5. [一周すると分かる本物の曲がり](./07-CurvatureFromParallelTransport.md)
-6. 物質と曲率を結びつける
-7. 球対称な時空を予想する
-8. シュヴァルツシルト解を計算する
+4. [場所の違うベクトルをどう比べるか](./04-CovariantDerivative.md)
+5. [計量からクリストッフェル記号を導く](./05-ChristoffelFromMetric.md)
+6. [ベクトルを運び、真っ直ぐ進む](./06-ParallelTransportAndGeodesics.md)
+7. [一周すると分かる本物の曲がり](./07-CurvatureFromParallelTransport.md)
+8. 物質と曲率を結びつける
+9. 球対称な時空を予想する
+10. シュヴァルツシルト解を計算する
 
 まだ存在しない完成済みの公式へ飛びつくのではなく、一つずつ道具を作っていこう。
 
