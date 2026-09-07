@@ -236,7 +236,29 @@ $$
 
 $\nabla_\nu V^\rho$ は、上付き添字 $\rho$ と下付き添字 $\nu$ を持つテンソルである。
 
-したがって、さらに $x^\mu$ の方向へ共変微分すると、
+ここでは、右辺第二項 $\Gamma^\rho_{\nu\sigma}V^\sigma$ だけに $\nabla_\mu$ を作用させるのではなく、$\nabla_\nu V^\rho$ 全体をもう一度共変微分する。
+
+その手順を見るために、いったん、
+
+$$
+T^\rho{}_{\nu}=\nabla_\nu V^\rho
+$$
+
+と置く。上付き添字にはプラスの接続項、下付き添字にはマイナスの接続項を加える規則から、
+
+$$
+\nabla_\mu T^\rho{}_{\nu}
+=
+\partial_\mu T^\rho{}_{\nu}
++
+\Gamma^\rho_{\mu\lambda}T^\lambda{}_{\nu}
+-
+\Gamma^\lambda_{\mu\nu}T^\rho{}_{\lambda}
+$$
+
+となる。右辺第二項は $\rho$ に対する補正、第三項は $\nu$ に対する補正である。一回目の微分で増えた添字 $\nu$ も、二回目には補正の対象になる。
+
+ここに $T^\rho{}_{\nu}=\nabla_\nu V^\rho$ を戻すと、
 
 $$
 \begin{aligned}
@@ -256,7 +278,29 @@ $$
 
 となる。
 
-最後の項にマイナス符号が付くのは、$\nu$ が下付き添字だからである。
+さらに、一回目の共変微分の式を右辺の三か所に代入すると、
+
+$$
+\begin{aligned}
+\nabla_\mu\nabla_\nu V^\rho
+&=
+\partial_\mu\partial_\nu V^\rho
++(\partial_\mu\Gamma^\rho_{\nu\sigma})V^\sigma
++\Gamma^\rho_{\nu\sigma}\partial_\mu V^\sigma\\
+&\quad
++\Gamma^\rho_{\mu\lambda}
+\left(\partial_\nu V^\lambda
++\Gamma^\lambda_{\nu\sigma}V^\sigma\right)\\
+&\quad
+-\Gamma^\lambda_{\mu\nu}
+\left(\partial_\lambda V^\rho
++\Gamma^\rho_{\lambda\sigma}V^\sigma\right)
+\end{aligned}
+$$
+
+となる。一行目では、$\partial_\mu$ による積の微分を使った。二行目と三行目は、二つの添字に対する接続の補正から来ている。
+
+なお、$\partial_\nu V^\rho$ と $\Gamma^\rho_{\nu\sigma}V^\sigma$ は、それぞれ単独ではテンソルではない。そのため、各項にテンソルの共変微分の規則を別々に適用するのではなく、和を $T^\rho{}_{\nu}$ として扱ってから展開している。
 
 同様に、
 
