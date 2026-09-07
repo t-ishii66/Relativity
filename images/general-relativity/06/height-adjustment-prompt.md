@@ -1,0 +1,8 @@
+# 自由落下のイラスト：Aliceの身長調整
+
+組み込み image_gen で free-fall-in-orchard.png を編集し、同じパスに保存。第02章の tensor-same-equation-form.webp を背丈の参考に使用。
+
+## 編集プロンプト
+
+Use case: precise-object-edit. Edit IMAGE 1 (orchard free-fall illustration). IMAGE 2 (chapter 02 chalkboard illustration) is a reference ONLY for Alice's height, child proportions, and her relative stature compared with Bob. User loves image 1 but Alice became too short in the previous age adjustment. Make ONLY Alice modestly taller, approximately 10–12 percent taller from soles to crown in the existing frame, bringing crown from about y=175 to y=95 while her shoes stay on the same ground around y=940. Accomplish through naturally slightly longer child's legs and torso, not a larger head and not a teenage body. Follow reference image 2's primary-school girl proportions, slim small shoulders, round youthful cheeks and bright eyes. Preserve her existing youthful face, excited open smile, blonde hair, small side pink bow, blue-and-white dress, brown shoes, and ball-release gesture. Raised hand can shift up slightly as required to fit the taller body but must remain in frame and convincingly above the falling ball. Preserve Bob EXACTLY (same height, crouch, face, expression, clothes, stopwatch and pointing hand). Preserve the entire orchard pavilion background, lighting, colors, camera, cushion, red falling ball and two translucent earlier positions. Do not alter scientific content, do not add text or props. Same 1536x1024 landscape. The result should feel like the same picture with Alice's height corrected, not a new composition.
+
