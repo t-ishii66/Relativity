@@ -2,9 +2,9 @@
 
 ## テンソルから時空の測定まで
 
-![曲がった時空の謎を追いかけるAlice、Bob、Charlie](../../../images/general-relativity/00/general-relativity-cover.webp)
+![曲がった時空の謎を追いかけるAliceとBob](../../../images/general-relativity/00/general-relativity-cover.webp)
 
-*座標、計量、曲率――Aliceたちは、時空を記述する式の向こうに何が見えるのかを追いかける*
+*座標、計量、曲率――AliceとBobは、時空を記述する式の向こうに何が見えるのかを追いかける*
 
 ---
 
