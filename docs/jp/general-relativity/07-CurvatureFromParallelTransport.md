@@ -13,6 +13,7 @@ $$
 \frac{dx^\mu}{d\lambda}
 V^\nu
 =0
+\tag{1}
 $$
 
 と書いた。
@@ -300,7 +301,7 @@ $$
 
 となる。一行目では、$\partial_\mu$ による積の微分を使った。二行目と三行目は、二つの添字に対する接続の補正から来ている。
 
-なお、$\partial_\nu V^\rho$ と $\Gamma^\rho_{\nu\sigma}V^\sigma$ は、それぞれ単独ではテンソルではない。そのため、各項にテンソルの共変微分の規則を別々に適用するのではなく、和を $T^\rho{}_{\nu}$ として扱ってから展開している。
+ここでは、まず $\nabla_\nu V^\rho$ 全体を一つのテンソルとして共変微分し、その後で $\nabla_\nu V^\rho=\partial_\nu V^\rho+\Gamma^\rho_{\nu\sigma}V^\sigma$ を代入した。右辺の二項は、それぞれ単独ではテンソルではないためである。
 
 同様に、
 
@@ -410,36 +411,155 @@ $$
 
 ## 小さな閉曲線との関係
 
-$x^\mu$ と $x^\nu$ の方向に広がる小さな閉曲線を考える。
+共変微分の順序による違いは、ベクトルを小さな閉曲線に沿って運んだときのずれと結びついている。二つの経路を比べて確かめよう。
 
-一辺の座標幅をそれぞれ $\Delta x^\mu$、$\Delta x^\nu$ とする。
+出発点 $P$ から、$x^\mu$ 方向へ $h$、$x^\nu$ 方向へ $k$ 進んだ点を $Q$ とする。途中の点をそれぞれ $A,B$ とすれば、二つの経路は、
 
-ベクトル $V^\sigma$ をこの閉曲線に沿って平行移動すると、一周後の変化は、小さな閉曲線の極限で、
+- $P\to A\to Q$：先に $\mu$ 方向、次に $\nu$ 方向。
+- $P\to B\to Q$：先に $\nu$ 方向、次に $\mu$ 方向。
+
+となる。ここでは $\mu,\nu$ を固定し、この二つの添字については和を取らない。
+
+### 二つの経路で運んだ結果を比べる
+
+冒頭の平行移動の式(1) で、$x^\mu$ 方向だけに進み、経路のパラメータを $\lambda=x^\mu$ とすると、
 
 $$
+\frac{dV^\rho}{dx^\mu}
++\Gamma^\rho_{\mu\sigma}V^\sigma=0
+$$
+
+となる。平行移動の条件「$=0$」を使って移項すれば、
+
+$$
+\frac{dV^\rho}{dx^\mu}
+=-\Gamma^\rho_{\mu\sigma}V^\sigma
+$$
+
+を得る。微小な幅 $h$ だけ進んだ後の値を「元の値＋移動量×変化率」で一次近似すると、
+
+$$
+V_A^\rho
+=V^\rho+h\frac{dV^\rho}{dx^\mu}+O(h^2)
+=V^\rho-h\Gamma^\rho_{\mu\sigma}V^\sigma+O(h^2)
+$$
+
+となる。次の辺では、移動先 $A$ での接続とベクトルを使う。接続も、
+
+$$
+\Gamma^\rho_{\nu\sigma}(A)
+=\Gamma^\rho_{\nu\sigma}(P)
++h\,\partial_\mu\Gamma^\rho_{\nu\sigma}(P)+O(h^2)
+$$
+
+と変化する。次に、$A$ から $\nu$ 方向へ幅 $k$ だけ進むと、同じ平行移動の式から、
+
+$$
+V_{PAQ}^\rho
+=V_A^\rho-k\Gamma^\rho_{\nu\lambda}(A)V_A^\lambda+O(k^2)
+$$
+
+となる。ここに、上で求めた接続の展開と、
+
+$$
+V_A^\lambda
+=V^\lambda-h\Gamma^\lambda_{\mu\sigma}V^\sigma+O(h^2)
+$$
+
+を代入する。以下、位置を省略した係数はすべて $P$ での値とする。
+
+$$
+\begin{aligned}
+V_{PAQ}^\rho
+={}&V^\rho-h\Gamma^\rho_{\mu\sigma}V^\sigma\\
+&-k\left(
+\Gamma^\rho_{\nu\lambda}
++h\,\partial_\mu\Gamma^\rho_{\nu\lambda}
+\right)
+\left(
+V^\lambda-h\Gamma^\lambda_{\mu\sigma}V^\sigma
+\right)+\cdots
+\end{aligned}
+$$
+
+積を展開すると、$-k$ を掛けた部分から、
+
+$$
+\begin{aligned}
+&-k\Gamma^\rho_{\nu\lambda}V^\lambda\\
+&-hk(\partial_\mu\Gamma^\rho_{\nu\lambda})V^\lambda\\
+&+hk\Gamma^\rho_{\nu\lambda}\Gamma^\lambda_{\mu\sigma}V^\sigma
+\end{aligned}
+$$
+
+が現れる。最後の項がプラスなのは、外側の $-k$ とベクトルの補正の $-h$ が掛かるためである。接続とベクトルの補正どうしの積は $h^2k$ の項なので省略する。
+
+最初の二項で和を取る添字 $\lambda$ を $\sigma$ に書き換え、全体をまとめると、
+
+$$
+\begin{aligned}
+V_{PAQ}^\rho
+={}&V^\rho
+-h\Gamma^\rho_{\mu\sigma}V^\sigma
+-k\Gamma^\rho_{\nu\sigma}V^\sigma\\
+&+hk\left(
+-\partial_\mu\Gamma^\rho_{\nu\sigma}
++\Gamma^\rho_{\nu\lambda}\Gamma^\lambda_{\mu\sigma}
+\right)V^\sigma+\cdots
+\end{aligned}
+$$
+
+となる。係数はすべて $P$ での値である。$hk$ の二項は、最初の移動によって**接続が変わる効果**と、**ベクトルの成分が変わる効果**を表す。
+
+もう一方の経路では、$\mu$ と $\nu$、$h$ と $k$ を交換すればよい。二つの結果を引くと、一方向だけに由来する項は消え、
+
+$$
+\begin{aligned}
+V_{PAQ}^\rho-V_{PBQ}^\rho
+=-hk\Bigl(
+&\partial_\mu\Gamma^\rho_{\nu\sigma}
+-\partial_\nu\Gamma^\rho_{\mu\sigma}\\
+&+\Gamma^\rho_{\mu\lambda}\Gamma^\lambda_{\nu\sigma}
+-\Gamma^\rho_{\nu\lambda}\Gamma^\lambda_{\mu\sigma}
+\Bigr)V^\sigma+\cdots
+\end{aligned}
+$$
+
+が残る。括弧の中は、先ほど求めたリーマン曲率テンソルである。したがって、
+
+$$
+V_{PAQ}^\rho-V_{PBQ}^\rho
+=-hk\,{R^\rho}_{\sigma\mu\nu}V^\sigma
++O(h^2k,hk^2)
+$$
+
+となる。途中で省略した $h^2$ だけ、$k^2$ だけの項も、両経路で共通なので差には残らない。
+
+### 経路の差が、一周後のずれになる
+
+$Q$ に着いた二本を、同じ帰り道 $Q\to B\to P$ で運ぼう。一方は来た道を戻るので元のベクトルに戻り、もう一方は、
+
+$$
+P\to A\to Q\to B\to P
+$$
+
+を一周したベクトルになる。つまり、二本の差を $P$ へ運び戻したものが、一周後のずれ $\Delta V^\rho$ である。
+
+差はすでに $hk$ の大きさなので、帰り道で加わる補正は $h^2k$ や $hk^2$ 以上になる。よって、
+
+$$
+\boxed{
 \Delta V^\rho
-\ \text{は}\ 
-{R^\rho}_{\sigma\mu\nu}
-V^\sigma
-\Delta x^\mu\Delta x^\nu
-\ \text{に比例する}
+=-{R^\rho}_{\sigma\mu\nu}V^\sigma\,hk
++O(h^2k,hk^2)
+}
 $$
 
-という形になる。
+を得る。
 
-閉曲線を回る向きを逆にすると、$\mu$ と $\nu$ の順序も逆になる。そのため、
+**小さな一周で生じるずれは、二辺の積 $hk$ に比例し、その係数を曲率が決める。** $hk$ は座標上の面積であり、実際に測る面積とは限らない。回る向きを逆にすると、ずれの主要項の符号も逆になる。
 
-$$
-{R^\rho}_{\sigma\mu\nu}
-=
--{R^\rho}_{\sigma\nu\mu}
-$$
-
-である。
-
-平行移動したベクトルが一周後にどれだけ変化するかは、閉曲線の大きさだけでなく、どの向きの面を一周したかによって変わる。
-
-これが、リーマン曲率テンソルに複数の添字が必要な理由である。
+これで、共変微分の交換子と、小さな閉曲線に沿う平行移動に、同じ曲率が現れることが分かった。
 
 ## クリストッフェル記号との違い
 
