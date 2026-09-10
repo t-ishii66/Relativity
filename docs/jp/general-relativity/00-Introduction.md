@@ -85,7 +85,7 @@ $$
 5. [計量からクリストッフェル記号を導く](./05-ChristoffelFromMetric.md)
 6. [ベクトルを運び、真っ直ぐ進む](./06-ParallelTransportAndGeodesics.md)
 7. [一周すると分かる本物の曲がり](./07-CurvatureFromParallelTransport.md)
-8. 物質と曲率を結びつける
+8. [物質と曲率を結びつける](./08-EinsteinEquation.md)
 9. 球対称な時空を予想する
 10. シュヴァルツシルト解を計算する
 11. 座標というキャンバスと局所的な測定
