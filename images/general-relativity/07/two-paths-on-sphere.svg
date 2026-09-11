@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
-<title id="title">球面で同じ矢印を二つの経路に沿って運ぶ</title>
-<desc id="desc">赤道上のPから東へ90度離れたQへ、北向きの矢印を平行移動する。赤道沿いではQでも北向き。北極経由では北極で矢印を回さず、Qで東向きになる。二つの到着ベクトルの角度は90度。</desc>
+<title id="title">Transporting the same arrow along two paths on a sphere</title>
+<desc id="desc">A north-pointing arrow is parallel transported from P on the equator to Q, 90 degrees east. Along the equator, it still points north at Q. Via the North Pole, without rotating the arrow at the pole, it points east at Q. The two final vectors are 90 degrees apart.</desc>
 <defs>
 <radialGradient id="sphere" cx="35%" cy="25%" r="75%"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#e2edf0"/></radialGradient>
 
@@ -8,10 +8,10 @@
 <marker id="orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ce571d"/></marker>
 <marker id="dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#344a58"/></marker>
 </defs><rect width="1400" height="980" fill="#fbfaf6"/><g font-family="Hiragino Sans, Noto Sans CJK JP, sans-serif" fill="#263c49">
-<text x="700" y="52" font-size="34" text-anchor="middle" fill="#263c49">同じ北向きの矢印を、二つの道で運ぶ</text>
-<text x="700" y="92" font-size="22" text-anchor="middle" fill="#263c49">P と Q は赤道上。Q は P の東へ90度の地点。</text>
+<text x="700" y="52" font-size="34" text-anchor="middle" fill="#263c49">Transport the same north-pointing arrow along two paths</text>
+<text x="700" y="92" font-size="22" text-anchor="middle" fill="#263c49">P and Q lie on the equator. Q is 90° east of P.</text>
 <rect x="25" y="125" width="650" height="530" rx="22" fill="white" stroke="#dbe3e4"/>
-<text x="350" y="168" font-size="28" text-anchor="middle" fill="#1677b8">① 赤道を東へ進む</text>
+<text x="350" y="168" font-size="28" text-anchor="middle" fill="#1677b8">① East along the equator</text>
 <circle cx="350" cy="390" r="200" fill="url(#sphere)" stroke="#adc3cb" stroke-width="2"/>
 <path d="M 330.92,589.09 L 334.36,589.39 L 337.81,589.63 L 341.28,589.80 L 344.77,589.92 L 348.25,589.98 L 351.75,589.98 L 355.23,589.92 L 358.72,589.80 L 362.19,589.63 L 365.64,589.39 L 369.08,589.09" fill="none" stroke="#b8ccd3" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M 227.53,537.34 L 231.87,539.41 L 236.37,541.40 L 241.00,543.31 L 245.76,545.15 L 250.65,546.90 L 255.67,548.56 L 260.79,550.14 L 266.03,551.63 L 271.37,553.02 L 276.80,554.33 L 282.32,555.54 L 287.93,556.65 L 293.61,557.67 L 299.36,558.59 L 305.17,559.41 L 311.04,560.13 L 316.95,560.75 L 322.90,561.27 L 328.89,561.68 L 334.90,561.99 L 340.94,562.20 L 346.98,562.31 L 353.02,562.31 L 359.06,562.20 L 365.10,561.99 L 371.11,561.68 L 377.10,561.27 L 383.05,560.75 L 388.96,560.13 L 394.83,559.41 L 400.64,558.59 L 406.39,557.67 L 412.07,556.65 L 417.68,555.54 L 423.20,554.33 L 428.63,553.02 L 433.97,551.63 L 439.21,550.14 L 444.33,548.56 L 449.35,546.90 L 454.24,545.15 L 459.00,543.31 L 463.63,541.40 L 468.13,539.41 L 472.47,537.34 L 476.67,535.20 L 480.72,532.99 L 484.61,530.71 L 488.33,528.36 L 491.88,525.95 L 495.26,523.49 L 498.47,520.96 L 501.49,518.38 L 504.33,515.76 L 506.98,513.08 L 509.44,510.36 L 511.70,507.60" fill="none" stroke="#b8ccd3" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -46,10 +46,10 @@
 <circle cx="491.42" cy="459.63" r="5" fill="#344a58"/>
 <text x="511.4213562373095" y="491.63106238227914" font-size="23" text-anchor="middle" fill="#263c49">Q</text>
 <circle cx="350.00" cy="215.92" r="5" fill="#344a58"/>
-<text x="350.0" y="197.92234404430215" font-size="23" text-anchor="middle" fill="#263c49">北極</text>
-<text x="350" y="624" font-size="26" text-anchor="middle" fill="#1677b8">到着：北向き</text>
+<text x="350.0" y="197.92234404430215" font-size="23" text-anchor="middle" fill="#263c49">North Pole</text>
+<text x="350" y="624" font-size="26" text-anchor="middle" fill="#1677b8">At Q: pointing north</text>
 <rect x="725" y="125" width="650" height="530" rx="22" fill="white" stroke="#dbe3e4"/>
-<text x="1050" y="168" font-size="28" text-anchor="middle" fill="#ce571d">② 北極を経由する</text>
+<text x="1050" y="168" font-size="28" text-anchor="middle" fill="#ce571d">② Via the North Pole</text>
 <circle cx="1050" cy="390" r="200" fill="url(#sphere)" stroke="#adc3cb" stroke-width="2"/>
 <path d="M 1030.92,589.09 L 1034.36,589.39 L 1037.81,589.63 L 1041.28,589.80 L 1044.77,589.92 L 1048.25,589.98 L 1051.75,589.98 L 1055.23,589.92 L 1058.72,589.80 L 1062.19,589.63 L 1065.64,589.39 L 1069.08,589.09" fill="none" stroke="#b8ccd3" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M 927.53,537.34 L 931.87,539.41 L 936.37,541.40 L 941.00,543.31 L 945.76,545.15 L 950.65,546.90 L 955.67,548.56 L 960.79,550.14 L 966.03,551.63 L 971.37,553.02 L 976.80,554.33 L 982.32,555.54 L 987.93,556.65 L 993.61,557.67 L 999.36,558.59 L 1005.17,559.41 L 1011.04,560.13 L 1016.95,560.75 L 1022.90,561.27 L 1028.89,561.68 L 1034.90,561.99 L 1040.94,562.20 L 1046.98,562.31 L 1053.02,562.31 L 1059.06,562.20 L 1065.10,561.99 L 1071.11,561.68 L 1077.10,561.27 L 1083.05,560.75 L 1088.96,560.13 L 1094.83,559.41 L 1100.64,558.59 L 1106.39,557.67 L 1112.07,556.65 L 1117.68,555.54 L 1123.20,554.33 L 1128.63,553.02 L 1133.97,551.63 L 1139.21,550.14 L 1144.33,548.56 L 1149.35,546.90 L 1154.24,545.15 L 1159.00,543.31 L 1163.63,541.40 L 1168.13,539.41 L 1172.47,537.34 L 1176.67,535.20 L 1180.72,532.99 L 1184.61,530.71 L 1188.33,528.36 L 1191.88,525.95 L 1195.26,523.49 L 1198.47,520.96 L 1201.49,518.38 L 1204.33,515.76 L 1206.98,513.08 L 1209.44,510.36 L 1211.70,507.60" fill="none" stroke="#b8ccd3" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -91,18 +91,18 @@
 <circle cx="1191.42" cy="459.63" r="5" fill="#344a58"/>
 <text x="1211.4213562373095" y="491.63106238227914" font-size="23" text-anchor="middle" fill="#263c49">Q</text>
 <circle cx="1050.00" cy="215.92" r="5" fill="#344a58"/>
-<text x="1050.0" y="197.92234404430215" font-size="23" text-anchor="middle" fill="#263c49">北極</text>
-<text x="1050" y="624" font-size="26" text-anchor="middle" fill="#ce571d">到着：東向き</text>
+<text x="1050.0" y="197.92234404430215" font-size="23" text-anchor="middle" fill="#263c49">North Pole</text>
+<text x="1050" y="624" font-size="26" text-anchor="middle" fill="#ce571d">At Q: pointing east</text>
 <rect x="25" y="680" width="1350" height="275" rx="22" fill="#f0f5f5"/>
-<text x="75" y="730" font-size="26" text-anchor="start" fill="#263c49">Q の地表を正面から見て比べる</text>
+<text x="75" y="730" font-size="26" text-anchor="start" fill="#263c49">Compare arrows in the tangent plane at Q</text>
 <path d="M 295.00,895.00 L 295.00,770.00" fill="none" stroke="#1677b8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#blue)"/>
 <path d="M 295.00,895.00 L 455.00,895.00" fill="none" stroke="#ce571d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#orange)"/>
 <path d="M 295.00,865.00 L 325.00,865.00 L 325.00,895.00" fill="none" stroke="#71848c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="310" y="758" font-size="22" text-anchor="middle" fill="#263c49">北</text>
-<text x="480" y="903" font-size="22" text-anchor="middle" fill="#263c49">東</text>
+<text x="310" y="758" font-size="22" text-anchor="middle" fill="#263c49">North</text>
+<text x="480" y="903" font-size="22" text-anchor="middle" fill="#263c49">East</text>
 <text x="343" y="851" font-size="24" text-anchor="middle" fill="#263c49">90°</text>
 <text x="274" y="923" font-size="24" text-anchor="middle" fill="#263c49">Q</text>
-<text x="665" y="787" font-size="24" text-anchor="start" fill="#1677b8">青い矢印：赤道沿いなら、北向きのまま。</text>
-<text x="665" y="837" font-size="24" text-anchor="start" fill="#ce571d">橙の矢印：北極経由なら、東向きになる。</text>
-<text x="665" y="900" font-size="23" text-anchor="start" fill="#263c49">道を曲がるときも、矢印は一緒に回さない。</text>
+<text x="665" y="787" font-size="24" text-anchor="start" fill="#1677b8">Blue: along the equator, still pointing north.</text>
+<text x="665" y="837" font-size="24" text-anchor="start" fill="#ce571d">Orange: via the North Pole, pointing east.</text>
+<text x="665" y="900" font-size="23" text-anchor="start" fill="#263c49">Do not rotate the arrow when the path turns.</text>
 </g></svg>

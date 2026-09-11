@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+<title id="title">Momentum flux Pi21: y-momentum crossing a surface in the x direction</title>
+<desc id="desc">View along the z axis. Positive y points up and positive x points right. A vertical line represents a surface perpendicular to x, viewed edge-on. A particle moves diagonally up and right across the surface. Its upward momentum component p2 is carried across the surface in the positive x direction.</desc>
+<defs>
+  <marker id="motion" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M 0 0 L 10 5 L 0 10 Z" fill="#1677b8"/>
+  </marker>
+  <marker id="momentum" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+    <path d="M 0 0 L 10 5 L 0 10 Z" fill="#ce571d"/>
+  </marker>
+  <marker id="axis" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M 0 0 L 10 5 L 0 10 Z" fill="#526572"/>
+  </marker>
+</defs>
+<rect width="1000" height="620" rx="18" fill="#fbfaf6"/>
+<g font-family="Arial, sans-serif" fill="#263c49">
+  <text x="500" y="48" font-size="28" text-anchor="middle">Π²¹: y-momentum flowing in the x direction</text>
+  <text x="500" y="82" font-size="18" text-anchor="middle">View along z — the surface is seen edge-on</text>
+  <rect x="70" y="108" width="860" height="370" rx="16" fill="white" stroke="#dbe3e4"/>
+  <path d="M 145 420 L 145 330 M 145 420 L 235 420" fill="none" stroke="#526572" stroke-width="2.5" marker-end="url(#axis)"/>
+  <path d="M 145 420 L 145 330" fill="none" stroke="#526572" stroke-width="2.5" marker-end="url(#axis)"/>
+  <text x="130" y="315" font-size="20">+y</text>
+  <text x="247" y="427" font-size="20">+x</text>
+  <path d="M 480 160 L 480 435" stroke="#7c9da7" stroke-width="8"/>
+  <text x="500" y="137" font-size="18">Surface perpendicular to x</text>
+  <path d="M 480 401 L 630 401" fill="none" stroke="#526572" stroke-width="2.5" marker-end="url(#axis)"/>
+  <text x="648" y="407" font-size="18">Normal: +x</text>
+  <path d="M 290 390 L 705 182" fill="none" stroke="#1677b8" stroke-width="2" stroke-dasharray="7 6"/>
+  <path d="M 390 340 L 630 220" fill="none" stroke="#1677b8" stroke-width="4" marker-end="url(#motion)"/>
+  <text x="651" y="220" font-size="20" fill="#1677b8">Velocity v</text>
+  <path d="M 390 340 L 390 210" fill="none" stroke="#ce571d" stroke-width="4" marker-end="url(#momentum)"/>
+  <text x="365" y="185" font-size="20" text-anchor="end" fill="#ce571d">p²: y-momentum</text>
+  <circle cx="390" cy="340" r="8" fill="#263c49"/>
+  <text x="366" y="365" font-size="18" text-anchor="end">Particle</text>
+  <rect x="70" y="496" width="860" height="100" rx="16" fill="#f0f5f5"/>
+  <text x="95" y="527" font-size="20">Π²¹ = y-momentum crossing per unit area per unit time</text>
+  <text x="95" y="558" font-size="18" fill="#ce571d">First index 2: which momentum component? y</text>
+  <text x="95" y="584" font-size="18" fill="#1677b8">Second index 1: across the surface in which direction? x</text>
+</g>
+</svg>

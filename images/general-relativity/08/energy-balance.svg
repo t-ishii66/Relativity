@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc">
+<title id="title">Energy balance across two faces of a small box</title>
+<desc id="desc">A box extends from x to x plus delta x. Energy enters through the left face and leaves through the right face. Both faces have area delta y times delta z. Both flux arrows point in the positive x direction. The energy inside increases by inflow minus outflow.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M 0 0 L 10 5 L 0 10 Z" fill="#1677b8"/>
+  </marker>
+</defs>
+<rect width="1000" height="420" rx="18" fill="#fbfaf6"/>
+<g font-family="Arial, sans-serif" fill="#263c49">
+  <text x="500" y="42" font-size="27" text-anchor="middle">Energy balance: the two x-faces</text>
+  <rect x="350" y="120" width="300" height="150" fill="#edf4f5" stroke="#9ab3bd" stroke-width="2"/>
+  <path d="M 350 120 L 350 270 M 650 120 L 650 270" stroke="#526572" stroke-width="5"/>
+  <path d="M 100 195 L 390 195" stroke="#1677b8" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M 610 195 L 900 195" stroke="#1677b8" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="210" y="150" font-size="22" text-anchor="middle">F¹(x)</text>
+  <text x="790" y="150" font-size="22" text-anchor="middle">F¹(x + Δx)</text>
+  <text x="210" y="230" font-size="18" text-anchor="middle">Inflow</text>
+  <text x="790" y="230" font-size="18" text-anchor="middle">Outflow</text>
+  <text x="500" y="168" font-size="20" text-anchor="middle">Energy density ε</text>
+  <text x="500" y="242" font-size="18" text-anchor="middle">Volume ΔV = Δx Δy Δz</text>
+  <text x="350" y="300" font-size="20" text-anchor="middle">x</text>
+  <text x="650" y="300" font-size="20" text-anchor="middle">x + Δx</text>
+  <text x="500" y="90" font-size="18" text-anchor="middle">Each face has area ΔA = Δy Δz</text>
+  <path d="M 780 285 L 900 285" stroke="#1677b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="920" y="292" font-size="20">+x</text>
+  <text x="500" y="370" font-size="23" text-anchor="middle">Energy increase = energy in − energy out</text>
+</g>
+</svg>

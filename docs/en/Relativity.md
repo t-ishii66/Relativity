@@ -551,6 +551,18 @@ $$
 
 Coordinates from a solution are a computational canvas, not automatically “the directly experienced time and distance.”
 
+Coordinate time and spatial coordinates provide shared scales for placing events on this canvas. Coordinate differences do not necessarily equal the time measured by a physical clock or the distance measured with a ruler.
+
+To make this distinction concrete, imagine placing a “coordinate clock” at every location, all displaying the same coordinate time $w$. These are imaginary clocks that display the coordinate time assigned to events at their locations. On a surface of constant $w$, every coordinate clock shows the same value. When $w$ increases by a given amount, every display increases by that same amount. In this sense, coordinate clocks advance in the same way everywhere.
+
+This book uses $w=ct$, so a display in seconds would read $w/c$. When coordinate time advances by one second—that is, when $w$ increases by $c\times1\,\mathrm{s}$—every coordinate clock’s display in seconds advances by one second. This is how we define the shared scale, rather than a physical law about real clocks.
+
+If we instead place physical clocks at different locations, each records its own proper time. How many seconds a physical clock records while a coordinate clock advances by one second depends on the clock’s motion and the spacetime metric. Clocks at different locations or with different motions can therefore advance differently. In general, physical clocks do not keep pace with coordinate clocks.
+
+In the special relativity chapter, we synchronized physical clocks at rest in an inertial frame and used them as coordinate clocks. In that case, we could match the shared coordinate-time scale to the proper time recorded by those clocks. With general coordinates, we cannot assume this same correspondence for clocks at every location.
+
+The same distinction applies to space. Intervals of equal coordinate length need not have equal lengths when measured with physical rulers. The metric connects coordinate differences on the canvas to measurements made with physical clocks and rulers.
+
 For example, even in flat space, suppose we describe space by a flat coordinate $r$ and then apply an arbitrary reparameterization
 
 $$
@@ -591,8 +603,7 @@ $$
 ds^{2}=-d\tau_C^{2}=-dw^{2}\Rightarrow d\tau_C=dw.
 $$
 
-So, at Charlie’s location, the coordinate-time increment $dw$ equals Charlie’s proper-time increment $d\tau_C$.
-But this statement is local: it is true for $dw$ at Charlie’s position. A $dw$ somewhere else may represent something different.
+Thus, the shared coordinate-time increment $dw$ equals the proper-time increment $d\tau_C$ of Charlie, who is at rest at infinity. However, a clock elsewhere need not record the same proper-time increment during that same $dw$. What can differ is not the shared coordinate-time scale, but the proper time each clock records over the corresponding interval. Let us examine this.
 
 Now write the line element at Alice’s radius $r_A$:
 
