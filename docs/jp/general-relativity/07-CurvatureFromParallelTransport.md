@@ -13,7 +13,7 @@ $$
 \frac{dx^\mu}{d\lambda}
 V^\nu
 =0
-\tag{1}
+\tag{7.1}
 $$
 
 と書いた。
@@ -376,6 +376,8 @@ $$
 
 そこで、
 
+<a id="eq-riemann-curvature"></a>
+
 $$
 \boxed{
 \begin{aligned}
@@ -393,6 +395,7 @@ $$
 \Gamma^\lambda_{\mu\sigma}
 \end{aligned}
 }
+\tag{7.2}
 $$
 
 と定義する。
@@ -436,7 +439,7 @@ $$
 
 ### 二つの経路で運んだ結果を比べる
 
-冒頭の平行移動の式(1) で、$x^\mu$ 方向だけに進み、経路のパラメータを $\lambda=x^\mu$ とすると、
+冒頭の平行移動の式 (7.1) で、$x^\mu$ 方向だけに進み、経路のパラメータを $\lambda=x^\mu$ とすると、
 
 $$
 \frac{dV^\rho}{dx^\mu}

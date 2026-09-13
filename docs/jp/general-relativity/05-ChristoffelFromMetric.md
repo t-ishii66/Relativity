@@ -463,10 +463,13 @@ $$
 
 となる。ここに、先ほど基底の内積を偏微分して得た式、
 
+<a id="eq-metric-compatibility"></a>
+
 $$
 \partial_\lambda g_{\mu\nu}
 =\Gamma^\rho_{\lambda\mu}g_{\rho\nu}
 +\Gamma^\rho_{\lambda\nu}g_{\mu\rho}
+\tag{5.1}
 $$
 
 を代入すると、右辺の項が打ち消し合い、
@@ -644,6 +647,8 @@ $$
 
 と添字を上げる。先ほどの式を代入すると、
 
+<a id="eq-christoffel-from-metric"></a>
+
 $$
 \boxed{
 \Gamma^\rho_{\mu\nu}
@@ -655,6 +660,7 @@ g^{\rho\sigma}
 -\partial_\sigma g_{\mu\nu}
 \right)
 }
+\tag{5.2}
 $$
 
 となる。これが、計量からクリストッフェル記号を求める公式である。

@@ -86,7 +86,7 @@ $$
 6. [ベクトルを運び、真っ直ぐ進む](./06-ParallelTransportAndGeodesics.md)
 7. [一周すると分かる本物の曲がり](./07-CurvatureFromParallelTransport.md)
 8. [物質と曲率を結びつける](./08-EinsteinEquation.md)
-9. 球対称な時空を予想する
+9. [球対称な時空を予想する](./09-SphericallySymmetricSpacetime.md)
 10. シュヴァルツシルト解を計算する
 11. 座標というキャンバスと局所的な測定
 12. 重力赤方偏移と光の進み方
