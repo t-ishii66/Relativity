@@ -814,8 +814,11 @@ $$
 
 時間変化を無視できる弱い重力場で、$x^0=w=ct$ とする。ニュートンの重力ポテンシャルを $\Phi$ とすると、低速の物体の測地線方程式がニュートンの運動方程式と一致するためには、
 
+<a id="eq-newtonian-time-metric"></a>
+
 $$
 g_{00}\simeq-\left(1+\frac{2\Phi}{c^2}\right)
+\tag{8.1}
 $$
 
 となる。実際、計量から接続を求める式の主要項は $\Gamma^i_{00}\simeq\partial_i\Phi/c^2$ なので、測地線方程式は $d^2x^i/dt^2\simeq-\partial_i\Phi$ になる。
