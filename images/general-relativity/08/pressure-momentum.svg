@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 310" role="img" aria-labelledby="title desc">
+  <title id="title">Opposite momenta, positive momentum flux</title>
+  <desc id="desc">Right-moving particles have positive momentum and velocity. Left-moving particles have negative momentum and velocity. Both products are positive.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#2563eb"/></marker>
+  </defs>
+  <rect width="760" height="310" rx="16" fill="#f8fafc"/>
+  <g font-family="sans-serif" fill="#0f172a" font-size="19">
+    <text x="30" y="35" font-size="22">Two equal populations moving in opposite directions</text>
+    <path d="M380 60V220" stroke="#0f766e" stroke-width="3" stroke-dasharray="6 5"/>
+    <circle cx="250" cy="100" r="9" fill="#2563eb"/>
+    <path d="M267 100H430" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="475" y="106">p¹ &gt; 0, v¹ &gt; 0</text>
+    <circle cx="440" cy="180" r="9" fill="#2563eb"/>
+    <path d="M423 180H260" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="475" y="186">p¹ &lt; 0, v¹ &lt; 0</text>
+    <text x="40" y="145">+x →</text>
+    <text x="80" y="260">Momentum density: cancels</text>
+    <text x="420" y="260" fill="#0f766e">Momentum flux: adds</text>
+    <text x="480" y="290">p¹v¹ &gt; 0 in both cases</text>
+  </g>
+</svg>

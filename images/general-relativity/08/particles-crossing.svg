@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
+  <title id="title">Counting particles that cross a surface</title>
+  <desc id="desc">Particles within a slab of thickness v-j delta-t reach the surface during delta-t. This example shows motion normal to the surface.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#2563eb"/></marker>
+  </defs>
+  <rect width="760" height="300" rx="16" fill="#f8fafc"/>
+  <g font-family="sans-serif" fill="#0f172a" font-size="18">
+    <text x="30" y="35" font-size="22">Which particles reach the surface?</text>
+    <rect x="240" y="70" width="260" height="140" fill="#dbeafe" stroke="#93c5fd" stroke-dasharray="6 5"/>
+    <path d="M500 55V225" stroke="#0f766e" stroke-width="5"/>
+    <text x="515" y="80" fill="#0f766e">Surface: ΔA</text>
+    <g fill="#2563eb">
+      <circle cx="275" cy="100" r="6"/><circle cx="345" cy="145" r="6"/><circle cx="420" cy="185" r="6"/>
+      <circle cx="440" cy="105" r="6"/><circle cx="285" cy="185" r="6"/>
+    </g>
+    <g stroke="#2563eb" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M285 100H325"/><path d="M355 145H395"/><path d="M430 185H470"/>
+      <path d="M450 105H490"/><path d="M295 185H335"/><path d="M570 160H685"/>
+    </g>
+    <text x="585" y="145">+j direction</text>
+    <path d="M240 230V245H500V230" fill="none" stroke="#475569" stroke-width="2"/>
+    <text x="325" y="270">vʲ Δt</text>
+    <text x="30" y="105">Number density</text>
+    <text x="95" y="135">n</text>
+  </g>
+</svg>

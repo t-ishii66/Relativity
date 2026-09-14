@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+  <title id="title">Electric and gravitational flux</title>
+  <desc id="desc">Cross sections of spherical surfaces. The electric field of positive charge points outward; gravity points inward. Surface area vectors point outward in both panels.</desc>
+  <defs>
+    <marker id="field" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#2563eb"/></marker>
+    <marker id="normal" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#b45309"/></marker>
+  </defs>
+  <rect width="760" height="340" rx="16" fill="#f8fafc"/>
+  <g font-family="sans-serif" fill="#0f172a" font-size="19" text-anchor="middle">
+    <text x="190" y="35" font-size="22">Positive charge</text>
+    <text x="570" y="35" font-size="22">Positive mass</text>
+    <g fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 5">
+      <circle cx="190" cy="170" r="80"/><circle cx="570" cy="170" r="80"/>
+    </g>
+    <g stroke="#2563eb" stroke-width="3" marker-end="url(#field)">
+      <path d="M225 170H300"/><path d="M155 170H80"/><path d="M190 135V60"/><path d="M190 205V280"/>
+      <path d="M680 170H605"/><path d="M460 170H535"/><path d="M570 60V135"/><path d="M570 280V205"/>
+    </g>
+    <g stroke="#b45309" stroke-width="3" marker-end="url(#normal)">
+      <path d="M247 113L285 75"/><path d="M627 113L665 75"/>
+    </g>
+    <text x="305" y="70" fill="#b45309">dS</text>
+    <text x="685" y="70" fill="#b45309">dS</text>
+    <circle cx="190" cy="170" r="22" fill="#dbeafe"/><circle cx="570" cy="170" r="22" fill="#dbeafe"/>
+    <text x="190" y="177">+Q</text><text x="570" y="177">M</text>
+    <text x="190" y="320">Outward field: positive flux</text>
+    <text x="570" y="320">Inward field: negative flux</text>
+  </g>
+</svg>
