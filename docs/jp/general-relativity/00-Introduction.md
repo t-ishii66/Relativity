@@ -98,5 +98,6 @@ $$
 
 - 企画: t-ishii66
 - 制作: GPT-5.6, GPT-6, t-ishii66
-- レビュー: t-ishii66
+- レビュー: t-ishii66, Claude Opus 5
 - 英語翻訳: GPT-6
+- イラスト: GPT-6
