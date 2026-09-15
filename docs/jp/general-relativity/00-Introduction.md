@@ -84,7 +84,7 @@ $$
 10. [シュヴァルツシルト解を計算する](./10-SchwarzschildSolution.md)
 11. [座標というキャンバスと局所的な測定](./11-CoordinatesAndLocalMeasurements.md)
 12. [重力赤方偏移と光の進み方](./12-GravitationalRedshiftAndLight.md)
-13. 自由落下と事象の地平面
+13. [自由落下と事象の地平面](./13-FreeFallAndEventHorizon.md)
 14. 計量の変化を光で測る
 
 完成済みの公式へ飛びつくのではなく、一つずつ道具を作り、得られた式を観測できる現象へつなげていこう。
