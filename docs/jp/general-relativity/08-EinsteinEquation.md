@@ -234,17 +234,17 @@ $$
 となる。また、粒子の四元速度と四元運動量は、
 
 $$
-u^\mu=\gamma(c,v^1,v^2,v^3),
+u^\mu=\frac{dx^\mu}{d\tau}=\gamma(1,v^1/c,v^2/c,v^3/c),
 \qquad
-p^\mu=mu^\mu
+p^\mu=mcu^\mu
 $$
 
-である。ここで $u^\mu$ は、箱を通って流れる粒子の四元速度である。$v^i$ は、その粒子の速度を、箱を設定した観測者が測ったものである。
+である。ここで $u^\mu$ は、箱を通って流れる粒子の四元速度であり、第6章の $U^\mu$ と同じ定義を使う。$\tau$ は距離の単位を持つので、この局所慣性座標での $u^\mu$ は無次元である。$v^i$ は、その粒子の速度を、箱を設定した観測者が測ったものである。
 
 これらを使うと、先ほどの表の全成分は、
 
 $$
-\boxed{T^{\mu\nu}=n_0m\,u^\mu u^\nu}
+\boxed{T^{\mu\nu}=n_0mc^2\,u^\mu u^\nu}
 $$
 
 と書ける。実際、$E=\gamma mc^2$、$p^i=\gamma mv^i$、$n=\gamma n_0$ を使えば、
@@ -290,7 +290,7 @@ $$
 さまざまな速度の粒子がある場合は、同じ速度を持つ集団ごとに分け、その寄与を足し合わせればよい。集団を $a$ で区別すると、
 
 $$
-T^{\mu\nu}=\sum_a n_{0,a}m_a u_a^\mu u_a^\nu
+T^{\mu\nu}=\sum_a n_{0,a}m_ac^2 u_a^\mu u_a^\nu
 $$
 
 となる。テンソルの和もテンソルであり、対称性も保たれる。この粒子による構成から、次に気体の圧力を考えよう。
@@ -1598,14 +1598,14 @@ $$
 =0
 $$
 
-である。$\alpha,\beta$ の和を、時間と空間に分けると、
+である。ここでも $\tau$ は距離の単位を持つ固有時であり、時間座標は $x^0=w$ である。$\alpha,\beta$ の和を、時間と空間に分けると、
 
 $$
 \begin{aligned}
 0={}&\frac{d^2x^i}{d\tau^2}
-+\Gamma^i_{00}\left(c\frac{dt}{d\tau}\right)^2\\
++\Gamma^i_{00}\left(\frac{dw}{d\tau}\right)^2\\
 &+2\sum_j\Gamma^i_{0j}
-c\frac{dt}{d\tau}\frac{dx^j}{d\tau}
+\frac{dw}{d\tau}\frac{dx^j}{d\tau}
 +\sum_{j,k}\Gamma^i_{jk}
 \frac{dx^j}{d\tau}\frac{dx^k}{d\tau}.
 \end{aligned}
@@ -1613,45 +1613,53 @@ $$
 
 低速では、接続を含む項のうち、空間方向の速度を含まない $\Gamma^i_{00}$ の項が主要な寄与になる。
 
-次に、固有時 $\tau$ による加速度を、座標時 $t$ による加速度へ書き換えよう。粒子の位置を $x^i(t(\tau))$ と考えると、合成関数の微分則から、
+次に、固有時 $\tau$ による加速度を、座標時 $w$ による加速度へ書き換えよう。粒子の位置を $x^i(w(\tau))$ と考えると、合成関数の微分則から、
 
 $$
 \frac{dx^i}{d\tau}
-=\frac{dx^i}{dt}\frac{dt}{d\tau}
+=\frac{dx^i}{dw}\frac{dw}{d\tau}
 $$
 
 である。これをもう一度 $\tau$ で微分する。右辺は二つの因子の積なので、
 
 $$
 \frac{d^2x^i}{d\tau^2}
-=\frac{d}{d\tau}\left(\frac{dx^i}{dt}\right)\frac{dt}{d\tau}
-+\frac{dx^i}{dt}\frac{d}{d\tau}\left(\frac{dt}{d\tau}\right)
+=\frac{d}{d\tau}\left(\frac{dx^i}{dw}\right)\frac{dw}{d\tau}
++\frac{dx^i}{dw}\frac{d}{d\tau}\left(\frac{dw}{d\tau}\right)
 $$
 
 となる。第一項には、もう一度合成関数の微分則を使って、
 
 $$
-\frac{d}{d\tau}\left(\frac{dx^i}{dt}\right)
-=\frac{d^2x^i}{dt^2}\frac{dt}{d\tau}
+\frac{d}{d\tau}\left(\frac{dx^i}{dw}\right)
+=\frac{d^2x^i}{dw^2}\frac{dw}{d\tau}
 $$
 
-を代入する。第二項の最後の因子は $d^2t/d\tau^2$ なので、
+を代入する。第二項の最後の因子は $d^2w/d\tau^2$ なので、
 
 $$
 \frac{d^2x^i}{d\tau^2}
-=\left(\frac{dt}{d\tau}\right)^2\frac{d^2x^i}{dt^2}
-+\frac{dx^i}{dt}\frac{d^2t}{d\tau^2}
+=\left(\frac{dw}{d\tau}\right)^2\frac{d^2x^i}{dw^2}
++\frac{dx^i}{dw}\frac{d^2w}{d\tau^2}
 $$
 
-を得る。ここまでは近似を使っていない。第一項は、座標時での加速度に時間の換算係数を掛けたものである。第二項は、その換算係数 $dt/d\tau$ 自体が粒子の運動に沿って変わることによる項である。
+を得る。ここまでは近似を使っていない。第一項は、座標時での加速度に時間の換算係数を掛けたものである。第二項は、その換算係数 $dw/d\tau$ 自体が粒子の運動に沿って変わることによる項である。
 
-弱い重力・低速の近似では $dt/d\tau\simeq1$ であり、第二項は、この静的な弱い場では低速の高次の補正となる。したがって、主要な項では、
+弱い重力・低速の近似では $dw/d\tau\simeq1$ であり、第二項は、この静的な弱い場では低速の高次の補正となる。したがって、主要な項では、
+
+$$
+\frac{d^2x^i}{dw^2}\simeq-\Gamma^i_{00}
+$$
+
+を得る。
+
+ニュートン力学で使う秒単位の座標時へ戻すには、$w=ct$ より $d^2x^i/dt^2=c^2d^2x^i/dw^2$ とすればよい。したがって、
 
 $$
 \frac{d^2x^i}{dt^2}\simeq-c^2\Gamma^i_{00}
 $$
 
-を得る。
+となる。
 
 ### 時間成分の計量をポテンシャルに結びつける
 

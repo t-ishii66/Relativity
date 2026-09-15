@@ -744,8 +744,8 @@ $$
 $$
 \begin{aligned}
 d\tau
-&=\sqrt{A(r)}\,dt
-=\sqrt{1-\frac{r_{\mathrm s}}r}\,dt,\\
+&=\sqrt{A(r)}\,dw
+=\sqrt{1-\frac{r_{\mathrm s}}r}\,dw,\\
 d\ell
 &=\sqrt{B(r)}\,|dr|
 =\frac{|dr|}{\sqrt{1-r_{\mathrm s}/r}}.
