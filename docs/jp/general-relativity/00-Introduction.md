@@ -83,7 +83,7 @@ $$
 9. [球対称な時空を予想する](./09-SphericallySymmetricSpacetime.md)
 10. [シュヴァルツシルト解を計算する](./10-SchwarzschildSolution.md)
 11. [座標というキャンバスと局所的な測定](./11-CoordinatesAndLocalMeasurements.md)
-12. 重力赤方偏移と光の進み方
+12. [重力赤方偏移と光の進み方](./12-GravitationalRedshiftAndLight.md)
 13. 自由落下と事象の地平面
 14. 計量の変化を光で測る
 
