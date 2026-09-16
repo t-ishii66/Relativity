@@ -47,7 +47,7 @@ _Notes Toward Understanding Relativity_
 
 Relativity often feels counterintuitive. Many readers can follow the algebra but still feel that the physical meaning does not settle in. This book is for that gap. We will use simple setups and follow concrete observations to make seemingly strange results less mysterious.
 
-The discussion is intentionally informal. We skip strict formal derivations and focus on conceptual clarity. If you want full formal development, many excellent textbooks are available. Read one, get puzzled, then come back here.
+The discussion is intentionally informal. We skip strict formal derivations and focus on conceptual clarity. Those are in the introductory volumes — [A First Introduction to the Lorentz Transformation and Spacetime Invariants](./LorentzInvariantIntroduction.md) and [A First Introduction to General Relativity](./general-relativity/00-Introduction.md) — so turn to them whenever you wonder where an equation came from. Even once you can follow the algebra, though, the feeling that it has not quite settled tends to remain; when it does, come back here.
 
 Let us begin.
 
