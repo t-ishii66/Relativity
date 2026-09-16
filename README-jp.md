@@ -11,8 +11,6 @@ lang: ja
 
 [English](README.md) ・ **日本語**
 
-オンラインで読む場合はこちら → **[Making Sense of Relativity（Web 版）](https://t-ishii66.github.io/Relativity/README-jp.html)**
-
 Last updated: 2026-09-16
 
 ---
