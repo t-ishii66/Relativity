@@ -182,8 +182,7 @@ $$
 > そこでは、位置ベクトルの全微分
 >
 > $$
-> d\boldsymbol{x}
-> =
+> d\boldsymbol{x} =
 > \frac{\partial\boldsymbol{x}}{\partial r}dr
 > +
 > \frac{\partial\boldsymbol{x}}{\partial\theta}d\theta
@@ -192,8 +191,7 @@ $$
 > と、座標基底による表示
 >
 > $$
-> d\boldsymbol{x}
-> =
+> d\boldsymbol{x} =
 > \boldsymbol e_r\,dr
 > +
 > \boldsymbol e_\theta\,d\theta
@@ -202,24 +200,21 @@ $$
 > の係数を比べて、
 >
 > $$
-> \boldsymbol e_r
-> =
+> \boldsymbol e_r =
 > \frac{\partial\boldsymbol{x}}{\partial r}
 > $$
 >
 > を得た。さらに、位置ベクトルを
 >
 > $$
-> \boldsymbol{x}
-> =
+> \boldsymbol{x} =
 > x\boldsymbol e_x+y\boldsymbol e_y
 > $$
 >
 > と書いて右辺を微分すれば、
 >
 > $$
-> \boldsymbol e_r
-> =
+> \boldsymbol e_r =
 > \frac{\partial x}{\partial r}\boldsymbol e_x
 > +
 > \frac{\partial y}{\partial r}\boldsymbol e_y
@@ -291,8 +286,7 @@ $$
 > $\boldsymbol e_\theta$ を極座標基底で成分表示すると、
 >
 > $$
-> (\boldsymbol e_\theta)^\rho
-> =
+> (\boldsymbol e_\theta)^\rho =
 > \begin{cases}
 > 0 & \rho=r\\
 > 1 & \rho=\theta
@@ -305,16 +299,14 @@ $$
 > \bigl(
 > (\boldsymbol e_\theta)^r,
 > (\boldsymbol e_\theta)^\theta
-> \bigr)
-> =
+> \bigr) =
 > (0,1)
 > $$
 >
 > である。これは、
 >
 > $$
-> \boldsymbol e_\theta
-> =
+> \boldsymbol e_\theta =
 > 0\boldsymbol e_r
 > +
 > 1\boldsymbol e_\theta
@@ -349,8 +341,7 @@ $$
 > 極座標の座標基底 $\boldsymbol e_\theta$ と、角度方向の単位ベクトルは同じではない。単位ベクトルを $\hat{\boldsymbol{e}}_\theta$ と書けば、
 >
 > $$
-> \hat{\boldsymbol{e}}_\theta
-> =
+> \hat{\boldsymbol{e}}_\theta =
 > \frac{1}{r}\boldsymbol e_\theta
 > $$
 >

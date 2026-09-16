@@ -166,8 +166,7 @@ $$
 > There, we compared the coefficients of the total differential of the position vector,
 >
 > $$
-> d\boldsymbol{x}
-> =
+> d\boldsymbol{x} =
 > \frac{\partial\boldsymbol{x}}{\partial r}dr
 > +
 > \frac{\partial\boldsymbol{x}}{\partial\theta}d\theta
@@ -176,8 +175,7 @@ $$
 > and its representation using the coordinate basis,
 >
 > $$
-> d\boldsymbol{x}
-> =
+> d\boldsymbol{x} =
 > \boldsymbol e_r\,dr
 > +
 > \boldsymbol e_\theta\,d\theta
@@ -186,24 +184,21 @@ $$
 > to obtain,
 >
 > $$
-> \boldsymbol e_r
-> =
+> \boldsymbol e_r =
 > \frac{\partial\boldsymbol{x}}{\partial r}
 > $$
 >
 > Furthermore, if we write the position vector as,
 >
 > $$
-> \boldsymbol{x}
-> =
+> \boldsymbol{x} =
 > x\boldsymbol e_x+y\boldsymbol e_y
 > $$
 >
 > and differentiate the right-hand side, we get,
 >
 > $$
-> \boldsymbol e_r
-> =
+> \boldsymbol e_r =
 > \frac{\partial x}{\partial r}\boldsymbol e_x
 > +
 > \frac{\partial y}{\partial r}\boldsymbol e_y
@@ -271,8 +266,7 @@ The metric records the lengths of the basis vectors and the angles between them.
 > When $\boldsymbol e_\theta$ is represented in components using the polar-coordinate basis,
 >
 > $$
-> (\boldsymbol e_\theta)^\rho
-> =
+> (\boldsymbol e_\theta)^\rho =
 > \begin{cases}
 > 0 & \rho=r\\
 > 1 & \rho=\theta
@@ -285,16 +279,14 @@ The metric records the lengths of the basis vectors and the angles between them.
 > \bigl(
 > (\boldsymbol e_\theta)^r,
 > (\boldsymbol e_\theta)^\theta
-> \bigr)
-> =
+> \bigr) =
 > (0,1)
 > $$
 >
 > This only represents how many times each basis vector is used,
 >
 > $$
-> \boldsymbol e_\theta
-> =
+> \boldsymbol e_\theta =
 > 0\boldsymbol e_r
 > +
 > 1\boldsymbol e_\theta
@@ -329,8 +321,7 @@ The metric records the lengths of the basis vectors and the angles between them.
 > The polar-coordinate basis vector $\boldsymbol e_\theta$ and the unit vector in the angular direction are not the same. If we write the unit vector as $\hat{\boldsymbol{e}}_\theta$,
 >
 > $$
-> \hat{\boldsymbol{e}}_\theta
-> =
+> \hat{\boldsymbol{e}}_\theta =
 > \frac{1}{r}\boldsymbol e_\theta
 > $$
 >
