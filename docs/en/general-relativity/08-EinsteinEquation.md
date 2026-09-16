@@ -53,7 +53,7 @@ In Chapter 6, we described the path of an object subject to no forces other than
 Now suppose that a freely falling observer measures matter’s energy and momentum at a particular time and place. Take the spacetime point specified by that time and place as the coordinate origin, align the time axis with the observer’s clock, and align the three spatial axes with the observer’s mutually perpendicular rulers. At that point, we can choose coordinates in which the observer is at rest and the metric and connection are
 
 $$
-g_{\mu\nu}=\eta_{\mu\nu}=\operatorname{diag}(-1,1,1,1)
+g_{\mu\nu}=\eta_{\mu\nu}=\mathrm{diag}(-1,1,1,1)
 =\begin{pmatrix}
 -1 & 0 & 0 & 0\\
 0 & 1 & 0 & 0\\
