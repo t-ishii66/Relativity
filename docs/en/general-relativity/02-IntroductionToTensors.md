@@ -1013,19 +1013,27 @@ The quantities and transformation rules that appeared in this document are as fo
 
 - Scalar $f$
 
-  $$f'=f$$
+$$
+f'=f
+$$
 
 - Contravariant vector $V^\mu$
 
-  $$V'^\mu = \frac{\partial x'^\mu}{\partial x^\nu}V^\nu$$
+$$
+V'^\mu = \frac{\partial x'^\mu}{\partial x^\nu}V^\nu
+$$
 
 - Covariant vector $A_\mu$
 
-  $$A'_\mu = \frac{\partial x^\nu}{\partial x'^\mu}A_\nu$$
+$$
+A'_\mu = \frac{\partial x^\nu}{\partial x'^\mu}A_\nu
+$$
 
 - Metric $g_{\mu\nu}$
 
-  $$g'_{\rho\sigma} = g_{\mu\nu} \frac{\partial x^\mu}{\partial x'^\rho} \frac{\partial x^\nu}{\partial x'^\sigma}$$
+$$
+g'_{\rho\sigma} = g_{\mu\nu} \frac{\partial x^\mu}{\partial x'^\rho} \frac{\partial x^\nu}{\partial x'^\sigma}
+$$
 
 More important than memorizing the forms of the transformation rules is understanding the following relationships.
 

@@ -1109,13 +1109,17 @@ Curvature is the bending of space or spacetime itself that cannot be removed by 
 - The covariant derivative along a path, $DV^\rho/D\lambda$, is a vector obtained by contracting $U^\mu$ with $\nabla_\mu V^\rho$.
 - The covariant derivative along a path is
 
-  $$\frac{D V^\rho}{D\lambda} = \frac{dx^\mu}{d\lambda}\nabla_\mu V^\rho$$
+$$
+\frac{D V^\rho}{D\lambda} = \frac{dx^\mu}{d\lambda}\nabla_\mu V^\rho
+$$
 - Carrying a vector so that its covariant derivative along a path is zero is called parallel transport.
 - In parallel transport, a vector’s coordinate components do not necessarily remain constant.
 - A path whose tangent vector is parallel transported along itself is a geodesic.
 - The geodesic equation is
 
-  $$\frac{d^2x^\rho}{d\lambda^2} + \Gamma^\rho_{\mu\nu} \frac{dx^\mu}{d\lambda} \frac{dx^\nu}{d\lambda} =0$$
+$$
+\frac{d^2x^\rho}{d\lambda^2} + \Gamma^\rho_{\mu\nu} \frac{dx^\mu}{d\lambda} \frac{dx^\nu}{d\lambda} =0
+$$
 - Even in polar coordinates, a straight line on a plane is a geodesic, while a circle is not.
 - An object receiving no force other than gravity follows a geodesic in spacetime.
 - Nonzero Christoffel symbols alone do not mean that curvature is present.

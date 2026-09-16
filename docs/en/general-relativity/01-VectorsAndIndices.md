@@ -730,11 +730,15 @@ Even though the coordinate components have different values, the spacetime inter
 - A Lorentz transformation can be written together as a matrix.
 - The line element of flat spacetime can be written as
 
-  $$ds^2=\eta_{\mu\nu}dx^\mu dx^\nu$$
+$$
+ds^2=\eta_{\mu\nu}dx^\mu dx^\nu
+$$
 
 - Expanding this expression component by component returns us to
 
-  $$ds^2=-dw^2+dx^2+dy^2+dz^2$$
+$$
+ds^2=-dw^2+dx^2+dy^2+dz^2
+$$
 
 - Index notation does not add new physics. It is a way to write relationships among components briefly and in a form that makes mistakes easier to notice.
 

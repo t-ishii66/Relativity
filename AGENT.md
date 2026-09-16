@@ -68,16 +68,22 @@ the equations of relativity but want a clearer physical interpretation.
   coordinate system.
 - The manuscript defines
 
-  $$w=ct$$
+$$
+w=ct
+$$
 
   so that the time coordinate has units of length.
 - Follow the existing metric-signature convention:
 
-  $$ds^{2}=-dw^{2}+dx^{2}$$
+$$
+ds^{2}=-dw^{2}+dx^{2}
+$$
 
   or equivalently
 
-  $$ds^{2}=-c^{2}dt^{2}+dx^{2}.$$
+$$
+ds^{2}=-c^{2}dt^{2}+dx^{2}.
+$$
 - If the opposite signature is mentioned, explicitly state that it is an
   alternative convention and do not mix the two conventions in one
   derivation.

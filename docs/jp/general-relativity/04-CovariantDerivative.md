@@ -1487,19 +1487,25 @@ $$
 - 座標基底は、場所によって向きや長さが変わることがある。
 - 極座標では、
 
-  $$\boldsymbol{e}_r = \frac{\partial\boldsymbol{x}}{\partial r}, \qquad \boldsymbol{e}_\theta = \frac{\partial\boldsymbol{x}}{\partial\theta}$$
+$$
+\boldsymbol{e}_r = \frac{\partial\boldsymbol{x}}{\partial r}, \qquad \boldsymbol{e}_\theta = \frac{\partial\boldsymbol{x}}{\partial\theta}
+$$
 
   となる。
 - 異なる場所では基底が異なるため、ベクトルの成分をそのまま比較することはできない。
 - ベクトル全体の変化には、成分の変化と基底の変化が含まれる。
 - クリストッフェル記号は、
 
-  $$\partial_\mu\boldsymbol{e}_\nu = \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho$$
+$$
+\partial_\mu\boldsymbol{e}_\nu = \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho
+$$
 
   によって、基底の変化を成分で表す。
 - 反変ベクトルの共変微分は、
 
-  $$\nabla_\mu V^\rho = \partial_\mu V^\rho + \Gamma^\rho_{\mu\nu}V^\nu$$
+$$
+\nabla_\mu V^\rho = \partial_\mu V^\rho + \Gamma^\rho_{\mu\nu}V^\nu
+$$
 
   である。
 - 共変微分は、ベクトル全体の変化をその場所の基底で表した成分である。

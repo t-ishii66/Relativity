@@ -792,11 +792,15 @@ The metric compatibility confirmed from a concrete basis in the first half was a
 
 1. Metric compatibility
 
-   $$\nabla_\lambda g_{\mu\nu}=0$$
+$$
+\nabla_\lambda g_{\mu\nu}=0
+$$
 
 2. The lower two indices of the Christoffel symbols are symmetric
 
-   $$\Gamma^\rho_{\mu\nu}=\Gamma^\rho_{\nu\mu}$$
+$$
+\Gamma^\rho_{\mu\nu}=\Gamma^\rho_{\nu\mu}
+$$
 
 When these two conditions are adopted, the Christoffel symbols are uniquely determined from the given metric.
 
@@ -814,7 +818,9 @@ As a supplementary note about the names, the symmetry of the lower two indices i
 - We make three equations by permuting the indices, add two, and subtract one.
 - Raising an index with the inverse metric gives,
 
-  $$\Gamma^\rho_{\mu\nu} = \frac{1}{2} g^{\rho\sigma} \left( \partial_\mu g_{\sigma\nu} + \partial_\nu g_{\sigma\mu} - \partial_\sigma g_{\mu\nu} \right)$$
+$$
+\Gamma^\rho_{\mu\nu} = \frac{1}{2} g^{\rho\sigma} \left( \partial_\mu g_{\sigma\nu} + \partial_\nu g_{\sigma\mu} - \partial_\sigma g_{\mu\nu} \right)
+$$
 
 - The resulting formula indeed satisfies the assumed symmetry of the lower two indices.
 - In polar coordinates, we obtain the same Christoffel symbols as when we directly differentiate the basis.

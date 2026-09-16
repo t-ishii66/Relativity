@@ -1161,7 +1161,9 @@ $$
 - 経路に沿う共変微分 $DV^\rho/D\lambda$ は、 $U^\mu$ と $\nabla_\mu V^\rho$ を縮約して得られるベクトルである。
 - 経路に沿う共変微分は、
 
-  $$\frac{D V^\rho}{D\lambda} = \frac{dx^\mu}{d\lambda}\nabla_\mu V^\rho$$
+$$
+\frac{D V^\rho}{D\lambda} = \frac{dx^\mu}{d\lambda}\nabla_\mu V^\rho
+$$
 
   である。
 - 経路に沿う共変微分がゼロになるようにベクトルを運ぶことを平行移動という。
@@ -1169,7 +1171,9 @@ $$
 - 接ベクトルを自分自身に沿って平行移動する経路が測地線である。
 - 測地線方程式は、
 
-  $$\frac{d^2x^\rho}{d\lambda^2} + \Gamma^\rho_{\mu\nu} \frac{dx^\mu}{d\lambda} \frac{dx^\nu}{d\lambda} =0$$
+$$
+\frac{d^2x^\rho}{d\lambda^2} + \Gamma^\rho_{\mu\nu} \frac{dx^\mu}{d\lambda} \frac{dx^\nu}{d\lambda} =0
+$$
 
   である。
 - 極座標でも平面上の直線は測地線であり、円は測地線ではない。

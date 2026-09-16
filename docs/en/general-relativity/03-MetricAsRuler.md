@@ -1068,19 +1068,25 @@ Here, it is enough to read this as
 - The metric of flat spacetime is the Minkowski metric.
 - Along a timelike path,
 
-  $$ds^2=-d\tau^2$$
+$$
+ds^2=-d\tau^2
+$$
 
   holds.
 - In this series, $\tau$ has already been multiplied by $c$, so it has units of distance.
 - A small spacelike distance can be read from the spatial line element after appropriately choosing the same time.
 - Along the path of light,
 
-  $$ds^2=0$$
+$$
+ds^2=0
+$$
 
   holds.
 - When a plane is written in polar coordinates,
 
-  $$ds^2=dr^2+r^2d\theta^2$$
+$$
+ds^2=dr^2+r^2d\theta^2
+$$
 
   is obtained.
 - In polar coordinates, the metric components change from place to place, but the plane itself is not curved.

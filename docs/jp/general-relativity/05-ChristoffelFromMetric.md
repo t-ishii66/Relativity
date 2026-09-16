@@ -824,11 +824,15 @@ Bob「うん。計量には基底の長さと角度が入っているから、�
 
 1. 計量適合性
 
-   $$\nabla_\lambda g_{\mu\nu}=0$$
+$$
+\nabla_\lambda g_{\mu\nu}=0
+$$
 
 2. クリストッフェル記号の下二つの添字が対称であること
 
-   $$\Gamma^\rho_{\mu\nu}=\Gamma^\rho_{\nu\mu}$$
+$$
+\Gamma^\rho_{\mu\nu}=\Gamma^\rho_{\nu\mu}
+$$
 
 この二条件を採用すると、与えられた計量からクリストッフェル記号が一つに決まる。
 
@@ -848,7 +852,9 @@ Bob「うん。計量には基底の長さと角度が入っているから、�
 - 添字を入れ替えた三本の式を、二本足して一本引く。
 - 逆計量で添字を上げると、
 
-  $$\Gamma^\rho_{\mu\nu} = \frac{1}{2} g^{\rho\sigma} \left( \partial_\mu g_{\sigma\nu} + \partial_\nu g_{\sigma\mu} - \partial_\sigma g_{\mu\nu} \right)$$
+$$
+\Gamma^\rho_{\mu\nu} = \frac{1}{2} g^{\rho\sigma} \left( \partial_\mu g_{\sigma\nu} + \partial_\nu g_{\sigma\mu} - \partial_\sigma g_{\mu\nu} \right)
+$$
 
   を得る。
 - 得られた公式は、仮定した下二つの添字の対称性を確かに満たしている。

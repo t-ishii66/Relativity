@@ -954,12 +954,16 @@ $$
 - スカラーに対する共変微分の交換子は、捩れがない場合にはゼロになる。
 - ベクトルに対する共変微分の交換子は、
 
-  $$[\nabla_\mu,\nabla_\nu]V^\rho = {R^\rho}_{\sigma\mu\nu}V^\sigma$$
+$$
+[\nabla_\mu,\nabla_\nu]V^\rho = {R^\rho}_{\sigma\mu\nu}V^\sigma
+$$
 
   となる。
 - リーマン曲率テンソルは、
 
-  $${R^\rho}_{\sigma\mu\nu} = \partial_\mu\Gamma^\rho_{\nu\sigma} - \partial_\nu\Gamma^\rho_{\mu\sigma} + \Gamma^\rho_{\mu\lambda} \Gamma^\lambda_{\nu\sigma} - \Gamma^\rho_{\nu\lambda} \Gamma^\lambda_{\mu\sigma}$$
+$$
+{R^\rho}_{\sigma\mu\nu} = \partial_\mu\Gamma^\rho_{\nu\sigma} - \partial_\nu\Gamma^\rho_{\mu\sigma} + \Gamma^\rho_{\mu\lambda} \Gamma^\lambda_{\nu\sigma} - \Gamma^\rho_{\nu\lambda} \Gamma^\lambda_{\mu\sigma}
+$$
 
   である。
 - リーマン曲率テンソルは、小さな閉曲線に沿ってベクトルを一周させたときに残る変化を表す。
@@ -968,12 +972,16 @@ $$
 - 球面ではリーマン曲率テンソルがゼロにならず、平行移動の経路依存性が残る。
 - リッチテンソルは、
 
-  $$R_{\sigma\nu} = {R^\rho}_{\sigma\rho\nu}$$
+$$
+R_{\sigma\nu} = {R^\rho}_{\sigma\rho\nu}
+$$
 
   である。
 - 曲率スカラーは、
 
-  $$R = g^{\sigma\nu}R_{\sigma\nu}$$
+$$
+R = g^{\sigma\nu}R_{\sigma\nu}
+$$
 
   である。
 

@@ -1365,18 +1365,24 @@ From these results, instead of memorizing each equation separately, it is helpfu
 - A coordinate basis may change its direction or length from place to place.
 - In polar coordinates,
 
-  $$\boldsymbol{e}_r = \frac{\partial\boldsymbol{x}}{\partial r}, \qquad \boldsymbol{e}_\theta = \frac{\partial\boldsymbol{x}}{\partial\theta}$$
+$$
+\boldsymbol{e}_r = \frac{\partial\boldsymbol{x}}{\partial r}, \qquad \boldsymbol{e}_\theta = \frac{\partial\boldsymbol{x}}{\partial\theta}
+$$
 
   holds.
 - Because the basis differs at different locations, we cannot compare vector components directly.
 - A change in the entire vector includes both a change in its components and a change in the basis.
 - The Christoffel symbols express changes in the basis through components according to
 
-  $$\partial_\mu\boldsymbol{e}_\nu = \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho.$$
+$$
+\partial_\mu\boldsymbol{e}_\nu = \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho.
+$$
 
 - The covariant derivative of a contravariant vector is
 
-  $$\nabla_\mu V^\rho = \partial_\mu V^\rho + \Gamma^\rho_{\mu\nu}V^\nu.$$
+$$
+\nabla_\mu V^\rho = \partial_\mu V^\rho + \Gamma^\rho_{\mu\nu}V^\nu.
+$$
 
 - The covariant derivative consists of the components, in the basis at that location, of the change in the entire vector.
 - For a vector fixed on a plane, the entire vector does not change, so the change in the components and the change in the basis necessarily cancel, and the covariant derivative is zero.

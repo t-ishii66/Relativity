@@ -855,11 +855,15 @@ This equation also shows that a smaller sphere is more strongly curved, while in
 - The commutator of covariant derivatives acting on a scalar is zero when there is no torsion.
 - The commutator of covariant derivatives acting on a vector is
 
-  $$[\nabla_\mu,\nabla_\nu]V^\rho = {R^\rho}_{\sigma\mu\nu}V^\sigma$$
+$$
+[\nabla_\mu,\nabla_\nu]V^\rho = {R^\rho}_{\sigma\mu\nu}V^\sigma
+$$
 
 - The Riemann curvature tensor is
 
-  $${R^\rho}_{\sigma\mu\nu} = \partial_\mu\Gamma^\rho_{\nu\sigma} - \partial_\nu\Gamma^\rho_{\mu\sigma} + \Gamma^\rho_{\mu\lambda} \Gamma^\lambda_{\nu\sigma} - \Gamma^\rho_{\nu\lambda} \Gamma^\lambda_{\mu\sigma}$$
+$$
+{R^\rho}_{\sigma\mu\nu} = \partial_\mu\Gamma^\rho_{\nu\sigma} - \partial_\nu\Gamma^\rho_{\mu\sigma} + \Gamma^\rho_{\mu\lambda} \Gamma^\lambda_{\nu\sigma} - \Gamma^\rho_{\nu\lambda} \Gamma^\lambda_{\mu\sigma}
+$$
 
 - The Riemann curvature tensor represents the change remaining when a vector is carried once around a small closed curve.
 - Christoffel symbols can sometimes be removed by a coordinate choice, but a nonzero Riemann curvature tensor cannot be removed by a coordinate transformation.
@@ -867,11 +871,15 @@ This equation also shows that a smaller sphere is more strongly curved, while in
 - On a sphere, the Riemann curvature tensor does not become zero, and path dependence remains in parallel transport.
 - The Ricci tensor is
 
-  $$R_{\sigma\nu} = {R^\rho}_{\sigma\rho\nu}$$
+$$
+R_{\sigma\nu} = {R^\rho}_{\sigma\rho\nu}
+$$
 
 - The curvature scalar is
 
-  $$R = g^{\sigma\nu}R_{\sigma\nu}$$
+$$
+R = g^{\sigma\nu}R_{\sigma\nu}
+$$
 
 ## The Next Question
 
