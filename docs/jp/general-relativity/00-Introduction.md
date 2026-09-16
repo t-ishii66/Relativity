@@ -2,7 +2,7 @@
 
 ## テンソルから時空の測定まで
 
-![曲がった時空の謎を追いかけるAliceとBob](../../../images/general-relativity/00/general-relativity-cover.webp)
+![曲がった時空の謎を追いかけるAliceとBob](../../../images/general-relativity/00/general-relativity-cover-v2.png)
 
 *座標、計量、曲率――AliceとBobは、時空を記述する式の向こうに何が見えるのかを追いかける*
 
@@ -85,7 +85,7 @@ $$
 11. [座標というキャンバスと局所的な測定](./11-CoordinatesAndLocalMeasurements.md)
 12. [重力赤方偏移と光の進み方](./12-GravitationalRedshiftAndLight.md)
 13. [自由落下と事象の地平面](./13-FreeFallAndEventHorizon.md)
-14. 計量の変化を光で測る
+14. [計量の変化を光で測る](./14-MeasuringMetricChangesWithLight.md)
 
 完成済みの公式へ飛びつくのではなく、一つずつ道具を作り、得られた式を観測できる現象へつなげていこう。
 
@@ -99,5 +99,7 @@ $$
 - 企画: t-ishii66
 - 制作: GPT-5.6, GPT-6, t-ishii66
 - レビュー: t-ishii66, Claude Opus 5
-- 英語翻訳: GPT-6
+- 英語翻訳: GPT-5.6
 - イラスト: GPT-6
+- 作成日: 2026/9/16
+- バージョン: 1.0.0

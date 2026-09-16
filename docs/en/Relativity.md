@@ -1419,8 +1419,8 @@ The kinetic-energy term appears. So the first term $mc^2$ is an energy term exis
 ## Credits
 
 - Book title: Making Sense of Relativity
-- Version: 1.1.0
-- Release date: 2026/8/18
+- Version: 1.1.1
+- Release date: 2026/9/16
 - Author: t-ishii66 / Studied physics at university. Systems engineer. Working hard on spoken English.
 - Review: Codex GPT 5.6, Claude Opus 4.5
 - Illustrations: Codex GPT 5.6

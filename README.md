@@ -27,25 +27,16 @@ From special relativity to general relativity, it explains proper time, coordina
 
 ## Reading Order
 
-The material comes in two parts: an introduction and the main text.
+The documents are intended to be read in the following order.
 
 1. **Introduction: [A First Introduction to the Lorentz Transformation and Spacetime Invariants](./docs/en/LorentzInvariantIntroduction.md)**
    Restricting space to one dimension, it builds up what the Lorentz transformation is, what it changes, and what it leaves untouched — starting from a comparison with the Galilean transformation. It works through the algebra up to the line element $ds^2 = -c^2 dt^2 + dx^2$ as the observer-independent interval of spacetime. If relativity is new to you, start here.
-2. **Main text: [Making Sense of Relativity](./docs/en/Relativity.md)**
+2. **General relativity series: [A First Introduction to General Relativity](./docs/en/general-relativity/00-Introduction.md)**
+   Starting with vectors, tensors, and the metric, this series moves through free fall and curvature to the Einstein equation and the Schwarzschild solution. It follows where each equation comes from and what it means, all the way to measuring spacetime with clocks and light.
+3. **Main text: [Making Sense of Relativity](./docs/en/Relativity.md)**
    Taking the tools from the introduction as given, it runs from special to general relativity. Rather than the derivations themselves, the weight is on *physical meaning* — proper time, coordinate time, simultaneity, and how things look in a gravitational field.
 
-## Table of Contents
-
-### Introduction: A First Introduction to the Lorentz Transformation and Spacetime Invariants
-
-- Coordinates as numbers assigned to events, two observers
-- The Galilean transformation, and the trouble with applying it to light
-- The Lorentz transformation, what changes and what does not
-- Verifying the invariance of the spacetime interval, comparison with distance in a plane
-- The spacetime interval of light, its three types (timelike, spacelike, lightlike)
-- From a finite interval to the line element $ds^2$
-
-### Main text: Making Sense of Relativity
+## Main Text Contents
 
 - **Chapter 1: Special Relativity**
   - Invariant speed of light, Lorentz transformation, proper time vs coordinate time, time dilation

@@ -1490,8 +1490,8 @@ $$
 ## クレジット
 
 - 書籍タイトル: Making Sense of Relativity
-- Version: 1.1.0
-- 発行日: 2026/8/18
+- Version: 1.1.1
+- 発行日: 2026/9/16
 - 著者: t-ishii66 / 大学で物理を学ぶ。システムエンジニア。英会話奮闘中。
 - 監修: Codex GPT 5.6, Claude Opus 4.5
 - イラスト: Codex GPT 5.6
