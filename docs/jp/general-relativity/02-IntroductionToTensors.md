@@ -1157,32 +1157,19 @@ Alice「座標ごとに違う物理法則を作り直さなくていいんだ！
 
 - スカラー $f$
 
-  $$
-  f'=f
-  $$
+  $$f'=f$$
 
 - 反変ベクトル $V^\mu$
 
-  $$
-  V'^\mu =
-  \frac{\partial x'^\mu}{\partial x^\nu}V^\nu
-  $$
+  $$V'^\mu = \frac{\partial x'^\mu}{\partial x^\nu}V^\nu$$
 
 - 共変ベクトル $A_\mu$
 
-  $$
-  A'_\mu =
-  \frac{\partial x^\nu}{\partial x'^\mu}A_\nu
-  $$
+  $$A'_\mu = \frac{\partial x^\nu}{\partial x'^\mu}A_\nu$$
 
 - 計量 $g_{\mu\nu}$
 
-  $$
-  g'_{\rho\sigma} =
-  g_{\mu\nu}
-  \frac{\partial x^\mu}{\partial x'^\rho}
-  \frac{\partial x^\nu}{\partial x'^\sigma}
-  $$
+  $$g'_{\rho\sigma} = g_{\mu\nu} \frac{\partial x^\mu}{\partial x'^\rho} \frac{\partial x^\nu}{\partial x'^\sigma}$$
 
 変換規則の形を暗記することより、次の関係をつかむことが大切である。
 

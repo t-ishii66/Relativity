@@ -64,7 +64,7 @@ V^x\boldsymbol{e}_x
 V^y\boldsymbol{e}_y.
 $$
 
-$V^x$ is a number that tells us how far to go in the direction of $\boldsymbol{e}_x$, and $V^y$ tells us how far to go in the direction of $\boldsymbol{e}_y$. These two numbers are the components of the vector.
+$V^x$ is a number that tells us how far to go in the direction of $\boldsymbol e_x$, and $V^y$ tells us how far to go in the direction of $\boldsymbol e_y$. These two numbers are the components of the vector.
 
 Meanwhile,
 
@@ -118,7 +118,7 @@ $$
 
 A basis made from coordinates in this way is called a coordinate basis.
 
-The coordinate basis $\boldsymbol{e}_\mu$ represents the direction and amount of the actual displacement produced when only $x^\mu$ is increased slightly while the other coordinates are held fixed.
+The coordinate basis $\boldsymbol e_\mu$ represents the direction and amount of the actual displacement produced when only $x^\mu$ is increased slightly while the other coordinates are held fixed.
 
 The vector for an infinitesimal displacement can also be written as
 
@@ -155,9 +155,9 @@ $$
 
 represents the direction in which $\theta$ increases.
 
-The length of $\boldsymbol{e}_r$ is $1$, but the length of $\boldsymbol{e}_\theta$ is $r$.
+The length of $\boldsymbol e_r$ is $1$, but the length of $\boldsymbol e_\theta$ is $r$.
 
-$\boldsymbol{e}_\theta$ is not a unit vector of length $1$ pointing in the angular direction. It is a coordinate basis vector that converts a change in the coordinate $\theta$ into an actual displacement.
+$\boldsymbol e_\theta$ is not a unit vector of length $1$ pointing in the angular direction. It is a coordinate basis vector that converts a change in the coordinate $\theta$ into an actual displacement.
 
 Therefore, in
 
@@ -216,9 +216,9 @@ V^r=1,
 V^\theta=0.
 $$
 
-Each points in the same direction as $\boldsymbol{e}_r$ at its own location.
+Each points in the same direction as $\boldsymbol e_r$ at its own location.
 
-However, if the angle $\theta$ differs between P and Q, the two vectors $\boldsymbol{e}_r$ point in different directions on the plane.
+However, if the angle $\theta$ differs between P and Q, the two vectors $\boldsymbol e_r$ point in different directions on the plane.
 
 Therefore, even though the two vectors have the same components, they do not actually point in the same direction.
 
@@ -246,7 +246,7 @@ $$
 \boldsymbol{e}_r(Q).
 $$
 
-Bob: “The sets of components are the same, but $\boldsymbol{e}_r(P)$ and $\boldsymbol{e}_r(Q)$ point in different directions, so the two vectors also point in different directions.”
+Bob: “The sets of components are the same, but $\boldsymbol e_r(P)$ and $\boldsymbol e_r(Q)$ point in different directions, so the two vectors also point in different directions.”
 
 Alice: “So we need to look not only at the numbers, but also at the basis at the location with which those numbers are combined.”
 
@@ -263,7 +263,7 @@ $$
 V^\nu\boldsymbol{e}_\nu.
 $$
 
-$V^\nu$ are the components of the vector, and $\boldsymbol{e}_\nu$ is the basis at that location.
+$V^\nu$ are the components of the vector, and $\boldsymbol e_\nu$ is the basis at that location.
 
 We want to examine how the entire vector changes when we move in the direction of the coordinate $x^\mu$.
 
@@ -319,7 +319,7 @@ $$
 \boldsymbol{e}_\rho.
 $$
 
-$\Gamma^\rho_{\mu\nu}$ is a coefficient that tells us how the basis vector $\boldsymbol{e}_\nu$ changes when we move in the direction of $x^\mu$.
+$\Gamma^\rho_{\mu\nu}$ is a coefficient that tells us how the basis vector $\boldsymbol e_\nu$ changes when we move in the direction of $x^\mu$.
 
 These coefficients are called the Christoffel symbols, or connection coefficients.
 
@@ -433,7 +433,7 @@ $$
 \partial_\mu\boldsymbol{V}=0.
 $$
 
-Because the basis vectors $\boldsymbol{e}_\rho$ are independent, for
+Because the basis vectors $\boldsymbol e_\rho$ are independent, for
 
 $$
 \left(
@@ -554,7 +554,7 @@ $$
 }.
 $$
 
-The length of $\boldsymbol{e}_r$ is $1$, while the length of $\boldsymbol{e}_\theta$ is $r$.
+The length of $\boldsymbol e_r$ is $1$, while the length of $\boldsymbol e_\theta$ is $r$.
 
 This also appears in the metric components
 
@@ -848,7 +848,7 @@ $$
 \boldsymbol{e}_\theta\cdot\boldsymbol{e}_\theta=r^2.
 $$
 
-First, taking the inner product of $\boldsymbol{V}$ and $\boldsymbol{e}_r$ gives
+First, taking the inner product of $\boldsymbol{V}$ and $\boldsymbol e_r$ gives
 
 $$
 \begin{aligned}
@@ -889,7 +889,7 @@ $$
 V^r=\cos\theta.
 $$
 
-Similarly, taking the inner product with $\boldsymbol{e}_\theta$ gives
+Similarly, taking the inner product with $\boldsymbol e_\theta$ gives
 
 $$
 \boldsymbol{V}\cdot\boldsymbol{e}_\theta =
@@ -934,7 +934,7 @@ $$
 
 Even if we parallel transport this vector to another point on the plane, the arrow itself remains a vector of length $1$ pointing in the positive $x$ direction.
 
-At the destination, however, the directions and lengths of the polar-coordinate basis vectors $\boldsymbol{e}_r$ and $\boldsymbol{e}_\theta$ have changed. Therefore, when we express the same arrow in the polar-coordinate basis at the destination, the numbers in the components $V^r$ and $V^\theta$ change.
+At the destination, however, the directions and lengths of the polar-coordinate basis vectors $\boldsymbol e_r$ and $\boldsymbol e_\theta$ have changed. Therefore, when we express the same arrow in the polar-coordinate basis at the destination, the numbers in the components $V^r$ and $V^\theta$ change.
 
 In other words, even if parallel transport does not change the vector itself, its polar-coordinate components change from place to place.
 
@@ -1151,7 +1151,9 @@ The connection term for a lower index has a minus sign so that it cancels the po
 ## The Covariant Derivative of a Second-Rank Tensor
 
 We can use the same idea for a second-rank tensor.
+
 Consider a mixed tensor $T^\rho{}_\nu$ with one upper index and one lower index.
+
 If we contract all its indices using a covector $A_\rho$ and a vector $V^\nu$, then
 
 $$
@@ -1363,32 +1365,18 @@ From these results, instead of memorizing each equation separately, it is helpfu
 - A coordinate basis may change its direction or length from place to place.
 - In polar coordinates,
 
-  $$
-  \boldsymbol{e}_r =
-  \frac{\partial\boldsymbol{x}}{\partial r},
-  \qquad
-  \boldsymbol{e}_\theta =
-  \frac{\partial\boldsymbol{x}}{\partial\theta}
-  $$
+  $$\boldsymbol{e}_r = \frac{\partial\boldsymbol{x}}{\partial r}, \qquad \boldsymbol{e}_\theta = \frac{\partial\boldsymbol{x}}{\partial\theta}$$
 
   holds.
 - Because the basis differs at different locations, we cannot compare vector components directly.
 - A change in the entire vector includes both a change in its components and a change in the basis.
 - The Christoffel symbols express changes in the basis through components according to
 
-  $$
-  \partial_\mu\boldsymbol{e}_\nu =
-  \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho.
-  $$
+  $$\partial_\mu\boldsymbol{e}_\nu = \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho.$$
 
 - The covariant derivative of a contravariant vector is
 
-  $$
-  \nabla_\mu V^\rho =
-  \partial_\mu V^\rho
-  +
-  \Gamma^\rho_{\mu\nu}V^\nu.
-  $$
+  $$\nabla_\mu V^\rho = \partial_\mu V^\rho + \Gamma^\rho_{\mu\nu}V^\nu.$$
 
 - The covariant derivative consists of the components, in the basis at that location, of the change in the entire vector.
 - For a vector fixed on a plane, the entire vector does not change, so the change in the components and the change in the basis necessarily cancel, and the covariant derivative is zero.

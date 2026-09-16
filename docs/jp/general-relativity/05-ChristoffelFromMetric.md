@@ -55,7 +55,7 @@ $$
 
 ## 計量は基底どうしの内積
 
-座標基底を $\boldsymbol{e}_\mu$ とする。
+座標基底を $\boldsymbol e_\mu$ とする。
 
 前の文書では、二つのベクトルの内積を、
 
@@ -75,7 +75,7 @@ $$
 V^\rho\boldsymbol{e}_\rho
 $$
 
-と表せる。ここで $\boldsymbol{V}=\boldsymbol{e}_\mu$ とすると、
+と表せる。ここで $\boldsymbol{V}=\boldsymbol e_\mu$ とすると、
 
 $$
 \boldsymbol{e}_\mu =
@@ -105,7 +105,7 @@ $$
 
 この式が成り立つのは、 $\mu$ と $\rho$ が同じ座標基底のラベルである場合である。
 
-例えば、極座標基底 $\{\boldsymbol{e}_r,\boldsymbol{e}_\theta\}$ を使って基底自身を表すと、
+例えば、極座標基底 $\{\boldsymbol e_r,\boldsymbol e_\theta\}$ を使って基底自身を表すと、
 
 $$
 \boldsymbol{e}_r =
@@ -131,7 +131,7 @@ $$
 
 である。
 
-一方、同じ二つのベクトルを、平面の直交座標基底 $\{\boldsymbol{e}_x,\boldsymbol{e}_y\}$ で表すと、
+一方、同じ二つのベクトルを、平面の直交座標基底 $\{\boldsymbol e_x,\boldsymbol e_y\}$ で表すと、
 
 $$
 \boldsymbol{e}_r =
@@ -175,7 +175,7 @@ $$
 
 である。
 
-> **Tips：なぜ $(\boldsymbol{e}_r)^x=\partial x/\partial r$ なのか**
+> **Tips：なぜ $(\boldsymbol e_r)^x=\partial x/\partial r$ なのか**
 >
 > この関係の詳しい導出は、前の文書の「[極座標の基底はどう変わるか](./04-CovariantDerivative.md#極座標の基底はどう変わるか)」で行った。
 >
@@ -194,15 +194,15 @@ $$
 > $$
 > d\boldsymbol{x}
 > =
-> \boldsymbol{e}_r\,dr
+> \boldsymbol e_r\,dr
 > +
-> \boldsymbol{e}_\theta\,d\theta
+> \boldsymbol e_\theta\,d\theta
 > $$
 >
 > の係数を比べて、
 >
 > $$
-> \boldsymbol{e}_r
+> \boldsymbol e_r
 > =
 > \frac{\partial\boldsymbol{x}}{\partial r}
 > $$
@@ -212,22 +212,22 @@ $$
 > $$
 > \boldsymbol{x}
 > =
-> x\boldsymbol{e}_x+y\boldsymbol{e}_y
+> x\boldsymbol e_x+y\boldsymbol e_y
 > $$
 >
 > と書いて右辺を微分すれば、
 >
 > $$
-> \boldsymbol{e}_r
+> \boldsymbol e_r
 > =
-> \frac{\partial x}{\partial r}\boldsymbol{e}_x
+> \frac{\partial x}{\partial r}\boldsymbol e_x
 > +
-> \frac{\partial y}{\partial r}\boldsymbol{e}_y
+> \frac{\partial y}{\partial r}\boldsymbol e_y
 > $$
 >
-> となる。したがって、 $\boldsymbol{e}_r$ の直交座標基底に対する成分は、
-> $(\boldsymbol{e}_r)^x=\partial x/\partial r$、
-> $(\boldsymbol{e}_r)^y=\partial y/\partial r$ である。
+> となる。したがって、 $\boldsymbol e_r$ の直交座標基底に対する成分は、
+> $(\boldsymbol e_r)^x=\partial x/\partial r$、
+> $(\boldsymbol e_r)^y=\partial y/\partial r$ である。
 
 つまり、
 
@@ -238,9 +238,9 @@ $$
 
 は、基底ベクトルを同じ基底で成分表示した場合の式である。どの基底から見ても成分が常に $0$ と $1$ になるという意味ではない。
 
-また、極座標基底に対する $\boldsymbol{e}_\theta$ の成分が $(0,1)$ であっても、その長さが $1$ になるとは限らない。この点は、以下で内積を計算した後に詳しく確認する。
+また、極座標基底に対する $\boldsymbol e_\theta$ の成分が $(0,1)$ であっても、その長さが $1$ になるとは限らない。この点は、以下で内積を計算した後に詳しく確認する。
 
-この区別に注意して、二つの座標基底の内積を計算しよう。前の文書で導入した内積の式へ、 $(\boldsymbol{e}_\mu)^\rho={\delta^\rho}_\mu$ を代入すると、
+この区別に注意して、二つの座標基底の内積を計算しよう。前の文書で導入した内積の式へ、 $(\boldsymbol e_\mu)^\rho={\delta^\rho}_\mu$ を代入すると、
 
 $$
 \begin{aligned}
@@ -288,10 +288,10 @@ $$
 
 > **Tips：成分が $(0,1)$ でも、なぜ長さは $1$ ではないのか**
 >
-> $\boldsymbol{e}_\theta$ を極座標基底で成分表示すると、
+> $\boldsymbol e_\theta$ を極座標基底で成分表示すると、
 >
 > $$
-> (\boldsymbol{e}_\theta)^\rho
+> (\boldsymbol e_\theta)^\rho
 > =
 > \begin{cases}
 > 0 & \rho=r\\
@@ -303,8 +303,8 @@ $$
 >
 > $$
 > \bigl(
-> (\boldsymbol{e}_\theta)^r,
-> (\boldsymbol{e}_\theta)^\theta
+> (\boldsymbol e_\theta)^r,
+> (\boldsymbol e_\theta)^\theta
 > \bigr)
 > =
 > (0,1)
@@ -313,11 +313,11 @@ $$
 > である。これは、
 >
 > $$
-> \boldsymbol{e}_\theta
+> \boldsymbol e_\theta
 > =
-> 0\boldsymbol{e}_r
+> 0\boldsymbol e_r
 > +
-> 1\boldsymbol{e}_\theta
+> 1\boldsymbol e_\theta
 > $$
 >
 > という、基底ベクトルを何倍ずつ使うかを表しているだけであり、ベクトルの長さを表しているわけではない。
@@ -326,11 +326,11 @@ $$
 >
 > $$
 > \begin{aligned}
-> \lVert\boldsymbol{e}_\theta\rVert^2
+> \lVert\boldsymbol e_\theta\rVert^2
 > &=
 > g_{\rho\sigma}
-> (\boldsymbol{e}_\theta)^\rho
-> (\boldsymbol{e}_\theta)^\sigma\\
+> (\boldsymbol e_\theta)^\rho
+> (\boldsymbol e_\theta)^\sigma\\
 > &=
 > g_{\theta\theta}\\
 > &=
@@ -341,17 +341,17 @@ $$
 > と求める。したがって、
 >
 > $$
-> \lVert\boldsymbol{e}_\theta\rVert=r
+> \lVert\boldsymbol e_\theta\rVert=r
 > $$
 >
 > である。これは、半径 $r$ の場所で角度を $d\theta$ だけ変えると、実際には $r\,d\theta$ だけ進むことに対応している。
 >
-> 極座標の座標基底 $\boldsymbol{e}_\theta$ と、角度方向の単位ベクトルは同じではない。単位ベクトルを $\hat{\boldsymbol{e}}_\theta$ と書けば、
+> 極座標の座標基底 $\boldsymbol e_\theta$ と、角度方向の単位ベクトルは同じではない。単位ベクトルを $\hat{\boldsymbol{e}}_\theta$ と書けば、
 >
 > $$
 > \hat{\boldsymbol{e}}_\theta
 > =
-> \frac{1}{r}\boldsymbol{e}_\theta
+> \frac{1}{r}\boldsymbol e_\theta
 > $$
 >
 > であり、こちらの長さが $1$ になる。
@@ -824,15 +824,11 @@ Bob「うん。計量には基底の長さと角度が入っているから、�
 
 1. 計量適合性
 
-   $$
-   \nabla_\lambda g_{\mu\nu}=0
-   $$
+   $$\nabla_\lambda g_{\mu\nu}=0$$
 
 2. クリストッフェル記号の下二つの添字が対称であること
 
-   $$
-   \Gamma^\rho_{\mu\nu}=\Gamma^\rho_{\nu\mu}
-   $$
+   $$\Gamma^\rho_{\mu\nu}=\Gamma^\rho_{\nu\mu}$$
 
 この二条件を採用すると、与えられた計量からクリストッフェル記号が一つに決まる。
 
@@ -852,17 +848,7 @@ Bob「うん。計量には基底の長さと角度が入っているから、�
 - 添字を入れ替えた三本の式を、二本足して一本引く。
 - 逆計量で添字を上げると、
 
-  $$
-  \Gamma^\rho_{\mu\nu} =
-  \frac{1}{2}
-  g^{\rho\sigma}
-  \left(
-  \partial_\mu g_{\sigma\nu}
-  +
-  \partial_\nu g_{\sigma\mu} -
-  \partial_\sigma g_{\mu\nu}
-  \right)
-  $$
+  $$\Gamma^\rho_{\mu\nu} = \frac{1}{2} g^{\rho\sigma} \left( \partial_\mu g_{\sigma\nu} + \partial_\nu g_{\sigma\mu} - \partial_\sigma g_{\mu\nu} \right)$$
 
   を得る。
 - 得られた公式は、仮定した下二つの添字の対称性を確かに満たしている。

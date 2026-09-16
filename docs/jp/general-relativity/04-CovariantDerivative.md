@@ -72,7 +72,7 @@ $$
 
 と表せる。
 
-$V^x$ は $\boldsymbol{e}_x$ の方向へどれだけ進むか、 $V^y$ は $\boldsymbol{e}_y$ の方向へどれだけ進むかを表す数字である。この二つの数字が、ベクトルの成分である。
+$V^x$ は $\boldsymbol e_x$ の方向へどれだけ進むか、 $V^y$ は $\boldsymbol e_y$ の方向へどれだけ進むかを表す数字である。この二つの数字が、ベクトルの成分である。
 
 一方、
 
@@ -132,7 +132,7 @@ $$
 
 座標から作ったこのような基底を、座標基底と呼ぶ。
 
-座標基底 $\boldsymbol{e}_\mu$ は、ほかの座標を固定したまま $x^\mu$ だけを少し増やしたとき、実際にどの向きへどれだけ移動するかを表す。
+座標基底 $\boldsymbol e_\mu$ は、ほかの座標を固定したまま $x^\mu$ だけを少し増やしたとき、実際にどの向きへどれだけ移動するかを表す。
 
 微小変位のベクトルも、
 
@@ -171,9 +171,9 @@ $$
 
 は $\theta$ を増やす方向を表す。
 
-$\boldsymbol{e}_r$ の長さは $1$ だが、 $\boldsymbol{e}_\theta$ の長さは $r$ である。
+$\boldsymbol e_r$ の長さは $1$ だが、 $\boldsymbol e_\theta$ の長さは $r$ である。
 
-$\boldsymbol{e}_\theta$ は、角度方向を向く長さ $1$ の単位ベクトルではない。座標 $\theta$ の変化を実際の変位へ変換する座標基底である。
+$\boldsymbol e_\theta$ は、角度方向を向く長さ $1$ の単位ベクトルではない。座標 $\theta$ の変化を実際の変位へ変換する座標基底である。
 
 そのため、
 
@@ -238,9 +238,9 @@ $$
 
 という成分を持つベクトルを考える。
 
-どちらも、それぞれの場所の $\boldsymbol{e}_r$ と同じ向きを向いている。
+どちらも、それぞれの場所の $\boldsymbol e_r$ と同じ向きを向いている。
 
-しかし、P と Q の角度 $\theta$ が異なれば、二つの $\boldsymbol{e}_r$ は平面上で違う向きを向いている。
+しかし、P と Q の角度 $\theta$ が異なれば、二つの $\boldsymbol e_r$ は平面上で違う向きを向いている。
 
 したがって、二つのベクトルは成分が同じでも、実際には同じ向きではない。
 
@@ -268,7 +268,7 @@ $$
 \boldsymbol{e}_r(Q)
 $$
 
-Bob「となる。成分の組は同じでも、 $\boldsymbol{e}_r(P)$ と $\boldsymbol{e}_r(Q)$ が違う向きを向いているから、二つのベクトルも違う向きになるんだ。」
+Bob「となる。成分の組は同じでも、 $\boldsymbol e_r(P)$ と $\boldsymbol e_r(Q)$ が違う向きを向いているから、二つのベクトルも違う向きになるんだ。」
 
 Alice「数字だけでなく、どの場所の基底と組み合わせた数字なのかを見る必要があるんだね。」
 
@@ -287,7 +287,7 @@ $$
 
 と書く。
 
-$V^\nu$ はベクトルの成分であり、 $\boldsymbol{e}_\nu$ はその場所の基底である。
+$V^\nu$ はベクトルの成分であり、 $\boldsymbol e_\nu$ はその場所の基底である。
 
 座標 $x^\mu$ の方向へ移動したときに、ベクトル全体がどのように変化するかを調べたい。
 
@@ -351,7 +351,7 @@ $$
 
 と書く。
 
-$\Gamma^\rho_{\mu\nu}$ は、 $x^\mu$ の方向へ移動したときに、基底 $\boldsymbol{e}_\nu$ がどのように変化するかを表す係数である。
+$\Gamma^\rho_{\mu\nu}$ は、 $x^\mu$ の方向へ移動したときに、基底 $\boldsymbol e_\nu$ がどのように変化するかを表す係数である。
 
 この係数をクリストッフェル記号、または接続係数と呼ぶ。
 
@@ -475,7 +475,7 @@ $$
 
 である。
 
-基底ベクトル $\boldsymbol{e}_\rho$ は互いに独立なので、
+基底ベクトル $\boldsymbol e_\rho$ は互いに独立なので、
 
 $$
 \left(
@@ -614,7 +614,7 @@ $$
 
 として、位置ベクトルの全微分から自然に現れる。
 
-$\boldsymbol{e}_r$ の長さは $1$ だが、 $\boldsymbol{e}_\theta$ の長さは $r$ である。
+$\boldsymbol e_r$ の長さは $1$ だが、 $\boldsymbol e_\theta$ の長さは $r$ である。
 
 このことは、
 
@@ -942,7 +942,7 @@ $$
 
 だった。
 
-まず、 $\boldsymbol{V}$ と $\boldsymbol{e}_r$ の内積を取ると、
+まず、 $\boldsymbol{V}$ と $\boldsymbol e_r$ の内積を取ると、
 
 $$
 \begin{aligned}
@@ -987,7 +987,7 @@ $$
 
 である。
 
-同様に、 $\boldsymbol{e}_\theta$ との内積を取ると、
+同様に、 $\boldsymbol e_\theta$ との内積を取ると、
 
 $$
 \boldsymbol{V}\cdot\boldsymbol{e}_\theta =
@@ -1036,7 +1036,7 @@ $$
 
 このベクトルを平面上の別の場所へ平行移動しても、矢印そのものは $x$ 軸の正方向を向く長さ $1$ のベクトルのままである。
 
-しかし、移動先では極座標基底 $\boldsymbol{e}_r$ と $\boldsymbol{e}_\theta$ の向きや長さが変わる。そのため、同じ矢印を移動先の極座標基底で表すと、成分 $V^r$ と $V^\theta$ の数字は変化する。
+しかし、移動先では極座標基底 $\boldsymbol e_r$ と $\boldsymbol e_\theta$ の向きや長さが変わる。そのため、同じ矢印を移動先の極座標基底で表すと、成分 $V^r$ と $V^\theta$ の数字は変化する。
 
 つまり、平行移動によってベクトルそのものを変化させなくても、そのベクトルの極座標成分は場所によって変化する。
 
@@ -1265,7 +1265,9 @@ $$
 ## 二階テンソルの共変微分
 
 二階テンソルについても、同じ考え方を使える。
+
 上付き添字と下付き添字を一つずつ持つ混合テンソル $T^\rho{}_\nu$ を考えよう。
+
 共変ベクトル $A_\rho$ とベクトル $V^\nu$ を使ってすべての添字を縮約すると、
 
 $$
@@ -1485,33 +1487,19 @@ $$
 - 座標基底は、場所によって向きや長さが変わることがある。
 - 極座標では、
 
-  $$
-  \boldsymbol{e}_r =
-  \frac{\partial\boldsymbol{x}}{\partial r},
-  \qquad
-  \boldsymbol{e}_\theta =
-  \frac{\partial\boldsymbol{x}}{\partial\theta}
-  $$
+  $$\boldsymbol{e}_r = \frac{\partial\boldsymbol{x}}{\partial r}, \qquad \boldsymbol{e}_\theta = \frac{\partial\boldsymbol{x}}{\partial\theta}$$
 
   となる。
 - 異なる場所では基底が異なるため、ベクトルの成分をそのまま比較することはできない。
 - ベクトル全体の変化には、成分の変化と基底の変化が含まれる。
 - クリストッフェル記号は、
 
-  $$
-  \partial_\mu\boldsymbol{e}_\nu =
-  \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho
-  $$
+  $$\partial_\mu\boldsymbol{e}_\nu = \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho$$
 
   によって、基底の変化を成分で表す。
 - 反変ベクトルの共変微分は、
 
-  $$
-  \nabla_\mu V^\rho =
-  \partial_\mu V^\rho
-  +
-  \Gamma^\rho_{\mu\nu}V^\nu
-  $$
+  $$\nabla_\mu V^\rho = \partial_\mu V^\rho + \Gamma^\rho_{\mu\nu}V^\nu$$
 
   である。
 - 共変微分は、ベクトル全体の変化をその場所の基底で表した成分である。

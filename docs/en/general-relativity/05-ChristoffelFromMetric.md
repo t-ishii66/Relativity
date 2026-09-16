@@ -51,7 +51,7 @@ The goal is to understand that
 
 ## The Metric Is the Inner Product of Basis Vectors
 
-Let the coordinate basis be $\boldsymbol{e}_\mu$.
+Let the coordinate basis be $\boldsymbol e_\mu$.
 
 In the previous document, we wrote the inner product of two vectors as,
 
@@ -69,7 +69,7 @@ $$
 V^\rho\boldsymbol{e}_\rho
 $$
 
-If we set $\boldsymbol{V}=\boldsymbol{e}_\mu$ here, then
+If we set $\boldsymbol{V}=\boldsymbol e_\mu$ here, then
 
 $$
 \boldsymbol{e}_\mu =
@@ -95,7 +95,7 @@ $$
 
 This equation holds when $\mu$ and $\rho$ are labels for the same coordinate basis.
 
-For example, if we represent the basis vectors themselves using the polar-coordinate basis $\{\boldsymbol{e}_r,\boldsymbol{e}_\theta\}$,
+For example, if we represent the basis vectors themselves using the polar-coordinate basis $\{\boldsymbol e_r,\boldsymbol e_\theta\}$,
 
 $$
 \boldsymbol{e}_r =
@@ -119,7 +119,7 @@ $$
 (\boldsymbol{e}_\theta)^\theta=1
 $$
 
-On the other hand, if we represent the same two vectors using the Cartesian coordinate basis of the plane, $\{\boldsymbol{e}_x,\boldsymbol{e}_y\}$,
+On the other hand, if we represent the same two vectors using the Cartesian coordinate basis of the plane, $\{\boldsymbol e_x,\boldsymbol e_y\}$,
 
 $$
 \boldsymbol{e}_r =
@@ -159,7 +159,7 @@ $$
 \sin\theta
 $$
 
-> **Tips: Why is $(\boldsymbol{e}_r)^x=\partial x/\partial r$?**
+> **Tips: Why is $(\boldsymbol e_r)^x=\partial x/\partial r$?**
 >
 > The detailed derivation of this relation was given in the previous document, “[How Does the Polar-Coordinate Basis Change?](./04-CovariantDerivative.md#how-does-the-polar-coordinate-basis-change)”.
 >
@@ -178,15 +178,15 @@ $$
 > $$
 > d\boldsymbol{x}
 > =
-> \boldsymbol{e}_r\,dr
+> \boldsymbol e_r\,dr
 > +
-> \boldsymbol{e}_\theta\,d\theta
+> \boldsymbol e_\theta\,d\theta
 > $$
 >
 > to obtain,
 >
 > $$
-> \boldsymbol{e}_r
+> \boldsymbol e_r
 > =
 > \frac{\partial\boldsymbol{x}}{\partial r}
 > $$
@@ -196,20 +196,20 @@ $$
 > $$
 > \boldsymbol{x}
 > =
-> x\boldsymbol{e}_x+y\boldsymbol{e}_y
+> x\boldsymbol e_x+y\boldsymbol e_y
 > $$
 >
 > and differentiate the right-hand side, we get,
 >
 > $$
-> \boldsymbol{e}_r
+> \boldsymbol e_r
 > =
-> \frac{\partial x}{\partial r}\boldsymbol{e}_x
+> \frac{\partial x}{\partial r}\boldsymbol e_x
 > +
-> \frac{\partial y}{\partial r}\boldsymbol{e}_y
+> \frac{\partial y}{\partial r}\boldsymbol e_y
 > $$
 >
-> Therefore, the components of $\boldsymbol{e}_r$ with respect to the Cartesian coordinate basis are $(\boldsymbol{e}_r)^x=\partial x/\partial r$ and $(\boldsymbol{e}_r)^y=\partial y/\partial r$.
+> Therefore, the components of $\boldsymbol e_r$ with respect to the Cartesian coordinate basis are $(\boldsymbol e_r)^x=\partial x/\partial r$ and $(\boldsymbol e_r)^y=\partial y/\partial r$.
 
 In other words,
 
@@ -220,9 +220,9 @@ $$
 
 is the equation for representing a basis vector in components using the same basis. It does not mean that its components are always $0$ and $1$ when viewed from any basis.
 
-Also, even if the components of $\boldsymbol{e}_\theta$ with respect to the polar-coordinate basis are $(0,1)$, this does not necessarily mean that its length is $1$. We will check this point in detail below, after calculating inner products.
+Also, even if the components of $\boldsymbol e_\theta$ with respect to the polar-coordinate basis are $(0,1)$, this does not necessarily mean that its length is $1$. We will check this point in detail below, after calculating inner products.
 
-Keeping this distinction in mind, let us calculate the inner product of two coordinate basis vectors. Substituting $(\boldsymbol{e}_\mu)^\rho={\delta^\rho}_\mu$ into the inner-product equation introduced in the previous document gives,
+Keeping this distinction in mind, let us calculate the inner product of two coordinate basis vectors. Substituting $(\boldsymbol e_\mu)^\rho={\delta^\rho}_\mu$ into the inner-product equation introduced in the previous document gives,
 
 $$
 \begin{aligned}
@@ -268,10 +268,10 @@ The metric records the lengths of the basis vectors and the angles between them.
 
 > **Tips: Why is the length not $1$ even when the components are $(0,1)$?**
 >
-> When $\boldsymbol{e}_\theta$ is represented in components using the polar-coordinate basis,
+> When $\boldsymbol e_\theta$ is represented in components using the polar-coordinate basis,
 >
 > $$
-> (\boldsymbol{e}_\theta)^\rho
+> (\boldsymbol e_\theta)^\rho
 > =
 > \begin{cases}
 > 0 & \rho=r\\
@@ -283,8 +283,8 @@ The metric records the lengths of the basis vectors and the angles between them.
 >
 > $$
 > \bigl(
-> (\boldsymbol{e}_\theta)^r,
-> (\boldsymbol{e}_\theta)^\theta
+> (\boldsymbol e_\theta)^r,
+> (\boldsymbol e_\theta)^\theta
 > \bigr)
 > =
 > (0,1)
@@ -293,11 +293,11 @@ The metric records the lengths of the basis vectors and the angles between them.
 > This only represents how many times each basis vector is used,
 >
 > $$
-> \boldsymbol{e}_\theta
+> \boldsymbol e_\theta
 > =
-> 0\boldsymbol{e}_r
+> 0\boldsymbol e_r
 > +
-> 1\boldsymbol{e}_\theta
+> 1\boldsymbol e_\theta
 > $$
 >
 > and does not represent the length of the vector.
@@ -306,11 +306,11 @@ The metric records the lengths of the basis vectors and the angles between them.
 >
 > $$
 > \begin{aligned}
-> \lVert\boldsymbol{e}_\theta\rVert^2
+> \lVert\boldsymbol e_\theta\rVert^2
 > &=
 > g_{\rho\sigma}
-> (\boldsymbol{e}_\theta)^\rho
-> (\boldsymbol{e}_\theta)^\sigma\\
+> (\boldsymbol e_\theta)^\rho
+> (\boldsymbol e_\theta)^\sigma\\
 > &=
 > g_{\theta\theta}\\
 > &=
@@ -321,17 +321,17 @@ The metric records the lengths of the basis vectors and the angles between them.
 > Therefore,
 >
 > $$
-> \lVert\boldsymbol{e}_\theta\rVert=r
+> \lVert\boldsymbol e_\theta\rVert=r
 > $$
 >
 > This corresponds to the fact that at radius $r$, changing the angle by $d\theta$ actually moves us by $r\,d\theta$.
 >
-> The polar-coordinate basis vector $\boldsymbol{e}_\theta$ and the unit vector in the angular direction are not the same. If we write the unit vector as $\hat{\boldsymbol{e}}_\theta$,
+> The polar-coordinate basis vector $\boldsymbol e_\theta$ and the unit vector in the angular direction are not the same. If we write the unit vector as $\hat{\boldsymbol{e}}_\theta$,
 >
 > $$
 > \hat{\boldsymbol{e}}_\theta
 > =
-> \frac{1}{r}\boldsymbol{e}_\theta
+> \frac{1}{r}\boldsymbol e_\theta
 > $$
 >
 > then this vector has length $1$.
@@ -792,15 +792,11 @@ The metric compatibility confirmed from a concrete basis in the first half was a
 
 1. Metric compatibility
 
-   $$
-   \nabla_\lambda g_{\mu\nu}=0
-   $$
+   $$\nabla_\lambda g_{\mu\nu}=0$$
 
 2. The lower two indices of the Christoffel symbols are symmetric
 
-   $$
-   \Gamma^\rho_{\mu\nu}=\Gamma^\rho_{\nu\mu}
-   $$
+   $$\Gamma^\rho_{\mu\nu}=\Gamma^\rho_{\nu\mu}$$
 
 When these two conditions are adopted, the Christoffel symbols are uniquely determined from the given metric.
 
@@ -818,17 +814,7 @@ As a supplementary note about the names, the symmetry of the lower two indices i
 - We make three equations by permuting the indices, add two, and subtract one.
 - Raising an index with the inverse metric gives,
 
-  $$
-  \Gamma^\rho_{\mu\nu} =
-  \frac{1}{2}
-  g^{\rho\sigma}
-  \left(
-  \partial_\mu g_{\sigma\nu}
-  +
-  \partial_\nu g_{\sigma\mu} -
-  \partial_\sigma g_{\mu\nu}
-  \right)
-  $$
+  $$\Gamma^\rho_{\mu\nu} = \frac{1}{2} g^{\rho\sigma} \left( \partial_\mu g_{\sigma\nu} + \partial_\nu g_{\sigma\mu} - \partial_\sigma g_{\mu\nu} \right)$$
 
 - The resulting formula indeed satisfies the assumed symmetry of the lower two indices.
 - In polar coordinates, we obtain the same Christoffel symbols as when we directly differentiate the basis.
