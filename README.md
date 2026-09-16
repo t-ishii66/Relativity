@@ -11,7 +11,9 @@ permalink: /
 
 **English** ・ [日本語](README-jp.md)
 
-Last updated: 2026-08-18
+Read it online here → **[Making Sense of Relativity (web version)](https://t-ishii66.github.io/Relativity/)**
+
+Last updated: 2026-09-16
 
 ---
 
