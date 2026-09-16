@@ -261,7 +261,7 @@ v_{\mathrm{Bob}}
 =-c\sqrt{1-\frac{f(r)}{\varepsilon^2}}.
 $$
 
-At every location outside, $|v_{\mathrm{Bob}}|<c$, but an observer stationary closer to the horizon measures Bob’s speed as closer to $c$.
+At every location outside, $\lvert v_{\mathrm{Bob}}\rvert<c$, but an observer stationary closer to the horizon measures Bob’s speed as closer to $c$.
 
 The limit here is a collection of measurements by observers stationary at different locations. Comparisons with stationary observers are made outside the horizon. We have not placed an observer there waiting stationary on the horizon.
 

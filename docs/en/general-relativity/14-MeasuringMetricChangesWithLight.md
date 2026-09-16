@@ -188,7 +188,7 @@ $$
 
 The closer we are to the star, the smaller $f(r)$ becomes, so the coordinate width corresponding to the same ruler length $d\ell$ also becomes smaller.
 
-Along the left path, $f(r)<f(r_{\mathrm A})$, while along the right path, $f(r)>f(r_{\mathrm A})$. They are equal at the position of the light source. Adding up $|dr|$ along each path gives
+Along the left path, $f(r)<f(r_{\mathrm A})$, while along the right path, $f(r)>f(r_{\mathrm A})$. They are equal at the position of the light source. Adding up $\lvert dr\rvert$ along each path gives
 
 $$
 r_{\mathrm A}-r_-
@@ -202,7 +202,7 @@ Thus, even though the lengths measured with rulers are $L$ on both sides, the co
 
 Does the smaller coordinate width on the left eliminate the difference between the round-trip times?
 
-Substituting $|dr|=\sqrt{f(r)}\,d\ell$ into equation (14.1), which describes the motion of light, gives
+Substituting $\lvert dr\rvert=\sqrt{f(r)}\,d\ell$ into equation (14.1), which describes the motion of light, gives
 
 $$
 dw=\frac{|dr|}{f(r)}
@@ -257,7 +257,7 @@ d\ell=\frac{|dr|}{\sqrt{f(r)}},
 d\tau=\sqrt{f(r)}\,dw.
 $$
 
-For light, substituting $dw=|dr|/f(r)$ gives
+For light, substituting $dw=\lvert dr\rvert/f(r)$ gives
 
 $$
 \frac{d\ell}{d\tau/c}

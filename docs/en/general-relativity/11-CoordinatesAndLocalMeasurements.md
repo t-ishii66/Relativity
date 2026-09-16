@@ -67,7 +67,7 @@ $$
 
 This $ds^2$ is the spacetime interval between two nearby events.
 
-A clock or ruler does not directly display “$ds^2$.” Depending on what is being measured, it corresponds to measured values as follows.
+A clock or ruler does not directly display “ $ds^2$.” Depending on what is being measured, it corresponds to measured values as follows.
 
 For a small interval along the clock’s own path, use the proper time $d\tau$ recorded by that clock:
 

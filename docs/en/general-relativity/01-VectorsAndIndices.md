@@ -66,7 +66,7 @@ Bob: “Yes. But we are not learning completely new equations. Think of it as pr
 
 ![Alice and Bob combining four coordinates into a single indexed symbol](../../../images/general-relativity/01/coordinate-components.webp)
 
-*The separately listed $w,x,y,z$ are combined into the single symbol $x^\mu$*
+The separately listed $w,x,y,z$ are combined into the single symbol $x^\mu$
 
 ## Arranging Coordinates in a Column
 
@@ -176,7 +176,7 @@ $$
 x^2
 $$
 
-the context tells us whether it represents “the second component” or “$x$ squared.”
+the context tells us whether it represents “the second component” or “ $x$ squared.”
 
 When it is written as an index,
 
@@ -739,7 +739,7 @@ Bob: “Yes. Let’s look at that next.”
 
 ![Alice and Bob finding the same line element from different coordinate components](../../../images/general-relativity/01/invariant-interval-discovery.webp)
 
-*Even though the coordinate components have different values, the spacetime interval $ds^2$ found by Alice and Bob is the same*
+Even though the coordinate components have different values, the spacetime interval $ds^2$ found by Alice and Bob is the same
 
 ## Summary
 

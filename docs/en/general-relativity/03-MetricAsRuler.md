@@ -932,7 +932,7 @@ Bob: “Yes. But do not forget that what we are looking at now is an ordinary pl
 
 ![Alice and Bob checking that the length of an arc changes with the radius even for the same angular difference](../../../images/general-relativity/03/polar-angle-distance.webp)
 
-*Even for the same $d\theta$, the actual arc length traveled is greater when the radius is greater*
+Even for the same $d\theta$, the actual arc length traveled is greater when the radius is greater
 
 ## A Plane Remains a Plane Even When the Components Change
 

@@ -1037,7 +1037,7 @@ $$
 
 as desired.
 
-From here until we verify the symmetries, all equations are evaluated at $q$, and we omit $\left.\cdots\right|_q$.
+From here until we verify the symmetries, all equations are evaluated at $q$, and we omit $\left.\cdots\right\vert_q$.
 
 The preceding equation is the difference of two derivatives of the connection:
 
@@ -1246,7 +1246,7 @@ $$
 \left.\Gamma^\rho_{\mu\nu}\right|_q=0
 $$
 
-. Here $\left.\cdots\right|_q$ means that the value is evaluated at $q$.
+. Here $\left.\cdots\right\vert_q$ means that the value is evaluated at $q$.
 
 Importantly, the connection vanishes only at the chosen point; it need not vanish nearby. Therefore, we must not set the derivative of the connection, $\partial_\lambda\Gamma^\rho_{\mu\nu}$, to zero as well.
 
@@ -1443,7 +1443,7 @@ $$
 
 ### Cyclically Adding Three Derivatives
 
-All equations from here on are evaluated at $q$; to keep the notation short, we omit $\left.\cdots\right|_q$.
+All equations from here on are evaluated at $q$; to keep the notation short, we omit $\left.\cdots\right\vert_q$.
 
 At $q$, covariant and partial derivatives agree. Thus, equation (A.1) expresses the covariant derivative of curvature through second partial derivatives of the connection. Keeping $\rho,\sigma$ fixed and cyclically permuting $\lambda,\mu,\nu$ gives the following three equations.
 
@@ -1580,7 +1580,7 @@ $$
 \frac{d^2x^i}{dt^2}=-\partial_i\Phi
 $$
 
-Here $\partial_i=\partial/\partial x^i$. This relation between acceleration and potential is not limited to the spherically symmetric case. Below, we choose $\Phi=0$ where gravity vanishes and assume $|\Phi|/c^2\ll1$.
+Here $\partial_i=\partial/\partial x^i$. This relation between acceleration and potential is not limited to the spherically symmetric case. Below, we choose $\Phi=0$ where gravity vanishes and assume $\lvert\Phi\rvert/c^2\ll1$.
 
 ### Low-Speed Approximation of the Geodesic Equation
 

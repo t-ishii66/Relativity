@@ -159,7 +159,7 @@ Bob: “Exactly. We find how much each old coordinate moves the new coordinate, 
 
 ![Alice and Bob adding changes coming from two coordinate directions](../../../images/general-relativity/02/total-differential-contributions.webp)
 
-*Adding $dx$ from the $x$ direction and $2dy$ from the $y$ direction gives the change $dx'$ in the new coordinate*
+Adding $dx$ from the $x$ direction and $2dy$ from the $y$ direction gives the change $dx'$ in the new coordinate
 
 More generally, if
 
@@ -511,7 +511,7 @@ Bob: “Yes. It changes in the opposite direction so that the result of multiply
 
 ![Upper- and lower-index components changing in opposite directions to keep their product constant](../../../images/general-relativity/02/upper-lower-cancellation.webp)
 
-*When the upper-index component doubles and the lower-index component is halved, the combined quantity $A_xV^x$ does not change*
+When the upper-index component doubles and the lower-index component is halved, the combined quantity $A_xV^x$ does not change
 
 ## A Concrete Example of a Lower Index
 
