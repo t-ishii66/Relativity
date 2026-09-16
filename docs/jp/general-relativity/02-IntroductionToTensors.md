@@ -11,8 +11,7 @@ $$
 とまとめて書いた。また、平坦な時空の線素を、
 
 $$
-ds^2
-=
+ds^2 =
 \eta_{\mu\nu}dx^\mu dx^\nu
 $$
 
@@ -21,8 +20,7 @@ $$
 これは、
 
 $$
-ds^2
-=
+ds^2 =
 -dw^2+dx^2+dy^2+dz^2
 $$
 
@@ -102,8 +100,7 @@ Bob「うん。場所が変わったのではなく、場所に付ける数字�
 一般には、新しい座標 $x'^\mu$ を古い座標 $x^\nu$ の関数として、
 
 $$
-x'^\mu
-=
+x'^\mu =
 x'^\mu(x^0,x^1,x^2,x^3)
 $$
 
@@ -222,8 +219,7 @@ $$
 二つの方向から来た変化を足せば、
 
 $$
-dx'
-=
+dx' =
 \frac{\partial x'}{\partial x}dx
 +
 \frac{\partial x'}{\partial y}dy
@@ -240,8 +236,7 @@ $$
 古い座標が $dx^\nu$ だけ変化したとき、新しい座標の変化は、
 
 $$
-dx'^\mu
-=
+dx'^\mu =
 \frac{\partial x'^\mu}{\partial x^\nu}dx^\nu
 $$
 
@@ -321,8 +316,7 @@ $$
 \begin{pmatrix}
 dw' \\
 dx'
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 1 & 0 \\
 0 & 2
@@ -374,8 +368,7 @@ $$
 一般の座標変換でも、逆変換が存在する範囲では、
 
 $$
-dx^\mu
-=
+dx^\mu =
 \frac{\partial x^\mu}{\partial x'^\rho}dx'^\rho
 $$
 
@@ -384,8 +377,7 @@ $$
 ここで、古い座標から新しい座標への変換は、
 
 $$
-dx'^\rho
-=
+dx'^\rho =
 \frac{\partial x'^\rho}{\partial x^\sigma}dx^\sigma
 $$
 
@@ -394,8 +386,7 @@ $$
 この式を、先ほどの逆変換、
 
 $$
-dx^\mu
-=
+dx^\mu =
 \frac{\partial x^\mu}{\partial x'^\rho}dx'^\rho
 $$
 
@@ -422,8 +413,7 @@ $$
 
 $$
 \frac{\partial x^\mu}{\partial x'^\rho}
-\frac{\partial x'^\rho}{\partial x^\sigma}
-=
+\frac{\partial x'^\rho}{\partial x^\sigma} =
 {\delta^\mu}_\sigma
 $$
 
@@ -432,8 +422,7 @@ $$
 ${\delta^\mu}_\sigma$ はクロネッカーのデルタと呼ばれ、
 
 $$
-{\delta^\mu}_\sigma
-=
+{\delta^\mu}_\sigma =
 \begin{cases}
 1 & \mu=\sigma \\
 0 & \mu\neq\sigma
@@ -462,8 +451,7 @@ $$
 $dx^\mu$ は、
 
 $$
-dx'^\mu
-=
+dx'^\mu =
 \frac{\partial x'^\mu}{\partial x^\nu}dx^\nu
 $$
 
@@ -472,8 +460,7 @@ $$
 一般に、上付き添字を一つ持つベクトル $V^\mu$ も、同じ形で、
 
 $$
-V'^\mu
-=
+V'^\mu =
 \frac{\partial x'^\mu}{\partial x^\nu}V^\nu
 $$
 
@@ -518,8 +505,7 @@ $$
 添字について和を取るので、
 
 $$
-A_\mu V^\mu
-=
+A_\mu V^\mu =
 A_0V^0+A_1V^1+A_2V^2+A_3V^3
 $$
 
@@ -544,10 +530,8 @@ $$
 と変われば、
 
 $$
-A'_xV'^x
-=
-\left(\frac{1}{2}A_x\right)(2V^x)
-=
+A'_xV'^x =
+\left(\frac{1}{2}A_x\right)(2V^x) =
 A_xV^x
 $$
 
@@ -558,8 +542,7 @@ $$
 一般には、
 
 $$
-A'_\mu
-=
+A'_\mu =
 \frac{\partial x^\nu}{\partial x'^\mu}A_\nu
 $$
 
@@ -604,8 +587,7 @@ Bob「うん。二つを掛けた結果を変えないために、逆向きに�
 温度の小さな変化は、
 
 $$
-df
-=
+df =
 \frac{\partial f}{\partial x^\mu}dx^\mu
 $$
 
@@ -622,8 +604,7 @@ $$
 と置けば、
 
 $$
-df
-=
+df =
 \partial_\mu f\,dx^\mu
 $$
 
@@ -644,8 +625,7 @@ $$
 実際、連鎖律から、
 
 $$
-\frac{\partial f}{\partial x'^\mu}
-=
+\frac{\partial f}{\partial x'^\mu} =
 \frac{\partial x^\nu}{\partial x'^\mu}
 \frac{\partial f}{\partial x^\nu}
 $$
@@ -655,8 +635,7 @@ $$
 これは、
 
 $$
-A'_\mu
-=
+A'_\mu =
 \frac{\partial x^\nu}{\partial x'^\mu}A_\nu
 $$
 
@@ -681,8 +660,7 @@ $$
 座標変換後の値を計算すると、
 
 $$
-A'_\mu V'^\mu
-=
+A'_\mu V'^\mu =
 \left(
 \frac{\partial x^\nu}{\partial x'^\mu}A_\nu
 \right)
@@ -696,8 +674,7 @@ $$
 二つのヤコビ行列をまとめると、
 
 $$
-A'_\mu V'^\mu
-=
+A'_\mu V'^\mu =
 \frac{\partial x^\nu}{\partial x'^\mu}
 \frac{\partial x'^\mu}{\partial x^\rho}
 A_\nu V^\rho
@@ -709,18 +686,15 @@ $$
 
 $$
 \frac{\partial x^\nu}{\partial x'^\mu}
-\frac{\partial x'^\mu}{\partial x^\rho}
-=
+\frac{\partial x'^\mu}{\partial x^\rho} =
 {\delta^\nu}_\rho
 $$
 
 となる。したがって、
 
 $$
-A'_\mu V'^\mu
-=
-{\delta^\nu}_\rho A_\nu V^\rho
-=
+A'_\mu V'^\mu =
+{\delta^\nu}_\rho A_\nu V^\rho =
 A_\nu V^\nu
 $$
 
@@ -730,8 +704,7 @@ $$
 
 $$
 \boxed{
-A'_\mu V'^\mu
-=
+A'_\mu V'^\mu =
 A_\mu V^\mu
 }
 $$
@@ -743,8 +716,7 @@ $$
 線素は、
 
 $$
-ds^2
-=
+ds^2 =
 g_{\mu\nu}dx^\mu dx^\nu
 $$
 
@@ -759,8 +731,7 @@ $dx^\mu$ と $dx^\nu$ は、どちらも上付き成分として変換される�
 二次元の線素を成分ごとに展開すると、
 
 $$
-ds^2
-=
+ds^2 =
 g_{11}(dx^1)^2
 +g_{12}dx^1dx^2
 +g_{21}dx^2dx^1
@@ -772,8 +743,7 @@ $$
 普通の数の掛け算では、
 
 $$
-dx^1dx^2
-=
+dx^1dx^2 =
 dx^2dx^1
 $$
 
@@ -781,8 +751,7 @@ $$
 
 $$
 g_{12}dx^1dx^2
-+g_{21}dx^2dx^1
-=
++g_{21}dx^2dx^1 =
 (g_{12}+g_{21})dx^1dx^2
 $$
 
@@ -811,14 +780,12 @@ $$
 座標変換によって、
 
 $$
-dx^\mu
-=
+dx^\mu =
 \frac{\partial x^\mu}{\partial x'^\rho}dx'^\rho
 $$
 
 $$
-dx^\nu
-=
+dx^\nu =
 \frac{\partial x^\nu}{\partial x'^\sigma}dx'^\sigma
 $$
 
@@ -843,8 +810,7 @@ $$
 座標変換に関係する部分をまとめれば、
 
 $$
-ds^2
-=
+ds^2 =
 \left(
 g_{\mu\nu}
 \frac{\partial x^\mu}{\partial x'^\rho}
@@ -858,8 +824,7 @@ $$
 新しい座標でも線素を、
 
 $$
-ds^2
-=
+ds^2 =
 g'_{\rho\sigma}dx'^\rho dx'^\sigma
 $$
 
@@ -869,8 +834,7 @@ $$
 
 $$
 \boxed{
-g'_{\rho\sigma}
-=
+g'_{\rho\sigma} =
 g_{\mu\nu}
 \frac{\partial x^\mu}{\partial x'^\rho}
 \frac{\partial x^\nu}{\partial x'^\sigma}
@@ -890,8 +854,7 @@ $$
 古い座標では、
 
 $$
-ds^2
-=
+ds^2 =
 -dw^2+dx^2
 $$
 
@@ -950,8 +913,7 @@ $$
 したがって、新しい座標での計量は、
 
 $$
-g'_{\mu\nu}
-=
+g'_{\mu\nu} =
 \begin{pmatrix}
 -1&0\\
 0&1/4
@@ -963,8 +925,7 @@ $$
 古い座標では、
 
 $$
-g_{\mu\nu}
-=
+g_{\mu\nu} =
 \begin{pmatrix}
 -1&0\\
 0&1
@@ -996,10 +957,8 @@ $$
 新しい座標で空間部分を計算すると、
 
 $$
-\frac{1}{4}dx'^2
-=
-\frac{1}{4}(2dx)^2
-=
+\frac{1}{4}dx'^2 =
+\frac{1}{4}(2dx)^2 =
 dx^2
 $$
 
@@ -1010,8 +969,7 @@ $$
 その結果、
 
 $$
--dw'^2+\frac{1}{4}dx'^2
-=
+-dw'^2+\frac{1}{4}dx'^2 =
 -dw^2+dx^2
 $$
 
@@ -1034,8 +992,7 @@ Bob「そう。今回は同じ平坦な時空を、違う目盛りで書いた�
 座標変換の前後で、
 
 $$
-g_{\mu\nu}
-=
+g_{\mu\nu} =
 \begin{pmatrix}
 -1&0\\
 0&1
@@ -1045,8 +1002,7 @@ $$
 から、
 
 $$
-g'_{\mu\nu}
-=
+g'_{\mu\nu} =
 \begin{pmatrix}
 -1&0\\
 0&1/4
@@ -1081,8 +1037,7 @@ $$
 上付きベクトル $V^\nu$ に計量を組み合わせて、
 
 $$
-V_\mu
-=
+V_\mu =
 g_{\mu\nu}V^\nu
 $$
 
@@ -1095,8 +1050,7 @@ $$
 平坦な二次元時空で、
 
 $$
-g_{\mu\nu}
-=
+g_{\mu\nu} =
 \begin{pmatrix}
 -1&0\\
 0&1
@@ -1106,18 +1060,14 @@ $$
 なら、
 
 $$
-V_0
-=
-g_{00}V^0+g_{01}V^1
-=
+V_0 =
+g_{00}V^0+g_{01}V^1 =
 -V^0
 $$
 
 $$
-V_1
-=
-g_{10}V^0+g_{11}V^1
-=
+V_1 =
+g_{10}V^0+g_{11}V^1 =
 V^1
 $$
 
@@ -1126,8 +1076,7 @@ $$
 つまり、
 
 $$
-V^\mu
-=
+V^\mu =
 \begin{pmatrix}
 V^0\\
 V^1
@@ -1137,8 +1086,7 @@ $$
 に対して、
 
 $$
-V_\mu
-=
+V_\mu =
 \begin{pmatrix}
 -V^0\\
 V^1
@@ -1164,8 +1112,7 @@ $$
 例えば線素は、古い座標では、
 
 $$
-ds^2
-=
+ds^2 =
 g_{\mu\nu}dx^\mu dx^\nu
 $$
 
@@ -1174,8 +1121,7 @@ $$
 座標を変えた後も、
 
 $$
-ds^2
-=
+ds^2 =
 g'_{\rho\sigma}dx'^\rho dx'^\sigma
 $$
 
@@ -1218,24 +1164,21 @@ Alice「座標ごとに違う物理法則を作り直さなくていいんだ！
 - 反変ベクトル $V^\mu$
 
   $$
-  V'^\mu
-  =
+  V'^\mu =
   \frac{\partial x'^\mu}{\partial x^\nu}V^\nu
   $$
 
 - 共変ベクトル $A_\mu$
 
   $$
-  A'_\mu
-  =
+  A'_\mu =
   \frac{\partial x^\nu}{\partial x'^\mu}A_\nu
   $$
 
 - 計量 $g_{\mu\nu}$
 
   $$
-  g'_{\rho\sigma}
-  =
+  g'_{\rho\sigma} =
   g_{\mu\nu}
   \frac{\partial x^\mu}{\partial x'^\rho}
   \frac{\partial x^\nu}{\partial x'^\sigma}

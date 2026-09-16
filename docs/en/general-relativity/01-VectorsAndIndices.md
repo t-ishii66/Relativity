@@ -154,8 +154,7 @@ x^0 \\
 x^1 \\
 x^2 \\
 x^3
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 w \\
 x \\
@@ -284,8 +283,7 @@ $$
 means
 
 $$
-A_\mu B^\mu
-=
+A_\mu B^\mu =
 A_0B^0+A_1B^1+A_2B^2+A_3B^3
 $$
 
@@ -294,8 +292,7 @@ This is called Einstein summation notation, or the Einstein summation convention
 Using the symbol $\sum$, it means
 
 $$
-A_\mu B^\mu
-=
+A_\mu B^\mu =
 \sum_{\mu=0}^{3}A_\mu B^\mu
 $$
 
@@ -326,8 +323,7 @@ We add over the values from $0$ to $3$ for $\mu$, and we also add over the value
 Written without omitting the sums, this is
 
 $$
-g_{\mu\nu}A^\mu B^\nu
-=
+g_{\mu\nu}A^\mu B^\nu =
 \sum_{\mu=0}^{3}
 \sum_{\nu=0}^{3}
 g_{\mu\nu}A^\mu B^\nu
@@ -365,8 +361,7 @@ $\eta$ is the Greek letter “eta.”
 When we use time and three-dimensional space, its components are
 
 $$
-\eta_{\mu\nu}
-=
+\eta_{\mu\nu} =
 \begin{pmatrix}
 -1 & 0 & 0 & 0 \\
 0 & 1 & 0 & 0 \\
@@ -400,8 +395,7 @@ $$
 Using index notation, the line element of flat spacetime can be written as
 
 $$
-ds^2
-=
+ds^2 =
 \eta_{\mu\nu}dx^\mu dx^\nu
 $$
 
@@ -410,8 +404,7 @@ This may suddenly look like a difficult equation, but let us expand it according
 $\mu$ and $\nu$ each take the values $0,1,2,3$. However, because every component of $\eta_{\mu\nu}$ other than its diagonal components is $0$, the only terms that remain are
 
 $$
-ds^2
-=
+ds^2 =
 \eta_{00}dx^0dx^0
 +
 \eta_{11}dx^1dx^1
@@ -424,8 +417,7 @@ $$
 Substituting the components of the metric gives
 
 $$
-ds^2
-=
+ds^2 =
 -(dx^0)^2
 +
 (dx^1)^2
@@ -447,8 +439,7 @@ $$
 so we return to
 
 $$
-ds^2
-=
+ds^2 =
 -dw^2+dx^2+dy^2+dz^2
 $$
 
@@ -456,8 +447,7 @@ In other words,
 
 $$
 \boxed{
-ds^2
-=
+ds^2 =
 \eta_{\mu\nu}dx^\mu dx^\nu
 }
 $$
@@ -483,8 +473,7 @@ $$
 and the metric is
 
 $$
-\eta_{\mu\nu}
-=
+\eta_{\mu\nu} =
 \begin{pmatrix}
 -1 & 0 \\
 0 & 1
@@ -494,8 +483,7 @@ $$
 The line element is
 
 $$
-ds^2
-=
+ds^2 =
 \eta_{\mu\nu}dx^\mu dx^\nu
 $$
 
@@ -526,8 +514,7 @@ $$
 so
 
 $$
-ds^2
-=
+ds^2 =
 -(dx^0)^2+(dx^1)^2
 $$
 
@@ -559,8 +546,7 @@ $$
 \begin{pmatrix}
 w_B \\
 x_B
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 \gamma & -\gamma\beta \\
 -\gamma\beta & \gamma
@@ -576,8 +562,7 @@ Let us multiply the matrix and column vector on the right-hand side.
 The first component is
 
 $$
-\gamma w_A-\gamma\beta x_A
-=
+\gamma w_A-\gamma\beta x_A =
 \gamma(w_A-\beta x_A)
 $$
 
@@ -586,8 +571,7 @@ This is $w_B$.
 The second component is
 
 $$
--\gamma\beta w_A+\gamma x_A
-=
+-\gamma\beta w_A+\gamma x_A =
 \gamma(x_A-\beta w_A)
 $$
 
@@ -602,8 +586,7 @@ Therefore, the equation written with matrices merely combines the two Lorentz tr
 This transformation matrix is sometimes represented by the symbol $\Lambda$.
 
 $$
-\Lambda
-=
+\Lambda =
 \begin{pmatrix}
 \gamma & -\gamma\beta \\
 -\gamma\beta & \gamma
@@ -613,8 +596,7 @@ $$
 The Lorentz transformation can then be written even more briefly as
 
 $$
-x_B^\mu
-=
+x_B^\mu =
 {\Lambda^\mu}_\nu x_A^\nu
 $$
 
@@ -638,8 +620,7 @@ Index notation has benefits beyond making long equations shorter.
 For example, in
 
 $$
-x_B^\mu
-=
+x_B^\mu =
 {\Lambda^\mu}_\nu x_A^\nu
 $$
 
@@ -650,8 +631,7 @@ Thus, both sides represent the same kind of component.
 On the other hand, if we were to write
 
 $$
-x_B^\mu
-=
+x_B^\mu =
 {\Lambda^\rho}_\nu x_A^\nu
 $$
 
@@ -708,16 +688,14 @@ can occur.
 However, when they each calculate the line element in their own coordinates,
 
 $$
-\eta_{\mu\nu}dx_A^\mu dx_A^\nu
-=
+\eta_{\mu\nu}dx_A^\mu dx_A^\nu =
 \eta_{\mu\nu}dx_B^\mu dx_B^\nu
 $$
 
 This is the index-notation version of the result we confirmed in the section on Lorentz transformations:
 
 $$
--dw_A^2+dx_A^2
-=
+-dw_A^2+dx_A^2 =
 -dw_B^2+dx_B^2
 $$
 
@@ -771,8 +749,7 @@ When we change coordinates, the vector components $dx^\mu$ change.
 Even so,
 
 $$
-ds^2
-=
+ds^2 =
 g_{\mu\nu}dx^\mu dx^\nu
 $$
 

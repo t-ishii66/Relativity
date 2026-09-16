@@ -5,16 +5,14 @@
 In the previous document, “The Metric as a Ruler for Spacetime,” we saw that when a plane is expressed in polar coordinates,
 
 $$
-ds^2
-=
+ds^2 =
 dr^2+r^2d\theta^2
 $$
 
 This describes the same plane as
 
 $$
-ds^2
-=
+ds^2 =
 dx^2+dy^2
 $$
 
@@ -60,8 +58,7 @@ $$
 The vector $\boldsymbol{V}$ can be written as
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^x\boldsymbol{e}_x
 +
 V^y\boldsymbol{e}_y.
@@ -103,8 +100,7 @@ A vector can be written as
 
 $$
 \boxed{
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^\mu\boldsymbol{e}_\mu
 }.
 $$
@@ -114,8 +110,7 @@ Because the same index $\mu$ appears once above and once below, we sum over all 
 In two dimensions, this equation means
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^1\boldsymbol{e}_1
 +
 V^2\boldsymbol{e}_2.
@@ -128,8 +123,7 @@ The coordinate basis $\boldsymbol{e}_\mu$ represents the direction and amount of
 The vector for an infinitesimal displacement can also be written as
 
 $$
-d\boldsymbol{x}
-=
+d\boldsymbol{x} =
 dx^\mu\boldsymbol{e}_\mu.
 $$
 
@@ -168,8 +162,7 @@ $\boldsymbol{e}_\theta$ is not a unit vector of length $1$ pointing in the angul
 Therefore, in
 
 $$
-d\boldsymbol{x}
-=
+d\boldsymbol{x} =
 dr\,\boldsymbol{e}_r
 +
 d\theta\,\boldsymbol{e}_\theta,
@@ -178,16 +171,14 @@ $$
 the length in the angular direction is
 
 $$
-\left|d\theta\,\boldsymbol{e}_\theta\right|
-=
+\left|d\theta\,\boldsymbol{e}_\theta\right| =
 r\,d\theta.
 $$
 
 This is the same reason that $r^2$ appeared in
 
 $$
-ds^2
-=
+ds^2 =
 dr^2+r^2d\theta^2
 $$
 
@@ -238,24 +229,20 @@ Alice: “They are both $(1,0)$, but their arrows point in different directions?
 Bob: “That is because $(1,0)$ is not the vector itself. It is a set of components that multiplies the basis. The vector at P can be written as”
 
 $$
-\boldsymbol{V}(P)
-=
+\boldsymbol{V}(P) =
 1\,\boldsymbol{e}_r(P)
 +
-0\,\boldsymbol{e}_\theta(P)
-=
+0\,\boldsymbol{e}_\theta(P) =
 \boldsymbol{e}_r(P).
 $$
 
 Bob: “At Q, on the other hand, it is”
 
 $$
-\boldsymbol{V}(Q)
-=
+\boldsymbol{V}(Q) =
 1\,\boldsymbol{e}_r(Q)
 +
-0\,\boldsymbol{e}_\theta(Q)
-=
+0\,\boldsymbol{e}_\theta(Q) =
 \boldsymbol{e}_r(Q).
 $$
 
@@ -272,8 +259,7 @@ When comparing vectors at different locations, we must consider changes in the b
 Write a vector field as
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^\nu\boldsymbol{e}_\nu.
 $$
 
@@ -284,8 +270,7 @@ We want to examine how the entire vector changes when we move in the direction o
 Using the product rule gives
 
 $$
-\partial_\mu\boldsymbol{V}
-=
+\partial_\mu\boldsymbol{V} =
 \partial_\mu
 \left(
 V^\nu\boldsymbol{e}_\nu
@@ -293,8 +278,7 @@ V^\nu\boldsymbol{e}_\nu
 $$
 
 $$
-=
-\left(
+= \left(
 \partial_\mu V^\nu
 \right)
 \boldsymbol{e}_\nu
@@ -330,8 +314,7 @@ A change in a basis vector can also be expressed using the basis at that locatio
 We therefore write
 
 $$
-\partial_\mu\boldsymbol{e}_\nu
-=
+\partial_\mu\boldsymbol{e}_\nu =
 \Gamma^\rho_{\mu\nu}
 \boldsymbol{e}_\rho.
 $$
@@ -343,8 +326,7 @@ These coefficients are called the Christoffel symbols, or connection coefficient
 Substituting this into the derivative of the vector above gives
 
 $$
-\partial_\mu\boldsymbol{V}
-=
+\partial_\mu\boldsymbol{V} =
 \left(
 \partial_\mu V^\rho
 +
@@ -359,8 +341,7 @@ This combination is called the covariant derivative of a vector.
 
 $$
 \boxed{
-\nabla_\mu V^\rho
-=
+\nabla_\mu V^\rho =
 \partial_\mu V^\rho
 +
 \Gamma^\rho_{\mu\nu}V^\nu
@@ -372,8 +353,7 @@ Let us summarize once more how this definition is related to the derivative of t
 Writing the entire vector as
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^\nu\boldsymbol{e}_\nu
 $$
 
@@ -401,8 +381,7 @@ $$
 Substituting the definition of the Christoffel symbols,
 
 $$
-\partial_\mu\boldsymbol{e}_\nu
-=
+\partial_\mu\boldsymbol{e}_\nu =
 \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho,
 $$
 
@@ -438,8 +417,7 @@ Therefore,
 
 $$
 \boxed{
-\partial_\mu\boldsymbol{V}
-=
+\partial_\mu\boldsymbol{V} =
 \left(
 \nabla_\mu V^\rho
 \right)
@@ -482,8 +460,7 @@ In a general curved space, however, vectors at separated locations cannot be giv
 What matters here is not the name of the notation, but the idea
 
 $$
-\text{change in the entire vector}
-=
+\text{change in the entire vector} =
 \text{change in the components}
 +
 \text{change in the basis}.
@@ -494,8 +471,7 @@ $$
 Write the position vector on a plane as
 
 $$
-\boldsymbol{x}(r,\theta)
-=
+\boldsymbol{x}(r,\theta) =
 \begin{pmatrix}
 r\cos\theta\\
 r\sin\theta
@@ -505,8 +481,7 @@ $$
 The position vector $\boldsymbol{x}$ changes with both $r$ and $\theta$. Its total differential is
 
 $$
-d\boldsymbol{x}
-=
+d\boldsymbol{x} =
 \frac{\partial\boldsymbol{x}}{\partial r}dr
 +
 \frac{\partial\boldsymbol{x}}{\partial\theta}d\theta.
@@ -541,8 +516,7 @@ $$
 On the other hand, an infinitesimal displacement in polar coordinates can be expressed using the coordinate basis in the $r$ and $\theta$ directions as
 
 $$
-d\boldsymbol{x}
-=
+d\boldsymbol{x} =
 \boldsymbol{e}_r\,dr
 +
 \boldsymbol{e}_\theta\,d\theta.
@@ -551,10 +525,8 @@ $$
 Comparing the vectors that multiply $dr$ and $d\theta$ in the two equations, respectively, we find that the polar-coordinate basis is
 
 $$
-\boldsymbol{e}_r
-=
-\frac{\partial\boldsymbol{x}}{\partial r}
-=
+\boldsymbol{e}_r =
+\frac{\partial\boldsymbol{x}}{\partial r} =
 \begin{pmatrix}
 \cos\theta\\
 \sin\theta
@@ -562,10 +534,8 @@ $$
 $$
 
 $$
-\boldsymbol{e}_\theta
-=
-\frac{\partial\boldsymbol{x}}{\partial\theta}
-=
+\boldsymbol{e}_\theta =
+\frac{\partial\boldsymbol{x}}{\partial\theta} =
 \begin{pmatrix}
 -r\sin\theta\\
 r\cos\theta
@@ -576,12 +546,10 @@ Thus, the coordinate basis arises naturally from the total differential of the p
 
 $$
 \boxed{
-\boldsymbol{e}_r
-=
+\boldsymbol{e}_r =
 \frac{\partial\boldsymbol{x}}{\partial r},
 \qquad
-\boldsymbol{e}_\theta
-=
+\boldsymbol{e}_\theta =
 \frac{\partial\boldsymbol{x}}{\partial\theta}
 }.
 $$
@@ -607,55 +575,47 @@ $$
 Meanwhile,
 
 $$
-\partial_\theta\boldsymbol{e}_r
-=
+\partial_\theta\boldsymbol{e}_r =
 \begin{pmatrix}
 -\sin\theta\\
 \cos\theta
-\end{pmatrix}
-=
+\end{pmatrix} =
 \frac{1}{r}\boldsymbol{e}_\theta.
 $$
 
 Also,
 
 $$
-\partial_r\boldsymbol{e}_\theta
-=
+\partial_r\boldsymbol{e}_\theta =
 \begin{pmatrix}
 -\sin\theta\\
 \cos\theta
-\end{pmatrix}
-=
+\end{pmatrix} =
 \frac{1}{r}\boldsymbol{e}_\theta,
 $$
 
 and
 
 $$
-\partial_\theta\boldsymbol{e}_\theta
-=
+\partial_\theta\boldsymbol{e}_\theta =
 \begin{pmatrix}
 -r\cos\theta\\
 -r\sin\theta
-\end{pmatrix}
-=
+\end{pmatrix} =
 -r\boldsymbol{e}_r.
 $$
 
 Recall that the definition of the Christoffel symbols is
 
 $$
-\partial_\mu\boldsymbol{e}_\nu
-=
+\partial_\mu\boldsymbol{e}_\nu =
 \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho.
 $$
 
 In two-dimensional polar coordinates, we sum over the index $\rho$ on the right-hand side, so we can expand this as
 
 $$
-\partial_\mu\boldsymbol{e}_\nu
-=
+\partial_\mu\boldsymbol{e}_\nu =
 \Gamma^r_{\mu\nu}\boldsymbol{e}_r
 +
 \Gamma^\theta_{\mu\nu}\boldsymbol{e}_\theta.
@@ -676,8 +636,7 @@ $$
 with the definition.
 
 $$
-\partial_r\boldsymbol{e}_r
-=
+\partial_r\boldsymbol{e}_r =
 \Gamma^r_{rr}\boldsymbol{e}_r
 +
 \Gamma^\theta_{rr}\boldsymbol{e}_\theta
@@ -695,20 +654,17 @@ $$
 Next, comparing
 
 $$
-\partial_\theta\boldsymbol{e}_r
-=
+\partial_\theta\boldsymbol{e}_r =
 \frac{1}{r}\boldsymbol{e}_\theta
 $$
 
 gives
 
 $$
-\partial_\theta\boldsymbol{e}_r
-=
+\partial_\theta\boldsymbol{e}_r =
 \Gamma^r_{\theta r}\boldsymbol{e}_r
 +
-\Gamma^\theta_{\theta r}\boldsymbol{e}_\theta
-=
+\Gamma^\theta_{\theta r}\boldsymbol{e}_\theta =
 \frac{1}{r}\boldsymbol{e}_\theta,
 $$
 
@@ -717,28 +673,24 @@ so
 $$
 \Gamma^r_{\theta r}=0,
 \qquad
-\Gamma^\theta_{\theta r}
-=
+\Gamma^\theta_{\theta r} =
 \frac{1}{r}.
 $$
 
 Similarly, comparing
 
 $$
-\partial_r\boldsymbol{e}_\theta
-=
+\partial_r\boldsymbol{e}_\theta =
 \frac{1}{r}\boldsymbol{e}_\theta
 $$
 
 gives
 
 $$
-\partial_r\boldsymbol{e}_\theta
-=
+\partial_r\boldsymbol{e}_\theta =
 \Gamma^r_{r\theta}\boldsymbol{e}_r
 +
-\Gamma^\theta_{r\theta}\boldsymbol{e}_\theta
-=
+\Gamma^\theta_{r\theta}\boldsymbol{e}_\theta =
 \frac{1}{r}\boldsymbol{e}_\theta,
 $$
 
@@ -747,28 +699,24 @@ so
 $$
 \Gamma^r_{r\theta}=0,
 \qquad
-\Gamma^\theta_{r\theta}
-=
+\Gamma^\theta_{r\theta} =
 \frac{1}{r}.
 $$
 
 Finally, comparing
 
 $$
-\partial_\theta\boldsymbol{e}_\theta
-=
+\partial_\theta\boldsymbol{e}_\theta =
 -r\boldsymbol{e}_r
 $$
 
 gives
 
 $$
-\partial_\theta\boldsymbol{e}_\theta
-=
+\partial_\theta\boldsymbol{e}_\theta =
 \Gamma^r_{\theta\theta}\boldsymbol{e}_r
 +
-\Gamma^\theta_{\theta\theta}\boldsymbol{e}_\theta
-=
+\Gamma^\theta_{\theta\theta}\boldsymbol{e}_\theta =
 -r\boldsymbol{e}_r,
 $$
 
@@ -786,10 +734,8 @@ $$
 \boxed{
 \Gamma^r_{\theta\theta}=-r,
 \qquad
-\Gamma^\theta_{r\theta}
-=
-\Gamma^\theta_{\theta r}
-=
+\Gamma^\theta_{r\theta} =
+\Gamma^\theta_{\theta r} =
 \frac{1}{r}
 },
 $$
@@ -813,10 +759,8 @@ However, when the same plane is expressed in polar coordinates,
 $$
 \Gamma^r_{\theta\theta}=-r,
 \qquad
-\Gamma^\theta_{r\theta}
-=
-\Gamma^\theta_{\theta r}
-=
+\Gamma^\theta_{r\theta} =
+\Gamma^\theta_{\theta r} =
 \frac{1}{r}.
 $$
 
@@ -829,8 +773,7 @@ This is not a defect. For polar coordinates on the plane considered here, the Ch
 The ordinary derivative $\partial_\mu V^\nu$ is not a tensor by itself either. The combination
 
 $$
-\nabla_\mu V^\nu
-=
+\nabla_\mu V^\nu =
 \partial_\mu V^\nu
 +
 \Gamma^\nu_{\mu\rho}V^\rho
@@ -861,8 +804,7 @@ This vector points in the same direction everywhere and does not change on the p
 In Cartesian components, it is
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 \begin{pmatrix}
 1\\
 0
@@ -872,8 +814,7 @@ $$
 Meanwhile, the polar-coordinate basis was
 
 $$
-\boldsymbol{e}_r
-=
+\boldsymbol{e}_r =
 \begin{pmatrix}
 \cos\theta\\
 \sin\theta
@@ -881,8 +822,7 @@ $$
 $$
 
 $$
-\boldsymbol{e}_\theta
-=
+\boldsymbol{e}_\theta =
 \begin{pmatrix}
 -r\sin\theta\\
 r\cos\theta
@@ -892,8 +832,7 @@ $$
 We want to express $\boldsymbol{V}$ as a linear combination of the two polar-coordinate basis vectors:
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^r\boldsymbol{e}_r
 +
 V^\theta\boldsymbol{e}_\theta.
@@ -931,8 +870,7 @@ $$
 On the other hand, calculating with the Cartesian components gives
 
 $$
-\boldsymbol{V}\cdot\boldsymbol{e}_r
-=
+\boldsymbol{V}\cdot\boldsymbol{e}_r =
 \begin{pmatrix}
 1\\
 0
@@ -941,8 +879,7 @@ $$
 \begin{pmatrix}
 \cos\theta\\
 \sin\theta
-\end{pmatrix}
-=
+\end{pmatrix} =
 \cos\theta,
 $$
 
@@ -955,16 +892,14 @@ $$
 Similarly, taking the inner product with $\boldsymbol{e}_\theta$ gives
 
 $$
-\boldsymbol{V}\cdot\boldsymbol{e}_\theta
-=
+\boldsymbol{V}\cdot\boldsymbol{e}_\theta =
 r^2V^\theta.
 $$
 
 On the other hand,
 
 $$
-\boldsymbol{V}\cdot\boldsymbol{e}_\theta
-=
+\boldsymbol{V}\cdot\boldsymbol{e}_\theta =
 \begin{pmatrix}
 1\\
 0
@@ -973,8 +908,7 @@ $$
 \begin{pmatrix}
 -r\sin\theta\\
 r\cos\theta
-\end{pmatrix}
-=
+\end{pmatrix} =
 -r\sin\theta,
 $$
 
@@ -993,10 +927,8 @@ $$
 Thus, expressing the same vector in the polar-coordinate basis gives
 
 $$
-\boldsymbol{V}
-=
-\cos\theta\,\boldsymbol{e}_r
--
+\boldsymbol{V} =
+\cos\theta\,\boldsymbol{e}_r -
 \frac{\sin\theta}{r}\boldsymbol{e}_\theta.
 $$
 
@@ -1017,8 +949,7 @@ $$
 On the other hand, differentiating
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^r\boldsymbol{e}_r
 +
 V^\theta\boldsymbol{e}_\theta
@@ -1044,14 +975,12 @@ $$
 Substituting the derivatives of the polar-coordinate basis,
 
 $$
-\partial_\theta\boldsymbol{e}_r
-=
+\partial_\theta\boldsymbol{e}_r =
 \frac{1}{r}\boldsymbol{e}_\theta
 $$
 
 $$
-\partial_\theta\boldsymbol{e}_\theta
-=
+\partial_\theta\boldsymbol{e}_\theta =
 -r\boldsymbol{e}_r,
 $$
 
@@ -1094,8 +1023,7 @@ $$
 these two equations are precisely
 
 $$
-\nabla_\theta V^r
-=
+\nabla_\theta V^r =
 \partial_\theta V^r
 +
 \Gamma^r_{\theta\theta}V^\theta
@@ -1103,8 +1031,7 @@ $$
 $$
 
 $$
-\nabla_\theta V^\theta
-=
+\nabla_\theta V^\theta =
 \partial_\theta V^\theta
 +
 \Gamma^\theta_{\theta r}V^r
@@ -1161,16 +1088,14 @@ formed by contracting $A_\nu$ with an arbitrary vector $V^\nu$.
 The covariant derivative of a scalar is the same as its ordinary partial derivative, so we must have
 
 $$
-\nabla_\mu f
-=
+\nabla_\mu f =
 \partial_\mu f.
 $$
 
 Meanwhile, if we require the covariant derivative to obey the product rule, then
 
 $$
-\nabla_\mu(A_\nu V^\nu)
-=
+\nabla_\mu(A_\nu V^\nu) =
 (\nabla_\mu A_\nu)V^\nu
 +
 A_\nu(\nabla_\mu V^\nu).
@@ -1179,8 +1104,7 @@ $$
 On the right-hand side, substitute the covariant derivative of a vector that we already know,
 
 $$
-\nabla_\mu V^\nu
-=
+\nabla_\mu V^\nu =
 \partial_\mu V^\nu
 +
 \Gamma^\nu_{\mu\rho}V^\rho.
@@ -1189,8 +1113,7 @@ $$
 The left-hand side, on the other hand, is the partial derivative of a scalar, so
 
 $$
-\partial_\mu(A_\nu V^\nu)
-=
+\partial_\mu(A_\nu V^\nu) =
 (\partial_\mu A_\nu)V^\nu
 +
 A_\nu\partial_\mu V^\nu.
@@ -1199,8 +1122,7 @@ $$
 Setting the two sides equal, canceling the common term $A_\nu\partial_\mu V^\nu$, and aligning the indices gives
 
 $$
-(\partial_\mu A_\rho)V^\rho
-=
+(\partial_\mu A_\rho)V^\rho =
 (\nabla_\mu A_\rho)V^\rho
 +
 A_\nu\Gamma^\nu_{\mu\rho}V^\rho.
@@ -1209,10 +1131,8 @@ $$
 This must hold for any $V^\rho$, so
 
 $$
-\nabla_\mu A_\rho
-=
-\partial_\mu A_\rho
--
+\nabla_\mu A_\rho =
+\partial_\mu A_\rho -
 \Gamma^\nu_{\mu\rho}A_\nu.
 $$
 
@@ -1220,10 +1140,8 @@ Renaming the free and dummy indices gives
 
 $$
 \boxed{
-\nabla_\mu A_\nu
-=
-\partial_\mu A_\nu
--
+\nabla_\mu A_\nu =
+\partial_\mu A_\nu -
 \Gamma^\rho_{\mu\nu}A_\rho
 }.
 $$
@@ -1237,16 +1155,14 @@ Consider a mixed tensor $T^\rho{}_\nu$ with one upper index and one lower index.
 If we contract all its indices using a covector $A_\rho$ and a vector $V^\nu$, then
 
 $$
-S
-=
+S =
 A_\rho T^\rho{}_\nu V^\nu
 $$
 
 is a scalar. Therefore, we must have
 
 $$
-\nabla_\mu S
-=
+\nabla_\mu S =
 \partial_\mu S.
 $$
 
@@ -1267,14 +1183,11 @@ $$
 Into this, substitute the results already derived,
 
 $$
-\nabla_\mu A_\rho
-=
-\partial_\mu A_\rho
--
+\nabla_\mu A_\rho =
+\partial_\mu A_\rho -
 \Gamma^\sigma_{\mu\rho}A_\sigma,
 \qquad
-\nabla_\mu V^\nu
-=
+\nabla_\mu V^\nu =
 \partial_\mu V^\nu
 +
 \Gamma^\nu_{\mu\sigma}V^\sigma.
@@ -1285,12 +1198,10 @@ Therefore, the covariant derivative of a mixed tensor is
 
 $$
 \boxed{
-\nabla_\mu T^\rho{}_\nu
-=
+\nabla_\mu T^\rho{}_\nu =
 \partial_\mu T^\rho{}_\nu
 +
-\Gamma^\rho_{\mu\sigma}T^\sigma{}_\nu
--
+\Gamma^\rho_{\mu\sigma}T^\sigma{}_\nu -
 \Gamma^\sigma_{\mu\nu}T^\rho{}_\sigma
 }.
 $$
@@ -1413,8 +1324,7 @@ $$
 \nabla_\lambda T_{\mu\nu}
 +\Gamma^\rho_{\lambda\mu}T_{\rho\nu}
 +\Gamma^\rho_{\lambda\nu}T_{\mu\rho}
-\right)V^\mu W^\nu
-=
+\right)V^\mu W^\nu =
 (\partial_\lambda T_{\mu\nu})V^\mu W^\nu.
 $$
 
@@ -1437,8 +1347,7 @@ In the next chapter, we will apply this equation to the metric $g_{\mu\nu}$.
 Because a scalar $f$ has no index that needs to be compensated for,
 
 $$
-\nabla_\mu f
-=
+\nabla_\mu f =
 \partial_\mu f.
 $$
 
@@ -1455,12 +1364,10 @@ From these results, instead of memorizing each equation separately, it is helpfu
 - In polar coordinates,
 
   $$
-  \boldsymbol{e}_r
-  =
+  \boldsymbol{e}_r =
   \frac{\partial\boldsymbol{x}}{\partial r},
   \qquad
-  \boldsymbol{e}_\theta
-  =
+  \boldsymbol{e}_\theta =
   \frac{\partial\boldsymbol{x}}{\partial\theta}
   $$
 
@@ -1470,16 +1377,14 @@ From these results, instead of memorizing each equation separately, it is helpfu
 - The Christoffel symbols express changes in the basis through components according to
 
   $$
-  \partial_\mu\boldsymbol{e}_\nu
-  =
+  \partial_\mu\boldsymbol{e}_\nu =
   \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho.
   $$
 
 - The covariant derivative of a contravariant vector is
 
   $$
-  \nabla_\mu V^\rho
-  =
+  \nabla_\mu V^\rho =
   \partial_\mu V^\rho
   +
   \Gamma^\rho_{\mu\nu}V^\nu.
@@ -1495,8 +1400,7 @@ From these results, instead of memorizing each equation separately, it is helpfu
 For polar coordinates on a plane, we made the coordinate basis from the position vector
 
 $$
-\boldsymbol{x}(r,\theta)
-=
+\boldsymbol{x}(r,\theta) =
 \begin{pmatrix}
 r\cos\theta\\
 r\sin\theta

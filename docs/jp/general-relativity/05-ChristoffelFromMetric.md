@@ -5,8 +5,7 @@
 前の文書「場所の違うベクトルをどう比べるか」では、基底の変化を、
 
 $$
-\partial_\mu\boldsymbol{e}_\nu
-=
+\partial_\mu\boldsymbol{e}_\nu =
 \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho
 $$
 
@@ -17,8 +16,7 @@ $\Gamma^\rho_{\mu\nu}$ がクリストッフェル記号だった。
 平面の極座標では、
 
 $$
-\boldsymbol{x}(r,\theta)
-=
+\boldsymbol{x}(r,\theta) =
 \begin{pmatrix}
 r\cos\theta\\
 r\sin\theta
@@ -62,8 +60,7 @@ $$
 前の文書では、二つのベクトルの内積を、
 
 $$
-\boldsymbol{A}\cdot\boldsymbol{B}
-=
+\boldsymbol{A}\cdot\boldsymbol{B} =
 g_{\rho\sigma}A^\rho B^\sigma
 $$
 
@@ -74,16 +71,14 @@ $$
 任意のベクトル $\boldsymbol{V}$ は、座標基底を使って、
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^\rho\boldsymbol{e}_\rho
 $$
 
 と表せる。ここで $\boldsymbol{V}=\boldsymbol{e}_\mu$ とすると、
 
 $$
-\boldsymbol{e}_\mu
-=
+\boldsymbol{e}_\mu =
 (\boldsymbol{e}_\mu)^\rho\boldsymbol{e}_\rho
 $$
 
@@ -92,20 +87,17 @@ $$
 例えば二次元なら、
 
 $$
-\boldsymbol{e}_1
-=
+\boldsymbol{e}_1 =
 1\boldsymbol{e}_1+0\boldsymbol{e}_2,
 \qquad
-\boldsymbol{e}_2
-=
+\boldsymbol{e}_2 =
 0\boldsymbol{e}_1+1\boldsymbol{e}_2
 $$
 
 である。基底ベクトルを同じ基底で成分表示すると、自分自身に対応する成分だけが $1$ で、ほかは $0$ になる。したがって、
 
 $$
-(\boldsymbol{e}_\mu)^\rho
-=
+(\boldsymbol{e}_\mu)^\rho =
 {\delta^\rho}_\mu
 $$
 
@@ -116,12 +108,10 @@ $$
 例えば、極座標基底 $\{\boldsymbol{e}_r,\boldsymbol{e}_\theta\}$ を使って基底自身を表すと、
 
 $$
-\boldsymbol{e}_r
-=
+\boldsymbol{e}_r =
 1\boldsymbol{e}_r+0\boldsymbol{e}_\theta,
 \qquad
-\boldsymbol{e}_\theta
-=
+\boldsymbol{e}_\theta =
 0\boldsymbol{e}_r+1\boldsymbol{e}_\theta
 $$
 
@@ -144,15 +134,13 @@ $$
 一方、同じ二つのベクトルを、平面の直交座標基底 $\{\boldsymbol{e}_x,\boldsymbol{e}_y\}$ で表すと、
 
 $$
-\boldsymbol{e}_r
-=
+\boldsymbol{e}_r =
 \cos\theta\,\boldsymbol{e}_x
 +\sin\theta\,\boldsymbol{e}_y
 $$
 
 $$
-\boldsymbol{e}_\theta
-=
+\boldsymbol{e}_\theta =
 -r\sin\theta\,\boldsymbol{e}_x
 +r\cos\theta\,\boldsymbol{e}_y
 $$
@@ -176,16 +164,12 @@ $$
 異なる座標基底をまたいで見た成分には、クロネッカーのデルタではなく、座標変換の微分が現れる。例えば、
 
 $$
-(\boldsymbol{e}_r)^x
-=
-\frac{\partial x}{\partial r}
-=
+(\boldsymbol{e}_r)^x =
+\frac{\partial x}{\partial r} =
 \cos\theta,
 \qquad
-(\boldsymbol{e}_r)^y
-=
-\frac{\partial y}{\partial r}
-=
+(\boldsymbol{e}_r)^y =
+\frac{\partial y}{\partial r} =
 \sin\theta
 $$
 
@@ -248,8 +232,7 @@ $$
 つまり、
 
 $$
-(\boldsymbol{e}_\mu)^\rho
-=
+(\boldsymbol{e}_\mu)^\rho =
 {\delta^\rho}_\mu
 $$
 
@@ -469,7 +452,7 @@ $$
 \partial_\lambda g_{\mu\nu}
 =\Gamma^\rho_{\lambda\mu}g_{\rho\nu}
 +\Gamma^\rho_{\lambda\nu}g_{\mu\rho}
-\tag{5.1}
+\qquad (5.1)
 $$
 
 を代入すると、右辺の項が打ち消し合い、
@@ -664,7 +647,7 @@ g^{\rho\sigma}
 -\partial_\sigma g_{\mu\nu}
 \right)
 }
-\tag{5.2}
+\qquad (5.2)
 $$
 
 となる。これが、計量からクリストッフェル記号を求める公式である。
@@ -870,15 +853,13 @@ Bob「うん。計量には基底の長さと角度が入っているから、�
 - 逆計量で添字を上げると、
 
   $$
-  \Gamma^\rho_{\mu\nu}
-  =
+  \Gamma^\rho_{\mu\nu} =
   \frac{1}{2}
   g^{\rho\sigma}
   \left(
   \partial_\mu g_{\sigma\nu}
   +
-  \partial_\nu g_{\sigma\mu}
-  -
+  \partial_\nu g_{\sigma\mu} -
   \partial_\sigma g_{\mu\nu}
   \right)
   $$

@@ -5,15 +5,14 @@
 前の文書「ベクトルを運び、真っ直ぐ進む」では、ベクトルを経路に沿って平行移動する条件を、
 
 $$
-\frac{DV^\rho}{D\lambda}
-=
+\frac{DV^\rho}{D\lambda} =
 \frac{dV^\rho}{d\lambda}
 +
 \Gamma^\rho_{\mu\nu}
 \frac{dx^\mu}{d\lambda}
 V^\nu
 =0
-\tag{7.1}
+\qquad (7.1)
 $$
 
 と書いた。
@@ -135,8 +134,7 @@ $$
 
 $$
 \left(
-\nabla_\mu\nabla_\nu
--
+\nabla_\mu\nabla_\nu -
 \nabla_\nu\nabla_\mu
 \right)V^\rho
 $$
@@ -146,10 +144,8 @@ $$
 記号
 
 $$
-[\nabla_\mu,\nabla_\nu]
-=
-\nabla_\mu\nabla_\nu
--
+[\nabla_\mu,\nabla_\nu] =
+\nabla_\mu\nabla_\nu -
 \nabla_\nu\nabla_\mu
 $$
 
@@ -170,8 +166,7 @@ $$
 スカラーの一回目の共変微分は普通の偏微分と同じなので、
 
 $$
-\nabla_\nu f
-=
+\nabla_\nu f =
 \partial_\nu f
 $$
 
@@ -180,10 +175,8 @@ $$
 $\partial_\nu f$ は下付き添字を持つため、二回目の共変微分では、
 
 $$
-\nabla_\mu\nabla_\nu f
-=
-\partial_\mu\partial_\nu f
--
+\nabla_\mu\nabla_\nu f =
+\partial_\mu\partial_\nu f -
 \Gamma^\lambda_{\mu\nu}\partial_\lambda f
 $$
 
@@ -192,10 +185,8 @@ $$
 順序を入れ替えると、
 
 $$
-\nabla_\nu\nabla_\mu f
-=
-\partial_\nu\partial_\mu f
--
+\nabla_\nu\nabla_\mu f =
+\partial_\nu\partial_\mu f -
 \Gamma^\lambda_{\nu\mu}\partial_\lambda f
 $$
 
@@ -204,16 +195,14 @@ $$
 普通の偏微分は順序を入れ替えられる。
 
 $$
-\partial_\mu\partial_\nu f
-=
+\partial_\mu\partial_\nu f =
 \partial_\nu\partial_\mu f
 $$
 
 また、ここで使っている接続には捩れがないので、
 
 $$
-\Gamma^\lambda_{\mu\nu}
-=
+\Gamma^\lambda_{\mu\nu} =
 \Gamma^\lambda_{\nu\mu}
 $$
 
@@ -238,8 +227,7 @@ $$
 ベクトルの共変微分は、
 
 $$
-\nabla_\nu V^\rho
-=
+\nabla_\nu V^\rho =
 \partial_\nu V^\rho
 +
 \Gamma^\rho_{\nu\sigma}V^\sigma
@@ -260,12 +248,10 @@ $$
 と置く。上付き添字にはプラスの接続項、下付き添字にはマイナスの接続項を加える規則から、
 
 $$
-\nabla_\mu T^\rho{}_{\nu}
-=
+\nabla_\mu T^\rho{}_{\nu} =
 \partial_\mu T^\rho{}_{\nu}
 +
-\Gamma^\rho_{\mu\lambda}T^\lambda{}_{\nu}
--
+\Gamma^\rho_{\mu\lambda}T^\lambda{}_{\nu} -
 \Gamma^\lambda_{\mu\nu}T^\rho{}_{\lambda}
 $$
 
@@ -282,8 +268,7 @@ $$
 +
 \Gamma^\rho_{\mu\lambda}
 \nabla_\nu V^\lambda\\
-&\quad
--
+&\quad -
 \Gamma^\lambda_{\mu\nu}
 \nabla_\lambda V^\rho
 \end{aligned}
@@ -326,8 +311,7 @@ $$
 +
 \Gamma^\rho_{\nu\lambda}
 \nabla_\mu V^\lambda\\
-&\quad
--
+&\quad -
 \Gamma^\lambda_{\nu\mu}
 \nabla_\lambda V^\rho
 \end{aligned}
@@ -340,8 +324,7 @@ $$
 捩れがない接続では、
 
 $$
-\Gamma^\lambda_{\mu\nu}
-=
+\Gamma^\lambda_{\mu\nu} =
 \Gamma^\lambda_{\nu\mu}
 $$
 
@@ -354,14 +337,12 @@ $$
 [\nabla_\mu,\nabla_\nu]V^\rho
 &=
 \Bigl(
-\partial_\mu\Gamma^\rho_{\nu\sigma}
--
+\partial_\mu\Gamma^\rho_{\nu\sigma} -
 \partial_\nu\Gamma^\rho_{\mu\sigma}\\
 &\qquad
 +
 \Gamma^\rho_{\mu\lambda}
-\Gamma^\lambda_{\nu\sigma}
--
+\Gamma^\lambda_{\nu\sigma} -
 \Gamma^\rho_{\nu\lambda}
 \Gamma^\lambda_{\mu\sigma}
 \Bigr)V^\sigma
@@ -383,19 +364,17 @@ $$
 \begin{aligned}
 {R^\rho}_{\sigma\mu\nu}
 &=
-\partial_\mu\Gamma^\rho_{\nu\sigma}
--
+\partial_\mu\Gamma^\rho_{\nu\sigma} -
 \partial_\nu\Gamma^\rho_{\mu\sigma}\\
 &\quad
 +
 \Gamma^\rho_{\mu\lambda}
-\Gamma^\lambda_{\nu\sigma}
--
+\Gamma^\lambda_{\nu\sigma} -
 \Gamma^\rho_{\nu\lambda}
 \Gamma^\lambda_{\mu\sigma}
 \end{aligned}
 }
-\tag{7.2}
+\qquad (7.2)
 $$
 
 と定義する。
@@ -406,8 +385,7 @@ $$
 
 $$
 \boxed{
-[\nabla_\mu,\nabla_\nu]V^\rho
-=
+[\nabla_\mu,\nabla_\nu]V^\rho =
 {R^\rho}_{\sigma\mu\nu}V^\sigma
 }
 $$
@@ -603,16 +581,14 @@ $$
 リーマン曲率テンソルには、
 
 $$
-\partial_\mu\Gamma^\rho_{\nu\sigma}
--
+\partial_\mu\Gamma^\rho_{\nu\sigma} -
 \partial_\nu\Gamma^\rho_{\mu\sigma}
 $$
 
 という接続の変化と、
 
 $$
-\Gamma^\rho_{\mu\lambda}\Gamma^\lambda_{\nu\sigma}
--
+\Gamma^\rho_{\mu\lambda}\Gamma^\lambda_{\nu\sigma} -
 \Gamma^\rho_{\nu\lambda}\Gamma^\lambda_{\mu\sigma}
 $$
 
@@ -639,10 +615,8 @@ $$
 $$
 \Gamma^r_{\theta\theta}=-r,
 \qquad
-\Gamma^\theta_{r\theta}
-=
-\Gamma^\theta_{\theta r}
-=
+\Gamma^\theta_{r\theta} =
+\Gamma^\theta_{\theta r} =
 \frac{1}{r}
 $$
 
@@ -673,14 +647,12 @@ $$
 \begin{aligned}
 {R^r}_{\theta r\theta}
 &=
-\partial_r\Gamma^r_{\theta\theta}
--
+\partial_r\Gamma^r_{\theta\theta} -
 \partial_\theta\Gamma^r_{r\theta}\\
 &\quad
 +
 \Gamma^r_{r\lambda}
-\Gamma^\lambda_{\theta\theta}
--
+\Gamma^\lambda_{\theta\theta} -
 \Gamma^r_{\theta\lambda}
 \Gamma^\lambda_{r\theta}
 \end{aligned}
@@ -691,10 +663,8 @@ $$
 第一項は、
 
 $$
-\partial_r\Gamma^r_{\theta\theta}
-=
-\partial_r(-r)
-=
+\partial_r\Gamma^r_{\theta\theta} =
+\partial_r(-r) =
 -1
 $$
 
@@ -705,8 +675,7 @@ $$
 第四項では、 $\lambda=\theta$ の場合だけが残り、
 
 $$
-\begin{aligned}
--
+\begin{aligned} -
 \Gamma^r_{\theta\theta}
 \Gamma^\theta_{r\theta}
 &=
@@ -721,8 +690,7 @@ $$
 
 $$
 \boxed{
-{R^r}_{\theta r\theta}
-=
+{R^r}_{\theta r\theta} =
 -1+1
 =0
 }
@@ -759,8 +727,7 @@ Alice「では、球面では何が打ち消されずに残るんだろう？」
 球面上の座標を、極角 $\theta$ と方位角 $\phi$ で表すと、線素は、
 
 $$
-ds^2
-=
+ds^2 =
 a^2d\theta^2
 +
 a^2\sin^2\theta\,d\phi^2
@@ -785,16 +752,13 @@ $$
 この計量からクリストッフェル記号を求めると、ゼロでないものは、
 
 $$
-\Gamma^\theta_{\phi\phi}
-=
+\Gamma^\theta_{\phi\phi} =
 -\sin\theta\cos\theta
 $$
 
 $$
-\Gamma^\phi_{\theta\phi}
-=
-\Gamma^\phi_{\phi\theta}
-=
+\Gamma^\phi_{\theta\phi} =
+\Gamma^\phi_{\phi\theta} =
 \cot\theta
 $$
 
@@ -812,14 +776,12 @@ $$
 \begin{aligned}
 {R^\theta}_{\phi\theta\phi}
 &=
-\partial_\theta\Gamma^\theta_{\phi\phi}
--
+\partial_\theta\Gamma^\theta_{\phi\phi} -
 \partial_\phi\Gamma^\theta_{\theta\phi}\\
 &\quad
 +
 \Gamma^\theta_{\theta\lambda}
-\Gamma^\lambda_{\phi\phi}
--
+\Gamma^\lambda_{\phi\phi} -
 \Gamma^\theta_{\phi\lambda}
 \Gamma^\lambda_{\theta\phi}
 \end{aligned}
@@ -846,8 +808,7 @@ $$
 第四項では $\lambda=\phi$ の場合が残り、
 
 $$
-\begin{aligned}
--
+\begin{aligned} -
 \Gamma^\theta_{\phi\phi}
 \Gamma^\phi_{\theta\phi}
 &=
@@ -863,8 +824,7 @@ $$
 
 $$
 \boxed{
-{R^\theta}_{\phi\theta\phi}
-=
+{R^\theta}_{\phi\theta\phi} =
 \sin^2\theta
 }
 $$
@@ -927,8 +887,7 @@ $$
 
 $$
 \boxed{
-R_{\sigma\nu}
-=
+R_{\sigma\nu} =
 {R^\rho}_{\sigma\rho\nu}
 }
 $$
@@ -947,8 +906,7 @@ $$
 
 $$
 \boxed{
-R
-=
+R =
 g^{\sigma\nu}R_{\sigma\nu}
 }
 $$
@@ -997,8 +955,7 @@ $$
 - ベクトルに対する共変微分の交換子は、
 
   $$
-  [\nabla_\mu,\nabla_\nu]V^\rho
-  =
+  [\nabla_\mu,\nabla_\nu]V^\rho =
   {R^\rho}_{\sigma\mu\nu}V^\sigma
   $$
 
@@ -1006,15 +963,12 @@ $$
 - リーマン曲率テンソルは、
 
   $$
-  {R^\rho}_{\sigma\mu\nu}
-  =
-  \partial_\mu\Gamma^\rho_{\nu\sigma}
-  -
+  {R^\rho}_{\sigma\mu\nu} =
+  \partial_\mu\Gamma^\rho_{\nu\sigma} -
   \partial_\nu\Gamma^\rho_{\mu\sigma}
   +
   \Gamma^\rho_{\mu\lambda}
-  \Gamma^\lambda_{\nu\sigma}
-  -
+  \Gamma^\lambda_{\nu\sigma} -
   \Gamma^\rho_{\nu\lambda}
   \Gamma^\lambda_{\mu\sigma}
   $$
@@ -1027,8 +981,7 @@ $$
 - リッチテンソルは、
 
   $$
-  R_{\sigma\nu}
-  =
+  R_{\sigma\nu} =
   {R^\rho}_{\sigma\rho\nu}
   $$
 
@@ -1036,8 +989,7 @@ $$
 - 曲率スカラーは、
 
   $$
-  R
-  =
+  R =
   g^{\sigma\nu}R_{\sigma\nu}
   $$
 

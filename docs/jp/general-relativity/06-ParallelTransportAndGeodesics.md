@@ -37,8 +37,7 @@ $$
 前々回の文書では、クリストッフェル記号そのものはテンソルではないが、
 
 $$
-\nabla_\mu V^\rho
-=
+\nabla_\mu V^\rho =
 \partial_\mu V^\rho
 +
 \Gamma^\rho_{\mu\nu}V^\nu
@@ -55,8 +54,7 @@ $$
 上付き添字を持つベクトルの成分は、
 
 $$
-V'^\rho
-=
+V'^\rho =
 \frac{\partial x'^\rho}{\partial x^\sigma}
 V^\sigma
 $$
@@ -66,8 +64,7 @@ $$
 一方、新しい座標による偏微分は、連鎖律から、
 
 $$
-\partial'_\mu
-=
+\partial'_\mu =
 \frac{\partial x^\alpha}{\partial x'^\mu}
 \partial_\alpha
 $$
@@ -77,8 +74,7 @@ $$
 もし $\partial_\mu V^\rho$ が一つの下付き添字と一つの上付き添字を持つテンソルなら、
 
 $$
-\partial'_\mu V'^\rho
-=
+\partial'_\mu V'^\rho =
 \frac{\partial x^\alpha}{\partial x'^\mu}
 \frac{\partial x'^\rho}{\partial x^\sigma}
 \partial_\alpha V^\sigma
@@ -112,7 +108,7 @@ V^\sigma
 {\partial x^\alpha\partial x^\sigma}
 V^\sigma
 \end{aligned}
-\tag{6.1}
+\qquad (6.1)
 $$
 
 となる。
@@ -129,8 +125,7 @@ $$
 
 $$
 \frac{\partial x'^\rho}{\partial x^\lambda}
-\frac{\partial x^\lambda}{\partial x'^\nu}
-=
+\frac{\partial x^\lambda}{\partial x'^\nu} =
 {\delta^\rho}_\nu
 $$
 
@@ -162,8 +157,7 @@ $$
 となる。ここで両辺に $V'^\nu$ を掛ける。ベクトルの逆変換、
 
 $$
-\frac{\partial x^\lambda}{\partial x'^\nu}V'^\nu
-=
+\frac{\partial x^\lambda}{\partial x'^\nu}V'^\nu =
 V^\lambda
 $$
 
@@ -188,9 +182,7 @@ $$
 \frac{\partial x^\alpha}{\partial x'^\mu}
 \frac{\partial^2x'^\rho}
 {\partial x^\alpha\partial x^\sigma}
-V^\sigma
-=
--
+V^\sigma = -
 \frac{\partial x'^\rho}{\partial x^\lambda}
 \frac{\partial^2x^\lambda}
 {\partial x'^\mu\partial x'^\nu}
@@ -214,7 +206,7 @@ $$
 {\partial x'^\mu\partial x'^\nu}
 V'^\nu
 \end{aligned}
-\tag{6.2}
+\qquad (6.2)
 $$
 
 となる。最後の項が、テンソルの変換を妨げている項である。
@@ -224,8 +216,7 @@ $$
 新しい座標の基底は、古い座標の基底を使って、
 
 $$
-\boldsymbol{e}'_\nu
-=
+\boldsymbol{e}'_\nu =
 \frac{\partial x^\beta}{\partial x'^\nu}
 \boldsymbol{e}_\beta
 $$
@@ -254,8 +245,7 @@ $$
 となる。第二項の基底の微分には、連鎖律、
 
 $$
-\partial'_\mu
-=
+\partial'_\mu =
 \frac{\partial x^\alpha}{\partial x'^\mu}
 \partial_\alpha
 $$
@@ -263,8 +253,7 @@ $$
 と、クリストッフェル記号の定義、
 
 $$
-\partial_\alpha\boldsymbol{e}_\beta
-=
+\partial_\alpha\boldsymbol{e}_\beta =
 \Gamma^\lambda_{\alpha\beta}
 \boldsymbol{e}_\lambda
 $$
@@ -291,8 +280,7 @@ $$
 ここまでは右辺を古い座標の基底で表している。古い基底は、新しい座標の基底を使って、
 
 $$
-\boldsymbol{e}_\lambda
-=
+\boldsymbol{e}_\lambda =
 \frac{\partial x'^\rho}{\partial x^\lambda}
 \boldsymbol{e}'_\rho
 $$
@@ -319,8 +307,7 @@ $$
 となる。一方、新しい座標でクリストッフェル記号を定義すれば、
 
 $$
-\partial'_\mu\boldsymbol{e}'_\nu
-=
+\partial'_\mu\boldsymbol{e}'_\nu =
 \Gamma'^\rho_{\mu\nu}
 \boldsymbol{e}'_\rho
 $$
@@ -353,8 +340,7 @@ $$
 $V'^\nu$ を掛け、
 
 $$
-\frac{\partial x^\beta}{\partial x'^\nu}V'^\nu
-=
+\frac{\partial x^\beta}{\partial x'^\nu}V'^\nu =
 V^\beta
 $$
 
@@ -384,8 +370,7 @@ $$
 共変微分は、
 
 $$
-\nabla'_\mu V'^\rho
-=
+\nabla'_\mu V'^\rho =
 \partial'_\mu V'^\rho
 +
 \Gamma'^\rho_{\mu\nu}V'^\nu
@@ -521,8 +506,7 @@ $$
 第4章「[場所の違うベクトルをどう比べるか](./04-CovariantDerivative.md#基底の変化を成分で表す)」では、成分の変化と基底の変化を合わせると、ベクトル全体の変化になることを確かめた。つまり、平面上で、
 
 $$
-\partial_\mu\boldsymbol V
-=
+\partial_\mu\boldsymbol V =
 (\nabla_\mu V^\rho)\boldsymbol e_\rho
 $$
 
@@ -531,8 +515,7 @@ $$
 まず、両辺に $dx^\mu/d\lambda$ を掛け、座標方向を表す $\mu$ について和を取る。
 
 $$
-\frac{dx^\mu}{d\lambda}\partial_\mu\boldsymbol V
-=
+\frac{dx^\mu}{d\lambda}\partial_\mu\boldsymbol V =
 \frac{dx^\mu}{d\lambda}
 (\nabla_\mu V^\rho)\boldsymbol e_\rho
 $$
@@ -540,16 +523,14 @@ $$
 左辺では、経路上のベクトルを $\boldsymbol V(x(\lambda))$ と見て、通常の微分の連鎖律を使う。
 
 $$
-\frac{d\boldsymbol V}{d\lambda}
-=
+\frac{d\boldsymbol V}{d\lambda} =
 \frac{dx^\mu}{d\lambda}\partial_\mu\boldsymbol V
 $$
 
 したがって、
 
 $$
-\frac{d\boldsymbol V}{d\lambda}
-=
+\frac{d\boldsymbol V}{d\lambda} =
 \frac{dx^\mu}{d\lambda}
 (\nabla_\mu V^\rho)\boldsymbol e_\rho
 $$
@@ -589,8 +570,7 @@ $$
 ここで和を取るのは $\mu$ であり、この式は各成分 $\rho$ ごとに成り立つ。これを代入すると、
 
 $$
-\frac{d\boldsymbol V}{d\lambda}
-=
+\frac{d\boldsymbol V}{d\lambda} =
 \left(
 \frac{dV^\rho}{d\lambda}
 +\Gamma^\rho_{\mu\nu}
@@ -826,7 +806,7 @@ $$
 \frac{dx^\nu}{d\lambda}
 =0
 }
-\tag{6.3}
+\qquad (6.3)
 $$
 
 となる。これを測地線方程式と呼ぶ。
@@ -999,8 +979,7 @@ $$
 経路に沿う共変微分は、一般のベクトル $V^\mu$ と経路のパラメータ $\lambda$ に対して、
 
 $$
-\frac{D V^\mu}{D\lambda}
-=
+\frac{D V^\mu}{D\lambda} =
 \frac{dx^\nu}{d\lambda}
 \nabla_\nu V^\mu
 $$
@@ -1008,11 +987,9 @@ $$
 だった。ここで、経路のパラメータを固有時 $\tau$ とし、経路に沿って運ぶベクトル $V^\mu$ として四元速度 $U^\mu$ 自身を選ぶ。すると、
 
 $$
-\frac{D U^\mu}{D\tau}
-=
+\frac{D U^\mu}{D\tau} =
 \frac{dx^\nu}{d\tau}
-\nabla_\nu U^\mu
-=
+\nabla_\nu U^\mu =
 U^\nu\nabla_\nu U^\mu
 $$
 
@@ -1185,8 +1162,7 @@ $$
 - 経路に沿う共変微分は、
 
   $$
-  \frac{D V^\rho}{D\lambda}
-  =
+  \frac{D V^\rho}{D\lambda} =
   \frac{dx^\mu}{d\lambda}\nabla_\mu V^\rho
   $$
 

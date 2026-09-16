@@ -20,7 +20,7 @@ $$
 $$
 ds^2=-f(r)dw^2+\frac{dr^2}{f(r)}
 +r^2(d\theta^2+\sin^2\theta\,d\phi^2)
-\tag{12.1}
+\qquad (12.1)
 $$
 
 である。 $w$ の目盛りは、遠方に静止する時計の固有時と同じだけ進むように選んでいる。
@@ -30,7 +30,7 @@ $$
 $$
 d\tau=\sqrt{f(r)}\,dw,\qquad
 d\ell=\frac{|dr|}{\sqrt{f(r)}}
-\tag{12.2}
+\qquad (12.2)
 $$
 
 だった。 $w$ も $\tau$ も距離の単位を持つが、同じ定数 $c$ を掛けた時間なので、その比で時計の進み方を比較できる。
@@ -98,7 +98,7 @@ $$
 
 $$
 \boxed{\frac{dr}{dw}=\pm f(r)}
-\tag{12.3}
+\qquad (12.3)
 $$
 
 となる。プラスは外向き、マイナスは内向きの光を表す。
@@ -120,7 +120,7 @@ $$
 $$
 \mathcal D
 =\int_{r_{\mathrm{Alice}}}^{r_{\mathrm{Charlie}}}\frac{dr}{f(r)}
-\tag{12.4}
+\qquad (12.4)
 $$
 
 である。 $\mathcal D$ は $w$ の増分であり、距離の単位を持つ。
@@ -181,7 +181,7 @@ $$
 \frac{\Delta\tau_{\mathrm{Charlie}}}{\Delta\tau_{\mathrm{Alice}}}
 =\sqrt{\frac{f_{\mathrm{Charlie}}}{f_{\mathrm{Alice}}}}
 }
-\tag{12.5}
+\qquad (12.5)
 $$
 
 を得る。
@@ -225,7 +225,7 @@ $$
 =\sqrt{\frac{1-r_{\mathrm s}/r_{\mathrm{Alice}}}
 {1-r_{\mathrm s}/r_{\mathrm{Charlie}}}}
 }
-\tag{12.6}
+\qquad (12.6)
 $$
 
 となる。外側の Charlie が測る振動数は、送信側の Alice が測る振動数より小さい。この変化を**重力赤方偏移**と呼ぶ。可視光では振動数が低い側が赤い側なので、この名前が付いている。

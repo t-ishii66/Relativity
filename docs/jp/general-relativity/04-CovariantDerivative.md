@@ -5,8 +5,7 @@
 前の文書「計量は時空の物差し」では、平面を極座標で表すと、
 
 $$
-ds^2
-=
+ds^2 =
 dr^2+r^2d\theta^2
 $$
 
@@ -15,8 +14,7 @@ $$
 これは直交座標で書いた、
 
 $$
-ds^2
-=
+ds^2 =
 dx^2+dy^2
 $$
 
@@ -66,8 +64,7 @@ $$
 ベクトル $\boldsymbol{V}$ は、
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^x\boldsymbol{e}_x
 +
 V^y\boldsymbol{e}_y
@@ -113,8 +110,7 @@ $$
 
 $$
 \boxed{
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^\mu\boldsymbol{e}_\mu
 }
 $$
@@ -126,8 +122,7 @@ $$
 二次元なら、この式は、
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^1\boldsymbol{e}_1
 +
 V^2\boldsymbol{e}_2
@@ -142,8 +137,7 @@ $$
 微小変位のベクトルも、
 
 $$
-d\boldsymbol{x}
-=
+d\boldsymbol{x} =
 dx^\mu\boldsymbol{e}_\mu
 $$
 
@@ -184,8 +178,7 @@ $\boldsymbol{e}_\theta$ は、角度方向を向く長さ $1$ の単位ベクト
 そのため、
 
 $$
-d\boldsymbol{x}
-=
+d\boldsymbol{x} =
 dr\,\boldsymbol{e}_r
 +
 d\theta\,\boldsymbol{e}_\theta
@@ -194,8 +187,7 @@ $$
 の角度方向の長さは、
 
 $$
-\left|d\theta\,\boldsymbol{e}_\theta\right|
-=
+\left|d\theta\,\boldsymbol{e}_\theta\right| =
 r\,d\theta
 $$
 
@@ -204,8 +196,7 @@ $$
 これは前の文書で、
 
 $$
-ds^2
-=
+ds^2 =
 dr^2+r^2d\theta^2
 $$
 
@@ -260,24 +251,20 @@ Alice「どちらも $(1,0)$ なのに、矢印の向きが違うの？」
 Bob「 $(1,0)$ はベクトルそのものではなく、基底に掛ける成分の組だからね。P点のベクトルは、」
 
 $$
-\boldsymbol{V}(P)
-=
+\boldsymbol{V}(P) =
 1\,\boldsymbol{e}_r(P)
 +
-0\,\boldsymbol{e}_\theta(P)
-=
+0\,\boldsymbol{e}_\theta(P) =
 \boldsymbol{e}_r(P)
 $$
 
 Bob「と書ける。一方、Q点では、」
 
 $$
-\boldsymbol{V}(Q)
-=
+\boldsymbol{V}(Q) =
 1\,\boldsymbol{e}_r(Q)
 +
-0\,\boldsymbol{e}_\theta(Q)
-=
+0\,\boldsymbol{e}_\theta(Q) =
 \boldsymbol{e}_r(Q)
 $$
 
@@ -294,8 +281,7 @@ Alice「数字だけでなく、どの場所の基底と組み合わせた数字
 ベクトル場を、
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^\nu\boldsymbol{e}_\nu
 $$
 
@@ -308,8 +294,7 @@ $V^\nu$ はベクトルの成分であり、 $\boldsymbol{e}_\nu$ はその場�
 積の微分を使うと、
 
 $$
-\partial_\mu\boldsymbol{V}
-=
+\partial_\mu\boldsymbol{V} =
 \partial_\mu
 \left(
 V^\nu\boldsymbol{e}_\nu
@@ -317,8 +302,7 @@ V^\nu\boldsymbol{e}_\nu
 $$
 
 $$
-=
-\left(
+= \left(
 \partial_\mu V^\nu
 \right)
 \boldsymbol{e}_\nu
@@ -360,8 +344,7 @@ $$
 そこで、
 
 $$
-\partial_\mu\boldsymbol{e}_\nu
-=
+\partial_\mu\boldsymbol{e}_\nu =
 \Gamma^\rho_{\mu\nu}
 \boldsymbol{e}_\rho
 $$
@@ -375,8 +358,7 @@ $\Gamma^\rho_{\mu\nu}$ は、 $x^\mu$ の方向へ移動したときに、基底
 先ほどのベクトルの微分へ代入すると、
 
 $$
-\partial_\mu\boldsymbol{V}
-=
+\partial_\mu\boldsymbol{V} =
 \left(
 \partial_\mu V^\rho
 +
@@ -393,8 +375,7 @@ $$
 
 $$
 \boxed{
-\nabla_\mu V^\rho
-=
+\nabla_\mu V^\rho =
 \partial_\mu V^\rho
 +
 \Gamma^\rho_{\mu\nu}V^\nu
@@ -406,8 +387,7 @@ $$
 ベクトル全体を、
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^\nu\boldsymbol{e}_\nu
 $$
 
@@ -437,8 +417,7 @@ $$
 クリストッフェル記号の定義、
 
 $$
-\partial_\mu\boldsymbol{e}_\nu
-=
+\partial_\mu\boldsymbol{e}_\nu =
 \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho
 $$
 
@@ -476,8 +455,7 @@ $$
 
 $$
 \boxed{
-\partial_\mu\boldsymbol{V}
-=
+\partial_\mu\boldsymbol{V} =
 \left(
 \nabla_\mu V^\rho
 \right)
@@ -526,8 +504,7 @@ $$
 ここで大切なのは、記号の名前よりも、
 
 $$
-\text{ベクトル全体の変化}
-=
+\text{ベクトル全体の変化} =
 \text{成分の変化}
 +
 \text{基底の変化}
@@ -540,8 +517,7 @@ $$
 平面上の位置ベクトルを、
 
 $$
-\boldsymbol{x}(r,\theta)
-=
+\boldsymbol{x}(r,\theta) =
 \begin{pmatrix}
 r\cos\theta\\
 r\sin\theta
@@ -553,8 +529,7 @@ $$
 位置ベクトル $\boldsymbol{x}$ は、 $r$ と $\theta$ の両方によって変化する。その全微分は、
 
 $$
-d\boldsymbol{x}
-=
+d\boldsymbol{x} =
 \frac{\partial\boldsymbol{x}}{\partial r}dr
 +
 \frac{\partial\boldsymbol{x}}{\partial\theta}d\theta
@@ -593,8 +568,7 @@ $$
 一方、極座標の微小変位は、 $r$ 方向と $\theta$ 方向の座標基底を使って、
 
 $$
-d\boldsymbol{x}
-=
+d\boldsymbol{x} =
 \boldsymbol{e}_r\,dr
 +
 \boldsymbol{e}_\theta\,d\theta
@@ -607,10 +581,8 @@ $$
 極座標の座標基底は、
 
 $$
-\boldsymbol{e}_r
-=
-\frac{\partial\boldsymbol{x}}{\partial r}
-=
+\boldsymbol{e}_r =
+\frac{\partial\boldsymbol{x}}{\partial r} =
 \begin{pmatrix}
 \cos\theta\\
 \sin\theta
@@ -618,10 +590,8 @@ $$
 $$
 
 $$
-\boldsymbol{e}_\theta
-=
-\frac{\partial\boldsymbol{x}}{\partial\theta}
-=
+\boldsymbol{e}_\theta =
+\frac{\partial\boldsymbol{x}}{\partial\theta} =
 \begin{pmatrix}
 -r\sin\theta\\
 r\cos\theta
@@ -634,12 +604,10 @@ $$
 
 $$
 \boxed{
-\boldsymbol{e}_r
-=
+\boldsymbol{e}_r =
 \frac{\partial\boldsymbol{x}}{\partial r},
 \qquad
-\boldsymbol{e}_\theta
-=
+\boldsymbol{e}_\theta =
 \frac{\partial\boldsymbol{x}}{\partial\theta}
 }
 $$
@@ -671,13 +639,11 @@ $$
 一方、
 
 $$
-\partial_\theta\boldsymbol{e}_r
-=
+\partial_\theta\boldsymbol{e}_r =
 \begin{pmatrix}
 -\sin\theta\\
 \cos\theta
-\end{pmatrix}
-=
+\end{pmatrix} =
 \frac{1}{r}\boldsymbol{e}_\theta
 $$
 
@@ -686,26 +652,22 @@ $$
 また、
 
 $$
-\partial_r\boldsymbol{e}_\theta
-=
+\partial_r\boldsymbol{e}_\theta =
 \begin{pmatrix}
 -\sin\theta\\
 \cos\theta
-\end{pmatrix}
-=
+\end{pmatrix} =
 \frac{1}{r}\boldsymbol{e}_\theta
 $$
 
 であり、
 
 $$
-\partial_\theta\boldsymbol{e}_\theta
-=
+\partial_\theta\boldsymbol{e}_\theta =
 \begin{pmatrix}
 -r\cos\theta\\
 -r\sin\theta
-\end{pmatrix}
-=
+\end{pmatrix} =
 -r\boldsymbol{e}_r
 $$
 
@@ -714,8 +676,7 @@ $$
 ここで、クリストッフェル記号の定義をもう一度書くと、
 
 $$
-\partial_\mu\boldsymbol{e}_\nu
-=
+\partial_\mu\boldsymbol{e}_\nu =
 \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho
 $$
 
@@ -724,8 +685,7 @@ $$
 二次元の極座標では、右辺の添字 $\rho$ について和を取るので、
 
 $$
-\partial_\mu\boldsymbol{e}_\nu
-=
+\partial_\mu\boldsymbol{e}_\nu =
 \Gamma^r_{\mu\nu}\boldsymbol{e}_r
 +
 \Gamma^\theta_{\mu\nu}\boldsymbol{e}_\theta
@@ -750,8 +710,7 @@ $$
 を定義と比較する。
 
 $$
-\partial_r\boldsymbol{e}_r
-=
+\partial_r\boldsymbol{e}_r =
 \Gamma^r_{rr}\boldsymbol{e}_r
 +
 \Gamma^\theta_{rr}\boldsymbol{e}_\theta
@@ -771,20 +730,17 @@ $$
 次に、
 
 $$
-\partial_\theta\boldsymbol{e}_r
-=
+\partial_\theta\boldsymbol{e}_r =
 \frac{1}{r}\boldsymbol{e}_\theta
 $$
 
 を比較すると、
 
 $$
-\partial_\theta\boldsymbol{e}_r
-=
+\partial_\theta\boldsymbol{e}_r =
 \Gamma^r_{\theta r}\boldsymbol{e}_r
 +
-\Gamma^\theta_{\theta r}\boldsymbol{e}_\theta
-=
+\Gamma^\theta_{\theta r}\boldsymbol{e}_\theta =
 \frac{1}{r}\boldsymbol{e}_\theta
 $$
 
@@ -793,8 +749,7 @@ $$
 $$
 \Gamma^r_{\theta r}=0,
 \qquad
-\Gamma^\theta_{\theta r}
-=
+\Gamma^\theta_{\theta r} =
 \frac{1}{r}
 $$
 
@@ -803,20 +758,17 @@ $$
 同様に、
 
 $$
-\partial_r\boldsymbol{e}_\theta
-=
+\partial_r\boldsymbol{e}_\theta =
 \frac{1}{r}\boldsymbol{e}_\theta
 $$
 
 を比較すると、
 
 $$
-\partial_r\boldsymbol{e}_\theta
-=
+\partial_r\boldsymbol{e}_\theta =
 \Gamma^r_{r\theta}\boldsymbol{e}_r
 +
-\Gamma^\theta_{r\theta}\boldsymbol{e}_\theta
-=
+\Gamma^\theta_{r\theta}\boldsymbol{e}_\theta =
 \frac{1}{r}\boldsymbol{e}_\theta
 $$
 
@@ -825,8 +777,7 @@ $$
 $$
 \Gamma^r_{r\theta}=0,
 \qquad
-\Gamma^\theta_{r\theta}
-=
+\Gamma^\theta_{r\theta} =
 \frac{1}{r}
 $$
 
@@ -835,20 +786,17 @@ $$
 最後に、
 
 $$
-\partial_\theta\boldsymbol{e}_\theta
-=
+\partial_\theta\boldsymbol{e}_\theta =
 -r\boldsymbol{e}_r
 $$
 
 を比較すると、
 
 $$
-\partial_\theta\boldsymbol{e}_\theta
-=
+\partial_\theta\boldsymbol{e}_\theta =
 \Gamma^r_{\theta\theta}\boldsymbol{e}_r
 +
-\Gamma^\theta_{\theta\theta}\boldsymbol{e}_\theta
-=
+\Gamma^\theta_{\theta\theta}\boldsymbol{e}_\theta =
 -r\boldsymbol{e}_r
 $$
 
@@ -868,10 +816,8 @@ $$
 \boxed{
 \Gamma^r_{\theta\theta}=-r,
 \qquad
-\Gamma^\theta_{r\theta}
-=
-\Gamma^\theta_{\theta r}
-=
+\Gamma^\theta_{r\theta} =
+\Gamma^\theta_{\theta r} =
 \frac{1}{r}
 }
 $$
@@ -897,10 +843,8 @@ $$
 $$
 \Gamma^r_{\theta\theta}=-r,
 \qquad
-\Gamma^\theta_{r\theta}
-=
-\Gamma^\theta_{\theta r}
-=
+\Gamma^\theta_{r\theta} =
+\Gamma^\theta_{\theta r} =
 \frac{1}{r}
 $$
 
@@ -915,8 +859,7 @@ $$
 普通の微分 $\partial_\mu V^\nu$ も、それだけではテンソルにならない。両者を組み合わせた、
 
 $$
-\nabla_\mu V^\nu
-=
+\nabla_\mu V^\nu =
 \partial_\mu V^\nu
 +
 \Gamma^\nu_{\mu\rho}V^\rho
@@ -947,8 +890,7 @@ Bob「そう。普通の微分に現れる余分な変化を、クリストッ�
 直交座標の成分で書けば、
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 \begin{pmatrix}
 1\\
 0
@@ -960,8 +902,7 @@ $$
 一方、極座標の基底は、
 
 $$
-\boldsymbol{e}_r
-=
+\boldsymbol{e}_r =
 \begin{pmatrix}
 \cos\theta\\
 \sin\theta
@@ -969,8 +910,7 @@ $$
 $$
 
 $$
-\boldsymbol{e}_\theta
-=
+\boldsymbol{e}_\theta =
 \begin{pmatrix}
 -r\sin\theta\\
 r\cos\theta
@@ -982,8 +922,7 @@ $$
 $\boldsymbol{V}$ を二つの極座標基底の線形結合として、
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^r\boldsymbol{e}_r
 +
 V^\theta\boldsymbol{e}_\theta
@@ -1027,8 +966,7 @@ $$
 一方、直交座標の成分を使って計算すれば、
 
 $$
-\boldsymbol{V}\cdot\boldsymbol{e}_r
-=
+\boldsymbol{V}\cdot\boldsymbol{e}_r =
 \begin{pmatrix}
 1\\
 0
@@ -1037,8 +975,7 @@ $$
 \begin{pmatrix}
 \cos\theta\\
 \sin\theta
-\end{pmatrix}
-=
+\end{pmatrix} =
 \cos\theta
 $$
 
@@ -1053,16 +990,14 @@ $$
 同様に、 $\boldsymbol{e}_\theta$ との内積を取ると、
 
 $$
-\boldsymbol{V}\cdot\boldsymbol{e}_\theta
-=
+\boldsymbol{V}\cdot\boldsymbol{e}_\theta =
 r^2V^\theta
 $$
 
 である。一方、
 
 $$
-\boldsymbol{V}\cdot\boldsymbol{e}_\theta
-=
+\boldsymbol{V}\cdot\boldsymbol{e}_\theta =
 \begin{pmatrix}
 1\\
 0
@@ -1071,8 +1006,7 @@ $$
 \begin{pmatrix}
 -r\sin\theta\\
 r\cos\theta
-\end{pmatrix}
-=
+\end{pmatrix} =
 -r\sin\theta
 $$
 
@@ -1093,10 +1027,8 @@ $$
 以上から、同じベクトルを極座標基底で表すと、
 
 $$
-\boldsymbol{V}
-=
-\cos\theta\,\boldsymbol{e}_r
--
+\boldsymbol{V} =
+\cos\theta\,\boldsymbol{e}_r -
 \frac{\sin\theta}{r}\boldsymbol{e}_\theta
 $$
 
@@ -1121,8 +1053,7 @@ $$
 一方、
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^r\boldsymbol{e}_r
 +
 V^\theta\boldsymbol{e}_\theta
@@ -1150,14 +1081,12 @@ $$
 極座標の基底の微分、
 
 $$
-\partial_\theta\boldsymbol{e}_r
-=
+\partial_\theta\boldsymbol{e}_r =
 \frac{1}{r}\boldsymbol{e}_\theta
 $$
 
 $$
-\partial_\theta\boldsymbol{e}_\theta
-=
+\partial_\theta\boldsymbol{e}_\theta =
 -r\boldsymbol{e}_r
 $$
 
@@ -1204,8 +1133,7 @@ $$
 だったので、二つの式は、
 
 $$
-\nabla_\theta V^r
-=
+\nabla_\theta V^r =
 \partial_\theta V^r
 +
 \Gamma^r_{\theta\theta}V^\theta
@@ -1213,8 +1141,7 @@ $$
 $$
 
 $$
-\nabla_\theta V^\theta
-=
+\nabla_\theta V^\theta =
 \partial_\theta V^\theta
 +
 \Gamma^\theta_{\theta r}V^r
@@ -1273,16 +1200,14 @@ $$
 スカラーの共変微分は通常の偏微分と同じなので、
 
 $$
-\nabla_\mu f
-=
+\nabla_\mu f =
 \partial_\mu f
 $$
 
 でなければならない。一方、共変微分にも積の微分法則を要求すると、
 
 $$
-\nabla_\mu(A_\nu V^\nu)
-=
+\nabla_\mu(A_\nu V^\nu) =
 (\nabla_\mu A_\nu)V^\nu
 +
 A_\nu(\nabla_\mu V^\nu)
@@ -1291,8 +1216,7 @@ $$
 となる。右辺に、すでに分かっているベクトルの共変微分
 
 $$
-\nabla_\mu V^\nu
-=
+\nabla_\mu V^\nu =
 \partial_\mu V^\nu
 +
 \Gamma^\nu_{\mu\rho}V^\rho
@@ -1301,8 +1225,7 @@ $$
 を代入する。一方、左辺はスカラーの偏微分だから、
 
 $$
-\partial_\mu(A_\nu V^\nu)
-=
+\partial_\mu(A_\nu V^\nu) =
 (\partial_\mu A_\nu)V^\nu
 +
 A_\nu\partial_\mu V^\nu
@@ -1312,8 +1235,7 @@ $$
 $A_\nu\partial_\mu V^\nu$ を消すと、添字をそろえて
 
 $$
-(\partial_\mu A_\rho)V^\rho
-=
+(\partial_\mu A_\rho)V^\rho =
 (\nabla_\mu A_\rho)V^\rho
 +
 A_\nu\Gamma^\nu_{\mu\rho}V^\rho
@@ -1322,10 +1244,8 @@ $$
 を得る。これは任意の $V^\rho$ に対して成り立たなければならないので、
 
 $$
-\nabla_\mu A_\rho
-=
-\partial_\mu A_\rho
--
+\nabla_\mu A_\rho =
+\partial_\mu A_\rho -
 \Gamma^\nu_{\mu\rho}A_\nu
 $$
 
@@ -1333,10 +1253,8 @@ $$
 
 $$
 \boxed{
-\nabla_\mu A_\nu
-=
-\partial_\mu A_\nu
--
+\nabla_\mu A_\nu =
+\partial_\mu A_\nu -
 \Gamma^\rho_{\mu\nu}A_\rho
 }
 $$
@@ -1351,16 +1269,14 @@ $$
 共変ベクトル $A_\rho$ とベクトル $V^\nu$ を使ってすべての添字を縮約すると、
 
 $$
-S
-=
+S =
 A_\rho T^\rho{}_\nu V^\nu
 $$
 
 はスカラーになる。したがって、
 
 $$
-\nabla_\mu S
-=
+\nabla_\mu S =
 \partial_\mu S
 $$
 
@@ -1381,14 +1297,11 @@ $$
 となる。ここに、すでに導いた
 
 $$
-\nabla_\mu A_\rho
-=
-\partial_\mu A_\rho
--
+\nabla_\mu A_\rho =
+\partial_\mu A_\rho -
 \Gamma^\sigma_{\mu\rho}A_\sigma,
 \qquad
-\nabla_\mu V^\nu
-=
+\nabla_\mu V^\nu =
 \partial_\mu V^\nu
 +
 \Gamma^\nu_{\mu\sigma}V^\sigma
@@ -1401,12 +1314,10 @@ $\nabla_\mu T^\rho{}_\nu$ の中の接続項によって打ち消されなけれ
 
 $$
 \boxed{
-\nabla_\mu T^\rho{}_\nu
-=
+\nabla_\mu T^\rho{}_\nu =
 \partial_\mu T^\rho{}_\nu
 +
-\Gamma^\rho_{\mu\sigma}T^\sigma{}_\nu
--
+\Gamma^\rho_{\mu\sigma}T^\sigma{}_\nu -
 \Gamma^\sigma_{\mu\nu}T^\rho{}_\sigma
 }
 $$
@@ -1531,8 +1442,7 @@ $$
 \nabla_\lambda T_{\mu\nu}
 +\Gamma^\rho_{\lambda\mu}T_{\rho\nu}
 +\Gamma^\rho_{\lambda\nu}T_{\mu\rho}
-\right)V^\mu W^\nu
-=
+\right)V^\mu W^\nu =
 (\partial_\lambda T_{\mu\nu})V^\mu W^\nu
 $$
 
@@ -1555,8 +1465,7 @@ $$
 スカラー $f$ には補うべき添字がないため、
 
 $$
-\nabla_\mu f
-=
+\nabla_\mu f =
 \partial_\mu f
 $$
 
@@ -1577,12 +1486,10 @@ $$
 - 極座標では、
 
   $$
-  \boldsymbol{e}_r
-  =
+  \boldsymbol{e}_r =
   \frac{\partial\boldsymbol{x}}{\partial r},
   \qquad
-  \boldsymbol{e}_\theta
-  =
+  \boldsymbol{e}_\theta =
   \frac{\partial\boldsymbol{x}}{\partial\theta}
   $$
 
@@ -1592,8 +1499,7 @@ $$
 - クリストッフェル記号は、
 
   $$
-  \partial_\mu\boldsymbol{e}_\nu
-  =
+  \partial_\mu\boldsymbol{e}_\nu =
   \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho
   $$
 
@@ -1601,8 +1507,7 @@ $$
 - 反変ベクトルの共変微分は、
 
   $$
-  \nabla_\mu V^\rho
-  =
+  \nabla_\mu V^\rho =
   \partial_\mu V^\rho
   +
   \Gamma^\rho_{\mu\nu}V^\nu
@@ -1619,8 +1524,7 @@ $$
 平面の極座標では、位置ベクトル、
 
 $$
-\boldsymbol{x}(r,\theta)
-=
+\boldsymbol{x}(r,\theta) =
 \begin{pmatrix}
 r\cos\theta\\
 r\sin\theta

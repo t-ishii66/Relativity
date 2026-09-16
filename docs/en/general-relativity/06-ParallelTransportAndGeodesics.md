@@ -35,8 +35,7 @@ Our goal is to gain an intuitive sense that
 In the document before last, we said that the Christoffel symbols themselves are not tensors, but that the combination
 
 $$
-\nabla_\mu V^\rho
-=
+\nabla_\mu V^\rho =
 \partial_\mu V^\rho
 +
 \Gamma^\rho_{\mu\nu}V^\nu
@@ -53,8 +52,7 @@ Let the old coordinates be $x^\mu$, and the new coordinates be $x'^\mu$.
 The components of a vector with an upper index transform as
 
 $$
-V'^\rho
-=
+V'^\rho =
 \frac{\partial x'^\rho}{\partial x^\sigma}
 V^\sigma
 $$
@@ -62,8 +60,7 @@ $$
 On the other hand, by the chain rule, the partial derivative in the new coordinates can be written as
 
 $$
-\partial'_\mu
-=
+\partial'_\mu =
 \frac{\partial x^\alpha}{\partial x'^\mu}
 \partial_\alpha
 $$
@@ -71,8 +68,7 @@ $$
 If $\partial_\mu V^\rho$ were a tensor with one lower index and one upper index, it would transform as
 
 $$
-\partial'_\mu V'^\rho
-=
+\partial'_\mu V'^\rho =
 \frac{\partial x^\alpha}{\partial x'^\mu}
 \frac{\partial x'^\rho}{\partial x^\sigma}
 \partial_\alpha V^\sigma
@@ -104,7 +100,7 @@ V^\sigma
 {\partial x^\alpha\partial x^\sigma}
 V^\sigma
 \end{aligned}
-\tag{6.1}
+\qquad (6.1)
 $$
 
 The first term is the transformation expected of a tensor with lower index $\mu$ and upper index $\rho$. However, the second term contains a second derivative of the coordinate transformation.
@@ -119,8 +115,7 @@ We want to see that this extra second term cancels the term arising from the Chr
 
 $$
 \frac{\partial x'^\rho}{\partial x^\lambda}
-\frac{\partial x^\lambda}{\partial x'^\nu}
-=
+\frac{\partial x^\lambda}{\partial x'^\nu} =
 {\delta^\rho}_\nu
 $$
 
@@ -150,8 +145,7 @@ $$
 Now multiply both sides by $V'^\nu$. Use the inverse transformation of the vector,
 
 $$
-\frac{\partial x^\lambda}{\partial x'^\nu}V'^\nu
-=
+\frac{\partial x^\lambda}{\partial x'^\nu}V'^\nu =
 V^\lambda
 $$
 
@@ -176,9 +170,7 @@ $$
 \frac{\partial x^\alpha}{\partial x'^\mu}
 \frac{\partial^2x'^\rho}
 {\partial x^\alpha\partial x^\sigma}
-V^\sigma
-=
--
+V^\sigma = -
 \frac{\partial x'^\rho}{\partial x^\lambda}
 \frac{\partial^2x^\lambda}
 {\partial x'^\mu\partial x'^\nu}
@@ -200,7 +192,7 @@ $$
 {\partial x'^\mu\partial x'^\nu}
 V'^\nu
 \end{aligned}
-\tag{6.2}
+\qquad (6.2)
 $$
 
 The last term prevents this from transforming as a tensor.
@@ -210,8 +202,7 @@ The last term prevents this from transforming as a tensor.
 The basis in the new coordinates can be written in terms of the basis in the old coordinates as
 
 $$
-\boldsymbol{e}'_\nu
-=
+\boldsymbol{e}'_\nu =
 \frac{\partial x^\beta}{\partial x'^\nu}
 \boldsymbol{e}_\beta
 $$
@@ -240,8 +231,7 @@ $$
 For the derivative of the basis in the second term, we can use the chain rule,
 
 $$
-\partial'_\mu
-=
+\partial'_\mu =
 \frac{\partial x^\alpha}{\partial x'^\mu}
 \partial_\alpha
 $$
@@ -249,8 +239,7 @@ $$
 and the definition of the Christoffel symbols,
 
 $$
-\partial_\alpha\boldsymbol{e}_\beta
-=
+\partial_\alpha\boldsymbol{e}_\beta =
 \Gamma^\lambda_{\alpha\beta}
 \boldsymbol{e}_\lambda
 $$
@@ -275,8 +264,7 @@ $$
 So far, the right-hand side is expressed in the basis of the old coordinates. The old basis can be written in terms of the basis in the new coordinates as
 
 $$
-\boldsymbol{e}_\lambda
-=
+\boldsymbol{e}_\lambda =
 \frac{\partial x'^\rho}{\partial x^\lambda}
 \boldsymbol{e}'_\rho
 $$
@@ -303,8 +291,7 @@ $$
 On the other hand, defining the Christoffel symbols in the new coordinates gives
 
 $$
-\partial'_\mu\boldsymbol{e}'_\nu
-=
+\partial'_\mu\boldsymbol{e}'_\nu =
 \Gamma'^\rho_{\mu\nu}
 \boldsymbol{e}'_\rho
 $$
@@ -335,8 +322,7 @@ This second term may look unnecessary, but it is needed to construct the covaria
 Multiplying by $V'^\nu$ and using
 
 $$
-\frac{\partial x^\beta}{\partial x'^\nu}V'^\nu
-=
+\frac{\partial x^\beta}{\partial x'^\nu}V'^\nu =
 V^\beta
 $$
 
@@ -364,8 +350,7 @@ The last term has the same form as the second term of equation (6.2), but the op
 The covariant derivative is
 
 $$
-\nabla'_\mu V'^\rho
-=
+\nabla'_\mu V'^\rho =
 \partial'_\mu V'^\rho
 +
 \Gamma'^\rho_{\mu\nu}V'^\nu
@@ -493,8 +478,7 @@ If the basis is the same everywhere, as in Cartesian coordinates, we can simply 
 In Chapter 4, “[How Do We Compare Vectors at Different Locations?](./04-CovariantDerivative.md#expressing-changes-in-the-basis-with-components),” we checked that combining changes in components and changes in the basis gives the change in the entire vector. In other words, on a plane, we derived
 
 $$
-\partial_\mu\boldsymbol V
-=
+\partial_\mu\boldsymbol V =
 (\nabla_\mu V^\rho)\boldsymbol e_\rho
 $$
 
@@ -503,8 +487,7 @@ From this equation, let us derive the formula for differentiation along a path s
 First, multiply both sides by $dx^\mu/d\lambda$ and sum over $\mu$, which denotes coordinate directions.
 
 $$
-\frac{dx^\mu}{d\lambda}\partial_\mu\boldsymbol V
-=
+\frac{dx^\mu}{d\lambda}\partial_\mu\boldsymbol V =
 \frac{dx^\mu}{d\lambda}
 (\nabla_\mu V^\rho)\boldsymbol e_\rho
 $$
@@ -512,16 +495,14 @@ $$
 On the left-hand side, regard the vector on the path as $\boldsymbol V(x(\lambda))$ and use the usual chain rule for derivatives.
 
 $$
-\frac{d\boldsymbol V}{d\lambda}
-=
+\frac{d\boldsymbol V}{d\lambda} =
 \frac{dx^\mu}{d\lambda}\partial_\mu\boldsymbol V
 $$
 
 Therefore,
 
 $$
-\frac{d\boldsymbol V}{d\lambda}
-=
+\frac{d\boldsymbol V}{d\lambda} =
 \frac{dx^\mu}{d\lambda}
 (\nabla_\mu V^\rho)\boldsymbol e_\rho
 $$
@@ -559,8 +540,7 @@ $$
 Here the sum is over $\mu$, and this equation holds for each component $\rho$. Substituting this gives
 
 $$
-\frac{d\boldsymbol V}{d\lambda}
-=
+\frac{d\boldsymbol V}{d\lambda} =
 \left(
 \frac{dV^\rho}{d\lambda}
 +\Gamma^\rho_{\mu\nu}
@@ -788,7 +768,7 @@ $$
 \frac{dx^\nu}{d\lambda}
 =0
 }
-\tag{6.3}
+\qquad (6.3)
 $$
 
 This is called the geodesic equation.
@@ -951,8 +931,7 @@ $$
 For a general vector $V^\mu$ and path parameter $\lambda$, the covariant derivative along a path was
 
 $$
-\frac{D V^\mu}{D\lambda}
-=
+\frac{D V^\mu}{D\lambda} =
 \frac{dx^\nu}{d\lambda}
 \nabla_\nu V^\mu
 $$
@@ -960,11 +939,9 @@ $$
 Here, let the path parameter be proper time $\tau$, and choose the four-velocity $U^\mu$ itself as the vector $V^\mu$ carried along the path. Then
 
 $$
-\frac{D U^\mu}{D\tau}
-=
+\frac{D U^\mu}{D\tau} =
 \frac{dx^\nu}{d\tau}
-\nabla_\nu U^\mu
-=
+\nabla_\nu U^\mu =
 U^\nu\nabla_\nu U^\mu
 $$
 
@@ -1133,8 +1110,7 @@ Curvature is the bending of space or spacetime itself that cannot be removed by 
 - The covariant derivative along a path is
 
   $$
-  \frac{D V^\rho}{D\lambda}
-  =
+  \frac{D V^\rho}{D\lambda} =
   \frac{dx^\mu}{d\lambda}\nabla_\mu V^\rho
   $$
 - Carrying a vector so that its covariant derivative along a path is zero is called parallel transport.

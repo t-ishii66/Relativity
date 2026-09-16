@@ -62,7 +62,7 @@ $$
 ds^2
 =-f(r)dw^2+\frac{dr^2}{f(r)}
 +r^2d\theta^2+r^2\sin^2\theta\,d\phi^2
-\tag{11.1}
+\qquad (11.1)
 $$
 
 This $ds^2$ is the spacetime interval between two nearby events.
@@ -154,7 +154,7 @@ Reversing the signs on both sides and taking the future-directed coordinate incr
 
 $$
 \boxed{d\tau=\sqrt{f(r)}\,dw}
-\tag{11.2}
+\qquad (11.2)
 $$
 
 The left side is the increment of proper time on Alice’s clock. The $dw$ on the right side is the difference in coordinate time assigned to the same two events. Since both $\tau$ and $w$ are quantities obtained by multiplying ordinary time by $c$, $\sqrt{f(r)}$ directly represents the ratio of the rates of the clocks.
@@ -197,7 +197,7 @@ For this stationary observer, let $d\ell$ be the small length between two simult
 
 $$
 \boxed{d\ell=\frac{|dr|}{\sqrt{f(r)}}}
-\tag{11.3}
+\qquad (11.3)
 $$
 
 follows.
@@ -241,7 +241,7 @@ dX&=\frac{dr}{\sqrt{f(r)}},\\
 dY&=r\,d\theta,\\
 dZ&=r\sin\theta\,d\phi
 \end{aligned}
-\tag{11.4}
+\qquad (11.4)
 $$
 
 $dW$ is the local time-direction component and, like $dw$ and $d\tau$, has units of distance. $dX,dY,dZ$ also have units of distance. The $X$ direction is radial, while the $Y,Z$ directions lie along the spherical surface. Here we do not put absolute values on the spatial components because we also represent their orientations.
@@ -361,7 +361,7 @@ d\tau_{\mathrm{Bob}}
 f(r)-\frac1{f(r)}
 \left(\frac{dr}{dw}\right)^2
 }.
-\tag{11.5}
+\qquad (11.5)
 $$
 
 For a stationary clock, $dr=0$, so we return to equation (11.2). For a moving clock, however, its motion also affects proper time. Although we used Bob’s free fall as an example, the equation also holds for radial motion other than free fall, because the equation of motion for free fall was not used in the derivation.
@@ -382,7 +382,7 @@ v_{\mathrm{Bob}}
 =\frac{dX}{dW/c}
 =c\frac{dX}{dW}
 =\frac{c}{f(r)}\frac{dr}{dw}.
-\tag{11.6}
+\qquad (11.6)
 $$
 
 Since both $w$ and $r$ have units of distance, $dr/dw$ is a dimensionless ratio. When converting to the speed measured by a clock and ruler, $c$ appears as in the equation above.

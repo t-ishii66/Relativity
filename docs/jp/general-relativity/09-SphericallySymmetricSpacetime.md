@@ -425,7 +425,7 @@ $$
 ds^2=-A(r)\,dw^2+B(r)\,dr^2
 +r^2\left(d\theta^2+\sin^2\theta\,d\phi^2\right)
 }
-\tag{9.1}
+\qquad (9.1)
 $$
 
 を得る。未知なのは、二つの関数 $A(r),B(r)$ だけになった。

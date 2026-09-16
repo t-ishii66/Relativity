@@ -5,8 +5,7 @@
 In the previous document, “How Do We Compare Vectors at Different Locations?,” we wrote the change of the basis as,
 
 $$
-\partial_\mu\boldsymbol{e}_\nu
-=
+\partial_\mu\boldsymbol{e}_\nu =
 \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho
 $$
 
@@ -15,8 +14,7 @@ $\Gamma^\rho_{\mu\nu}$ were the Christoffel symbols.
 In plane polar coordinates, we made a basis from the position vector
 
 $$
-\boldsymbol{x}(r,\theta)
-=
+\boldsymbol{x}(r,\theta) =
 \begin{pmatrix}
 r\cos\theta\\
 r\sin\theta
@@ -58,8 +56,7 @@ Let the coordinate basis be $\boldsymbol{e}_\mu$.
 In the previous document, we wrote the inner product of two vectors as,
 
 $$
-\boldsymbol{A}\cdot\boldsymbol{B}
-=
+\boldsymbol{A}\cdot\boldsymbol{B} =
 g_{\rho\sigma}A^\rho B^\sigma
 $$
 
@@ -68,36 +65,31 @@ First, let us confirm how the basis vectors themselves are represented in compon
 An arbitrary vector $\boldsymbol{V}$ can be written using the coordinate basis as,
 
 $$
-\boldsymbol{V}
-=
+\boldsymbol{V} =
 V^\rho\boldsymbol{e}_\rho
 $$
 
 If we set $\boldsymbol{V}=\boldsymbol{e}_\mu$ here, then
 
 $$
-\boldsymbol{e}_\mu
-=
+\boldsymbol{e}_\mu =
 (\boldsymbol{e}_\mu)^\rho\boldsymbol{e}_\rho
 $$
 
 For example, in two dimensions,
 
 $$
-\boldsymbol{e}_1
-=
+\boldsymbol{e}_1 =
 1\boldsymbol{e}_1+0\boldsymbol{e}_2,
 \qquad
-\boldsymbol{e}_2
-=
+\boldsymbol{e}_2 =
 0\boldsymbol{e}_1+1\boldsymbol{e}_2
 $$
 
 When a basis vector is represented in components using the same basis, only the component corresponding to itself is $1$, and the others are $0$. Therefore,
 
 $$
-(\boldsymbol{e}_\mu)^\rho
-=
+(\boldsymbol{e}_\mu)^\rho =
 {\delta^\rho}_\mu
 $$
 
@@ -106,12 +98,10 @@ This equation holds when $\mu$ and $\rho$ are labels for the same coordinate bas
 For example, if we represent the basis vectors themselves using the polar-coordinate basis $\{\boldsymbol{e}_r,\boldsymbol{e}_\theta\}$,
 
 $$
-\boldsymbol{e}_r
-=
+\boldsymbol{e}_r =
 1\boldsymbol{e}_r+0\boldsymbol{e}_\theta,
 \qquad
-\boldsymbol{e}_\theta
-=
+\boldsymbol{e}_\theta =
 0\boldsymbol{e}_r+1\boldsymbol{e}_\theta
 $$
 
@@ -132,15 +122,13 @@ $$
 On the other hand, if we represent the same two vectors using the Cartesian coordinate basis of the plane, $\{\boldsymbol{e}_x,\boldsymbol{e}_y\}$,
 
 $$
-\boldsymbol{e}_r
-=
+\boldsymbol{e}_r =
 \cos\theta\,\boldsymbol{e}_x
 +\sin\theta\,\boldsymbol{e}_y
 $$
 
 $$
-\boldsymbol{e}_\theta
-=
+\boldsymbol{e}_\theta =
 -r\sin\theta\,\boldsymbol{e}_x
 +r\cos\theta\,\boldsymbol{e}_y
 $$
@@ -162,16 +150,12 @@ $$
 For components viewed across different coordinate bases, derivatives of coordinate transformations appear instead of the Kronecker delta. For example,
 
 $$
-(\boldsymbol{e}_r)^x
-=
-\frac{\partial x}{\partial r}
-=
+(\boldsymbol{e}_r)^x =
+\frac{\partial x}{\partial r} =
 \cos\theta,
 \qquad
-(\boldsymbol{e}_r)^y
-=
-\frac{\partial y}{\partial r}
-=
+(\boldsymbol{e}_r)^y =
+\frac{\partial y}{\partial r} =
 \sin\theta
 $$
 
@@ -230,8 +214,7 @@ $$
 In other words,
 
 $$
-(\boldsymbol{e}_\mu)^\rho
-=
+(\boldsymbol{e}_\mu)^\rho =
 {\delta^\rho}_\mu
 $$
 
@@ -449,7 +432,7 @@ $$
 \partial_\lambda g_{\mu\nu}
 =\Gamma^\rho_{\lambda\mu}g_{\rho\nu}
 +\Gamma^\rho_{\lambda\nu}g_{\mu\rho}
-\tag{5.1}
+\qquad (5.1)
 $$
 
 the terms on the right-hand side cancel, giving,
@@ -640,7 +623,7 @@ g^{\rho\sigma}
 -\partial_\sigma g_{\mu\nu}
 \right)
 }
-\tag{5.2}
+\qquad (5.2)
 $$
 
 This is the formula for finding the Christoffel symbols from the metric.
@@ -836,15 +819,13 @@ As a supplementary note about the names, the symmetry of the lower two indices i
 - Raising an index with the inverse metric gives,
 
   $$
-  \Gamma^\rho_{\mu\nu}
-  =
+  \Gamma^\rho_{\mu\nu} =
   \frac{1}{2}
   g^{\rho\sigma}
   \left(
   \partial_\mu g_{\sigma\nu}
   +
-  \partial_\nu g_{\sigma\mu}
-  -
+  \partial_\nu g_{\sigma\mu} -
   \partial_\sigma g_{\mu\nu}
   \right)
   $$

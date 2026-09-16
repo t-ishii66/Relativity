@@ -23,7 +23,7 @@ $$
 ds^2=-f(r)dw^2+\frac{dr^2}{f(r)}+r^2d\Omega^2,
 \qquad
 d\Omega^2=d\theta^2+\sin^2\theta\,d\phi^2.
-\tag{13.1}
+\qquad (13.1)
 $$
 
 ただし、地平面までの落下を考えるため、ここからは**回転も電荷も持たないブラックホールの、時間に依存しない理想的なモデル**を扱う。落下する Bob の質量や、送る光による時空への影響は無視する。
@@ -73,7 +73,7 @@ $$
 
 $$
 -1=-f(r)\dot w^2+\frac{\dot r^2}{f(r)}.
-\tag{13.2}
+\qquad (13.2)
 $$
 
 もう一つ、自由落下の条件を使おう。第6章で導いた[測地線方程式 (6.3)](./06-ParallelTransportAndGeodesics.md#eq-geodesic-equation)を、もう一度書くと、
@@ -144,7 +144,7 @@ $$
 +\partial_\nu g_{w\mu}
 -\partial_w g_{\mu\nu}
 \right).
-\tag{13.3}
+\qquad (13.3)
 $$
 
 今回の計量は $w$ に依存せず、 $g_{wr}=0$ でもある。よって、
@@ -200,7 +200,7 @@ $$
 
 $$
 \boxed{\varepsilon=f(r)\frac{dw}{d\tau_{\mathrm{Bob}}}}
-\tag{13.4}
+\qquad (13.4)
 $$
 
 を得る。 $\varepsilon$ は無次元の正の定数であり、出発時の条件で決まる。
@@ -216,7 +216,7 @@ $$
 $$
 \boxed{\frac{dr}{d\tau_{\mathrm{Bob}}}
 =-\sqrt{\varepsilon^2-f(r)}}.
-\tag{13.5}
+\qquad (13.5)
 $$
 
 出発点 $r=r_0$ では $\dot r=0$ だから、
@@ -231,7 +231,7 @@ $$
 $$
 \frac{dr}{d\tau_{\mathrm{Bob}}}
 =-\sqrt{r_{\mathrm s}\left(\frac1r-\frac1{r_0}\right)}
-\tag{13.6}
+\qquad (13.6)
 $$
 
 で表せる。落下して $r$ が小さくなるほど、この変化の絶対値は大きくなる。
@@ -273,7 +273,7 @@ $$
 \Delta\tau_{\mathrm{Bob}}
 =\int_r^{r_0}
 \frac{d\rho}{\sqrt{r_{\mathrm s}(1/\rho-1/r_0)}}.
-\tag{13.7}
+\qquad (13.7)
 $$
 
 $\rho$ は積分の中で使う半径の変数である。
@@ -385,7 +385,7 @@ $$
 w_{\mathrm{receive}}
 =w_{\mathrm{emit}}
 +\int_r^{r_{\mathrm{Charlie}}}\frac{d\rho}{f(\rho)}.
-\tag{13.8}
+\qquad (13.8)
 $$
 
 次の光を送るとき、Bob はより内側へ移動している。したがって、伝播に必要な座標時も長くなる。
@@ -438,7 +438,7 @@ $$
 \frac{d\tau_{\mathrm{Charlie}}}{d\tau_{\mathrm{Bob}}}
 =\frac{\varepsilon+\sqrt{\varepsilon^2-f(r)}}{f(r)}
 }
-\tag{13.9}
+\qquad (13.9)
 $$
 
 を得る。左辺の分子は受信する Charlie の時計の増分、分母は送信する Bob の時計の増分である。
@@ -455,7 +455,7 @@ $$
 =\frac{f(r)}{\varepsilon+\sqrt{\varepsilon^2-f(r)}}
 =\varepsilon-\sqrt{\varepsilon^2-f(r)}
 }
-\tag{13.10}
+\qquad (13.10)
 $$
 
 最後の変形では、分母と分子に $\varepsilon-\sqrt{\varepsilon^2-f}$ を掛けた。

@@ -23,7 +23,7 @@ $$
 ds^2=-f(r)dw^2+\frac{dr^2}{f(r)}+r^2d\Omega^2,
 \qquad
 d\Omega^2=d\theta^2+\sin^2\theta\,d\phi^2.
-\tag{13.1}
+\qquad (13.1)
 $$
 
 However, to consider a fall all the way to the horizon, from here on we use the **idealized, time-independent model of a black hole with neither rotation nor charge**. We ignore the effect of falling Bob’s mass and of the light he sends on spacetime.
@@ -73,7 +73,7 @@ Because the motion is only in the radial direction, $d\theta=d\phi=0$. Along Bob
 
 $$
 -1=-f(r)\dot w^2+\frac{\dot r^2}{f(r)}.
-\tag{13.2}
+\qquad (13.2)
 $$
 
 Let us use one more condition for free fall. If we write again the [geodesic equation (6.3)](./06-ParallelTransportAndGeodesics.md#eq-geodesic-equation) derived in Chapter 6, it is
@@ -144,7 +144,7 @@ $$
 +\partial_\nu g_{w\mu}
 -\partial_w g_{\mu\nu}
 \right).
-\tag{13.3}
+\qquad (13.3)
 $$
 
 This metric does not depend on $w$, and $g_{wr}=0$. Therefore,
@@ -200,7 +200,7 @@ Therefore, we obtain the quantity that does not change during the fall,
 
 $$
 \boxed{\varepsilon=f(r)\frac{dw}{d\tau_{\mathrm{Bob}}}}
-\tag{13.4}
+\qquad (13.4)
 $$
 
 $\varepsilon$ is a positive dimensionless constant determined by the initial conditions.
@@ -216,7 +216,7 @@ Thus, choosing the inward-falling branch,
 $$
 \boxed{\frac{dr}{d\tau_{\mathrm{Bob}}}
 =-\sqrt{\varepsilon^2-f(r)}}
-\tag{13.5}
+\qquad (13.5)
 $$
 
 At the starting point $r=r_0$, $\dot r=0$, so,
@@ -231,7 +231,7 @@ Therefore, Bob’s fall is described by,
 $$
 \frac{dr}{d\tau_{\mathrm{Bob}}}
 =-\sqrt{r_{\mathrm s}\left(\frac1r-\frac1{r_0}\right)}
-\tag{13.6}
+\qquad (13.6)
 $$
 
 As he falls and $r$ becomes smaller, the absolute value of this change becomes larger.
@@ -273,7 +273,7 @@ $$
 \Delta\tau_{\mathrm{Bob}}
 =\int_r^{r_0}
 \frac{d\rho}{\sqrt{r_{\mathrm s}(1/\rho-1/r_0)}}.
-\tag{13.7}
+\qquad (13.7)
 $$
 
 $\rho$ is the radius variable used inside the integral.
@@ -381,7 +381,7 @@ $$
 w_{\mathrm{receive}}
 =w_{\mathrm{emit}}
 +\int_r^{r_{\mathrm{Charlie}}}\frac{d\rho}{f(\rho)}.
-\tag{13.8}
+\qquad (13.8)
 $$
 
 When he sends the next light, Bob has moved farther inward. Therefore, the coordinate time needed for propagation is longer too.
@@ -434,7 +434,7 @@ $$
 \frac{d\tau_{\mathrm{Charlie}}}{d\tau_{\mathrm{Bob}}}
 =\frac{\varepsilon+\sqrt{\varepsilon^2-f(r)}}{f(r)}
 }
-\tag{13.9}
+\qquad (13.9)
 $$
 
 The numerator on the left-hand side is the increment of Charlie’s receiving clock, and the denominator is the increment of Bob’s sending clock.
@@ -451,7 +451,7 @@ $$
 =\frac{f(r)}{\varepsilon+\sqrt{\varepsilon^2-f(r)}}
 =\varepsilon-\sqrt{\varepsilon^2-f(r)}
 }
-\tag{13.10}
+\qquad (13.10)
 $$
 
 For the last transformation, multiply the denominator and numerator by $\varepsilon-\sqrt{\varepsilon^2-f}$.

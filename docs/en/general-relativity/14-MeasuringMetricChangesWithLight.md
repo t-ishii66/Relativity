@@ -64,7 +64,7 @@ Rearranging both sides gives
 
 $$
 dw=\frac{|dr|}{f(r)}.
-\tag{14.1}
+\qquad (14.1)
 $$
 
 We included the absolute value so that $dw$ is positive for light moving into the future on both the outward and return journeys.
@@ -97,7 +97,7 @@ $$
 =2\sqrt{f(r_{\mathrm A})}
 \int_{r_{\mathrm A}}^{r_{\mathrm B}}\frac{dr}{f(r)}
 }
-\tag{14.2}
+\qquad (14.2)
 $$
 
 The metric is involved both in the path of the light and in the clock Alice uses to measure the time.
@@ -131,7 +131,7 @@ $$
 &=2\sqrt{f(r_{\mathrm A})}
 \int_{r_{\mathrm A}}^{r_+}\frac{dr}{f(r)}.
 \end{aligned}
-\tag{14.3}
+\qquad (14.3)
 $$
 
 Both the left and right results have been converted to the same clock carried by Alice, so the factor in front is common to them. The difference appears in the integrals along their respective paths.
@@ -157,7 +157,7 @@ $$
 -\int_{r_{\mathrm A}}^{r_+}\frac{dr}{f(r)}
 \right]
 }
-\tag{14.4}
+\qquad (14.4)
 $$
 
 This is the difference between the two round-trip times read from the clock at the light source.
@@ -310,7 +310,7 @@ Therefore, the time difference $\delta T$ in equation (14.4) appears as the phas
 
 $$
 \boxed{\Delta\varphi=2\pi\nu_0\delta T}
-\tag{14.5}
+\qquad (14.5)
 $$
 
 $\nu_0\delta T$ is the difference in the number of oscillations, and multiplying it by $2\pi$ gives the phase difference.

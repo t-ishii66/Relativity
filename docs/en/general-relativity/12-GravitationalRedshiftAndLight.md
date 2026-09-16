@@ -20,7 +20,7 @@ Writing this, the metric is
 $$
 ds^2=-f(r)dw^2+\frac{dr^2}{f(r)}
 +r^2(d\theta^2+\sin^2\theta\,d\phi^2)
-\tag{12.1}
+\qquad (12.1)
 $$
 
 The scale of $w$ is chosen so that it advances by the same amount as the proper time of a clock at rest far away.
@@ -30,7 +30,7 @@ The proper time of an observer at rest at that location and the reading of a rul
 $$
 d\tau=\sqrt{f(r)}\,dw,\qquad
 d\ell=\frac{|dr|}{\sqrt{f(r)}}
-\tag{12.2}
+\qquad (12.2)
 $$
 
 Both $w$ and $\tau$ have units of distance, but since they are times multiplied by the same constant $c$, their ratio lets us compare how clocks advance.
@@ -98,7 +98,7 @@ Taking the future-directed $dw>0$, we obtain
 
 $$
 \boxed{\frac{dr}{dw}=\pm f(r)}
-\tag{12.3}
+\qquad (12.3)
 $$
 
 The plus sign represents outward-moving light, and the minus sign inward-moving light.
@@ -120,7 +120,7 @@ Integrating from Alice’s location to Charlie’s location, the coordinate time
 $$
 \mathcal D
 =\int_{r_{\mathrm{Alice}}}^{r_{\mathrm{Charlie}}}\frac{dr}{f(r)}
-\tag{12.4}
+\qquad (12.4)
 $$
 
 $\mathcal D$ is the increment in $w$ and has units of distance.
@@ -181,7 +181,7 @@ $$
 \frac{\Delta\tau_{\mathrm{Charlie}}}{\Delta\tau_{\mathrm{Alice}}}
 =\sqrt{\frac{f_{\mathrm{Charlie}}}{f_{\mathrm{Alice}}}}
 }
-\tag{12.5}
+\qquad (12.5)
 $$
 
 The farther out we go, the larger $f(r)$ is, so in this arrangement $f_{\mathrm{Charlie}}>f_{\mathrm{Alice}}$. Therefore, the interval between receptions measured by Charlie’s clock is longer than the interval between transmissions measured by Alice’s clock.
@@ -223,7 +223,7 @@ $$
 =\sqrt{\frac{1-r_{\mathrm s}/r_{\mathrm{Alice}}}
 {1-r_{\mathrm s}/r_{\mathrm{Charlie}}}}
 }
-\tag{12.6}
+\qquad (12.6)
 $$
 
 The frequency measured by Charlie outside is lower than the frequency measured by Alice on the transmitting side. This change is called **gravitational redshift**. In visible light, the lower-frequency side is the redder side, which is why it has this name.

@@ -337,8 +337,7 @@ In particular, $T^{xx}$ represents transfer of $x$-direction momentum through a 
 Consider an observer at rest with a fluid who measures the same pressure $P$ in every direction. For a fluid in which viscosity and heat flow can be ignored, in that observer’s local inertial coordinates,
 
 $$
-T^{\mu\nu}
-=
+T^{\mu\nu} =
 \begin{pmatrix}
 \varepsilon & 0 & 0 & 0\\
 0 & P & 0 & 0\\
@@ -812,7 +811,7 @@ In a weak gravitational field whose time variation can be neglected, let $x^0=w=
 
 $$
 g_{00}\simeq-\left(1+\frac{2\Phi}{c^2}\right)
-\tag{8.1}
+\qquad (8.1)
 $$
 
 must hold.
@@ -1295,7 +1294,7 @@ $$
 \partial_\lambda\partial_\mu\Gamma^\rho_{\nu\sigma}
 -\partial_\lambda\partial_\nu\Gamma^\rho_{\mu\sigma}
 \right)\right|_q
-\tag{A.1}
+\qquad (A.1)
 $$
 
 This is equation (A.1).
@@ -1390,8 +1389,7 @@ Rename the summed indices in the final three terms on the right so that they too
 
 $$
 {R^\rho}_{\sigma\mu\nu}
-\Gamma^\sigma_{\lambda\beta}A^\beta B^\mu C^\nu
-=
+\Gamma^\sigma_{\lambda\beta}A^\beta B^\mu C^\nu =
 \Gamma^\beta_{\lambda\sigma}
 {R^\rho}_{\beta\mu\nu}A^\sigma B^\mu C^\nu
 $$

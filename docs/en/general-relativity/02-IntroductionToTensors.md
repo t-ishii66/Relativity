@@ -11,16 +11,14 @@ $$
 We also wrote the line element of flat spacetime as
 
 $$
-ds^2
-=
+ds^2 =
 \eta_{\mu\nu}dx^\mu dx^\nu
 $$
 
 This was a shorter index-notation form of
 
 $$
-ds^2
-=
+ds^2 =
 -dw^2+dx^2+dy^2+dz^2
 $$
 
@@ -90,8 +88,7 @@ What changes under a coordinate transformation is not the physical object itself
 In general, we can write the new coordinates $x'^\mu$ as functions of the old coordinates $x^\nu$:
 
 $$
-x'^\mu
-=
+x'^\mu =
 x'^\mu(x^0,x^1,x^2,x^3)
 $$
 
@@ -190,8 +187,7 @@ $$
 Adding the changes coming from the two directions gives
 
 $$
-dx'
-=
+dx' =
 \frac{\partial x'}{\partial x}dx
 +
 \frac{\partial x'}{\partial y}dy
@@ -206,8 +202,7 @@ The same idea applies when we combine time and three-dimensional space.
 When the old coordinates change by $dx^\nu$, the change in the new coordinates can be written as
 
 $$
-dx'^\mu
-=
+dx'^\mu =
 \frac{\partial x'^\mu}{\partial x^\nu}dx^\nu
 $$
 
@@ -277,8 +272,7 @@ $$
 \begin{pmatrix}
 dw' \\
 dx'
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 1 & 0 \\
 0 & 2
@@ -324,24 +318,21 @@ $$
 For a general coordinate transformation, wherever an inverse transformation exists, we can also write
 
 $$
-dx^\mu
-=
+dx^\mu =
 \frac{\partial x^\mu}{\partial x'^\rho}dx'^\rho
 $$
 
 Here, the transformation from the old coordinates to the new ones is
 
 $$
-dx'^\rho
-=
+dx'^\rho =
 \frac{\partial x'^\rho}{\partial x^\sigma}dx^\sigma
 $$
 
 Substituting this equation into the inverse transformation above,
 
 $$
-dx^\mu
-=
+dx^\mu =
 \frac{\partial x^\mu}{\partial x'^\rho}dx'^\rho
 $$
 
@@ -366,16 +357,14 @@ Therefore, the part made from the two Jacobian matrices can be written as
 
 $$
 \frac{\partial x^\mu}{\partial x'^\rho}
-\frac{\partial x'^\rho}{\partial x^\sigma}
-=
+\frac{\partial x'^\rho}{\partial x^\sigma} =
 {\delta^\mu}_\sigma
 $$
 
 ${\delta^\mu}_\sigma$ is called the Kronecker delta, and
 
 $$
-{\delta^\mu}_\sigma
-=
+{\delta^\mu}_\sigma =
 \begin{cases}
 1 & \mu=\sigma \\
 0 & \mu\neq\sigma
@@ -400,16 +389,14 @@ In other words, transforming from the old coordinates to the new coordinates and
 $dx^\mu$ transformed as
 
 $$
-dx'^\mu
-=
+dx'^\mu =
 \frac{\partial x'^\mu}{\partial x^\nu}dx^\nu
 $$
 
 In general, a vector $V^\mu$ with one upper index transforms in the same form:
 
 $$
-V'^\mu
-=
+V'^\mu =
 \frac{\partial x'^\mu}{\partial x^\nu}V^\nu
 $$
 
@@ -446,8 +433,7 @@ $$
 Since we sum over the index,
 
 $$
-A_\mu V^\mu
-=
+A_\mu V^\mu =
 A_0V^0+A_1V^1+A_2V^2+A_3V^3
 $$
 
@@ -470,10 +456,8 @@ $$
 we have
 
 $$
-A'_xV'^x
-=
-\left(\frac{1}{2}A_x\right)(2V^x)
-=
+A'_xV'^x =
+\left(\frac{1}{2}A_x\right)(2V^x) =
 A_xV^x
 $$
 
@@ -482,8 +466,7 @@ Upper- and lower-index components transform in ways that cancel each other’s c
 In general, they transform as
 
 $$
-A'_\mu
-=
+A'_\mu =
 \frac{\partial x^\nu}{\partial x'^\mu}A_\nu
 $$
 
@@ -524,8 +507,7 @@ For example, suppose a temperature $f$ is assigned to every point in space. Chan
 A small change in temperature can be written as
 
 $$
-df
-=
+df =
 \frac{\partial f}{\partial x^\mu}dx^\mu
 $$
 
@@ -540,8 +522,7 @@ $$
 then
 
 $$
-df
-=
+df =
 \partial_\mu f\,dx^\mu
 $$
 
@@ -560,8 +541,7 @@ transforms as a lower-index component.
 In fact, the chain rule gives
 
 $$
-\frac{\partial f}{\partial x'^\mu}
-=
+\frac{\partial f}{\partial x'^\mu} =
 \frac{\partial x^\nu}{\partial x'^\mu}
 \frac{\partial f}{\partial x^\nu}
 $$
@@ -569,8 +549,7 @@ $$
 This has the same form as
 
 $$
-A'_\mu
-=
+A'_\mu =
 \frac{\partial x^\nu}{\partial x'^\mu}A_\nu
 $$
 
@@ -591,8 +570,7 @@ The operation of pairing an upper index with a lower index, summing them, and re
 Calculating the value after a coordinate transformation gives
 
 $$
-A'_\mu V'^\mu
-=
+A'_\mu V'^\mu =
 \left(
 \frac{\partial x^\nu}{\partial x'^\mu}A_\nu
 \right)
@@ -604,8 +582,7 @@ $$
 Putting the two Jacobian matrices together,
 
 $$
-A'_\mu V'^\mu
-=
+A'_\mu V'^\mu =
 \frac{\partial x^\nu}{\partial x'^\mu}
 \frac{\partial x'^\mu}{\partial x^\rho}
 A_\nu V^\rho
@@ -615,18 +592,15 @@ The coordinate transformation and its inverse cancel each other, so
 
 $$
 \frac{\partial x^\nu}{\partial x'^\mu}
-\frac{\partial x'^\mu}{\partial x^\rho}
-=
+\frac{\partial x'^\mu}{\partial x^\rho} =
 {\delta^\nu}_\rho
 $$
 
 Therefore,
 
 $$
-A'_\mu V'^\mu
-=
-{\delta^\nu}_\rho A_\nu V^\rho
-=
+A'_\mu V'^\mu =
+{\delta^\nu}_\rho A_\nu V^\rho =
 A_\nu V^\nu
 $$
 
@@ -634,8 +608,7 @@ Thus,
 
 $$
 \boxed{
-A'_\mu V'^\mu
-=
+A'_\mu V'^\mu =
 A_\mu V^\mu
 }
 $$
@@ -647,8 +620,7 @@ and the value obtained by contraction does not change before or after a coordina
 The line element is written as
 
 $$
-ds^2
-=
+ds^2 =
 g_{\mu\nu}dx^\mu dx^\nu
 $$
 
@@ -661,8 +633,7 @@ The metric has one other important property.
 If we expand a two-dimensional line element by components, we obtain
 
 $$
-ds^2
-=
+ds^2 =
 g_{11}(dx^1)^2
 +g_{12}dx^1dx^2
 +g_{21}dx^2dx^1
@@ -672,8 +643,7 @@ $$
 For ordinary multiplication of numbers,
 
 $$
-dx^1dx^2
-=
+dx^1dx^2 =
 dx^2dx^1
 $$
 
@@ -681,8 +651,7 @@ so the two middle terms can be combined as
 
 $$
 g_{12}dx^1dx^2
-+g_{21}dx^2dx^1
-=
++g_{21}dx^2dx^1 =
 (g_{12}+g_{21})dx^1dx^2
 $$
 
@@ -709,14 +678,12 @@ Because of this property, when the components of the metric are arranged in a ma
 Under a coordinate transformation, we can write
 
 $$
-dx^\mu
-=
+dx^\mu =
 \frac{\partial x^\mu}{\partial x'^\rho}dx'^\rho
 $$
 
 $$
-dx^\nu
-=
+dx^\nu =
 \frac{\partial x^\nu}{\partial x'^\sigma}dx'^\sigma
 $$
 
@@ -737,8 +704,7 @@ $$
 Gathering together the parts related to the coordinate transformation,
 
 $$
-ds^2
-=
+ds^2 =
 \left(
 g_{\mu\nu}
 \frac{\partial x^\mu}{\partial x'^\rho}
@@ -750,8 +716,7 @@ $$
 We want to write the line element in the new coordinates as
 
 $$
-ds^2
-=
+ds^2 =
 g'_{\rho\sigma}dx'^\rho dx'^\sigma
 $$
 
@@ -759,8 +724,7 @@ Comparing the two equations, we can define the metric components in the new coor
 
 $$
 \boxed{
-g'_{\rho\sigma}
-=
+g'_{\rho\sigma} =
 g_{\mu\nu}
 \frac{\partial x^\mu}{\partial x'^\rho}
 \frac{\partial x^\nu}{\partial x'^\sigma}
@@ -778,8 +742,7 @@ Let us return to the two-dimensional spacetime from before.
 Suppose that in the old coordinates,
 
 $$
-ds^2
-=
+ds^2 =
 -dw^2+dx^2
 $$
 
@@ -830,8 +793,7 @@ $$
 Therefore, the metric in the new coordinates is
 
 $$
-g'_{\mu\nu}
-=
+g'_{\mu\nu} =
 \begin{pmatrix}
 -1&0\\
 0&1/4
@@ -841,8 +803,7 @@ $$
 In the old coordinates,
 
 $$
-g_{\mu\nu}
-=
+g_{\mu\nu} =
 \begin{pmatrix}
 -1&0\\
 0&1
@@ -868,10 +829,8 @@ $$
 Calculating the spatial part in the new coordinates,
 
 $$
-\frac{1}{4}dx'^2
-=
-\frac{1}{4}(2dx)^2
-=
+\frac{1}{4}dx'^2 =
+\frac{1}{4}(2dx)^2 =
 dx^2
 $$
 
@@ -880,8 +839,7 @@ The metric component becoming $1/4$ cancels the doubling of the coordinate diffe
 As a result,
 
 $$
--dw'^2+\frac{1}{4}dx'^2
-=
+-dw'^2+\frac{1}{4}dx'^2 =
 -dw^2+dx^2
 $$
 
@@ -904,8 +862,7 @@ Bob: “Right. This time, we only described the same flat spacetime using a diff
 Before and after the coordinate transformation,
 
 $$
-g_{\mu\nu}
-=
+g_{\mu\nu} =
 \begin{pmatrix}
 -1&0\\
 0&1
@@ -915,8 +872,7 @@ $$
 changed to
 
 $$
-g'_{\mu\nu}
-=
+g'_{\mu\nu} =
 \begin{pmatrix}
 -1&0\\
 0&1/4
@@ -947,8 +903,7 @@ We must distinguish between these two cases.
 Combining the metric with an upper-index vector $V^\nu$ gives the quantity
 
 $$
-V_\mu
-=
+V_\mu =
 g_{\mu\nu}V^\nu
 $$
 
@@ -959,8 +914,7 @@ This operation is called lowering an index.
 In flat two-dimensional spacetime, if
 
 $$
-g_{\mu\nu}
-=
+g_{\mu\nu} =
 \begin{pmatrix}
 -1&0\\
 0&1
@@ -970,26 +924,21 @@ $$
 then
 
 $$
-V_0
-=
-g_{00}V^0+g_{01}V^1
-=
+V_0 =
+g_{00}V^0+g_{01}V^1 =
 -V^0
 $$
 
 $$
-V_1
-=
-g_{10}V^0+g_{11}V^1
-=
+V_1 =
+g_{10}V^0+g_{11}V^1 =
 V^1
 $$
 
 That is, for
 
 $$
-V^\mu
-=
+V^\mu =
 \begin{pmatrix}
 V^0\\
 V^1
@@ -999,8 +948,7 @@ $$
 we have
 
 $$
-V_\mu
-=
+V_\mu =
 \begin{pmatrix}
 -V^0\\
 V^1
@@ -1024,16 +972,14 @@ Looking only at the transformation equations, it may feel as though we need to r
 For example, in the old coordinates, the line element can be written as
 
 $$
-ds^2
-=
+ds^2 =
 g_{\mu\nu}dx^\mu dx^\nu
 $$
 
 Even after changing coordinates, it can be written in exactly the same form:
 
 $$
-ds^2
-=
+ds^2 =
 g'_{\rho\sigma}dx'^\rho dx'^\sigma
 $$
 
@@ -1074,24 +1020,21 @@ The quantities and transformation rules that appeared in this document are as fo
 - Contravariant vector $V^\mu$
 
   $$
-  V'^\mu
-  =
+  V'^\mu =
   \frac{\partial x'^\mu}{\partial x^\nu}V^\nu
   $$
 
 - Covariant vector $A_\mu$
 
   $$
-  A'_\mu
-  =
+  A'_\mu =
   \frac{\partial x^\nu}{\partial x'^\mu}A_\nu
   $$
 
 - Metric $g_{\mu\nu}$
 
   $$
-  g'_{\rho\sigma}
-  =
+  g'_{\rho\sigma} =
   g_{\mu\nu}
   \frac{\partial x^\mu}{\partial x'^\rho}
   \frac{\partial x^\nu}{\partial x'^\sigma}

@@ -338,8 +338,7 @@ $$
 流体とともに静止し、どの方向にも同じ圧力 $P$ を測る観測者を考えよう。粘性や熱の流れを無視できる流体では、その局所慣性座標で、
 
 $$
-T^{\mu\nu}
-=
+T^{\mu\nu} =
 \begin{pmatrix}
 \varepsilon & 0 & 0 & 0\\
 0 & P & 0 & 0\\
@@ -818,7 +817,7 @@ $$
 
 $$
 g_{00}\simeq-\left(1+\frac{2\Phi}{c^2}\right)
-\tag{8.1}
+\qquad (8.1)
 $$
 
 となる。実際、計量から接続を求める式の主要項は $\Gamma^i_{00}\simeq\partial_i\Phi/c^2$ なので、測地線方程式は $d^2x^i/dt^2\simeq-\partial_i\Phi$ になる。
@@ -1299,7 +1298,7 @@ $$
 \partial_\lambda\partial_\mu\Gamma^\rho_{\nu\sigma}
 -\partial_\lambda\partial_\nu\Gamma^\rho_{\mu\sigma}
 \right)\right|_q
-\tag{A.1}
+\qquad (A.1)
 $$
 
 である。
@@ -1394,8 +1393,7 @@ $$
 
 $$
 {R^\rho}_{\sigma\mu\nu}
-\Gamma^\sigma_{\lambda\beta}A^\beta B^\mu C^\nu
-=
+\Gamma^\sigma_{\lambda\beta}A^\beta B^\mu C^\nu =
 \Gamma^\beta_{\lambda\sigma}
 {R^\rho}_{\beta\mu\nu}A^\sigma B^\mu C^\nu
 $$

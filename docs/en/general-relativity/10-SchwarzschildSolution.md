@@ -212,7 +212,7 @@ R_{\mu\nu}
 &+\Gamma^\lambda_{\lambda\sigma}\Gamma^\sigma_{\nu\mu}
 -\Gamma^\lambda_{\nu\sigma}\Gamma^\sigma_{\lambda\mu}
 \end{aligned}
-\tag{10.1}
+\qquad (10.1)
 $$
 
 The indices $\lambda,\sigma$ are each summed over the four values $w,r,\theta,\phi$.
@@ -299,7 +299,7 @@ R_{ww}
 =\frac AB
 \left(\alpha'+\alpha^2-\alpha\beta+\frac{2\alpha}{r}\right)
 }
-\tag{10.2}
+\qquad (10.2)
 $$
 
 ## Calculating the Radial Component Rrr
@@ -346,7 +346,7 @@ $$
 R_{rr}
 =-\alpha'-\alpha^2+\alpha\beta+\frac{2\beta}{r}
 }
-\tag{10.3}
+\qquad (10.3)
 $$
 
 ## Finding AB from the Two Equations
@@ -462,7 +462,7 @@ $$
 R_{\theta\theta}
 =1-\frac1B+\frac rB(\beta-\alpha)
 }
-\tag{10.4}
+\qquad (10.4)
 $$
 
 ## Solving the Remaining Differential Equation
@@ -503,7 +503,7 @@ where $C$ is an integration constant. Writing this constant as $C=-\ell$ gives
 $$
 A=1-\frac{\ell}{r},\qquad
 B=\left(1-\frac{\ell}{r}\right)^{-1}.
-\tag{10.5}
+\qquad (10.5)
 $$
 
 At this stage, neither the value nor the sign of $\ell$ has been determined. Since $A$ is dimensionless, $\ell$ has units of length.

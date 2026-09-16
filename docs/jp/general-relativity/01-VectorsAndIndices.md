@@ -164,8 +164,7 @@ x^0 \\
 x^1 \\
 x^2 \\
 x^3
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 w \\
 x \\
@@ -308,8 +307,7 @@ $$
 と書くだけで、
 
 $$
-A_\mu B^\mu
-=
+A_\mu B^\mu =
 A_0B^0+A_1B^1+A_2B^2+A_3B^3
 $$
 
@@ -320,8 +318,7 @@ $$
 記号 $\sum$ を使えば、
 
 $$
-A_\mu B^\mu
-=
+A_\mu B^\mu =
 \sum_{\mu=0}^{3}A_\mu B^\mu
 $$
 
@@ -354,8 +351,7 @@ $\mu$ について $0$ から $3$ まで足し、さらに $\nu$ についても
 省略せずに書けば、
 
 $$
-g_{\mu\nu}A^\mu B^\nu
-=
+g_{\mu\nu}A^\mu B^\nu =
 \sum_{\mu=0}^{3}
 \sum_{\nu=0}^{3}
 g_{\mu\nu}A^\mu B^\nu
@@ -395,8 +391,7 @@ $$
 時間と三次元空間を使う場合、その成分は、
 
 $$
-\eta_{\mu\nu}
-=
+\eta_{\mu\nu} =
 \begin{pmatrix}
 -1 & 0 & 0 & 0 \\
 0 & 1 & 0 & 0 \\
@@ -432,8 +427,7 @@ $$
 添字記法を使うと、平坦な時空の線素は、
 
 $$
-ds^2
-=
+ds^2 =
 \eta_{\mu\nu}dx^\mu dx^\nu
 $$
 
@@ -444,8 +438,7 @@ $$
 $\mu$ と $\nu$ は、それぞれ $0,1,2,3$ の値を取る。しかし、 $\eta_{\mu\nu}$ の対角成分以外はすべて $0$ なので、残るのは、
 
 $$
-ds^2
-=
+ds^2 =
 \eta_{00}dx^0dx^0
 +
 \eta_{11}dx^1dx^1
@@ -460,8 +453,7 @@ $$
 計量の成分を代入すると、
 
 $$
-ds^2
-=
+ds^2 =
 -(dx^0)^2
 +
 (dx^1)^2
@@ -485,8 +477,7 @@ $$
 だから、
 
 $$
-ds^2
-=
+ds^2 =
 -dw^2+dx^2+dy^2+dz^2
 $$
 
@@ -496,8 +487,7 @@ $$
 
 $$
 \boxed{
-ds^2
-=
+ds^2 =
 \eta_{\mu\nu}dx^\mu dx^\nu
 }
 $$
@@ -525,8 +515,7 @@ $$
 であり、計量は、
 
 $$
-\eta_{\mu\nu}
-=
+\eta_{\mu\nu} =
 \begin{pmatrix}
 -1 & 0 \\
 0 & 1
@@ -538,8 +527,7 @@ $$
 線素は、
 
 $$
-ds^2
-=
+ds^2 =
 \eta_{\mu\nu}dx^\mu dx^\nu
 $$
 
@@ -570,8 +558,7 @@ $$
 なので、
 
 $$
-ds^2
-=
+ds^2 =
 -(dx^0)^2+(dx^1)^2
 $$
 
@@ -605,8 +592,7 @@ $$
 \begin{pmatrix}
 w_B \\
 x_B
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 \gamma & -\gamma\beta \\
 -\gamma\beta & \gamma
@@ -622,8 +608,7 @@ $$
 第1成分は、
 
 $$
-\gamma w_A-\gamma\beta x_A
-=
+\gamma w_A-\gamma\beta x_A =
 \gamma(w_A-\beta x_A)
 $$
 
@@ -632,8 +617,7 @@ $$
 第2成分は、
 
 $$
--\gamma\beta w_A+\gamma x_A
-=
+-\gamma\beta w_A+\gamma x_A =
 \gamma(x_A-\beta w_A)
 $$
 
@@ -648,8 +632,7 @@ $$
 この変換行列を $\Lambda$ という記号で表すことがある。
 
 $$
-\Lambda
-=
+\Lambda =
 \begin{pmatrix}
 \gamma & -\gamma\beta \\
 -\gamma\beta & \gamma
@@ -659,8 +642,7 @@ $$
 するとローレンツ変換は、さらに短く、
 
 $$
-x_B^\mu
-=
+x_B^\mu =
 {\Lambda^\mu}_\nu x_A^\nu
 $$
 
@@ -688,8 +670,7 @@ $\mu=0$ とすれば時間座標の変換が得られ、 $\mu=1$ とすれば空
 例えば、
 
 $$
-x_B^\mu
-=
+x_B^\mu =
 {\Lambda^\mu}_\nu x_A^\nu
 $$
 
@@ -700,8 +681,7 @@ $$
 一方、
 
 $$
-x_B^\mu
-=
+x_B^\mu =
 {\Lambda^\rho}_\nu x_A^\nu
 $$
 
@@ -760,8 +740,7 @@ $$
 しかし、それぞれが自分の座標で線素を計算すると、
 
 $$
-\eta_{\mu\nu}dx_A^\mu dx_A^\nu
-=
+\eta_{\mu\nu}dx_A^\mu dx_A^\nu =
 \eta_{\mu\nu}dx_B^\mu dx_B^\nu
 $$
 
@@ -770,8 +749,7 @@ $$
 これはローレンツ変換編で確認した、
 
 $$
--dw_A^2+dx_A^2
-=
+-dw_A^2+dx_A^2 =
 -dw_B^2+dx_B^2
 $$
 
@@ -829,8 +807,7 @@ Bob「うん。次はそこを見てみよう。」
 それにもかかわらず、
 
 $$
-ds^2
-=
+ds^2 =
 g_{\mu\nu}dx^\mu dx^\nu
 $$
 

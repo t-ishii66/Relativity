@@ -5,15 +5,14 @@
 In the previous document, “Carrying Vectors and Going Straight,” we wrote the condition for parallel transporting a vector along a path as
 
 $$
-\frac{DV^\rho}{D\lambda}
-=
+\frac{DV^\rho}{D\lambda} =
 \frac{dV^\rho}{d\lambda}
 +
 \Gamma^\rho_{\mu\nu}
 \frac{dx^\mu}{d\lambda}
 V^\nu
 =0
-\tag{7.1}
+\qquad (7.1)
 $$
 
 Also, a path that parallel transports its tangent vector along itself is a geodesic, whose equation was
@@ -121,8 +120,7 @@ The difference between them is
 
 $$
 \left(
-\nabla_\mu\nabla_\nu
--
+\nabla_\mu\nabla_\nu -
 \nabla_\nu\nabla_\mu
 \right)V^\rho
 $$
@@ -132,10 +130,8 @@ Such a difference caused by the order of two operations is called a commutator.
 Using the notation
 
 $$
-[\nabla_\mu,\nabla_\nu]
-=
-\nabla_\mu\nabla_\nu
--
+[\nabla_\mu,\nabla_\nu] =
+\nabla_\mu\nabla_\nu -
 \nabla_\nu\nabla_\mu
 $$
 
@@ -154,44 +150,37 @@ First apply two covariant derivatives to a scalar $f$.
 The first covariant derivative of a scalar is the same as an ordinary partial derivative:
 
 $$
-\nabla_\nu f
-=
+\nabla_\nu f =
 \partial_\nu f
 $$
 
 Because $\partial_\nu f$ has a lower index, the second covariant derivative is
 
 $$
-\nabla_\mu\nabla_\nu f
-=
-\partial_\mu\partial_\nu f
--
+\nabla_\mu\nabla_\nu f =
+\partial_\mu\partial_\nu f -
 \Gamma^\lambda_{\mu\nu}\partial_\lambda f
 $$
 
 Reversing the order gives
 
 $$
-\nabla_\nu\nabla_\mu f
-=
-\partial_\nu\partial_\mu f
--
+\nabla_\nu\nabla_\mu f =
+\partial_\nu\partial_\mu f -
 \Gamma^\lambda_{\nu\mu}\partial_\lambda f
 $$
 
 Ordinary partial derivatives can be interchanged:
 
 $$
-\partial_\mu\partial_\nu f
-=
+\partial_\mu\partial_\nu f =
 \partial_\nu\partial_\mu f
 $$
 
 Also, the connection used here has no torsion, so
 
 $$
-\Gamma^\lambda_{\mu\nu}
-=
+\Gamma^\lambda_{\mu\nu} =
 \Gamma^\lambda_{\nu\mu}
 $$
 
@@ -212,8 +201,7 @@ To see curvature, we need to use a vector that has a direction.
 The covariant derivative of a vector is
 
 $$
-\nabla_\nu V^\rho
-=
+\nabla_\nu V^\rho =
 \partial_\nu V^\rho
 +
 \Gamma^\rho_{\nu\sigma}V^\sigma
@@ -232,12 +220,10 @@ $$
 Following the rule of adding a positive connection term for an upper index and a negative one for a lower index,
 
 $$
-\nabla_\mu T^\rho{}_{\nu}
-=
+\nabla_\mu T^\rho{}_{\nu} =
 \partial_\mu T^\rho{}_{\nu}
 +
-\Gamma^\rho_{\mu\lambda}T^\lambda{}_{\nu}
--
+\Gamma^\rho_{\mu\lambda}T^\lambda{}_{\nu} -
 \Gamma^\lambda_{\mu\nu}T^\rho{}_{\lambda}
 $$
 
@@ -304,8 +290,7 @@ Subtract the two equations.
 For a connection without torsion,
 
 $$
-\Gamma^\lambda_{\mu\nu}
-=
+\Gamma^\lambda_{\mu\nu} =
 \Gamma^\lambda_{\nu\mu}
 $$
 
@@ -318,13 +303,11 @@ $$
 [\nabla_\mu,\nabla_\nu]V^\rho
 &=
 \Bigl(
-\partial_\mu\Gamma^\rho_{\nu\sigma}
--
+\partial_\mu\Gamma^\rho_{\nu\sigma} -
 \partial_\nu\Gamma^\rho_{\mu\sigma}\\
 &\qquad
 +\Gamma^\rho_{\mu\lambda}
-\Gamma^\lambda_{\nu\sigma}
--
+\Gamma^\lambda_{\nu\sigma} -
 \Gamma^\rho_{\nu\lambda}
 \Gamma^\lambda_{\mu\sigma}
 \Bigr)V^\sigma
@@ -344,18 +327,16 @@ $$
 \begin{aligned}
 {R^\rho}_{\sigma\mu\nu}
 &=
-\partial_\mu\Gamma^\rho_{\nu\sigma}
--
+\partial_\mu\Gamma^\rho_{\nu\sigma} -
 \partial_\nu\Gamma^\rho_{\mu\sigma}\\
 &\quad
 +\Gamma^\rho_{\mu\lambda}
-\Gamma^\lambda_{\nu\sigma}
--
+\Gamma^\lambda_{\nu\sigma} -
 \Gamma^\rho_{\nu\lambda}
 \Gamma^\lambda_{\mu\sigma}
 \end{aligned}
 }
-\tag{7.2}
+\qquad (7.2)
 $$
 
 This is the Riemann curvature tensor.
@@ -364,8 +345,7 @@ Using this definition, the commutator of covariant derivatives is
 
 $$
 \boxed{
-[\nabla_\mu,\nabla_\nu]V^\rho
-=
+[\nabla_\mu,\nabla_\nu]V^\rho =
 {R^\rho}_{\sigma\mu\nu}V^\sigma
 }
 $$
@@ -557,16 +537,14 @@ However, it is generally impossible to eliminate how the Christoffel symbols cha
 The Riemann curvature tensor contains, in a fixed combination, the change in the connection
 
 $$
-\partial_\mu\Gamma^\rho_{\nu\sigma}
--
+\partial_\mu\Gamma^\rho_{\nu\sigma} -
 \partial_\nu\Gamma^\rho_{\mu\sigma}
 $$
 
 and the products of connections
 
 $$
-\Gamma^\rho_{\mu\lambda}\Gamma^\lambda_{\nu\sigma}
--
+\Gamma^\rho_{\mu\lambda}\Gamma^\lambda_{\nu\sigma} -
 \Gamma^\rho_{\nu\lambda}\Gamma^\lambda_{\mu\sigma}
 $$
 
@@ -591,10 +569,8 @@ In polar coordinates on a plane, the nonzero Christoffel symbols were
 $$
 \Gamma^r_{\theta\theta}=-r,
 \qquad
-\Gamma^\theta_{r\theta}
-=
-\Gamma^\theta_{\theta r}
-=
+\Gamma^\theta_{r\theta} =
+\Gamma^\theta_{\theta r} =
 \frac{1}{r}
 $$
 
@@ -632,10 +608,8 @@ $$
 The first term is
 
 $$
-\partial_r\Gamma^r_{\theta\theta}
-=
-\partial_r(-r)
-=
+\partial_r\Gamma^r_{\theta\theta} =
+\partial_r(-r) =
 -1
 $$
 
@@ -655,8 +629,7 @@ Therefore,
 
 $$
 \boxed{
-{R^r}_{\theta r\theta}
-=
+{R^r}_{\theta r\theta} =
 -1+1
 =0
 }
@@ -689,8 +662,7 @@ Consider a sphere of radius $a$.
 Using polar angle $\theta$ and azimuthal angle $\phi$ as coordinates on the sphere, the line element is
 
 $$
-ds^2
-=
+ds^2 =
 a^2d\theta^2
 +
 a^2\sin^2\theta\,d\phi^2
@@ -711,16 +683,13 @@ $$
 Calculating the Christoffel symbols from this metric, the nonzero ones are
 
 $$
-\Gamma^\theta_{\phi\phi}
-=
+\Gamma^\theta_{\phi\phi} =
 -\sin\theta\cos\theta
 $$
 
 $$
-\Gamma^\phi_{\theta\phi}
-=
-\Gamma^\phi_{\phi\theta}
-=
+\Gamma^\phi_{\theta\phi} =
+\Gamma^\phi_{\phi\theta} =
 \cot\theta
 $$
 
@@ -768,8 +737,7 @@ Therefore,
 
 $$
 \boxed{
-{R^\theta}_{\phi\theta\phi}
-=
+{R^\theta}_{\phi\theta\phi} =
 \sin^2\theta
 }
 $$
@@ -828,8 +796,7 @@ Contract the upper index $\rho$ with the third lower index $\mu$ and set
 
 $$
 \boxed{
-R_{\sigma\nu}
-=
+R_{\sigma\nu} =
 {R^\rho}_{\sigma\rho\nu}
 }
 $$
@@ -846,8 +813,7 @@ Contracting the two indices using the inverse metric $g^{\sigma\nu}$ gives the s
 
 $$
 \boxed{
-R
-=
+R =
 g^{\sigma\nu}R_{\sigma\nu}
 }
 $$
@@ -890,23 +856,19 @@ This equation also shows that a smaller sphere is more strongly curved, while in
 - The commutator of covariant derivatives acting on a vector is
 
   $$
-  [\nabla_\mu,\nabla_\nu]V^\rho
-  =
+  [\nabla_\mu,\nabla_\nu]V^\rho =
   {R^\rho}_{\sigma\mu\nu}V^\sigma
   $$
 
 - The Riemann curvature tensor is
 
   $$
-  {R^\rho}_{\sigma\mu\nu}
-  =
-  \partial_\mu\Gamma^\rho_{\nu\sigma}
-  -
+  {R^\rho}_{\sigma\mu\nu} =
+  \partial_\mu\Gamma^\rho_{\nu\sigma} -
   \partial_\nu\Gamma^\rho_{\mu\sigma}
   +
   \Gamma^\rho_{\mu\lambda}
-  \Gamma^\lambda_{\nu\sigma}
-  -
+  \Gamma^\lambda_{\nu\sigma} -
   \Gamma^\rho_{\nu\lambda}
   \Gamma^\lambda_{\mu\sigma}
   $$
@@ -918,16 +880,14 @@ This equation also shows that a smaller sphere is more strongly curved, while in
 - The Ricci tensor is
 
   $$
-  R_{\sigma\nu}
-  =
+  R_{\sigma\nu} =
   {R^\rho}_{\sigma\rho\nu}
   $$
 
 - The curvature scalar is
 
   $$
-  R
-  =
+  R =
   g^{\sigma\nu}R_{\sigma\nu}
   $$
 

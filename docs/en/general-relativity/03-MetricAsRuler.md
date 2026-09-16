@@ -5,8 +5,7 @@
 In the previous document, “Equations That Survive a Change of Coordinates,” we wrote the line element as
 
 $$
-ds^2
-=
+ds^2 =
 g_{\mu\nu}dx^\mu dx^\nu
 $$
 
@@ -15,8 +14,7 @@ When we change coordinates, the numbers for the coordinate differences $dx^\mu$ 
 For example, suppose that the line element of a plane is
 
 $$
-ds^2
-=
+ds^2 =
 dx^2+dy^2
 $$
 
@@ -43,8 +41,7 @@ $$
 and therefore
 
 $$
-ds^2
-=
+ds^2 =
 \frac{1}{4}dx'^2+dy'^2
 $$
 
@@ -78,8 +75,7 @@ $$
 then the distance $ds$ between them is found from
 
 $$
-ds^2
-=
+ds^2 =
 dx^2+dy^2
 $$
 
@@ -98,10 +94,8 @@ $$
 then
 
 $$
-ds^2
-=
-3^2+4^2
-=
+ds^2 =
+3^2+4^2 =
 25
 $$
 
@@ -150,20 +144,16 @@ The coordinate difference in the $x$ direction doubles from $3$ to $6$, but that
 In the new coordinates,
 
 $$
-ds^2
-=
+ds^2 =
 \frac{1}{4}dx'^2+dy'^2
 $$
 
 so substituting the numbers gives
 
 $$
-ds^2
-=
-\frac{1}{4}\times 6^2+4^2
-=
-9+16
-=
+ds^2 =
+\frac{1}{4}\times 6^2+4^2 =
+9+16 =
 25
 $$
 
@@ -198,8 +188,7 @@ Bob: “Yes. The $1/4$ in the metric converts the coordinate difference $dx'=6$ 
 A general two-dimensional line element can be written as
 
 $$
-ds^2
-=
+ds^2 =
 g_{\mu\nu}dx^\mu dx^\nu
 $$
 
@@ -216,8 +205,7 @@ $$
 then expanding this equation gives
 
 $$
-ds^2
-=
+ds^2 =
 g_{11}(dx)^2
 +g_{12}dx\,dy
 +g_{21}dy\,dx
@@ -233,8 +221,7 @@ $$
 so we can write
 
 $$
-ds^2
-=
+ds^2 =
 g_{11}(dx)^2
 +2g_{12}dx\,dy
 +g_{22}(dy)^2
@@ -249,8 +236,7 @@ $g_{12}$ is related to the angle at which the two coordinate directions meet.
 In Cartesian coordinates,
 
 $$
-g_{\mu\nu}
-=
+g_{\mu\nu} =
 \begin{pmatrix}
 1&0\\
 0&1
@@ -302,8 +288,7 @@ Both have upper indices, so as they are, we cannot contract an upper index with 
 We therefore use the metric to lower the index of one of the vectors, $B^\nu$.
 
 $$
-B_\mu
-=
+B_\mu =
 g_{\mu\nu}B^\nu
 $$
 
@@ -318,10 +303,8 @@ $$
 Substituting the expression for $B_\mu$ in terms of the metric gives
 
 $$
-A^\mu B_\mu
-=
-A^\mu g_{\mu\nu}B^\nu
-=
+A^\mu B_\mu =
+A^\mu g_{\mu\nu}B^\nu =
 g_{\mu\nu}A^\mu B^\nu
 $$
 
@@ -332,8 +315,7 @@ In other words, by lowering the index of one vector, the metric allows us to for
 In Cartesian coordinates on a plane,
 
 $$
-g_{\mu\nu}
-=
+g_{\mu\nu} =
 \begin{pmatrix}
 1&0\\
 0&1
@@ -343,10 +325,8 @@ $$
 so
 
 $$
-A^\mu B_\mu
-=
-g_{\mu\nu}A^\mu B^\nu
-=
+A^\mu B_\mu =
+g_{\mu\nu}A^\mu B^\nu =
 A^1B^1+A^2B^2
 $$
 
@@ -365,16 +345,14 @@ $$
 Then the inner product of the vector with itself is
 
 $$
-A^\mu A_\mu
-=
+A^\mu A_\mu =
 g_{\mu\nu}A^\mu A^\nu
 $$
 
 Expanding this in Cartesian coordinates on a plane gives
 
 $$
-g_{\mu\nu}A^\mu A^\nu
-=
+g_{\mu\nu}A^\mu A^\nu =
 (A^1)^2+(A^2)^2
 $$
 
@@ -383,26 +361,22 @@ which is the square of the vector’s length.
 The coordinate difference $dx^\mu$ is also a vector representing a small displacement. If we lower its index as
 
 $$
-dx_\mu
-=
+dx_\mu =
 g_{\mu\nu}dx^\nu
 $$
 
 then its inner product with itself is
 
 $$
-dx^\mu dx_\mu
-=
+dx^\mu dx_\mu =
 g_{\mu\nu}dx^\mu dx^\nu
 $$
 
 This is the square of the length of the small displacement, namely, the line element.
 
 $$
-ds^2
-=
-dx^\mu dx_\mu
-=
+ds^2 =
+dx^\mu dx_\mu =
 g_{\mu\nu}dx^\mu dx^\nu
 $$
 
@@ -417,8 +391,7 @@ Spacetime with no curvature caused by gravity, where special relativity applies,
 In flat spacetime, we had
 
 $$
-ds^2
-=
+ds^2 =
 -dw^2+dx^2+dy^2+dz^2
 $$
 
@@ -433,16 +406,14 @@ and $w$ has units of distance.
 Written with indices, this is
 
 $$
-ds^2
-=
+ds^2 =
 \eta_{\mu\nu}dx^\mu dx^\nu
 $$
 
 The Minkowski metric is
 
 $$
-\eta_{\mu\nu}
-=
+\eta_{\mu\nu} =
 \begin{pmatrix}
 -1&0&0&0\\
 0&1&0&0\\
@@ -486,8 +457,7 @@ In the limit as Q is brought arbitrarily close to P, we write this difference as
 Calculating the line element between these two events in Alice’s coordinate system gives
 
 $$
-ds^2
-=
+ds^2 =
 -dw_A^2+dx_A^2
 $$
 
@@ -512,8 +482,7 @@ In local coordinates moving together with the ball, the ball itself does not mov
 Therefore, for the same two events of passing P and passing Q, the line element is
 
 $$
-ds^2
-=
+ds^2 =
 -d\tau_{\mathrm{ball}}^2
 $$
 
@@ -522,16 +491,14 @@ Whether we calculate it in Alice’s coordinate system or consider the clock att
 Therefore,
 
 $$
--d\tau_{\mathrm{ball}}^2
-=
+-d\tau_{\mathrm{ball}}^2 =
 -dw_A^2+dx_A^2
 $$
 
 Multiplying both sides by $-1$ gives
 
 $$
-d\tau_{\mathrm{ball}}^2
-=
+d\tau_{\mathrm{ball}}^2 =
 dw_A^2-dx_A^2
 $$
 
@@ -559,8 +526,7 @@ Therefore, $dx_A/dw_A$ is not the ordinary velocity itself, but the dimensionles
 Solving the previous equation for $d\tau_{\mathrm{ball}}$ gives
 
 $$
-d\tau_{\mathrm{ball}}
-=
+d\tau_{\mathrm{ball}} =
 dw_A
 \sqrt{
 1-
@@ -581,8 +547,7 @@ $$
 so
 
 $$
-d\tau_{\mathrm{ball}}
-=
+d\tau_{\mathrm{ball}} =
 dw_A
 $$
 
@@ -591,8 +556,7 @@ Proper time and coordinate time are not always the same. They agree in the speci
 In a general coordinate system, let $dx^\mu$ be the path followed by an object. If that path is timelike, then
 
 $$
-d\tau^2
-=
+d\tau^2 =
 -g_{\mu\nu}dx^\mu dx^\nu
 $$
 
@@ -623,8 +587,7 @@ $$
 Then
 
 $$
-ds^2
-=
+ds^2 =
 dx^2+dy^2+dz^2
 $$
 
@@ -669,10 +632,8 @@ $$
 gives
 
 $$
-ds^2
-=
--dw^2+(\pm dw)^2
-=
+ds^2 =
+-dw^2+(\pm dw)^2 =
 0
 $$
 
@@ -750,8 +711,7 @@ $$
 so its small change is
 
 $$
-dx
-=
+dx =
 \cos\theta\,dr
 -r\sin\theta\,d\theta
 $$
@@ -765,8 +725,7 @@ $$
 so
 
 $$
-dy
-=
+dy =
 \sin\theta\,dr
 +r\cos\theta\,d\theta
 $$
@@ -780,8 +739,7 @@ $$
 First,
 
 $$
-dx^2
-=
+dx^2 =
 \cos^2\theta\,dr^2
 -2r\sin\theta\cos\theta\,dr\,d\theta
 +r^2\sin^2\theta\,d\theta^2
@@ -790,8 +748,7 @@ $$
 Also,
 
 $$
-dy^2
-=
+dy^2 =
 \sin^2\theta\,dr^2
 +2r\sin\theta\cos\theta\,dr\,d\theta
 +r^2\cos^2\theta\,d\theta^2
@@ -800,8 +757,7 @@ $$
 When we add the two, the terms containing $dr\,d\theta$ cancel.
 
 $$
-ds^2
-=
+ds^2 =
 \left(
 \cos^2\theta+\sin^2\theta
 \right)dr^2
@@ -820,8 +776,7 @@ $$
 we obtain
 
 $$
-ds^2
-=
+ds^2 =
 dr^2+r^2d\theta^2
 $$
 
@@ -830,8 +785,7 @@ This is the line element of a plane written in polar coordinates.
 The metric components are
 
 $$
-g_{\mu\nu}
-=
+g_{\mu\nu} =
 \begin{pmatrix}
 1&0\\
 0&r^2
@@ -1007,16 +961,14 @@ As preparation, let us introduce one more tool for working with the metric.
 In the previous document, we used the metric to lower the index of a vector.
 
 $$
-V_\mu
-=
+V_\mu =
 g_{\mu\nu}V^\nu
 $$
 
 Conversely, to change a lower index back into an upper index, we use the inverse metric $g^{\mu\nu}$.
 
 $$
-V^\mu
-=
+V^\mu =
 g^{\mu\nu}V_\nu
 $$
 
@@ -1027,24 +979,21 @@ Using the metric and then the inverse metric brings us back to the state before 
 Indeed, substituting
 
 $$
-V_\rho
-=
+V_\rho =
 g_{\rho\nu}V^\nu
 $$
 
 into
 
 $$
-V^\mu
-=
+V^\mu =
 g^{\mu\rho}V_\rho
 $$
 
 gives
 
 $$
-V^\mu
-=
+V^\mu =
 g^{\mu\rho}g_{\rho\nu}V^\nu
 $$
 
@@ -1053,16 +1002,14 @@ For this operation to return any vector $V^\nu$ to its original form, $g^{\mu\rh
 We write this relationship as
 
 $$
-g^{\mu\rho}g_{\rho\nu}
-=
+g^{\mu\rho}g_{\rho\nu} =
 \delta^\mu_{\ \nu}
 $$
 
 $\delta^\mu_{\ \nu}$ is the Kronecker delta, which was
 
 $$
-\delta^\mu_{\ \nu}
-=
+\delta^\mu_{\ \nu} =
 \begin{cases}
 1 & \mu=\nu\\
 0 & \mu\neq\nu
@@ -1074,8 +1021,7 @@ Viewed as matrices, $g^{\mu\nu}$ is the inverse matrix of $g_{\mu\nu}$.
 In two-dimensional polar coordinates,
 
 $$
-g_{\mu\nu}
-=
+g_{\mu\nu} =
 \begin{pmatrix}
 1&0\\
 0&r^2
@@ -1085,8 +1031,7 @@ $$
 so the inverse metric is
 
 $$
-g^{\mu\nu}
-=
+g^{\mu\nu} =
 \begin{pmatrix}
 1&0\\
 0&\dfrac{1}{r^2}
@@ -1103,8 +1048,7 @@ $$
 \begin{pmatrix}
 1&0\\
 0&r^2
-\end{pmatrix}
-=
+\end{pmatrix} =
 \begin{pmatrix}
 1&0\\
 0&1
