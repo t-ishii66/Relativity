@@ -85,13 +85,13 @@ Since $ds^2$ has the same value even when the coordinates are changed, $ds^2=0$ 
 This time the light travels radially, so $d\theta=d\phi=0$. Substituting into equation (12.1) gives
 
 $$
-0=-f(r)dw^2+\frac{dr^2}{f(r)}.
+0=-f(r)dw^2+\frac{dr^2}{f(r)}
 $$
 
 Multiplying both sides by $f(r)$ and rearranging gives
 
 $$
-dr^2=f(r)^2dw^2.
+dr^2=f(r)^2dw^2
 $$
 
 Taking the future-directed $dw>0$, we obtain
@@ -141,7 +141,7 @@ $$
 \Delta w_{\mathrm{receive}}
 &=(w_2+\mathcal D)-(w_1+\mathcal D)\\
 &=w_2-w_1
-=\Delta w_{\mathrm{send}}.
+=\Delta w_{\mathrm{send}}
 \end{aligned}
 $$
 
@@ -191,7 +191,7 @@ For example, if $f_{\mathrm{Alice}}=0.81$ and $f_{\mathrm{Charlie}}=0.9025$, the
 $$
 \Delta\tau_{\mathrm{Charlie}}
 =\frac{0.95}{0.9}\Delta\tau_{\mathrm{Alice}}
-\simeq1.056\,\Delta\tau_{\mathrm{Alice}}.
+\simeq1.056\,\Delta\tau_{\mathrm{Alice}}
 $$
 
 In seconds, signals sent by Alice at one-second intervals on her clock are received by Charlie at intervals of about 1.056 seconds on his clock. Dividing both proper times by $c$ does not change this ratio.
@@ -232,7 +232,7 @@ In the limit where Charlie is placed sufficiently far away, $f_{\mathrm{Charlie}
 
 $$
 \frac{\nu_{\mathrm{Charlie}}}{\nu_{\mathrm{Alice}}}
-\longrightarrow\sqrt{1-\frac{r_{\mathrm s}}{r_{\mathrm{Alice}}}}.
+\longrightarrow\sqrt{1-\frac{r_{\mathrm s}}{r_{\mathrm{Alice}}}}
 $$
 
 Here, it is the ratio of frequencies that is being taken to the far-away limit. This does not mean that light propagation to infinity takes only a finite amount of time.
@@ -254,7 +254,7 @@ Bob: “That’s right. It is the result of reading, on the clocks at the two lo
 In equation (12.3), the coordinate change of light was $dr/dw=\pm f(r)$. Using $w=ct$ to convert to coordinate time in seconds gives
 
 $$
-\frac{dr}{dt}=\pm c f(r).
+\frac{dr}{dt}=\pm c f(r)
 $$
 
 Near the star, its absolute value is smaller than $c$. Does this mean that the speed of light measured by Alice with her own clock and ruler also becomes smaller?
@@ -272,7 +272,7 @@ $$
 \frac{dX}{dW}
 =\frac{dr/\sqrt{f(r)}}{\sqrt{f(r)}\,dw}
 =\frac1{f(r)}\frac{dr}{dw}
-=\pm1.
+=\pm1
 $$
 
 The local time increment in seconds is $dW/c$, so the speed of light measured by Alice locally is
@@ -296,7 +296,7 @@ For both of them, the locally measured speed of light is $c$. If the locally mea
 $$
 \frac{\lambda_{\mathrm{Charlie}}}{\lambda_{\mathrm{Alice}}}
 =\frac{\nu_{\mathrm{Alice}}}{\nu_{\mathrm{Charlie}}}
-=\sqrt{\frac{f_{\mathrm{Charlie}}}{f_{\mathrm{Alice}}}}.
+=\sqrt{\frac{f_{\mathrm{Charlie}}}{f_{\mathrm{Alice}}}}
 $$
 
 For light arriving farther out, local measurements by the receiver find a lower frequency and a longer wavelength. Redshift does not mean that the speed of light becomes smaller at the receiver.

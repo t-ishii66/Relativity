@@ -664,7 +664,7 @@ $$
 &=\nabla_\alpha(g_{\mu\nu}A^\mu B^\nu)\\
 &=(\nabla_\alpha g_{\mu\nu})A^\mu B^\nu\\
 &\quad+g_{\mu\nu}(\nabla_\alpha A^\mu)B^\nu\\
-&\quad+g_{\mu\nu}A^\mu(\nabla_\alpha B^\nu).
+&\quad+g_{\mu\nu}A^\mu(\nabla_\alpha B^\nu)
 \end{aligned}
 $$
 
@@ -701,7 +701,7 @@ $$
 \frac{dx^\alpha}{d\lambda}
 (\nabla_\alpha g_{\mu\nu})A^\mu B^\nu\\
 &+g_{\mu\nu}\frac{DA^\mu}{D\lambda}B^\nu\\
-&+g_{\mu\nu}A^\mu\frac{DB^\nu}{D\lambda}.
+&+g_{\mu\nu}A^\mu\frac{DB^\nu}{D\lambda}
 \end{aligned}
 $$
 

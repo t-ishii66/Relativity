@@ -112,19 +112,19 @@ $$
 From these, one can also solve for $t_B$ as
 
 $$
-t_B = \frac{1-\gamma^2}{\gamma V}x_A + \gamma t_A.
+t_B = \frac{1-\gamma^2}{\gamma V}x_A + \gamma t_A
 $$
 
 Now impose invariant light speed. Emit light when SA and SB origins coincide:
 
 $$
-x_A = ct_A, \quad x_B = ct_B.
+x_A = ct_A, \quad x_B = ct_B
 $$
 
 Substitute:
 
 $$
-ct_B = \gamma(ct_A - Vt_A), \quad ct_A = \gamma(ct_B + Vt_B).
+ct_B = \gamma(ct_A - Vt_A), \quad ct_A = \gamma(ct_B + Vt_B)
 $$
 
 Then
@@ -136,7 +136,7 @@ $$
 so
 
 $$
-\gamma = \frac{1}{\sqrt{1-(V/c)^2}}.
+\gamma = \frac{1}{\sqrt{1-(V/c)^2}}
 $$
 
 Therefore,
@@ -146,7 +146,7 @@ x_B = \frac{x_A - Vt_A}{\sqrt{1-(V/c)^2}},
 $$
 
 $$
-t_B = \frac{t_A - Vx_A/c^2}{\sqrt{1-(V/c)^2}}.
+t_B = \frac{t_A - Vx_A/c^2}{\sqrt{1-(V/c)^2}}
 $$
 
 ![](../../images/lorentz.png)
@@ -189,7 +189,7 @@ All SA coordinate clocks are synchronized with Alice’s SA-rest clock. SB is bu
 Use $w$ for coordinate-time readings and $\tau$ for proper-time readings. In this book, these are measured in length units, not seconds, by defining
 
 $$
-w = ct.
+w = ct
 $$
 
 Similarly, we multiply ordinary proper time by $c$ and call it $\tau$. We still speak of them as “time” for readability.
@@ -203,7 +203,7 @@ $$
 and for Bob at rest in SB,
 
 $$
-\tau_B = w_B.
+\tau_B = w_B
 $$
 
 ![](../../images/image3.png)
@@ -231,13 +231,13 @@ First, observe Bob’s clock from SA.
 As seen in SA, Bob moves uniformly and passes points P and Q. Bob’s finite proper-time difference from P to Q is measured by one Bob clock:
 
 $$
-\Delta\tau_B = \tau_Q - \tau_P.
+\Delta\tau_B = \tau_Q - \tau_P
 $$
 
 But SA’s finite coordinate-time difference is measured by two different SA clocks at P and Q:
 
 $$
-\Delta w_A = w_Q - w_P.
+\Delta w_A = w_Q - w_P
 $$
 
 ![](../../images/image5.png)
@@ -259,13 +259,13 @@ Up to this point, we have used $\Delta$ for the finite differences between the s
 $$
 \Delta\tau_B\longrightarrow d\tau_B,\qquad
 \Delta w_A\longrightarrow dw_A,\qquad
-\Delta x_A\longrightarrow dx_A.
+\Delta x_A\longrightarrow dx_A
 $$
 
 Below, we use $d$ to represent these infinitesimal differences. If the line element is $ds^{2}$, define
 
 $$
-ds^2 = -dw_A^2 + dx_A^2.
+ds^2 = -dw_A^2 + dx_A^2
 $$
 
 This quantity is Lorentz invariant (derivation in Appendix A).
@@ -275,7 +275,7 @@ This quantity is Lorentz invariant (derivation in Appendix A).
 In Bob’s own frame, Bob is at rest so $dx_B=0$, hence
 
 $$
-ds^2 = -dw_B^2 = -d\tau_B^2.
+ds^2 = -dw_B^2 = -d\tau_B^2
 $$
 
 ---
@@ -295,7 +295,7 @@ $$
 so
 
 $$
-d\tau_B = dw_A\sqrt{1-(dx_A/dw_A)^2} = dw_A\sqrt{1-(V/c)^2}.
+d\tau_B = dw_A\sqrt{1-(dx_A/dw_A)^2} = dw_A\sqrt{1-(V/c)^2}
 $$
 
 Therefore $d\tau_B < dw_A$. Since $\tau_A = w_A$ for Alice at rest in SA, Bob’s clock runs slower than Alice’s according to SA.
@@ -465,7 +465,7 @@ $$
 0&1&0&0\\
 0&0&1&0\\
 0&0&0&1
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 Even in flat spacetime, non-Cartesian coordinates can make metric components non-Minkowskian. Metric components depend on coordinates; curvature is the invariant criterion.
@@ -479,7 +479,7 @@ $$
 and define the line element by
 
 $$
-ds^2=\eta_{\mu\nu}dX^\mu dX^\nu.
+ds^2=\eta_{\mu\nu}dX^\mu dX^\nu
 $$
 
 Rewriting:
@@ -499,7 +499,7 @@ $$
 with
 
 $$
-g_{\rho\tau}=\eta_{\mu\nu}\frac{\partial X^\mu}{\partial x^\rho}\frac{\partial X^\nu}{\partial x^\tau}.
+g_{\rho\tau}=\eta_{\mu\nu}\frac{\partial X^\mu}{\partial x^\rho}\frac{\partial X^\nu}{\partial x^\tau}
 $$
 
 So, for a line element $ds^2$ seen from a (local) inertial frame, a person in a gravity-field coordinate can compute the same scalar value by using $g_{\rho\tau}dx^\rho dx^\tau$.
@@ -538,13 +538,13 @@ $$
 and
 
 $$
-d\Omega^{2}=d\theta^{2}+\sin^{2}\theta d\phi^{2}.
+d\Omega^{2}=d\theta^{2}+\sin^{2}\theta d\phi^{2}
 $$
 
 In radial-only discussion:
 
 $$
-ds^{2}=-\left(1-\frac{a}{r}\right)dw^{2}+\frac{1}{1-a/r}dr^{2}.
+ds^{2}=-\left(1-\frac{a}{r}\right)dw^{2}+\frac{1}{1-a/r}dr^{2}
 $$
 
 ### Coordinates as a Canvas
@@ -566,13 +566,13 @@ The same distinction applies to space. Intervals of equal coordinate length need
 For example, even in flat space, suppose we describe space by a flat coordinate $r$ and then apply an arbitrary reparameterization
 
 $$
-R=f(r).
+R=f(r)
 $$
 
 Then
 
 $$
-dR=f'(r)\,dr.
+dR=f'(r)\,dr
 $$
 
 Even though $dr$ is uniform in the original flat coordinate, $dR$ can vary with position. So coordinate increments themselves are not automatically physical ruler lengths.
@@ -594,13 +594,13 @@ What we physically measure are proper time and proper length; relating these to 
 At $r\to\infty$:
 
 $$
-ds^{2}=-dw^{2}+dr^{2}.
+ds^{2}=-dw^{2}+dr^{2}
 $$
 
 For Charlie at rest, $dr_C=0$:
 
 $$
-ds^{2}=-d\tau_C^{2}=-dw^{2}\Rightarrow d\tau_C=dw.
+ds^{2}=-d\tau_C^{2}=-dw^{2}\Rightarrow d\tau_C=dw
 $$
 
 Thus, the shared coordinate-time increment $dw$ equals the proper-time increment $d\tau_C$ of Charlie, who is at rest at infinity. However, a clock elsewhere need not record the same proper-time increment during that same $dw$. What can differ is not the shared coordinate-time scale, but the proper time each clock records over the corresponding interval. Let us examine this.
@@ -608,19 +608,19 @@ Thus, the shared coordinate-time increment $dw$ equals the proper-time increment
 Now write the line element at Alice’s radius $r_A$:
 
 $$
-ds^{2}=-\left(1-\frac{a}{r_A}\right)dw^{2}+\frac{1}{1-a/r_A}dr^{2}.
+ds^{2}=-\left(1-\frac{a}{r_A}\right)dw^{2}+\frac{1}{1-a/r_A}dr^{2}
 $$
 
 Suppose Alice emits light at coordinate time $w_{A1}$ and that light reaches Charlie after coordinate interval $W$:
 
 $$
-w_{A1}+W=w_{C1}.
+w_{A1}+W=w_{C1}
 $$
 
 Later, Alice emits again at $w_{A2}$. The travel interval is again $W$, so
 
 $$
-w_{A2}+W=w_{C2}.
+w_{A2}+W=w_{C2}
 $$
 
 Subtracting:
@@ -632,7 +632,7 @@ $$
 or in differential form,
 
 $$
-dw_A=dw_C.
+dw_A=dw_C
 $$
 
 This is why coordinate time can directly relate events at different places. Proper time cannot do that by itself, because it is local to each clock.
@@ -656,7 +656,7 @@ However, if we consider only Alice’s immediate neighborhood over a very short 
 For the local coordinate system Alice establishes around herself, let $dw_A$ be the time measured by coordinate clocks and let $dr_A$ be the length measured by rulers. As long as we consider only Alice’s neighborhood,
 
 $$
-ds^{2}\simeq -dw_A^{2}+dr_A^{2}.
+ds^{2}\simeq -dw_A^{2}+dr_A^{2}
 $$
 
 Here $\simeq$ does not mean exact identity. It means that this form is a good approximation in an infinitesimal region near Alice. The conditions are an infinitesimal distance near Alice and an instantaneous interval.
@@ -678,7 +678,7 @@ $$
 thus
 
 $$
-d\tau_A=dw\sqrt{1-\frac{a}{r_A}}.
+d\tau_A=dw\sqrt{1-\frac{a}{r_A}}
 $$
 
 So for the same coordinate increment $dw$, Alice’s proper-time increment is smaller than Charlie’s.
@@ -704,13 +704,13 @@ Charlie: “Yep!”
 Consider light emitted by Alice and received by Charlie. Suppose Alice keeps emitting during her own proper-time interval (experienced time) $d\tau_A$. Converting that interval to Schwarzschild coordinate time gives
 
 $$
-dw=d\tau_A\sqrt{\frac{1}{1-a/r_A}}.
+dw=d\tau_A\sqrt{\frac{1}{1-a/r_A}}
 $$
 
 From the discussion above, Charlie also keeps receiving during that same coordinate-time interval. And at Charlie (infinity), the experienced time is proper time, with $d\tau_C=dw$. Therefore
 
 $$
-d\tau_C=d\tau_A\sqrt{\frac{1}{1-a/r_A}}.
+d\tau_C=d\tau_A\sqrt{\frac{1}{1-a/r_A}}
 $$
 
 Suppose Alice counts $N$ oscillations during $d\tau_A$. Charlie receives the same $N$ oscillations during $d\tau_C$. The oscillation count is unchanged, but it is spread over a longer reception time, so Charlie observes a lower frequency.
@@ -724,19 +724,19 @@ Now consider how a rod of inertial-frame length $\Delta L$ appears in a gravitat
 Length means identifying both endpoints simultaneously, so set $dw=0$. Then Schwarzschild gives
 
 $$
-ds^2=\frac{1}{1-a/r}dr^2.
+ds^2=\frac{1}{1-a/r}dr^2
 $$
 
 Near Charlie, $r=\infty$, so
 
 $$
-ds^2=dr^2.
+ds^2=dr^2
 $$
 
 If we choose the two spacetime points as the two rod endpoints, then
 
 $$
-ds^2=\Delta L^2.
+ds^2=\Delta L^2
 $$
 
 Write
@@ -766,13 +766,13 @@ $$
 is true, and expressing this in the Schwarzschild canvas coordinate $r$ gives
 
 $$
-ds^2=\Delta L^2=\frac{1}{1-a/r_A}dr^2.
+ds^2=\Delta L^2=\frac{1}{1-a/r_A}dr^2
 $$
 
 So
 
 $$
-dr=\Delta L\sqrt{1-\frac{a}{r_A}}.
+dr=\Delta L\sqrt{1-\frac{a}{r_A}}
 $$
 
 For example, a $10\,\mathrm{m}$ rod in an inertial frame remains $10\,\mathrm{m}$ when directly measured locally in gravity (both rod and ruler are affected together). But in the Schwarzschild $w-r$ canvas coordinate description, the corresponding $dr$ value can be less than $10\,\mathrm{m}$.
@@ -792,7 +792,7 @@ $$
 so
 
 $$
-\left|\frac{dr}{dw}\right|=1-\frac{a}{r}.
+\left|\frac{dr}{dw}\right|=1-\frac{a}{r}
 $$
 
 This is the coordinate speed magnitude on the Schwarzschild canvas. On this canvas, invariant light speed no longer appears as a constant coordinate slope.
@@ -800,7 +800,7 @@ This is the coordinate speed magnitude on the Schwarzschild canvas. On this canv
 However, at infinity the Schwarzschild coordinate time $w$ equals Charlie’s proper time $\tau_C$. So as long as Charlie is far away, he may read this canvas time as his own time. At Charlie’s location $r=\infty$,
 
 $$
-\frac{dr}{dw}=1.
+\frac{dr}{dw}=1
 $$
 
 So near himself, Charlie measures inertial light speed $c$ as usual.
@@ -831,7 +831,7 @@ $$
 $$
 
 $$
-=\frac{dr}{dw(1-a/r_A)}=1.
+=\frac{dr}{dw(1-a/r_A)}=1
 $$
 
 Thus Alice also observes light speed $c$ locally.
@@ -891,14 +891,14 @@ $$
 For the same two spacetime points, Charlie’s coordinates satisfy
 
 $$
-ds^{2}=-\left(1-\frac{a}{r_B}\right)dw_C^{2}+\frac{1}{1-a/r_B}dr_C^{2}.
+ds^{2}=-\left(1-\frac{a}{r_B}\right)dw_C^{2}+\frac{1}{1-a/r_B}dr_C^{2}
 $$
 
 Since both describe the same two endpoints and $ds^2$ is a scalar, we can write
 
 $$
 ds^{2}=-dw_B^{2}+dr_B^{2}
-=-\left(1-\frac{a}{r_B}\right)dw_C^{2}+\frac{1}{1-a/r_B}dr_C^{2}.
+=-\left(1-\frac{a}{r_B}\right)dw_C^{2}+\frac{1}{1-a/r_B}dr_C^{2}
 $$
 
 Now consider Bob’s proper time. Set $dr_B=0$:
@@ -913,7 +913,7 @@ $$
 d\tau_B^{2}
 =\left(1-\frac{a}{r_B}\right)dw_C^{2}
 -\frac{1}{1-a/r_B}dr_C^{2}
-< dw_C^{2}.
+< dw_C^{2}
 $$
 
 So at least $d\tau_B<dw_C$ holds.
@@ -921,7 +921,7 @@ So at least $d\tau_B<dw_C$ holds.
 Now make comparison conditions explicit. If Alice and Bob are at nearly the same radius ($r_A\sim r_B$), gravitational slowing is nearly the same for both. But Bob is moving relative to Alice, so by the special-relativistic motion effect Bob’s clock is further slowed from Alice’s perspective. Therefore
 
 $$
-d\tau_B<d\tau_A.
+d\tau_B<d\tau_A
 $$
 
 Combine with the already shown gravitational relation
@@ -933,7 +933,7 @@ $$
 to get
 
 $$
-d\tau_B<d\tau_A<d\tau_C.
+d\tau_B<d\tau_A<d\tau_C
 $$
 
 This conclusion is under the condition that Alice and Bob are compared at nearly the same $r$.
@@ -963,7 +963,7 @@ But for Charlie, things look different. At first flashes arrive every second, th
 Quantitatively: at Bob position $r_B$, the relation between Bob proper time $d\tau_B$ and Charlie coordinate time $dw_C$ includes both gravitational and motion effects. Here, to capture the trend, use the static relation as an approximate guide:
 
 $$
-d\tau_B = dw_C\sqrt{1-\frac{a}{r_B}}.
+d\tau_B = dw_C\sqrt{1-\frac{a}{r_B}}
 $$
 
 From this, as $r_B\to a$, a fixed $d\tau_B$ corresponds to very large $dw_C$. So flashes Bob emits every second are received by Charlie with very long spacing. Since Charlie is at infinity, $d\tau_C=dw_C$ holds, so he directly reads that spacing on his own clock.
@@ -975,7 +975,7 @@ $$
 $$
 
 $$
-\frac{\nu_C}{\nu_B}=\frac{d\tau_B}{dw_C}.
+\frac{\nu_C}{\nu_B}=\frac{d\tau_B}{dw_C}
 $$
 
 Using the same approximation as above (static relation as guide), substitute $d\tau_B = dw_C\sqrt{1-\frac{a}{r_B}}$:
@@ -983,7 +983,7 @@ Using the same approximation as above (static relation as guide), substitute $d\
 $$
 \frac{\nu_C}{\nu_B}
 =\frac{dw_C\sqrt{1-\frac{a}{r_B}}}{dw_C}
-=\sqrt{1-\frac{a}{r_B}}.
+=\sqrt{1-\frac{a}{r_B}}
 $$
 
 As $r_B\to a$, this ratio approaches zero, so observed frequency becomes arbitrarily small.
@@ -1031,7 +1031,7 @@ $$
 holds in segments along the way. So over the full trip,
 
 $$
-\tau_{B,\mathrm{total}}<\tau_{C,\mathrm{total}}.
+\tau_{B,\mathrm{total}}<\tau_{C,\mathrm{total}}
 $$
 
 When they reunite and compare clocks directly, Bob is younger.
@@ -1083,7 +1083,7 @@ $$
 $$
 
 $$
-=g'_{\lambda\sigma}dx'^{\lambda}dx'^{\sigma}.
+=g'_{\lambda\sigma}dx'^{\lambda}dx'^{\sigma}
 $$
 
 So the form is preserved, and the scalar value $ds^2$ is preserved.
@@ -1095,7 +1095,7 @@ ds^{2}=g_{\mu\nu}dx^{\mu}dx^{\nu}
 $$
 
 $$
-=\eta_{\mu\nu}dX^{\mu}dX^{\nu}.
+=\eta_{\mu\nu}dX^{\mu}dX^{\nu}
 $$
 
 This suggests a useful perspective shift. Perhaps it is not that we always start from $\eta_{\mu\nu}$ and then “add” $g_{\mu\nu}$. Rather, for a chosen coordinate system $x^\mu$, the corresponding $g_{\mu\nu}$ appears as part of that description from the start (as in Schwarzschild, where coordinate system and metric come together), and then we may transform locally to a coordinate where the metric is $\eta_{\mu\nu}$.
@@ -1146,7 +1146,7 @@ Lorentz transform:
 
 $$
 x_B=\gamma\left(x_A-\frac{V}{c}w_A\right),\quad
-w_B=\gamma\left(w_A-\frac{V}{c}x_A\right).
+w_B=\gamma\left(w_A-\frac{V}{c}x_A\right)
 $$
 
 Differentiate and substitute. With $\beta=V/c$:
@@ -1199,13 +1199,13 @@ x_{B0}=\frac{x_{A0}-V\times 0}{\sqrt{1-(V/c)^2}},
 $$
 
 $$
-x_{B1}=\frac{x_{A1}-V\times 0}{\sqrt{1-(V/c)^2}}.
+x_{B1}=\frac{x_{A1}-V\times 0}{\sqrt{1-(V/c)^2}}
 $$
 
 Hence spacing between the two SB marks is
 
 $$
-x_{B1}-x_{B0}=\frac{x_{A1}-x_{A0}}{\sqrt{1-(V/c)^2}}.
+x_{B1}-x_{B0}=\frac{x_{A1}-x_{A0}}{\sqrt{1-(V/c)^2}}
 $$
 
 So the spacing is longer than SA spacing, meaning equivalently: if SA measures an SB-rest rod simultaneously in SA, SA gets a shorter length. That already gives the standard result.
@@ -1215,7 +1215,7 @@ But this is not in the same narrative flow as the main text, so below we derive 
 Take Lorentz relation
 
 $$
-w_A = \frac{Vx_B/c + w_B}{\sqrt{1-(V/c)^2}}.
+w_A = \frac{Vx_B/c + w_B}{\sqrt{1-(V/c)^2}}
 $$
 
 Let the SB-rest rod length be $L_B$, with rear at $x_B=0$ and front at $x_B=L_B$ (SB coordinates). In SB view, at time $w_{B0}$, suppose rod front reaches SA point Q. Compute SA clock reading $w_A(Q)$:
@@ -1225,13 +1225,13 @@ x_B=L_B,
 $$
 
 $$
-w_B=w_{B0}.
+w_B=w_{B0}
 $$
 
 So
 
 $$
-w_A(Q)=\frac{VL_B/c+w_{B0}}{\sqrt{1-(V/c)^2}}.
+w_A(Q)=\frac{VL_B/c+w_{B0}}{\sqrt{1-(V/c)^2}}
 $$
 
 SA measures rod length at this SA time. Define $w_A(Q)=w_{A0}$ (constant).
@@ -1241,7 +1241,7 @@ Now change viewpoint and work backward from SA’s measurement event. SA measure
 First look at the rear event (P) in SB. The rear endpoint always has
 
 $$
-x_B=0.
+x_B=0
 $$
 
 Substitute $w_A=w_{A0}, x_B=0$ into
@@ -1253,31 +1253,31 @@ $$
 to get
 
 $$
-w_B(P)=w_{A0}\sqrt{1-(V/c)^2}.
+w_B(P)=w_{A0}\sqrt{1-(V/c)^2}
 $$
 
 Next, define X as the rear-endpoint event at the same SB time $w_{B0}$ as front event Q. Then X has $x_B=0,\ w_B=w_{B0}$, so
 
 $$
-w_A(X)=\frac{w_{B0}}{\sqrt{1-(V/c)^2}}.
+w_A(X)=\frac{w_{B0}}{\sqrt{1-(V/c)^2}}
 $$
 
 From earlier,
 
 $$
-w_{A0}=w_A(Q)=\frac{VL_B/c+w_{B0}}{\sqrt{1-(V/c)^2}}.
+w_{A0}=w_A(Q)=\frac{VL_B/c+w_{B0}}{\sqrt{1-(V/c)^2}}
 $$
 
 Subtract:
 
 $$
-\Delta w_A=w_{A0}-w_A(X)=\frac{VL_B/c}{\sqrt{1-(V/c)^2}}.
+\Delta w_A=w_{A0}-w_A(X)=\frac{VL_B/c}{\sqrt{1-(V/c)^2}}
 $$
 
 This is the SA time difference during which the rear endpoint moves from X to P. Therefore
 
 $$
-\overline{XP}=V\frac{\Delta w_A}{c}=\frac{V^2L_B/c^2}{\sqrt{1-(V/c)^2}}.
+\overline{XP}=V\frac{\Delta w_A}{c}=\frac{V^2L_B/c^2}{\sqrt{1-(V/c)^2}}
 $$
 
 Now, from SB viewpoint, SA effectively measures the rod while omitting this X-to-P segment. If SA-measured length $\overline{PQ}$ is $L_A$, then adding $\overline{XP}$ gives $\overline{QX}$.
@@ -1285,7 +1285,7 @@ Now, from SB viewpoint, SA effectively measures the rod while omitting this X-to
 If SB simultaneously records both rod endpoints as Q and X into SA, then SA length $\overline{QX}$ is
 
 $$
-\overline{QX}=\frac{L_B}{\sqrt{1-(V/c)^2}}.
+\overline{QX}=\frac{L_B}{\sqrt{1-(V/c)^2}}
 $$
 
 Therefore
@@ -1297,7 +1297,7 @@ $$
 and rearranging:
 
 $$
-L_A=L_B\sqrt{1-(V/c)^2}.
+L_A=L_B\sqrt{1-(V/c)^2}
 $$
 
 So SA sees the rod contracted by this factor.
@@ -1326,14 +1326,14 @@ Multiply by $mc$ to define four-momentum:
 
 $$
 \mathbf{p}=(p^0,p^1,p^2,p^3)=mc\mathbf{u}
-=\left(mc\frac{dw}{d\tau},mc\frac{dx}{d\tau},mc\frac{dy}{d\tau},mc\frac{dz}{d\tau}\right).
+=\left(mc\frac{dw}{d\tau},mc\frac{dx}{d\tau},mc\frac{dy}{d\tau},mc\frac{dz}{d\tau}\right)
 $$
 
 In one spatial dimension:
 
 $$
 \mathbf{p}=(p^0,p^1)=mc\mathbf{u}
-=\left(mc\frac{dw}{d\tau},mc\frac{dx}{d\tau}\right).
+=\left(mc\frac{dw}{d\tau},mc\frac{dx}{d\tau}\right)
 $$
 
 Up to here, there is no mystery: just definitions.
@@ -1341,7 +1341,7 @@ Up to here, there is no mystery: just definitions.
 Now consider the Lorentz-invariant quantity
 
 $$
-ds^2=-dw^2+dx^2.
+ds^2=-dw^2+dx^2
 $$
 
 Proper time is the time indicated by a clock attached to the object. Looking at the expression above, an object moving by $dx$ during coordinate interval $dw$ carries that attached-clock time as proper time.
@@ -1349,19 +1349,19 @@ Proper time is the time indicated by a clock attached to the object. Looking at 
 For $dx=0$ (object at rest in that coordinate system), coordinate time and proper time coincide:
 
 $$
-ds^2=-dw^2+dx^2=-d\tau^2+0^2=-d\tau^2.
+ds^2=-dw^2+dx^2=-d\tau^2+0^2=-d\tau^2
 $$
 
 So $ds^2$ can be written in terms of proper time. In general, relation between attached-clock proper time and observer coordinate variables is
 
 $$
--d\tau^2(=ds^2)=-dw^2+dx^2.
+-d\tau^2(=ds^2)=-dw^2+dx^2
 $$
 
 Divide by $d\tau^2$:
 
 $$
--1=-\left(\frac{dw}{d\tau}\right)^2+\left(\frac{dx}{d\tau}\right)^2.
+-1=-\left(\frac{dw}{d\tau}\right)^2+\left(\frac{dx}{d\tau}\right)^2
 $$
 
 Multiply by $(mc)^2$:
@@ -1373,36 +1373,36 @@ $$
 rearrange:
 
 $$
-\left(mc\frac{dw}{d\tau}\right)^2=(mc)^2+\left(mc\frac{dx}{d\tau}\right)^2.
+\left(mc\frac{dw}{d\tau}\right)^2=(mc)^2+\left(mc\frac{dx}{d\tau}\right)^2
 $$
 
 Rewrite using four-momentum symbols:
 
 $$
-(p^0)^2=(mc)^2+(p^1)^2.
+(p^0)^2=(mc)^2+(p^1)^2
 $$
 
 Now take the low-speed limit (speed much smaller than light speed), so $p^1$ is small, and calculate $p^0c$:
 
 $$
 p^0c=c\sqrt{(mc)^2+(p^1)^2}
-=mc^2\sqrt{1+\left(\frac{p^1}{mc}\right)^2}.
+=mc^2\sqrt{1+\left(\frac{p^1}{mc}\right)^2}
 $$
 
 $$
-\simeq mc^2\left(1+\frac{1}{2}\left(\frac{p^1}{mc}\right)^2\right).
+\simeq mc^2\left(1+\frac{1}{2}\left(\frac{p^1}{mc}\right)^2\right)
 $$
 
 Let $t$ denote ordinary time in seconds. Since $d\tau\simeq cdt$,
 
 $$
-p^1=mc\frac{dx}{d\tau}\simeq mc\frac{dx}{cdt}=mv_x.
+p^1=mc\frac{dx}{d\tau}\simeq mc\frac{dx}{cdt}=mv_x
 $$
 
 Therefore
 
 $$
-p^0c\simeq mc^2+\frac{(p^1)^2}{2m}\simeq mc^2+\frac{1}{2}mv_x^2.
+p^0c\simeq mc^2+\frac{(p^1)^2}{2m}\simeq mc^2+\frac{1}{2}mv_x^2
 $$
 
 The kinetic-energy term appears. So the first term $mc^2$ is an energy term existing in addition to kinetic energy. In this way, $p^0c$ is identified as total energy.

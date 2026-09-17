@@ -49,7 +49,7 @@ Consider the same static vacuum region as in Chapter 12.
 $$
 ds^2=-f(r)dw^2+\frac{dr^2}{f(r)}+r^2d\Omega^2,
 \qquad
-f(r)=1-\frac{r_{\mathrm s}}r.
+f(r)=1-\frac{r_{\mathrm s}}r
 $$
 
 Alice remains at rest at $r=r_{\mathrm A}$, and a mirror is held at rest outside her at $r=r_{\mathrm B}$. Both are outside $r_{\mathrm s}$, and we assume that the path of the light does not pass through the star’s matter.
@@ -57,13 +57,13 @@ Alice remains at rest at $r=r_{\mathrm A}$, and a mirror is held at rest outside
 For radial light, $d\Omega=0$ and $ds^2=0$, so
 
 $$
-0=-f\,dw^2+\frac{dr^2}{f}.
+0=-f\,dw^2+\frac{dr^2}{f}
 $$
 
 Rearranging both sides gives
 
 $$
-dw=\frac{|dr|}{f(r)}.
+dw=\frac{|dr|}{f(r)}
 \qquad (14.1)
 $$
 
@@ -73,14 +73,14 @@ The increase in coordinate time on the outward journey is
 
 $$
 \Delta w_{\mathrm{out}}
-=\int_{r_{\mathrm A}}^{r_{\mathrm B}}\frac{dr}{f(r)}.
+=\int_{r_{\mathrm A}}^{r_{\mathrm B}}\frac{dr}{f(r)}
 $$
 
 The metric does not depend on time, and the position of the mirror does not change, so the return journey takes the same coordinate time. Therefore,
 
 $$
 \Delta w_{\mathrm{round}}
-=2\int_{r_{\mathrm A}}^{r_{\mathrm B}}\frac{dr}{f(r)}.
+=2\int_{r_{\mathrm A}}^{r_{\mathrm B}}\frac{dr}{f(r)}
 $$
 
 So far, this is a difference in time on the coordinate canvas. To convert it to Alice’s clock, we use
@@ -129,7 +129,7 @@ $$
 \int_{r_-}^{r_{\mathrm A}}\frac{dr}{f(r)},\\
 \Delta\tau_{\mathrm R}
 &=2\sqrt{f(r_{\mathrm A})}
-\int_{r_{\mathrm A}}^{r_+}\frac{dr}{f(r)}.
+\int_{r_{\mathrm A}}^{r_+}\frac{dr}{f(r)}
 \end{aligned}
 \qquad (14.3)
 $$
@@ -169,7 +169,7 @@ This time, the lengths on the left and right measured with rulers are both kept 
 The equation for a small length found in Chapter 11 is
 
 $$
-d\ell=\frac{|dr|}{\sqrt{f(r)}}.
+d\ell=\frac{|dr|}{\sqrt{f(r)}}
 $$
 
 Therefore, the positions of the mirrors on the left and right satisfy
@@ -177,13 +177,13 @@ Therefore, the positions of the mirrors on the left and right satisfy
 $$
 \int_{r_-}^{r_{\mathrm A}}\frac{dr}{\sqrt{f(r)}}=L,
 \qquad
-\int_{r_{\mathrm A}}^{r_+}\frac{dr}{\sqrt{f(r)}}=L.
+\int_{r_{\mathrm A}}^{r_+}\frac{dr}{\sqrt{f(r)}}=L
 $$
 
 Rewriting this in terms of a small coordinate width gives
 
 $$
-|dr|=\sqrt{f(r)}\,d\ell.
+|dr|=\sqrt{f(r)}\,d\ell
 $$
 
 The closer we are to the star, the smaller $f(r)$ becomes, so the coordinate width corresponding to the same ruler length $d\ell$ also becomes smaller.
@@ -193,7 +193,7 @@ Along the left path, $f(r)<f(r_{\mathrm A})$, while along the right path, $f(r)>
 $$
 r_{\mathrm A}-r_-
 <\sqrt{f(r_{\mathrm A})}\,L
-<r_+-r_{\mathrm A}.
+<r_+-r_{\mathrm A}
 $$
 
 Thus, even though the lengths measured with rulers are $L$ on both sides, the coordinate width on the left is smaller.
@@ -206,7 +206,7 @@ Substituting $\lvert dr\rvert=\sqrt{f(r)}\,d\ell$ into equation (14.1), which de
 
 $$
 dw=\frac{|dr|}{f(r)}
-=\frac{d\ell}{\sqrt{f(r)}}.
+=\frac{d\ell}{\sqrt{f(r)}}
 $$
 
 Converting this further to Alice’s clock at the light source, the increase on her clock while light crosses that small interval is
@@ -214,7 +214,7 @@ Converting this further to Alice’s clock at the light source, the increase on 
 $$
 d\tau_{\mathrm A}
 =\sqrt{f(r_{\mathrm A})}\,dw
-=\sqrt{\frac{f(r_{\mathrm A})}{f(r)}}\,d\ell.
+=\sqrt{\frac{f(r_{\mathrm A})}{f(r)}}\,d\ell
 $$
 
 Notice here that $d\ell$ and $d\tau_{\mathrm A}$ correspond to different locations.
@@ -232,7 +232,7 @@ For both paths, adding $d\ell$ over the one-way journey gives the length $L$. Th
 $$
 \Delta\tau_{\mathrm L}>2L,
 \qquad
-\Delta\tau_{\mathrm R}<2L.
+\Delta\tau_{\mathrm R}<2L
 $$
 
 Converting these to times in seconds gives
@@ -254,7 +254,7 @@ As we also confirmed in Chapter 12, the small length and proper time measured by
 $$
 d\ell=\frac{|dr|}{\sqrt{f(r)}},
 \qquad
-d\tau=\sqrt{f(r)}\,dw.
+d\tau=\sqrt{f(r)}\,dw
 $$
 
 For light, substituting $dw=\lvert dr\rvert/f(r)$ gives
@@ -263,7 +263,7 @@ $$
 \frac{d\ell}{d\tau/c}
 =\frac{|dr|/\sqrt{f(r)}}{\sqrt{f(r)}\,dw/c}
 =c\frac{|dr|}{f(r)\,dw}
-=c.
+=c
 $$
 
 The local speed of light is always $c$. By contrast, the round-trip times considered here were measured with a single clock at the light source for light that passed through distant locations. The metric along the entire path is involved in those times.
@@ -281,7 +281,7 @@ In an interferometer, continuous light is sent to the left and right, and the re
 Let the frequency of Alice’s light source be $\nu_0$, and let $T$ be the reading in seconds on Alice’s clock. Write the phase of the oscillation of the light source as
 
 $$
-\varphi_{\mathrm{source}}(T)=2\pi\nu_0T.
+\varphi_{\mathrm{source}}(T)=2\pi\nu_0T
 $$
 
 When the phase increases by $2\pi$, the light completes one oscillation.
@@ -293,7 +293,7 @@ Leaving out the phase from reflection that is common to both paths,
 $$
 \varphi_{\mathrm L}(T)=2\pi\nu_0(T-T_{\mathrm L}),
 \qquad
-\varphi_{\mathrm R}(T)=2\pi\nu_0(T-T_{\mathrm R}).
+\varphi_{\mathrm R}(T)=2\pi\nu_0(T-T_{\mathrm R})
 $$
 
 Defining the difference as $\Delta\varphi=\varphi_{\mathrm R}-\varphi_{\mathrm L}$ gives
@@ -302,7 +302,7 @@ $$
 \begin{aligned}
 \Delta\varphi
 &=2\pi\nu_0\left[(T-T_{\mathrm R})-(T-T_{\mathrm L})\right]\\
-&=2\pi\nu_0(T_{\mathrm L}-T_{\mathrm R}).
+&=2\pi\nu_0(T_{\mathrm L}-T_{\mathrm R})
 \end{aligned}
 $$
 

@@ -22,7 +22,7 @@ $$
 $$
 ds^2=-f(r)dw^2+\frac{dr^2}{f(r)}+r^2d\Omega^2,
 \qquad
-d\Omega^2=d\theta^2+\sin^2\theta\,d\phi^2.
+d\Omega^2=d\theta^2+\sin^2\theta\,d\phi^2
 \qquad (13.1)
 $$
 
@@ -66,13 +66,13 @@ Let Bob’s proper time be $\tau_{\mathrm{Bob}}$, and let a dot below denote dif
 
 $$
 \dot w=\frac{dw}{d\tau_{\mathrm{Bob}}},\qquad
-\dot r=\frac{dr}{d\tau_{\mathrm{Bob}}}.
+\dot r=\frac{dr}{d\tau_{\mathrm{Bob}}}
 $$
 
 Because the motion is only in the radial direction, $d\theta=d\phi=0$. Along Bob’s orbit, $ds^2=-d\tau_{\mathrm{Bob}}^2$, so dividing equation (13.1) by $d\tau_{\mathrm{Bob}}^2$ gives,
 
 $$
--1=-f(r)\dot w^2+\frac{\dot r^2}{f(r)}.
+-1=-f(r)\dot w^2+\frac{\dot r^2}{f(r)}
 \qquad (13.2)
 $$
 
@@ -105,7 +105,7 @@ $$
 +\Gamma^w_{wr}\dot w\dot r
 +\Gamma^w_{rw}\dot r\dot w
 +\Gamma^w_{rr}\dot r^2
-=0.
+=0
 $$
 
 Furthermore, for this metric, $\Gamma^w_{ww}$ and $\Gamma^w_{rr}$ are also zero. Let us use the connection formula to check why.
@@ -131,7 +131,7 @@ $$
 \partial_\mu g_{\sigma\nu}
 +\partial_\nu g_{\sigma\mu}
 -\partial_\sigma g_{\mu\nu}
-\right).
+\right)
 $$
 
 On the right, we sum over $\sigma=w,r,\theta,\phi$. But this metric and its inverse are diagonal, so $g^{w\sigma}$ is nonzero only when $\sigma=w$. Therefore, writing the $\sigma=w$ term that remains in the sum,
@@ -143,7 +143,7 @@ $$
 \partial_\mu g_{w\nu}
 +\partial_\nu g_{w\mu}
 -\partial_w g_{\mu\nu}
-\right).
+\right)
 \qquad (13.3)
 $$
 
@@ -155,7 +155,7 @@ $$
 &=\frac12g^{ww}\partial_w g_{ww}=0,\\
 \Gamma^w_{rr}
 &=\frac12g^{ww}
-\left(2\partial_r g_{wr}-\partial_w g_{rr}\right)=0.
+\left(2\partial_r g_{wr}-\partial_w g_{rr}\right)=0
 \end{aligned}
 $$
 
@@ -164,7 +164,7 @@ The two remaining connections are equal even when the lower indices are exchange
 $$
 \Gamma^w_{wr}\dot w\dot r
 +\Gamma^w_{rw}\dot r\dot w
-=2\Gamma^w_{wr}\dot w\dot r.
+=2\Gamma^w_{wr}\dot w\dot r
 $$
 
 Thus, the $w$ component of the geodesic equation becomes,
@@ -181,19 +181,19 @@ $$
 \Gamma^w_{wr}
 =\frac12 g^{ww}\partial_r g_{ww}
 =\frac12\left(-\frac1f\right)(-f')
-=\frac{f'}{2f}.
+=\frac{f'}{2f}
 $$
 
 Substituting this and multiplying by $f$ gives,
 
 $$
-f\ddot w+f'\dot r\dot w=0.
+f\ddot w+f'\dot r\dot w=0
 $$
 
 The left side is a product derivative, so,
 
 $$
-\frac{d}{d\tau_{\mathrm{Bob}}}(f\dot w)=0.
+\frac{d}{d\tau_{\mathrm{Bob}}}(f\dot w)=0
 $$
 
 Therefore, we obtain the quantity that does not change during the fall,
@@ -208,7 +208,7 @@ $\varepsilon$ is a positive dimensionless constant determined by the initial con
 Substitute $\dot w=\varepsilon/f$ into equation (13.2) and multiply both sides by $f$:
 
 $$
--f=-\varepsilon^2+\dot r^2.
+-f=-\varepsilon^2+\dot r^2
 $$
 
 Thus, choosing the inward-falling branch,
@@ -223,7 +223,7 @@ At the starting point $r=r_0$, $\dot r=0$, so,
 
 $$
 \varepsilon=\sqrt{f(r_0)}
-=\sqrt{1-\frac{r_{\mathrm s}}{r_0}}.
+=\sqrt{1-\frac{r_{\mathrm s}}{r_0}}
 $$
 
 Therefore, Bob’s fall is described by,
@@ -258,7 +258,7 @@ From the speed-conversion formula (11.6) in Chapter 11, the radial speed of Bob 
 $$
 v_{\mathrm{Bob}}
 =\frac{c}{f(r)}\frac{dr}{dw}
-=-c\sqrt{1-\frac{f(r)}{\varepsilon^2}}.
+=-c\sqrt{1-\frac{f(r)}{\varepsilon^2}}
 $$
 
 At every location outside, $\lvert v_{\mathrm{Bob}}\rvert<c$, but an observer stationary closer to the horizon measures Bob’s speed as closer to $c$.
@@ -272,7 +272,7 @@ During Bob’s fall from $r_0$ to $r<r_0$, the proper time marked by his own clo
 $$
 \Delta\tau_{\mathrm{Bob}}
 =\int_r^{r_0}
-\frac{d\rho}{\sqrt{r_{\mathrm s}(1/\rho-1/r_0)}}.
+\frac{d\rho}{\sqrt{r_{\mathrm s}(1/\rho-1/r_0)}}
 \qquad (13.7)
 $$
 
@@ -286,7 +286,7 @@ First, putting the difference inside the square root over a common denominator,
 
 $$
 \frac1\rho-\frac1{r_0}
-=\frac{r_0-\rho}{\rho r_0}.
+=\frac{r_0-\rho}{\rho r_0}
 $$
 
 Therefore, the integrand in equation (13.7) can be rewritten as,
@@ -322,7 +322,7 @@ $$
 \frac{d\rho}{\sqrt{r_0-\rho}}
 &=\int_0^\delta\frac{ds}{\sqrt{s}}\\
 &=\lim_{a\to0+}\left[2\sqrt{s}\right]_a^\delta\\
-&=2\sqrt{\delta}.
+&=2\sqrt{\delta}
 \end{aligned}
 $$
 
@@ -340,14 +340,14 @@ Meanwhile, from equations (13.4) and (13.5),
 
 $$
 \frac{dw}{dr}
-=-\frac{\varepsilon}{f(r)\sqrt{\varepsilon^2-f(r)}}.
+=-\frac{\varepsilon}{f(r)\sqrt{\varepsilon^2-f(r)}}
 $$
 
 Near the horizon, $\sqrt{\varepsilon^2-f}\to\varepsilon$, so,
 
 $$
 \frac{dw}{dr}\simeq-\frac1f
-\simeq-\frac{r_{\mathrm s}}{r-r_{\mathrm s}}.
+\simeq-\frac{r_{\mathrm s}}{r-r_{\mathrm s}}
 $$
 
 After integration, the divergent part is,
@@ -380,7 +380,7 @@ When Bob is at the outside radius $r$, he sends outward light at coordinate time
 $$
 w_{\mathrm{receive}}
 =w_{\mathrm{emit}}
-+\int_r^{r_{\mathrm{Charlie}}}\frac{d\rho}{f(\rho)}.
++\int_r^{r_{\mathrm{Charlie}}}\frac{d\rho}{f(\rho)}
 \qquad (13.8)
 $$
 
@@ -391,7 +391,7 @@ Let us compare two nearby emissions and their corresponding receptions. Differen
 $$
 \frac{dw_{\mathrm{receive}}}{d\tau_{\mathrm{Bob}}}
 =\frac{dw_{\mathrm{emit}}}{d\tau_{\mathrm{Bob}}}
--\frac1{f(r)}\frac{dr}{d\tau_{\mathrm{Bob}}}.
+-\frac1{f(r)}\frac{dr}{d\tau_{\mathrm{Bob}}}
 $$
 
 The minus sign in the second term on the right comes from the moving lower limit of the integral. Let us write the integral in equation (13.8) as,
@@ -424,7 +424,7 @@ Substituting equations (13.4) and (13.5),
 
 $$
 \frac{dw_{\mathrm{receive}}}{d\tau_{\mathrm{Bob}}}
-=\frac{\varepsilon+\sqrt{\varepsilon^2-f(r)}}{f(r)}.
+=\frac{\varepsilon+\sqrt{\varepsilon^2-f(r)}}{f(r)}
 $$
 
 Charlie is sufficiently far away that he can read the interval of coordinate time between receptions directly as the interval on his own clock. Since $d\tau_{\mathrm{Charlie}}=dw_{\mathrm{receive}}$, we obtain,

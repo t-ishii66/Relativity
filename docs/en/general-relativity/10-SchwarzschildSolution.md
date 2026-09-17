@@ -61,7 +61,7 @@ $$
 \partial_r g_{rr}&=B',\\
 \partial_r g_{\theta\theta}&=2r,&
 \partial_r g_{\phi\phi}&=2r\sin^2\theta,\\
-\partial_\theta g_{\phi\phi}&=2r^2\sin\theta\cos\theta.
+\partial_\theta g_{\phi\phi}&=2r^2\sin\theta\cos\theta
 \end{aligned}
 $$
 
@@ -97,7 +97,7 @@ $$
 -\partial_w g_{wr}
 \right)\\
 &=\frac12\left(-\frac1A\right)(-A')
-=\frac{A'}{2A}.
+=\frac{A'}{2A}
 \end{aligned}
 $$
 
@@ -113,7 +113,7 @@ $$
 -\partial_r g_{ww}
 \right)\\
 &=\frac1{2B}A'
-=\frac{A'}{2B}.
+=\frac{A'}{2B}
 \end{aligned}
 $$
 
@@ -136,7 +136,7 @@ $$
 \qquad
 \Gamma^\theta_{r\theta}
 =\frac1{2r^2}\partial_r(r^2)
-=\frac1r.
+=\frac1r
 $$
 
 The $\phi$ direction follows the same procedure:
@@ -226,7 +226,7 @@ $$
 \Gamma^\lambda_{\lambda r}
 &=\Gamma^w_{wr}+\Gamma^r_{rr}
 +\Gamma^\theta_{\theta r}+\Gamma^\phi_{\phi r}\\
-&=\alpha+\beta+\frac2r.
+&=\alpha+\beta+\frac2r
 \end{aligned}
 $$
 
@@ -266,7 +266,7 @@ $$
 -\Gamma^\lambda_{w\sigma}\Gamma^\sigma_{\lambda w}
 &=-\Gamma^w_{wr}\Gamma^r_{ww}
 -\Gamma^r_{ww}\Gamma^w_{rw}\\
-&=-2\alpha q.
+&=-2\alpha q
 \end{aligned}
 $$
 
@@ -274,7 +274,7 @@ Adding the four terms gives
 
 $$
 R_{ww}=q'+qS-2\alpha q
-=q'+q\left(-\alpha+\beta+\frac2r\right).
+=q'+q\left(-\alpha+\beta+\frac2r\right)
 $$
 
 Now use $q=(A/B)\alpha$. From the product and quotient rules,
@@ -288,7 +288,7 @@ $$
 so
 
 $$
-q'=\frac AB\left[\alpha'+(2\alpha-2\beta)\alpha\right].
+q'=\frac AB\left[\alpha'+(2\alpha-2\beta)\alpha\right]
 $$
 
 Substituting this and collecting terms gives
@@ -312,14 +312,14 @@ In the fourth term, $\Gamma^\lambda_{r\sigma}$ is nonzero for the four cases wit
 
 $$
 -\Gamma^\lambda_{r\sigma}\Gamma^\sigma_{\lambda r}
-=-\left(\alpha^2+\beta^2+\frac1{r^2}+\frac1{r^2}\right).
+=-\left(\alpha^2+\beta^2+\frac1{r^2}+\frac1{r^2}\right)
 $$
 
 Thus,
 
 $$
 R_{rr}
-=\beta'-S'+\beta S-\alpha^2-\beta^2-\frac2{r^2}.
+=\beta'-S'+\beta S-\alpha^2-\beta^2-\frac2{r^2}
 $$
 
 Differentiating $S=\alpha+\beta+2/r$ gives
@@ -335,7 +335,7 @@ $$
 R_{rr}
 ={}&\beta'-\alpha'-\beta'+\frac2{r^2}\\
 &+\alpha\beta+\beta^2+\frac{2\beta}{r}
--\alpha^2-\beta^2-\frac2{r^2}.
+-\alpha^2-\beta^2-\frac2{r^2}
 \end{aligned}
 $$
 
@@ -367,7 +367,7 @@ $$
 \begin{aligned}
 0
 &=\frac BA R_{ww}+R_{rr}\\
-&=\frac{2(\alpha+\beta)}r.
+&=\frac{2(\alpha+\beta)}r
 \end{aligned}
 $$
 
@@ -380,7 +380,7 @@ $$
 Returning to the definitions gives
 
 $$
-\frac{A'}A+\frac{B'}B=0.
+\frac{A'}A+\frac{B'}B=0
 $$
 
 The left-hand side is the derivative of $\ln(AB)$. Hence,
@@ -410,7 +410,7 @@ In the first term, only $\lambda=r$ remains, so
 $$
 \partial_\lambda\Gamma^\lambda_{\theta\theta}
 =\frac{d}{dr}\left(-\frac rB\right)
-=-\frac1B+\frac{rB'}{B^2}.
+=-\frac1B+\frac{rB'}{B^2}
 $$
 
 In the second term, only $\lambda=\phi$ remains, giving
@@ -433,7 +433,7 @@ $$
 +\frac1r\left(-\frac rB\right)
 +\cot^2\theta
 \right]\\
-&=\frac2B-\cot^2\theta.
+&=\frac2B-\cot^2\theta
 \end{aligned}
 $$
 
@@ -441,7 +441,7 @@ Adding the four terms and using $1/\sin^2\theta-\cot^2\theta=1$ gives
 
 $$
 R_{\theta\theta}
-=1+\frac1B+\frac{rB'}{B^2}-\frac{rS}{B}.
+=1+\frac1B+\frac{rB'}{B^2}-\frac{rS}{B}
 $$
 
 Substitute $B'/B=2\beta$ and $S=\alpha+\beta+2/r$ to obtain
@@ -451,7 +451,7 @@ $$
 R_{\theta\theta}
 &=1+\frac1B+\frac{2r\beta}{B}
 -\frac rB\left(\alpha+\beta+\frac2r\right)\\
-&=1-\frac1B+\frac rB(\beta-\alpha).
+&=1-\frac1B+\frac rB(\beta-\alpha)
 \end{aligned}
 $$
 
@@ -483,13 +483,13 @@ $$
 In other words,
 
 $$
-A+rA'=1.
+A+rA'=1
 $$
 
 The left-hand side is precisely the derivative of the product $rA$.
 
 $$
-\frac{d}{dr}(rA)=1.
+\frac{d}{dr}(rA)=1
 $$
 
 Integrating both sides with respect to $r$ gives
@@ -502,7 +502,7 @@ where $C$ is an integration constant. Writing this constant as $C=-\ell$ gives
 
 $$
 A=1-\frac{\ell}{r},\qquad
-B=\left(1-\frac{\ell}{r}\right)^{-1}.
+B=\left(1-\frac{\ell}{r}\right)^{-1}
 \qquad (10.5)
 $$
 
@@ -517,7 +517,7 @@ The condition obtained by adding two equations does not by itself guarantee that
 Substituting $\beta=-\alpha$ and $B=1/A$ into Equation (10.2) gives
 
 $$
-R_{ww}=A^2\left(\alpha'+2\alpha^2+\frac{2\alpha}{r}\right).
+R_{ww}=A^2\left(\alpha'+2\alpha^2+\frac{2\alpha}{r}\right)
 $$
 
 Here,
@@ -533,7 +533,7 @@ so
 
 $$
 R_{ww}
-=\frac A2\left(A''+\frac{2A'}r\right).
+=\frac A2\left(A''+\frac{2A'}r\right)
 $$
 
 For $A=1-\ell/r$,
@@ -557,14 +557,14 @@ $$
 &=\partial_r\left(-\frac{r\sin^2\theta}{B}\right)
 +\partial_\theta(-\sin\theta\cos\theta)\\
 &=\sin^2\theta\left(-\frac1B+\frac{rB'}{B^2}\right)
-+\sin^2\theta-\cos^2\theta.
++\sin^2\theta-\cos^2\theta
 \end{aligned}
 $$
 
 The second term is zero because it is a $\phi$ derivative. The third term is
 
 $$
--\frac{r\sin^2\theta}{B}S-\cos^2\theta.
+-\frac{r\sin^2\theta}{B}S-\cos^2\theta
 $$
 
 In the fourth term, the four pairs $(r,\phi),(\phi,r),(\theta,\phi),(\phi,\theta)$ remain, giving
@@ -574,7 +574,7 @@ $$
 2\left(-\frac{r\sin^2\theta}{B}\right)\frac1r
 +2(-\sin\theta\cos\theta)\cot\theta
 \right]
-=\frac{2\sin^2\theta}{B}+2\cos^2\theta.
+=\frac{2\sin^2\theta}{B}+2\cos^2\theta
 $$
 
 Adding these, the terms containing $\cos^2\theta$ cancel, and we obtain
@@ -646,13 +646,13 @@ $$
 and therefore
 
 $$
-g_{ww}\simeq-\left(1-\frac{2GM}{c^2r}\right).
+g_{ww}\simeq-\left(1-\frac{2GM}{c^2r}\right)
 $$
 
 On the other hand, for the solution we have just found,
 
 $$
-g_{ww}=-A=-\left(1-\frac{\ell}{r}\right).
+g_{ww}=-A=-\left(1-\frac{\ell}{r}\right)
 $$
 
 Comparing the coefficients of $1/r$ far away determines
@@ -728,7 +728,7 @@ d\tau
 =\sqrt{1-\frac{r_{\mathrm s}}r}\,dw,\\
 d\ell
 &=\sqrt{B(r)}\,|dr|
-=\frac{|dr|}{\sqrt{1-r_{\mathrm s}/r}}.
+=\frac{|dr|}{\sqrt{1-r_{\mathrm s}/r}}
 \end{aligned}
 $$
 

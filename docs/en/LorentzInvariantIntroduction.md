@@ -68,7 +68,7 @@ $$
 and let the coordinates Bob assigns to the same event be
 
 $$
-(t_{B},x_{B}).
+(t_{B},x_{B})
 $$
 
 We also assume that the origins of the two coordinate systems coincide when $t_{A}=t_{B}=0$.
@@ -102,13 +102,13 @@ When dealing with objects such as balls and trains, which move much more slowly 
 Suppose light is traveling in the positive direction of the $x$-axis in Alice’s coordinate system. If the speed of light is $c$, then
 
 $$
-x_{A}=ct_{A}.
+x_{A}=ct_{A}
 $$
 
 Substituting this into the Galilean transformation gives
 
 $$
-x_{B}=(c-V)t_{A}.
+x_{B}=(c-V)t_{A}
 $$
 
 Because $t_{B}=t_{A}$, the speed of light measured by Bob should then be $c-V$.
@@ -130,7 +130,7 @@ Alice: “Then perhaps we have to question the idea that time is always the same
 Therefore, we cannot continue to use the everyday idea of time expressed by
 
 $$
-t_{B}=t_{A}.
+t_{B}=t_{A}
 $$
 
 For the speed of light to be the same in every inertial frame, not only position but also time must change from one observer to another.
@@ -142,7 +142,7 @@ Let us find a rule that connects Alice’s and Bob’s coordinates while keeping
 In the Galilean transformation, the relation between the spatial coordinates is written as
 
 $$
-x_{B}=x_{A}-Vt_{A}.
+x_{B}=x_{A}-Vt_{A}
 $$
 
 Let us preserve this form, but for the moment multiply it by an unknown coefficient $\gamma$ as a correction required to satisfy the invariance of the speed of light.
@@ -164,7 +164,7 @@ Bob: “Yes. We will introduce it as a correction factor whose identity we do no
 Next, let us exchange the roles of Alice and Bob. From Alice’s point of view, Bob is moving at velocity $V$, but from Bob’s point of view, Alice is moving at velocity $-V$. Therefore, the transformation that takes Bob’s coordinates back to Alice’s coordinates can be written by reversing the sign of $V$:
 
 $$
-x_{A}=\gamma(x_{B}+Vt_{B}).
+x_{A}=\gamma(x_{B}+Vt_{B})
 $$
 
 There is no reason to treat either Alice or Bob as special, so we use the same coefficient $\gamma$ for the reverse transformation.
@@ -187,7 +187,7 @@ into this equation gives
 
 $$
 x_{A}
-=\gamma\left[\gamma(x_{A}-Vt_{A})+Vt_{B}\right].
+=\gamma\left[\gamma(x_{A}-Vt_{A})+Vt_{B}\right]
 $$
 
 Solving this equation for $t_{B}$ gives
@@ -195,7 +195,7 @@ Solving this equation for $t_{B}$ gives
 $$
 t_{B}
 =\gamma t_{A}
-+\frac{1-\gamma^{2}}{\gamma V}x_{A}.
++\frac{1-\gamma^{2}}{\gamma V}x_{A}
 $$
 
 The values substituted for $x_{A}$ and $x_{B}$ in these transformation equations can be the position coordinates that Alice and Bob respectively assign to the same event. It may be an event involving a ball, or an event through which light passes.
@@ -213,19 +213,19 @@ ct_{B}=\gamma(c-V)t_{A}
 $$
 
 $$
-ct_{A}=\gamma(c+V)t_{B}.
+ct_{A}=\gamma(c+V)t_{B}
 $$
 
 Multiplying the two equations and rearranging gives
 
 $$
-c^{2}=\gamma^{2}(c^{2}-V^{2}).
+c^{2}=\gamma^{2}(c^{2}-V^{2})
 $$
 
 Therefore,
 
 $$
-\gamma=\frac{1}{\sqrt{1-V^{2}/c^{2}}}.
+\gamma=\frac{1}{\sqrt{1-V^{2}/c^{2}}}
 $$
 
 The Greek letter $\gamma$ is read as “gamma.”
@@ -240,7 +240,7 @@ $$
 holds, so the time equation obtained earlier becomes
 
 $$
-t_{B}=\gamma\left(t_{A}-\frac{Vx_{A}}{c^{2}}\right).
+t_{B}=\gamma\left(t_{A}-\frac{Vx_{A}}{c^{2}}\right)
 $$
 
 The equations obtained in this way,
@@ -296,7 +296,7 @@ For the coordinate differences between two events, consider the quantity
 
 $$
 \Delta s^{2}
-=-c^{2}(\Delta t)^{2}+(\Delta x)^{2}.
+=-c^{2}(\Delta t)^{2}+(\Delta x)^{2}
 $$
 
 This $\Delta s^{2}$ is called the **spacetime interval**.
@@ -305,14 +305,14 @@ Calculated using Alice’s coordinates, it is
 
 $$
 \Delta s_{A}^{2}
-=-c^{2}(\Delta t_{A})^{2}+(\Delta x_{A})^{2}.
+=-c^{2}(\Delta t_{A})^{2}+(\Delta x_{A})^{2}
 $$
 
 Calculated using Bob’s coordinates, it is
 
 $$
 \Delta s_{B}^{2}
-=-c^{2}(\Delta t_{B})^{2}+(\Delta x_{B})^{2}.
+=-c^{2}(\Delta t_{B})^{2}+(\Delta x_{B})^{2}
 $$
 
 The individual values of $\Delta t$ and $\Delta x$ differ between Alice and Bob. But when we use the Lorentz transformation,
@@ -330,7 +330,7 @@ This is an important invariant under the Lorentz transformation.
 To make the equations easier to read, let
 
 $$
-w=ct,\qquad \beta=\frac{V}{c}.
+w=ct,\qquad \beta=\frac{V}{c}
 $$
 
 Because $w$ is time multiplied by the speed of light, it has the same units as length.
@@ -344,7 +344,7 @@ $$
 
 $$
 \Delta w_{B}
-=\gamma(\Delta w_{A}-\beta\Delta x_{A}).
+=\gamma(\Delta w_{A}-\beta\Delta x_{A})
 $$
 
 Substituting these into the spacetime interval calculated by Bob gives
@@ -353,7 +353,7 @@ $$
 \begin{aligned}
 &-(\Delta w_{B})^{2}+(\Delta x_{B})^{2} \\
 &\quad=-\gamma^{2}(\Delta w_{A}-\beta\Delta x_{A})^{2} \\
-&\qquad+\gamma^{2}(\Delta x_{A}-\beta\Delta w_{A})^{2}.
+&\qquad+\gamma^{2}(\Delta x_{A}-\beta\Delta w_{A})^{2}
 \end{aligned}
 $$
 
@@ -363,7 +363,7 @@ $$
 \begin{aligned}
 &-(\Delta w_{B})^{2}+(\Delta x_{B})^{2} \\
 &\quad=\gamma^{2}(1-\beta^{2}) \\
-&\qquad\times\left[-(\Delta w_{A})^{2}+(\Delta x_{A})^{2}\right].
+&\qquad\times\left[-(\Delta w_{A})^{2}+(\Delta x_{A})^{2}\right]
 \end{aligned}
 $$
 
@@ -378,14 +378,14 @@ so
 $$
 \begin{aligned}
 &-(\Delta w_{B})^{2}+(\Delta x_{B})^{2} \\
-&\quad=-(\Delta w_{A})^{2}+(\Delta x_{A})^{2}.
+&\quad=-(\Delta w_{A})^{2}+(\Delta x_{A})^{2}
 \end{aligned}
 $$
 
 The left-hand side is the spacetime interval $\Delta s_{B}^{2}$ calculated by Bob, and the right-hand side is the spacetime interval $\Delta s_{A}^{2}$ calculated by Alice. In other words,
 
 $$
-\Delta s_{A}^{2}=\Delta s_{B}^{2}.
+\Delta s_{A}^{2}=\Delta s_{B}^{2}
 $$
 
 ---
@@ -440,7 +440,7 @@ However, while the two terms are added when calculating distance in a plane, the
 When light connects two events,
 
 $$
-\Delta x=c\Delta t.
+\Delta x=c\Delta t
 $$
 
 Therefore,
@@ -450,7 +450,7 @@ $$
 \Delta s^{2}
 &=-c^{2}(\Delta t)^{2}+(\Delta x)^{2} \\
 &=-c^{2}(\Delta t)^{2}+c^{2}(\Delta t)^{2} \\
-&=0.
+&=0
 \end{aligned}
 $$
 
@@ -489,7 +489,7 @@ Up to this point, we have used the coordinate differences $\Delta t$ and $\Delta
 If the two events are brought indefinitely close together and the infinitesimal differences are written as $dt$ and $dx$, then
 
 $$
-ds^{2}=-c^{2}dt^{2}+dx^{2}.
+ds^{2}=-c^{2}dt^{2}+dx^{2}
 $$
 
 This infinitesimal spacetime interval is called the **line element**.
@@ -505,7 +505,7 @@ Bob: “That is because we brought the two events indefinitely close together. T
 Using $w=ct$, we can also write
 
 $$
-ds^{2}=-dw^{2}+dx^{2}.
+ds^{2}=-dw^{2}+dx^{2}
 $$
 
 This is the notation used in *Making Sense of Relativity*.

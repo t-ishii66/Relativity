@@ -100,7 +100,7 @@ $$
 so all the spatial terms in equation (11.1) become zero. Therefore,
 
 $$
-ds^2=-f(r)dw^2.
+ds^2=-f(r)dw^2
 $$
 
 Let us verify why we can write $ds^2=-d\tau^2$ even in a gravitational field. Suppose Bob also has his own clock and, right next to Alice, begins free fall from a state at rest relative to Alice. Ignoring the sizes and separation of the two people, suppose they have the same position and velocity at the instant of departure. In the local inertial coordinates adapted to Bob, the metric can be made to have the form of special relativity at the starting point. If we write the time-direction coordinate as $W$ and the spatial directions as $X,Y,Z$,
@@ -147,7 +147,7 @@ After a finite amount of time, Alice and Bob move apart. Even so, because their 
 Thus, connecting the two expressions for the same interval,
 
 $$
--d\tau^2=-f(r)dw^2.
+-d\tau^2=-f(r)dw^2
 $$
 
 Reversing the signs on both sides and taking the future-directed coordinate increment $dw>0$ gives
@@ -190,7 +190,7 @@ $$
 then from equation (11.1),
 
 $$
-ds^2=\frac{dr^2}{f(r)}.
+ds^2=\frac{dr^2}{f(r)}
 $$
 
 For this stationary observer, let $d\ell$ be the small length between two simultaneous points measured with that observer’s ruler. Since $ds^2=d\ell^2$,
@@ -215,7 +215,7 @@ The angular directions can be found by the same procedure. If we move only in th
 $$
 dw=dr=d\phi=0
 \quad\Longrightarrow\quad
-d\ell_\theta=r|d\theta|.
+d\ell_\theta=r|d\theta|
 $$
 
 If we move only in the $\phi$ direction,
@@ -223,7 +223,7 @@ If we move only in the $\phi$ direction,
 $$
 dw=dr=d\theta=0
 \quad\Longrightarrow\quad
-d\ell_\phi=r\sin\theta\,|d\phi|.
+d\ell_\phi=r\sin\theta\,|d\phi|
 $$
 
 Here we use the usual angular coordinates with $0<\theta<\pi$.
@@ -255,7 +255,7 @@ $$
 
 $$
 dY^2=r^2d\theta^2,\qquad
-dZ^2=r^2\sin^2\theta\,d\phi^2.
+dZ^2=r^2\sin^2\theta\,d\phi^2
 $$
 
 Replacing each term in equation (11.1),
@@ -318,7 +318,7 @@ where $r_k$ is the position chosen within that small interval.
 The total length is found by adding these:
 
 $$
-L\simeq\sum_k\frac{\Delta r_k}{\sqrt{f(r_k)}}.
+L\simeq\sum_k\frac{\Delta r_k}{\sqrt{f(r_k)}}
 $$
 
 As the interval is divided into infinitely small pieces,
@@ -343,14 +343,14 @@ Let the proper time recorded by this clock be $\tau_{\mathrm{Bob}}$, and write i
 
 $$
 -d\tau_{\mathrm{Bob}}^2
-=-f(r)dw^2+\frac{dr^2}{f(r)}.
+=-f(r)dw^2+\frac{dr^2}{f(r)}
 $$
 
 Reversing the signs on both sides,
 
 $$
 d\tau_{\mathrm{Bob}}^2
-=f(r)dw^2-\frac{dr^2}{f(r)}.
+=f(r)dw^2-\frac{dr^2}{f(r)}
 $$
 
 Taking the future-directed coordinate increment $dw>0$ and taking the square root,
@@ -360,7 +360,7 @@ d\tau_{\mathrm{Bob}}
 =dw\sqrt{
 f(r)-\frac1{f(r)}
 \left(\frac{dr}{dw}\right)^2
-}.
+}
 \qquad (11.5)
 $$
 
@@ -381,7 +381,7 @@ $$
 v_{\mathrm{Bob}}
 =\frac{dX}{dW/c}
 =c\frac{dX}{dW}
-=\frac{c}{f(r)}\frac{dr}{dw}.
+=\frac{c}{f(r)}\frac{dr}{dw}
 \qquad (11.6)
 $$
 
@@ -390,7 +390,7 @@ Since both $w$ and $r$ have units of distance, $dr/dw$ is a dimensionless ratio.
 Therefore,
 
 $$
-\frac{dr}{dw}=\frac{f(r)}c v_{\mathrm{Bob}}.
+\frac{dr}{dw}=\frac{f(r)}c v_{\mathrm{Bob}}
 $$
 
 Substituting this into equation (11.5),
@@ -403,7 +403,7 @@ f(r)-\frac{f(r)^2v_{\mathrm{Bob}}^2}{c^2f(r)}
 }\\
 &=\sqrt{f(r)}\,dw
 \sqrt{1-\frac{v_{\mathrm{Bob}}^2}{c^2}}\\
-&=dW\sqrt{1-\frac{v_{\mathrm{Bob}}^2}{c^2}}.
+&=dW\sqrt{1-\frac{v_{\mathrm{Bob}}^2}{c^2}}
 \end{aligned}
 $$
 

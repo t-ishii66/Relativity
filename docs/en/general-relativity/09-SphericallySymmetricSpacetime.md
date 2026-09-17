@@ -72,7 +72,7 @@ $$
 X={}&2g_{w\theta}\,dw\,d\theta
 +2g_{w\phi}\,dw\,d\phi\\
 &+2g_{u\theta}\,du\,d\theta
-+2g_{u\phi}\,du\,d\phi.
++2g_{u\phi}\,du\,d\phi
 \end{aligned}
 $$
 
@@ -201,7 +201,7 @@ Substituting this into $C(u)(\xi^2+\eta^2)$ gives
 
 $$
 d\ell_{\mathrm{angular}}^2
-=C(u)\left(d\theta^2+\sin^2\theta\,d\phi^2\right).
+=C(u)\left(d\theta^2+\sin^2\theta\,d\phi^2\right)
 $$
 
 Thus, the angular components are
@@ -271,7 +271,7 @@ $$
 &-A\,dw^2+2D\,dw\,du+B\,du^2\\
 &=-A\,d\widetilde w^2
 +2(Af'+D)\,d\widetilde w\,du
-+\left(B-A(f')^2-2Df'\right)du^2.
++\left(B-A(f')^2-2Df'\right)du^2
 \end{aligned}
 $$
 
@@ -316,7 +316,7 @@ $$
 Writing the time coordinate as $w$ again, we have
 
 $$
-ds^2=-A(u)\,dw^2+\widetilde B(u)\,du^2+C(u)\,d\Omega^2.
+ds^2=-A(u)\,dw^2+\widetilde B(u)\,du^2+C(u)\,d\Omega^2
 $$
 
 ## Determining the Radius from the Area of a Sphere
@@ -400,7 +400,7 @@ Substituting $du=(du/dr)dr$ gives
 
 $$
 \widetilde B(u)\,du^2
-=\widetilde B(u(r))\left(\frac{du}{dr}\right)^2dr^2.
+=\widetilde B(u(r))\left(\frac{du}{dr}\right)^2dr^2
 $$
 
 Define the new radial coefficient by
@@ -519,7 +519,7 @@ g_{\mu\nu}=
 0&B(r)&0&0\\
 0&0&r^2&0\\
 0&0&0&r^2\sin^2\theta
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 The inverse metric satisfies $g^{\mu\alpha}g_{\alpha\nu}=\delta^\mu_\nu$. Since this is a diagonal matrix, for example, its time component is
@@ -539,7 +539,7 @@ g^{\mu\nu}=
 0&1/B(r)&0&0\\
 0&0&1/r^2&0\\
 0&0&0&1/(r^2\sin^2\theta)
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 Except at the poles, where angular coordinates cannot be used, assume $A,B>0$ in the static region considered here.

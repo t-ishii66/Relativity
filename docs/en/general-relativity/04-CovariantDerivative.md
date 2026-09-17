@@ -52,7 +52,7 @@ We write them as
 $$
 \boldsymbol{e}_x,
 \qquad
-\boldsymbol{e}_y.
+\boldsymbol{e}_y
 $$
 
 The vector $\boldsymbol{V}$ can be written as
@@ -61,7 +61,7 @@ $$
 \boldsymbol{V} =
 V^x\boldsymbol{e}_x
 +
-V^y\boldsymbol{e}_y.
+V^y\boldsymbol{e}_y
 $$
 
 $V^x$ is a number that tells us how far to go in the direction of $\boldsymbol e_x$, and $V^y$ tells us how far to go in the direction of $\boldsymbol e_y$. These two numbers are the components of the vector.
@@ -93,7 +93,7 @@ Let us write general coordinates as $x^\mu$.
 We prepare a basis vector in the direction in which each coordinate $x^\mu$ increases and write it as
 
 $$
-\boldsymbol{e}_\mu.
+\boldsymbol{e}_\mu
 $$
 
 A vector can be written as
@@ -102,7 +102,7 @@ $$
 \boxed{
 \boldsymbol{V} =
 V^\mu\boldsymbol{e}_\mu
-}.
+}
 $$
 
 Because the same index $\mu$ appears once above and once below, we sum over all coordinate directions.
@@ -113,7 +113,7 @@ $$
 \boldsymbol{V} =
 V^1\boldsymbol{e}_1
 +
-V^2\boldsymbol{e}_2.
+V^2\boldsymbol{e}_2
 $$
 
 A basis made from coordinates in this way is called a coordinate basis.
@@ -124,7 +124,7 @@ The vector for an infinitesimal displacement can also be written as
 
 $$
 d\boldsymbol{x} =
-dx^\mu\boldsymbol{e}_\mu.
+dx^\mu\boldsymbol{e}_\mu
 $$
 
 An important point here is that a basis vector does not necessarily have length $1$.
@@ -172,7 +172,7 @@ the length in the angular direction is
 
 $$
 \left|d\theta\,\boldsymbol{e}_\theta\right| =
-r\,d\theta.
+r\,d\theta
 $$
 
 This is the same reason that $r^2$ appeared in
@@ -205,7 +205,7 @@ At each point, place the polar-coordinate basis
 $$
 \boldsymbol{e}_r,
 \qquad
-\boldsymbol{e}_\theta.
+\boldsymbol{e}_\theta
 $$
 
 At P and Q, consider vectors with the components
@@ -213,7 +213,7 @@ At P and Q, consider vectors with the components
 $$
 V^r=1,
 \qquad
-V^\theta=0.
+V^\theta=0
 $$
 
 Each points in the same direction as $\boldsymbol e_r$ at its own location.
@@ -233,7 +233,7 @@ $$
 1\,\boldsymbol{e}_r(P)
 +
 0\,\boldsymbol{e}_\theta(P) =
-\boldsymbol{e}_r(P).
+\boldsymbol{e}_r(P)
 $$
 
 Bob: “At Q, on the other hand, it is”
@@ -243,7 +243,7 @@ $$
 1\,\boldsymbol{e}_r(Q)
 +
 0\,\boldsymbol{e}_\theta(Q) =
-\boldsymbol{e}_r(Q).
+\boldsymbol{e}_r(Q)
 $$
 
 Bob: “The sets of components are the same, but $\boldsymbol e_r(P)$ and $\boldsymbol e_r(Q)$ point in different directions, so the two vectors also point in different directions.”
@@ -260,7 +260,7 @@ Write a vector field as
 
 $$
 \boldsymbol{V} =
-V^\nu\boldsymbol{e}_\nu.
+V^\nu\boldsymbol{e}_\nu
 $$
 
 $V^\nu$ are the components of the vector, and $\boldsymbol e_\nu$ is the basis at that location.
@@ -284,7 +284,7 @@ $$
 \boldsymbol{e}_\nu
 +
 V^\nu
-\partial_\mu\boldsymbol{e}_\nu.
+\partial_\mu\boldsymbol{e}_\nu
 $$
 
 There are two kinds of change on the right-hand side.
@@ -292,13 +292,13 @@ There are two kinds of change on the right-hand side.
 The first is the change in the components,
 
 $$
-\partial_\mu V^\nu.
+\partial_\mu V^\nu
 $$
 
 The second is the change in the basis,
 
 $$
-\partial_\mu\boldsymbol{e}_\nu.
+\partial_\mu\boldsymbol{e}_\nu
 $$
 
 If we apply an ordinary derivative only to the components, we overlook the second change.
@@ -316,7 +316,7 @@ We therefore write
 $$
 \partial_\mu\boldsymbol{e}_\nu =
 \Gamma^\rho_{\mu\nu}
-\boldsymbol{e}_\rho.
+\boldsymbol{e}_\rho
 $$
 
 $\Gamma^\rho_{\mu\nu}$ is a coefficient that tells us how the basis vector $\boldsymbol e_\nu$ changes when we move in the direction of $x^\mu$.
@@ -332,7 +332,7 @@ $$
 +
 \Gamma^\rho_{\mu\nu}V^\nu
 \right)
-\boldsymbol{e}_\rho.
+\boldsymbol{e}_\rho
 $$
 
 The expression in parentheses includes both the change in the components and the change in the basis.
@@ -345,7 +345,7 @@ $$
 \partial_\mu V^\rho
 +
 \Gamma^\rho_{\mu\nu}V^\nu
-}.
+}
 $$
 
 Let us summarize once more how this definition is related to the derivative of the entire vector.
@@ -374,7 +374,7 @@ V^\nu\boldsymbol{e}_\nu
 \boldsymbol{e}_\nu
 +
 V^\nu
-\partial_\mu\boldsymbol{e}_\nu.
+\partial_\mu\boldsymbol{e}_\nu
 \end{aligned}
 $$
 
@@ -409,7 +409,7 @@ $$
 \left(
 \nabla_\mu V^\rho
 \right)
-\boldsymbol{e}_\rho.
+\boldsymbol{e}_\rho
 \end{aligned}
 $$
 
@@ -422,7 +422,7 @@ $$
 \nabla_\mu V^\rho
 \right)
 \boldsymbol{e}_\rho
-}.
+}
 $$
 
 In other words, the covariant derivative $\nabla_\mu V^\rho$ consists of the components, in the basis at that location, of the change $\partial_\mu\boldsymbol{V}$ in the entire vector.
@@ -430,7 +430,7 @@ In other words, the covariant derivative $\nabla_\mu V^\rho$ consists of the com
 For a vector whose direction and length are fixed on a plane,
 
 $$
-\partial_\mu\boldsymbol{V}=0.
+\partial_\mu\boldsymbol{V}=0
 $$
 
 Because the basis vectors $\boldsymbol e_\rho$ are independent, for
@@ -450,7 +450,7 @@ Therefore,
 $$
 \boxed{
 \nabla_\mu V^\rho=0
-}.
+}
 $$
 
 The covariant derivative is not zero because the derivative of the components and the Christoffel-symbol term happen to cancel. It is necessarily zero when the entire vector is fixed because the covariant derivative was constructed to represent the change in the entire vector.
@@ -463,7 +463,7 @@ $$
 \text{change in the entire vector} =
 \text{change in the components}
 +
-\text{change in the basis}.
+\text{change in the basis}
 $$
 
 ## How Does the Polar-Coordinate Basis Change?
@@ -475,7 +475,7 @@ $$
 \begin{pmatrix}
 r\cos\theta\\
 r\sin\theta
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 The position vector $\boldsymbol{x}$ changes with both $r$ and $\theta$. Its total differential is
@@ -484,7 +484,7 @@ $$
 d\boldsymbol{x} =
 \frac{\partial\boldsymbol{x}}{\partial r}dr
 +
-\frac{\partial\boldsymbol{x}}{\partial\theta}d\theta.
+\frac{\partial\boldsymbol{x}}{\partial\theta}d\theta
 $$
 
 Carrying out the differentiation gives
@@ -509,7 +509,7 @@ dr
 -r\sin\theta\\
 r\cos\theta
 \end{pmatrix}
-d\theta.
+d\theta
 \end{aligned}
 $$
 
@@ -519,7 +519,7 @@ $$
 d\boldsymbol{x} =
 \boldsymbol{e}_r\,dr
 +
-\boldsymbol{e}_\theta\,d\theta.
+\boldsymbol{e}_\theta\,d\theta
 $$
 
 Comparing the vectors that multiply $dr$ and $d\theta$ in the two equations, respectively, we find that the polar-coordinate basis is
@@ -539,7 +539,7 @@ $$
 \begin{pmatrix}
 -r\sin\theta\\
 r\cos\theta
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 Thus, the coordinate basis arises naturally from the total differential of the position vector as
@@ -551,7 +551,7 @@ $$
 \qquad
 \boldsymbol{e}_\theta =
 \frac{\partial\boldsymbol{x}}{\partial\theta}
-}.
+}
 $$
 
 The length of $\boldsymbol e_r$ is $1$, while the length of $\boldsymbol e_\theta$ is $r$.
@@ -561,7 +561,7 @@ This also appears in the metric components
 $$
 g_{rr}=1,
 \qquad
-g_{\theta\theta}=r^2.
+g_{\theta\theta}=r^2
 $$
 
 Let us differentiate the basis vectors.
@@ -569,7 +569,7 @@ Let us differentiate the basis vectors.
 First,
 
 $$
-\partial_r\boldsymbol{e}_r=0.
+\partial_r\boldsymbol{e}_r=0
 $$
 
 Meanwhile,
@@ -580,7 +580,7 @@ $$
 -\sin\theta\\
 \cos\theta
 \end{pmatrix} =
-\frac{1}{r}\boldsymbol{e}_\theta.
+\frac{1}{r}\boldsymbol{e}_\theta
 $$
 
 Also,
@@ -602,14 +602,14 @@ $$
 -r\cos\theta\\
 -r\sin\theta
 \end{pmatrix} =
--r\boldsymbol{e}_r.
+-r\boldsymbol{e}_r
 $$
 
 Recall that the definition of the Christoffel symbols is
 
 $$
 \partial_\mu\boldsymbol{e}_\nu =
-\Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho.
+\Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho
 $$
 
 In two-dimensional polar coordinates, we sum over the index $\rho$ on the right-hand side, so we can expand this as
@@ -618,7 +618,7 @@ $$
 \partial_\mu\boldsymbol{e}_\nu =
 \Gamma^r_{\mu\nu}\boldsymbol{e}_r
 +
-\Gamma^\theta_{\mu\nu}\boldsymbol{e}_\theta.
+\Gamma^\theta_{\mu\nu}\boldsymbol{e}_\theta
 $$
 
 The three indices tell us
@@ -640,7 +640,7 @@ $$
 \Gamma^r_{rr}\boldsymbol{e}_r
 +
 \Gamma^\theta_{rr}\boldsymbol{e}_\theta
-=0.
+=0
 $$
 
 Therefore,
@@ -648,7 +648,7 @@ Therefore,
 $$
 \Gamma^r_{rr}=0,
 \qquad
-\Gamma^\theta_{rr}=0.
+\Gamma^\theta_{rr}=0
 $$
 
 Next, comparing
@@ -674,7 +674,7 @@ $$
 \Gamma^r_{\theta r}=0,
 \qquad
 \Gamma^\theta_{\theta r} =
-\frac{1}{r}.
+\frac{1}{r}
 $$
 
 Similarly, comparing
@@ -700,7 +700,7 @@ $$
 \Gamma^r_{r\theta}=0,
 \qquad
 \Gamma^\theta_{r\theta} =
-\frac{1}{r}.
+\frac{1}{r}
 $$
 
 Finally, comparing
@@ -725,7 +725,7 @@ so
 $$
 \Gamma^r_{\theta\theta}=-r,
 \qquad
-\Gamma^\theta_{\theta\theta}=0.
+\Gamma^\theta_{\theta\theta}=0
 $$
 
 Putting these results together, the nonzero Christoffel symbols are
@@ -751,7 +751,7 @@ When the same plane is expressed in Cartesian coordinates, the basis is constant
 Therefore, in Cartesian coordinates,
 
 $$
-\Gamma^\rho_{\mu\nu}=0.
+\Gamma^\rho_{\mu\nu}=0
 $$
 
 However, when the same plane is expressed in polar coordinates,
@@ -761,7 +761,7 @@ $$
 \qquad
 \Gamma^\theta_{r\theta} =
 \Gamma^\theta_{\theta r} =
-\frac{1}{r}.
+\frac{1}{r}
 $$
 
 They are all zero in one coordinate system but nonzero in another. This way of changing differs from the transformation rule for a tensor.
@@ -808,7 +808,7 @@ $$
 \begin{pmatrix}
 1\\
 0
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 Meanwhile, the polar-coordinate basis was
@@ -826,7 +826,7 @@ $$
 \begin{pmatrix}
 -r\sin\theta\\
 r\cos\theta
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 We want to express $\boldsymbol{V}$ as a linear combination of the two polar-coordinate basis vectors:
@@ -835,7 +835,7 @@ $$
 \boldsymbol{V} =
 V^r\boldsymbol{e}_r
 +
-V^\theta\boldsymbol{e}_\theta.
+V^\theta\boldsymbol{e}_\theta
 $$
 
 The polar-coordinate basis vectors are perpendicular to each other, and their inner products are
@@ -845,7 +845,7 @@ $$
 \qquad
 \boldsymbol{e}_r\cdot\boldsymbol{e}_\theta=0,
 \qquad
-\boldsymbol{e}_\theta\cdot\boldsymbol{e}_\theta=r^2.
+\boldsymbol{e}_\theta\cdot\boldsymbol{e}_\theta=r^2
 $$
 
 First, taking the inner product of $\boldsymbol{V}$ and $\boldsymbol e_r$ gives
@@ -863,7 +863,7 @@ V^\theta
 \left(
 \boldsymbol{e}_\theta\cdot\boldsymbol{e}_r
 \right)\\
-&=V^r.
+&=V^r
 \end{aligned}
 $$
 
@@ -886,14 +886,14 @@ $$
 so
 
 $$
-V^r=\cos\theta.
+V^r=\cos\theta
 $$
 
 Similarly, taking the inner product with $\boldsymbol e_\theta$ gives
 
 $$
 \boldsymbol{V}\cdot\boldsymbol{e}_\theta =
-r^2V^\theta.
+r^2V^\theta
 $$
 
 On the other hand,
@@ -915,13 +915,13 @@ $$
 so
 
 $$
-r^2V^\theta=-r\sin\theta.
+r^2V^\theta=-r\sin\theta
 $$
 
 Therefore,
 
 $$
-V^\theta=-\frac{\sin\theta}{r}.
+V^\theta=-\frac{\sin\theta}{r}
 $$
 
 Thus, expressing the same vector in the polar-coordinate basis gives
@@ -929,7 +929,7 @@ Thus, expressing the same vector in the polar-coordinate basis gives
 $$
 \boldsymbol{V} =
 \cos\theta\,\boldsymbol{e}_r -
-\frac{\sin\theta}{r}\boldsymbol{e}_\theta.
+\frac{\sin\theta}{r}\boldsymbol{e}_\theta
 $$
 
 Even if we parallel transport this vector to another point on the plane, the arrow itself remains a vector of length $1$ pointing in the positive $x$ direction.
@@ -943,7 +943,7 @@ Before calculating, let us check why the derivative of the components and the Ch
 Because this vector does not change on the plane, differentiating the entire vector with respect to $\theta$ gives
 
 $$
-\partial_\theta\boldsymbol{V}=0.
+\partial_\theta\boldsymbol{V}=0
 $$
 
 On the other hand, differentiating
@@ -968,7 +968,7 @@ V^r\partial_\theta\boldsymbol{e}_r\\
 +
 \left(\partial_\theta V^\theta\right)\boldsymbol{e}_\theta
 +
-V^\theta\partial_\theta\boldsymbol{e}_\theta.
+V^\theta\partial_\theta\boldsymbol{e}_\theta
 \end{aligned}
 $$
 
@@ -996,7 +996,7 @@ $$
 &\quad+
 \left(
 \partial_\theta V^\theta+\frac{1}{r}V^r
-\right)\boldsymbol{e}_\theta.
+\right)\boldsymbol{e}_\theta
 \end{aligned}
 $$
 
@@ -1009,7 +1009,7 @@ $$
 $$
 
 $$
-\partial_\theta V^\theta+\frac{1}{r}V^r=0.
+\partial_\theta V^\theta+\frac{1}{r}V^r=0
 $$
 
 Because
@@ -1035,7 +1035,7 @@ $$
 \partial_\theta V^\theta
 +
 \Gamma^\theta_{\theta r}V^r
-=0.
+=0
 $$
 
 Thus, the Christoffel symbols are not quantities chosen afterward to make the result of the calculation happen to be zero. Because they are defined as the coefficients that appear when the basis is differentiated, the change in the components and the change in the basis correspond within a single equation from the beginning.
@@ -1089,7 +1089,7 @@ The covariant derivative of a scalar is the same as its ordinary partial derivat
 
 $$
 \nabla_\mu f =
-\partial_\mu f.
+\partial_\mu f
 $$
 
 Meanwhile, if we require the covariant derivative to obey the product rule, then
@@ -1098,7 +1098,7 @@ $$
 \nabla_\mu(A_\nu V^\nu) =
 (\nabla_\mu A_\nu)V^\nu
 +
-A_\nu(\nabla_\mu V^\nu).
+A_\nu(\nabla_\mu V^\nu)
 $$
 
 On the right-hand side, substitute the covariant derivative of a vector that we already know,
@@ -1107,7 +1107,7 @@ $$
 \nabla_\mu V^\nu =
 \partial_\mu V^\nu
 +
-\Gamma^\nu_{\mu\rho}V^\rho.
+\Gamma^\nu_{\mu\rho}V^\rho
 $$
 
 The left-hand side, on the other hand, is the partial derivative of a scalar, so
@@ -1116,7 +1116,7 @@ $$
 \partial_\mu(A_\nu V^\nu) =
 (\partial_\mu A_\nu)V^\nu
 +
-A_\nu\partial_\mu V^\nu.
+A_\nu\partial_\mu V^\nu
 $$
 
 Setting the two sides equal, canceling the common term $A_\nu\partial_\mu V^\nu$, and aligning the indices gives
@@ -1125,7 +1125,7 @@ $$
 (\partial_\mu A_\rho)V^\rho =
 (\nabla_\mu A_\rho)V^\rho
 +
-A_\nu\Gamma^\nu_{\mu\rho}V^\rho.
+A_\nu\Gamma^\nu_{\mu\rho}V^\rho
 $$
 
 This must hold for any $V^\rho$, so
@@ -1133,7 +1133,7 @@ This must hold for any $V^\rho$, so
 $$
 \nabla_\mu A_\rho =
 \partial_\mu A_\rho -
-\Gamma^\nu_{\mu\rho}A_\nu.
+\Gamma^\nu_{\mu\rho}A_\nu
 $$
 
 Renaming the free and dummy indices gives
@@ -1143,7 +1143,7 @@ $$
 \nabla_\mu A_\nu =
 \partial_\mu A_\nu -
 \Gamma^\rho_{\mu\nu}A_\rho
-}.
+}
 $$
 
 The connection term for a lower index has a minus sign so that it cancels the positive connection term produced by the upper index within the contracted scalar.
@@ -1165,7 +1165,7 @@ is a scalar. Therefore, we must have
 
 $$
 \nabla_\mu S =
-\partial_\mu S.
+\partial_\mu S
 $$
 
 Using the product rule gives
@@ -1178,7 +1178,7 @@ $$
 &+
 A_\rho(\nabla_\mu T^\rho{}_\nu)V^\nu\\
 &+
-A_\rho T^\rho{}_\nu(\nabla_\mu V^\nu).
+A_\rho T^\rho{}_\nu(\nabla_\mu V^\nu)
 \end{aligned}
 $$
 
@@ -1192,7 +1192,7 @@ $$
 \nabla_\mu V^\nu =
 \partial_\mu V^\nu
 +
-\Gamma^\nu_{\mu\sigma}V^\sigma.
+\Gamma^\nu_{\mu\sigma}V^\sigma
 $$
 
 For the entire expression to become the ordinary partial derivative of the product, the connection terms produced by $A_\rho$ and $V^\nu$ must be canceled by the connection terms within $\nabla_\mu T^\rho{}_\nu$.
@@ -1205,7 +1205,7 @@ $$
 +
 \Gamma^\rho_{\mu\sigma}T^\sigma{}_\nu -
 \Gamma^\sigma_{\mu\nu}T^\rho{}_\sigma
-}.
+}
 $$
 
 Let us actually substitute the three covariant-derivative equations into the product rule above.
@@ -1224,7 +1224,7 @@ T^\rho{}_\nu V^\nu\\
 \right)V^\nu\\
 &+A_\rho T^\rho{}_\nu
 \left(\partial_\mu V^\nu
-+\Gamma^\nu_{\mu\sigma}V^\sigma\right).
++\Gamma^\nu_{\mu\sigma}V^\sigma\right)
 \end{aligned}
 $$
 
@@ -1235,7 +1235,7 @@ First, the term produced by the covariant derivative of $A_\rho$ can be rewritte
 
 $$
 -\Gamma^\sigma_{\mu\rho}A_\sigma T^\rho{}_\nu V^\nu
-=-A_\rho\Gamma^\rho_{\mu\sigma}T^\sigma{}_\nu V^\nu.
+=-A_\rho\Gamma^\rho_{\mu\sigma}T^\sigma{}_\nu V^\nu
 $$
 
 Here, we have simultaneously exchanged the names of the summed indices $\rho$ and $\sigma$.
@@ -1251,7 +1251,7 @@ Next, the term produced by the covariant derivative of $V^\nu$ can be rewritten 
 
 $$
 +A_\rho T^\rho{}_\nu\Gamma^\nu_{\mu\sigma}V^\sigma
-=+A_\rho T^\rho{}_\sigma\Gamma^\sigma_{\mu\nu}V^\nu.
+=+A_\rho T^\rho{}_\sigma\Gamma^\sigma_{\mu\nu}V^\nu
 $$
 
 This time, we have simultaneously exchanged the names of the summed indices $\nu$ and $\sigma$.
@@ -1272,7 +1272,7 @@ $$
 &+A_\rho(\partial_\mu T^\rho{}_\nu)V^\nu\\
 &+A_\rho T^\rho{}_\nu(\partial_\mu V^\nu)\\
 ={}&\partial_\mu\left(A_\rho T^\rho{}_\nu V^\nu\right)
-=\partial_\mu S.
+=\partial_\mu S
 \end{aligned}
 $$
 
@@ -1293,7 +1293,7 @@ $$
 \nabla_\lambda F
 ={}&(\nabla_\lambda T_{\mu\nu})V^\mu W^\nu\\
 &+T_{\mu\nu}(\nabla_\lambda V^\mu)W^\nu\\
-&+T_{\mu\nu}V^\mu(\nabla_\lambda W^\nu).
+&+T_{\mu\nu}V^\mu(\nabla_\lambda W^\nu)
 \end{aligned}
 $$
 
@@ -1304,7 +1304,7 @@ $$
 =\partial_\lambda V^\mu+\Gamma^\mu_{\lambda\rho}V^\rho,
 \qquad
 \nabla_\lambda W^\nu
-=\partial_\lambda W^\nu+\Gamma^\nu_{\lambda\rho}W^\rho.
+=\partial_\lambda W^\nu+\Gamma^\nu_{\lambda\rho}W^\rho
 $$
 
 Meanwhile, the ordinary partial derivative on the right-hand side is
@@ -1314,7 +1314,7 @@ $$
 \partial_\lambda F
 ={}&(\partial_\lambda T_{\mu\nu})V^\mu W^\nu\\
 &+T_{\mu\nu}(\partial_\lambda V^\mu)W^\nu\\
-&+T_{\mu\nu}V^\mu(\partial_\lambda W^\nu).
+&+T_{\mu\nu}V^\mu(\partial_\lambda W^\nu)
 \end{aligned}
 $$
 
@@ -1327,7 +1327,7 @@ $$
 +\Gamma^\rho_{\lambda\mu}T_{\rho\nu}
 +\Gamma^\rho_{\lambda\nu}T_{\mu\rho}
 \right)V^\mu W^\nu =
-(\partial_\lambda T_{\mu\nu})V^\mu W^\nu.
+(\partial_\lambda T_{\mu\nu})V^\mu W^\nu
 $$
 
 This must hold for arbitrary $V^\mu,W^\nu$, so we obtain
@@ -1338,7 +1338,7 @@ $$
 =\partial_\lambda T_{\mu\nu}
 -\Gamma^\rho_{\lambda\mu}T_{\rho\nu}
 -\Gamma^\rho_{\lambda\nu}T_{\mu\rho}
-}.
+}
 $$
 
 One negative connection term appears for each of the lower indices $\mu,\nu$.
@@ -1350,7 +1350,7 @@ Because a scalar $f$ has no index that needs to be compensated for,
 
 $$
 \nabla_\mu f =
-\partial_\mu f.
+\partial_\mu f
 $$
 
 From these results, instead of memorizing each equation separately, it is helpful to read them as the rules
@@ -1375,13 +1375,13 @@ $$
 - The Christoffel symbols express changes in the basis through components according to
 
 $$
-\partial_\mu\boldsymbol{e}_\nu = \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho.
+\partial_\mu\boldsymbol{e}_\nu = \Gamma^\rho_{\mu\nu}\boldsymbol{e}_\rho
 $$
 
 - The covariant derivative of a contravariant vector is
 
 $$
-\nabla_\mu V^\rho = \partial_\mu V^\rho + \Gamma^\rho_{\mu\nu}V^\nu.
+\nabla_\mu V^\rho = \partial_\mu V^\rho + \Gamma^\rho_{\mu\nu}V^\nu
 $$
 
 - The covariant derivative consists of the components, in the basis at that location, of the change in the entire vector.

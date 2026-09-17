@@ -499,7 +499,7 @@ ds^2
 &+
 \eta_{10}dx^1dx^0
 +
-\eta_{11}dx^1dx^1.
+\eta_{11}dx^1dx^1
 \end{aligned}
 $$
 

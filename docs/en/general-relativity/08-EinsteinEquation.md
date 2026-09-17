@@ -202,7 +202,7 @@ T^{\mu\nu}=
 c\pi^1 & \Pi^{11} & \Pi^{12} & \Pi^{13}\\
 c\pi^2 & \Pi^{21} & \Pi^{22} & \Pi^{23}\\
 c\pi^3 & \Pi^{31} & \Pi^{32} & \Pi^{33}
-\end{pmatrix}.
+\end{pmatrix}
 $$
 
 The first index $\mu$ specifies the row, and the second index $\nu$ the column. The first column gives densities inside the box, and the other three columns give fluxes in the respective directions. The first row corresponds to energy, and the remaining three rows to momentum in the three directions.
@@ -253,7 +253,7 @@ $$
 T^{00}&=n_0m\gamma^2c^2=nE=\varepsilon,\\
 T^{0j}&=n_0m\gamma^2cv^j=nEv^j/c=F^j/c,\\
 T^{i0}&=n_0m\gamma^2v^ic=cnp^i=c\pi^i,\\
-T^{ij}&=n_0m\gamma^2v^iv^j=np^iv^j=\Pi^{ij}.
+T^{ij}&=n_0m\gamma^2v^iv^j=np^iv^j=\Pi^{ij}
 \end{aligned}
 $$
 
@@ -537,7 +537,7 @@ $$
 \nabla_\lambda R_{\alpha\sigma\mu\nu}
 +\nabla_\mu R_{\alpha\sigma\nu\lambda}
 +\nabla_\nu R_{\alpha\sigma\lambda\mu}
-=0.
+=0
 $$
 
 This is called the **differential Bianchi identity**. Holding $\alpha,\sigma$ fixed, it says that the sum of three terms, formed by cyclically permuting the remaining three indices $\lambda,\mu,\nu$, is zero.
@@ -553,7 +553,7 @@ R_{\alpha\sigma\mu\nu}
 R_{\alpha\sigma\mu\nu}
 =-R_{\alpha\sigma\nu\mu},
 \qquad
-R_{\sigma\nu}=R_{\nu\sigma}.
+R_{\sigma\nu}=R_{\nu\sigma}
 $$
 
 The first two state that the Riemann curvature tensor is antisymmetric in its first two indices and in its last two indices. The last equation is the symmetry of the Ricci tensor. These properties also follow from using a connection that is compatible with the metric and symmetric in its lower two indices.
@@ -608,7 +608,7 @@ For the third term, note that exchanging the last two indices changes the sign.
 $$
 g^{\alpha\mu}R_{\alpha\sigma\lambda\mu}
 =-g^{\alpha\mu}R_{\alpha\sigma\mu\lambda}
-=-R_{\sigma\lambda}.
+=-R_{\sigma\lambda}
 $$
 
 Therefore, the first contraction gives
@@ -687,7 +687,7 @@ Let us place the matter side and curvature side next to each other.
 $$
 \nabla^\mu T_{\mu\nu}=0,
 \qquad
-\nabla^\mu R_{\mu\nu}=\frac12\partial_\nu R.
+\nabla^\mu R_{\mu\nu}=\frac12\partial_\nu R
 $$
 
 The divergence on the matter side is zero, but if we use only the Ricci tensor on the curvature side, a derivative of the curvature scalar remains. Keeping this difference in mind, let us look for an equation that connects matter and curvature.
@@ -1109,7 +1109,7 @@ R_{\alpha\sigma\mu\nu}
 -\partial_\nu\partial_\mu g_{\alpha\sigma}
 -\partial_\nu\partial_\sigma g_{\alpha\mu}
 +\partial_\nu\partial_\alpha g_{\mu\sigma}
-\bigr).
+\bigr)
 \end{aligned}
 $$
 
@@ -1142,7 +1142,7 @@ R_{\sigma\alpha\mu\nu}
 &-\partial_\mu\partial_\sigma g_{\alpha\nu}
 -\partial_\nu\partial_\alpha g_{\sigma\mu}
 \bigr)
-=-R_{\alpha\sigma\mu\nu}.
+=-R_{\alpha\sigma\mu\nu}
 \end{aligned}
 $$
 
@@ -1159,7 +1159,7 @@ R_{\alpha\sigma\nu\mu}
 &-\partial_\nu\partial_\alpha g_{\sigma\mu}
 -\partial_\mu\partial_\sigma g_{\alpha\nu}
 \bigr)
-=-R_{\alpha\sigma\mu\nu}.
+=-R_{\alpha\sigma\mu\nu}
 \end{aligned}
 $$
 
@@ -1189,7 +1189,7 @@ R_{\mu\nu\alpha\sigma}
 +\partial_\sigma\partial_\mu g_{\nu\alpha}\\
 &-\partial_\alpha\partial_\mu g_{\nu\sigma}
 -\partial_\sigma\partial_\nu g_{\mu\alpha}
-\bigr).
+\bigr)
 \end{aligned}
 $$
 
@@ -1455,7 +1455,7 @@ $$
 -\partial_\mu\partial_\lambda\Gamma^\rho_{\nu\sigma},\\
 \nabla_\nu {R^\rho}_{\sigma\lambda\mu}
 &=\partial_\nu\partial_\lambda\Gamma^\rho_{\mu\sigma}
--\partial_\nu\partial_\mu\Gamma^\rho_{\lambda\sigma}.
+-\partial_\nu\partial_\mu\Gamma^\rho_{\lambda\sigma}
 \end{aligned}
 $$
 
@@ -1601,7 +1601,7 @@ $$
 &+2\sum_j\Gamma^i_{0j}
 \frac{dw}{d\tau}\frac{dx^j}{d\tau}
 +\sum_{j,k}\Gamma^i_{jk}
-\frac{dx^j}{d\tau}\frac{dx^k}{d\tau}.
+\frac{dx^j}{d\tau}\frac{dx^k}{d\tau}
 \end{aligned}
 $$
 
@@ -1905,7 +1905,7 @@ The electric field $\boldsymbol E$ and gravitational acceleration $\boldsymbol g
 $$
 \boldsymbol E=-\nabla V,
 \qquad
-\boldsymbol g=-\nabla\Phi.
+\boldsymbol g=-\nabla\Phi
 $$
 
 Since this case is spherically symmetric, we only need to differentiate in the radial direction. With outward unit vector $\boldsymbol e_r$,
@@ -1978,7 +1978,7 @@ By the divergence theorem, the flux through a closed surface equals the integral
 
 $$
 \oint_{\partial\mathcal V}\boldsymbol g\cdot d\boldsymbol S
-=\int_{\mathcal V}\nabla\cdot\boldsymbol g\,dV.
+=\int_{\mathcal V}\nabla\cdot\boldsymbol g\,dV
 $$
 
 Therefore, for gravity,
