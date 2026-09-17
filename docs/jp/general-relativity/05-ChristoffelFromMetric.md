@@ -419,7 +419,7 @@ $$
 
 $$
 \nabla_\lambda T_{\mu\nu}
-\coloneqq \partial_\lambda T_{\mu\nu}
+:= \partial_\lambda T_{\mu\nu}
 -\Gamma^\rho_{\lambda\mu}T_{\rho\nu}
 -\Gamma^\rho_{\lambda\nu}T_{\mu\rho}
 $$
@@ -677,10 +677,16 @@ $$
 
 $$
 g_{\mu\nu}
-=\begin{pmatrix}1&0\\0&r^2\end{pmatrix},
+=\begin{pmatrix}
+1&0\\
+0&r^2
+\end{pmatrix},
 \qquad
 g^{\mu\nu}
-=\begin{pmatrix}1&0\\0&\dfrac{1}{r^2}\end{pmatrix}
+=\begin{pmatrix}
+1&0\\
+0&\dfrac{1}{r^2}
+\end{pmatrix}
 $$
 
 だった。場所によって変化する計量成分は $g_{\theta\theta}=r^2$ だけなので、ゼロでない偏微分は、

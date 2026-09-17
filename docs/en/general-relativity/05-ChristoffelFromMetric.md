@@ -399,7 +399,7 @@ As derived in 04, the covariant derivative of a tensor $T_{\mu\nu}$ with two low
 
 $$
 \nabla_\lambda T_{\mu\nu}
-\coloneqq \partial_\lambda T_{\mu\nu}
+:= \partial_\lambda T_{\mu\nu}
 -\Gamma^\rho_{\lambda\mu}T_{\rho\nu}
 -\Gamma^\rho_{\lambda\nu}T_{\mu\rho}
 $$
@@ -651,10 +651,16 @@ In plane polar coordinates,
 
 $$
 g_{\mu\nu}
-=\begin{pmatrix}1&0\\0&r^2\end{pmatrix},
+=\begin{pmatrix}
+1&0\\
+0&r^2
+\end{pmatrix},
 \qquad
 g^{\mu\nu}
-=\begin{pmatrix}1&0\\0&\dfrac{1}{r^2}\end{pmatrix}
+=\begin{pmatrix}
+1&0\\
+0&\dfrac{1}{r^2}
+\end{pmatrix}
 $$
 
 The only metric component that changes from place to place is $g_{\theta\theta}=r^2$, so the only nonzero partial derivative is,
