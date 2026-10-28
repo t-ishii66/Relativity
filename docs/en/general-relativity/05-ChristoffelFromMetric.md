@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In the previous document, “How Do We Compare Vectors at Different Locations?,” we wrote the change of the basis as,
+In the previous document, “How Do We Compare Vectors at Different Locations?,” we wrote the change of the basis as
 
 $$
 \partial_\mu\boldsymbol{e}_\nu =
@@ -53,7 +53,7 @@ The goal is to understand that
 
 Let the coordinate basis be $\boldsymbol e_\mu$.
 
-In the previous document, we wrote the inner product of two vectors as,
+In the previous document, we wrote the inner product of two vectors as
 
 $$
 \boldsymbol{A}\cdot\boldsymbol{B} =
@@ -62,7 +62,7 @@ $$
 
 First, let us confirm how the basis vectors themselves are represented in components.
 
-An arbitrary vector $\boldsymbol{V}$ can be written using the coordinate basis as,
+An arbitrary vector $\boldsymbol{V}$ can be written using the coordinate basis as
 
 $$
 \boldsymbol{V} =
@@ -105,7 +105,7 @@ $$
 0\boldsymbol{e}_r+1\boldsymbol{e}_\theta
 $$
 
-Thus, the components with respect to the polar-coordinate basis are,
+Thus, the components with respect to the polar-coordinate basis are
 
 $$
 (\boldsymbol{e}_r)^r=1,
@@ -133,7 +133,7 @@ $$
 +r\cos\theta\,\boldsymbol{e}_y
 $$
 
-Thus, the components with respect to the Cartesian coordinate basis are,
+Thus, the components with respect to the Cartesian coordinate basis are
 
 $$
 (\boldsymbol{e}_r)^x=\cos\theta,
@@ -159,7 +159,7 @@ $$
 \sin\theta
 $$
 
-> **Tips: Why is $(\boldsymbol e_r)^x=\partial x/\partial r$?**
+> **Tip: Why is $(\boldsymbol e_r)^x=\partial x/\partial r$?**
 >
 > The detailed derivation of this relation was given in the previous document, “[How Does the Polar-Coordinate Basis Change?](./04-CovariantDerivative.md#how-does-the-polar-coordinate-basis-change)”.
 >
@@ -181,21 +181,21 @@ $$
 > \boldsymbol e_\theta\,d\theta
 > $$
 >
-> to obtain,
+> to obtain
 >
 > $$
 > \boldsymbol e_r =
 > \frac{\partial\boldsymbol{x}}{\partial r}
 > $$
 >
-> Furthermore, if we write the position vector as,
+> Furthermore, if we write the position vector as
 >
 > $$
 > \boldsymbol{x} =
 > x\boldsymbol e_x+y\boldsymbol e_y
 > $$
 >
-> and differentiate the right-hand side, we get,
+> and differentiate the right-hand side, we get
 >
 > $$
 > \boldsymbol e_r =
@@ -217,7 +217,7 @@ is the equation for representing a basis vector in components using the same bas
 
 Also, even if the components of $\boldsymbol e_\theta$ with respect to the polar-coordinate basis are $(0,1)$, this does not necessarily mean that its length is $1$. We will check this point in detail below, after calculating inner products.
 
-Keeping this distinction in mind, let us calculate the inner product of two coordinate basis vectors. Substituting $(\boldsymbol e_\mu)^\rho={\delta^\rho}_\mu$ into the inner-product equation introduced in the previous document gives,
+Keeping this distinction in mind, let us calculate the inner product of two coordinate basis vectors. Substituting $(\boldsymbol e_\mu)^\rho={\delta^\rho}_\mu$ into the inner-product equation introduced in the previous document gives
 
 $$
 \begin{aligned}
@@ -235,7 +235,7 @@ g_{\mu\nu}
 \end{aligned}
 $$
 
-Thus, the metric components can be read as the inner products of the coordinate basis vectors,
+Thus, the metric components can be read as the inner products of the coordinate basis vectors
 
 $$
 \boxed{
@@ -245,7 +245,7 @@ $$
 
 ![Alice and Bob examining the lengths and angles of basis vectors in a greenhouse](../../../images/general-relativity/05/metric-in-greenhouse.png)
 
-Calculating the inner products of the polar-coordinate basis vectors represented above using the Cartesian coordinate basis gives,
+Calculating the inner products of the polar-coordinate basis vectors represented above using the Cartesian coordinate basis gives
 
 $$
 g_{rr}=\boldsymbol{e}_r\cdot\boldsymbol{e}_r=1
@@ -261,7 +261,7 @@ $$
 
 The metric records the lengths of the basis vectors and the angles between them.
 
-> **Tips: Why is the length not $1$ even when the components are $(0,1)$?**
+> **Tip: Why is the length not $1$ even when the components are $(0,1)$?**
 >
 > When $\boldsymbol e_\theta$ is represented in components using the polar-coordinate basis,
 >
@@ -340,7 +340,7 @@ $$
 \end{aligned}
 $$
 
-Substituting,
+Substituting
 
 $$
 \partial_\lambda\boldsymbol{e}_\mu
@@ -350,7 +350,7 @@ $$
 =\Gamma^\rho_{\lambda\nu}\boldsymbol{e}_\rho
 $$
 
-gives,
+gives
 
 $$
 \begin{aligned}
@@ -368,7 +368,7 @@ Here, the partial derivative of the metric and the Christoffel symbols have beco
 
 ## Lowering the Index of the Christoffel Symbols
 
-To make the equation easier to read, define a new quantity $\Gamma_{\sigma\mu\nu}$ by,
+To make the equation easier to read, define a new quantity $\Gamma_{\sigma\mu\nu}$ by
 
 $$
 \boxed{
@@ -379,7 +379,7 @@ $$
 
 This is the quantity obtained by lowering the upper index of the Christoffel symbols with the metric.
 
-The equation from just before becomes,
+The equation from just before becomes
 
 $$
 \boxed{
@@ -395,7 +395,7 @@ This equation is the starting point of the derivation.
 
 Let us reread the equation we just obtained using the covariant derivative.
 
-As derived in 04, the covariant derivative of a tensor $T_{\mu\nu}$ with two lower indices is,
+As derived in 04, the covariant derivative of a tensor $T_{\mu\nu}$ with two lower indices is
 
 $$
 \nabla_\lambda T_{\mu\nu}
@@ -406,7 +406,7 @@ $$
 
 One correction term is added to the ordinary partial derivative for each lower index. These correction terms account for the change of the basis.
 
-The metric $g_{\mu\nu}$ also has two lower indices, so applying this definition gives,
+The metric $g_{\mu\nu}$ also has two lower indices, so applying this definition gives
 
 $$
 \nabla_\lambda g_{\mu\nu}
@@ -426,7 +426,7 @@ $$
 \qquad (5.1)
 $$
 
-the terms on the right-hand side cancel, giving,
+the terms on the right-hand side cancel, giving
 
 $$
 \boxed{
@@ -488,7 +488,7 @@ Below, we will use metric compatibility and this symmetry to find an explicit fo
 
 ---
 
-Alice: “Does partially differentiating the metric alone still leave more than one possible equation?”
+Alice: “So partially differentiating the metric alone still doesn’t pin down a unique formula for the Christoffel symbols?”
 
 Bob: “Yes. Here, in addition to metric compatibility, we assume that exchanging the lower two indices does not change the value. We find an explicit formula from those two conditions.”
 
@@ -526,7 +526,7 @@ $$
 
 Add the first and second equations, and subtract the third.
 
-The left-hand side becomes,
+The left-hand side becomes
 
 $$
 \partial_\mu g_{\nu\sigma}
@@ -534,7 +534,7 @@ $$
 -\partial_\sigma g_{\mu\nu}
 $$
 
-Writing the right-hand side without omitting anything gives,
+Writing the right-hand side without omitting anything gives
 
 $$
 \begin{aligned}
@@ -639,7 +639,7 @@ $$
 
 is confirmed. This confirms that the obtained equation is consistent with the assumption we adopted; note that it does not derive the symmetry itself. This symmetry is not a property that necessarily holds for a general connection; in this book, it is adopted as an additional condition. A detailed explanation of its geometric background is outside the scope of this book.
 
-The three terms in the formula were not chosen suddenly. They are the result of combining the three equations made by partially differentiating the metric as,
+The three terms in the formula were not chosen suddenly. They result from combining the three equations obtained by partially differentiating the metric in the following way:
 
 $$
 \text{first equation}+\text{second equation}-\text{third equation}
@@ -743,7 +743,7 @@ $$
 
 ## The Remaining Components
 
-Substituting the other indices into the same formula gives,
+Substituting the other indices into the same formula gives
 
 $$
 \Gamma^r_{rr}=0
@@ -759,7 +759,7 @@ $$
 \Gamma^\theta_{\theta\theta}=0
 $$
 
-Therefore, the nonzero components are,
+Therefore, the nonzero components are
 
 $$
 \boxed{
@@ -813,7 +813,7 @@ As a supplementary note about the names, the symmetry of the lower two indices i
 - When the metric is partially differentiated, two terms involving the change of the basis appear.
 - We assume that the lower two indices of the Christoffel symbols are symmetric.
 - We make three equations by permuting the indices, add two, and subtract one.
-- Raising an index with the inverse metric gives,
+- Raising an index with the inverse metric gives
 
 $$
 \Gamma^\rho_{\mu\nu} = \frac{1}{2} g^{\rho\sigma} \left( \partial_\mu g_{\sigma\nu} + \partial_\nu g_{\sigma\mu} - \partial_\sigma g_{\mu\nu} \right)

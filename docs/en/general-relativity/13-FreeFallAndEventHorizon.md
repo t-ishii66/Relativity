@@ -62,14 +62,14 @@ Bob: “I change position, so the spatial term remains too. First, let’s find 
 
 *Bob undertaking a falling experiment with a clock, and Alice seeing him off. An image for thinking about free fall.*
 
-Let Bob’s proper time be $\tau_{\mathrm{Bob}}$, and let a dot below denote differentiation with respect to it.
+Let Bob’s proper time be $\tau_{\mathrm{Bob}}$. In what follows, an overdot denotes differentiation with respect to it.
 
 $$
 \dot w=\frac{dw}{d\tau_{\mathrm{Bob}}},\qquad
 \dot r=\frac{dr}{d\tau_{\mathrm{Bob}}}
 $$
 
-Because the motion is only in the radial direction, $d\theta=d\phi=0$. Along Bob’s orbit, $ds^2=-d\tau_{\mathrm{Bob}}^2$, so dividing equation (13.1) by $d\tau_{\mathrm{Bob}}^2$ gives,
+Because the motion is only in the radial direction, $d\theta=d\phi=0$. Along Bob’s path, $ds^2=-d\tau_{\mathrm{Bob}}^2$, so dividing equation (13.1) by $d\tau_{\mathrm{Bob}}^2$ gives
 
 $$
 -1=-f(r)\dot w^2+\frac{\dot r^2}{f(r)}
@@ -97,7 +97,7 @@ $$
 
 Here $\mu,\nu$ each take the values $w,r,\theta,\phi$.
 
-Since Bob falls only in the radial direction, $\dot\theta=\dot\phi=0$. Thus, terms containing angular velocities vanish, and the four remaining combinations are $(w,w),(w,r),(r,w),(r,r)$. Expanding the sum gives,
+Since Bob falls only in the radial direction, $\dot\theta=\dot\phi=0$. Thus, terms containing angular velocities vanish, and the four remaining combinations are $(w,w),(w,r),(r,w),(r,r)$. Expanding the sum gives
 
 $$
 \ddot w
@@ -110,7 +110,7 @@ $$
 
 Furthermore, for this metric, $\Gamma^w_{ww}$ and $\Gamma^w_{rr}$ are also zero. Let us use the connection formula to check why.
 
-The general formula for the Christoffel symbols is,
+The general formula for the Christoffel symbols is
 
 $$
 \Gamma^\rho_{\mu\nu}
@@ -122,7 +122,7 @@ $$
 \right)
 $$
 
-Setting $\rho=w$ gives,
+Setting $\rho=w$ gives
 
 $$
 \Gamma^w_{\mu\nu}
@@ -159,7 +159,7 @@ $$
 \end{aligned}
 $$
 
-The two remaining connections are equal even when the lower indices are exchanged: $\Gamma^w_{wr}=\Gamma^w_{rw}$. Also, since $\dot w\dot r=\dot r\dot w$, adding the two terms gives,
+The two remaining connections are equal even when the lower indices are exchanged: $\Gamma^w_{wr}=\Gamma^w_{rw}$. Also, since $\dot w\dot r=\dot r\dot w$, adding the two terms gives
 
 $$
 \Gamma^w_{wr}\dot w\dot r
@@ -167,7 +167,7 @@ $$
 =2\Gamma^w_{wr}\dot w\dot r
 $$
 
-Thus, the $w$ component of the geodesic equation becomes,
+Thus, the $w$ component of the geodesic equation becomes
 
 $$
 \ddot w+2\Gamma^w_{wr}\dot w\dot r=0
@@ -175,7 +175,7 @@ $$
 
 The factor 2 arose from the two index combinations $(w,r)$ and $(r,w)$.
 
-Finally, calculate the remaining connection $\Gamma^w_{wr}$. In connection formula (13.3), set $\mu=w,\nu=r$ and use $g_{wr}=0$. Writing $f'=df/dr$, we get,
+Finally, calculate the remaining connection $\Gamma^w_{wr}$. In connection formula (13.3), set $\mu=w,\nu=r$ and use $g_{wr}=0$. Writing $f'=df/dr$, we get
 
 $$
 \Gamma^w_{wr}
@@ -184,19 +184,19 @@ $$
 =\frac{f'}{2f}
 $$
 
-Substituting this and multiplying by $f$ gives,
+Substituting this and multiplying by $f$ gives
 
 $$
 f\ddot w+f'\dot r\dot w=0
 $$
 
-The left side is a product derivative, so,
+The left side is the derivative of a product, so
 
 $$
 \frac{d}{d\tau_{\mathrm{Bob}}}(f\dot w)=0
 $$
 
-Therefore, we obtain the quantity that does not change during the fall,
+Therefore, we obtain the quantity that does not change during the fall
 
 $$
 \boxed{\varepsilon=f(r)\frac{dw}{d\tau_{\mathrm{Bob}}}}
@@ -219,14 +219,14 @@ $$
 \qquad (13.5)
 $$
 
-At the starting point $r=r_0$, $\dot r=0$, so,
+At the starting point $r=r_0$, $\dot r=0$, so
 
 $$
 \varepsilon=\sqrt{f(r_0)}
 =\sqrt{1-\frac{r_{\mathrm s}}{r_0}}
 $$
 
-Therefore, Bob’s fall is described by,
+Therefore, Bob’s fall is described by
 
 $$
 \frac{dr}{d\tau_{\mathrm{Bob}}}
@@ -238,7 +238,7 @@ As he falls and $r$ becomes smaller, the absolute value of this change becomes l
 
 ## Motion in Coordinates and the Speed Measured Locally
 
-Equation (13.4) divided by equation (13.5) gives Bob’s motion on the canvas:
+Taking the ratio of equations (13.4) and (13.5) gives Bob’s motion on the canvas:
 
 $$
 \boxed{
@@ -253,7 +253,7 @@ Looking only at this, Bob seems to stop moving just before the horizon. However,
 
 Consider an observer who is stationary at the place Bob passes. This is an observer for considering measurements at each location; it does not mean that Alice, who remains at $r_0$, falls together with Bob.
 
-From the speed-conversion formula (11.6) in Chapter 11, the radial speed of Bob measured by that observer’s own clock and ruler is,
+From the speed-conversion formula (11.6) in Chapter 11, the radial speed of Bob measured by that observer’s own clock and ruler is
 
 $$
 v_{\mathrm{Bob}}
@@ -289,7 +289,7 @@ $$
 =\frac{r_0-\rho}{\rho r_0}
 $$
 
-Therefore, the integrand in equation (13.7) can be rewritten as,
+Therefore, the integrand in equation (13.7) can be rewritten as
 
 $$
 \begin{aligned}
@@ -301,14 +301,14 @@ $$
 \end{aligned}
 $$
 
-Near the starting point, $\rho\simeq r_0$, so the preceding factor approaches the finite value,
+Near the starting point, $\rho\simeq r_0$, so the preceding factor approaches the finite value
 
 $$
 \sqrt{\frac{\rho r_0}{r_{\mathrm s}}}
 \simeq\frac{r_0}{\sqrt{r_{\mathrm s}}}
 $$
 
-Thus, apart from a constant factor, the integral near this point has the form,
+Thus, apart from a constant factor, the integral near this point has the form
 
 $$
 \int\frac{d\rho}{\sqrt{r_0-\rho}}
@@ -332,7 +332,7 @@ Therefore, the integral from the starting point to the horizon is finite, and Bo
 
 ## The Same Fall Drawn in $w$ Makes the Horizon Infinitely Far Away
 
-![Alice seeing Bob off while looking up at the long coordinate scroll and Bob looking at his clock](../../../images/general-relativity/13/alice-bob-coordinate-scroll.png)
+![Alice looking up at a long coordinate scroll and Bob looking at the clock in his hand](../../../images/general-relativity/13/alice-bob-coordinate-scroll.png)
 
 *A canvas extending without end, and a clock advancing in hand. An image representing the difference between coordinate time and proper time.*
 
@@ -343,14 +343,14 @@ $$
 =-\frac{\varepsilon}{f(r)\sqrt{\varepsilon^2-f(r)}}
 $$
 
-Near the horizon, $\sqrt{\varepsilon^2-f}\to\varepsilon$, so,
+Near the horizon, $\sqrt{\varepsilon^2-f}\to\varepsilon$, so
 
 $$
 \frac{dw}{dr}\simeq-\frac1f
 \simeq-\frac{r_{\mathrm s}}{r-r_{\mathrm s}}
 $$
 
-After integration, the divergent part is,
+After integration, the divergent part is
 
 $$
 w\simeq-r_{\mathrm s}\ln\left(\frac{r-r_{\mathrm s}}{r_{\mathrm s}}\right)
@@ -359,11 +359,11 @@ $$
 
 As $r\to r_{\mathrm s}+0$, $w\to+\infty$.
 
-The orbit corresponding to Bob’s finite proper time is being drawn stretched out without limit on this $w$ scale. What we have learned so far is the coordinate description; to understand the image that reaches Charlie, we must also examine light propagation.
+The path corresponding to Bob’s finite proper time is being drawn stretched out without limit on this $w$ scale. What we have learned so far is the coordinate description; to understand the image that reaches Charlie, we must also examine light propagation.
 
 ---
 
-Alice: “So looking as though I am about to stop on the coordinate chart and Bob’s own clock stopping are not the same thing.”
+Alice: “So Bob appearing to stop on the coordinate chart and his own clock stopping are not the same thing.”
 
 Bob: “Right. The proper time measured by my clock is finite all the way to the horizon.”
 
@@ -375,7 +375,7 @@ Bob: “Right. The proper time measured by my clock is finite all the way to the
 
 *The two of them checking the blinking before departure. At what intervals will the light sent during the fall reach distant Charlie?*
 
-When Bob is at the outside radius $r$, he sends outward light at coordinate time $w_{\mathrm{emit}}$. In the coordinate-time expression (12.4) for light propagation derived in Chapter 12, replace the emission position $r_{\mathrm{Alice}}$ with Bob’s position $r$ at emission. Adding the coordinate time required for propagation to the emission time, the coordinate time at which the light reaches fixed $r_{\mathrm{Charlie}}$ is,
+When Bob is at a radius $r$ outside the horizon, he sends outward light at coordinate time $w_{\mathrm{emit}}$. In the coordinate-time expression (12.4) for light propagation derived in Chapter 12, replace the emission position $r_{\mathrm{Alice}}$ with Bob’s position $r$ at emission. Adding the coordinate time required for propagation to the emission time, the coordinate time at which the light reaches fixed $r_{\mathrm{Charlie}}$ is
 
 $$
 w_{\mathrm{receive}}
@@ -386,7 +386,7 @@ $$
 
 When he sends the next light, Bob has moved farther inward. Therefore, the coordinate time needed for propagation is longer too.
 
-Let us compare two nearby emissions and their corresponding receptions. Differentiating equation (13.8) with respect to Bob’s proper time, the lower limit $r$ of the integral also moves, giving,
+Let us compare two nearby emissions and their corresponding receptions. Differentiating equation (13.8) with respect to Bob’s proper time, the lower limit $r$ of the integral also moves, giving
 
 $$
 \frac{dw_{\mathrm{receive}}}{d\tau_{\mathrm{Bob}}}
@@ -394,7 +394,7 @@ $$
 -\frac1{f(r)}\frac{dr}{d\tau_{\mathrm{Bob}}}
 $$
 
-The minus sign in the second term on the right comes from the moving lower limit of the integral. Let us write the integral in equation (13.8) as,
+The minus sign in the second term on the right comes from the moving lower limit of the integral. Let us write the integral in equation (13.8) as
 
 $$
 F(r)=\int_r^{r_{\mathrm{Charlie}}}\frac{d\rho}{f(\rho)}
@@ -408,7 +408,7 @@ $$
 
 The sign is opposite to the case where the upper limit of the integral moves.
 
-Furthermore, the lower limit $r$ changes with Bob’s proper time, so the chain rule gives,
+Furthermore, the lower limit $r$ changes with Bob’s proper time, so the chain rule gives
 
 $$
 \frac{dF}{d\tau_{\mathrm{Bob}}}
@@ -427,7 +427,7 @@ $$
 =\frac{\varepsilon+\sqrt{\varepsilon^2-f(r)}}{f(r)}
 $$
 
-Charlie is sufficiently far away that he can read the interval of coordinate time between receptions directly as the interval on his own clock. Since $d\tau_{\mathrm{Charlie}}=dw_{\mathrm{receive}}$, we obtain,
+Charlie is sufficiently far away that he can read the interval of coordinate time between receptions directly as the interval on his own clock. Since $d\tau_{\mathrm{Charlie}}=dw_{\mathrm{receive}}$, we obtain
 
 $$
 \boxed{

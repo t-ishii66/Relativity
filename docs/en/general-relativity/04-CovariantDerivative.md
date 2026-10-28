@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In the previous document, “The Metric as a Ruler for Spacetime,” we saw that when a plane is expressed in polar coordinates,
+In the previous document, “The Metric as a Ruler for Spacetime,” we saw that when a plane is expressed in polar coordinates, its line element becomes
 
 $$
 ds^2 =

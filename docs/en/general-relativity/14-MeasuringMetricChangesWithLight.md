@@ -223,7 +223,7 @@ $d\ell$ is the small length measured by a ruler at rest at the position $r$ thro
 
 In other words, this equation tells us “how much time passes on Alice’s clock while light travels across the small interval $d\ell$ at position $r$.” It is not an equation that measures both length and time only at Alice’s location.
 
-Alice is not directly measuring a distant small interval beside her. However, if we add the result over the entire round-trip path, it becomes the proper time actually recorded by Alice’s clock from sending to receiving. Proper time in this chapter is measured in units of distance, so the elapsed time in seconds is this value divided by $c$.
+Alice does not directly measure that distant small interval from where she is. However, if we add the result over the entire round-trip path, it becomes the proper time actually recorded by Alice’s clock from sending to receiving. Proper time in this chapter is measured in units of distance, so the elapsed time in seconds is this value divided by $c$.
 
 Along the left path, $f(r)<f(r_{\mathrm A})$, so the square-root factor is greater than 1. Along the right path, it is instead less than 1.
 

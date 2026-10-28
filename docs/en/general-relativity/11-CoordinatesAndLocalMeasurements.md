@@ -41,7 +41,7 @@ $$
 
 $r$ specifies which spherical surface, while $\theta,\phi$ specify which position on that surface. $w$ is the coordinate in the time direction of the event.
 
-If we consider only one angular direction, we can draw events as points on a canvas whose horizontal axis is $r$ and whose vertical axis is $w$. The motion of an object becomes a line connecting the points at each time.
+If we keep $\theta$ and $\phi$ fixed and consider only the radial direction, we can draw events as points on a canvas whose horizontal axis is $r$ and whose vertical axis is $w$. The motion of an object becomes a line connecting the points at each time.
 
 However, measuring the interval between two points on paper does not directly give the distance or elapsed time in the universe. We need to connect the coordinate markings placed on the paper to the readings of an observer’s clock or ruler.
 
@@ -302,7 +302,7 @@ Bob: “Being able to match clocks and rulers at one point is different from rep
 
 ## The Distance Between Two Distant Points Is Found by Adding Small Lengths
 
-Equation (11.3) was an equation for a small interval. So how should we find the distance from $r_1$ to $r_2$ along the same angular direction?
+Equation (11.3) was an equation for a small interval. So how should we find the radial distance from $r_1$ to $r_2$ at the same angles $\theta,\phi$?
 
 Here, we consider the distance measured by arranging rulers in the radial direction along a cross-section where the coordinate $w$ is constant, with the rulers stationary. Let $r_2>r_1>r_{\mathrm s}$, and suppose the entire interval lies outside the star.
 

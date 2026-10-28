@@ -510,7 +510,7 @@ $$
 
 **The offset produced by a small circuit is proportional to the product $hk$ of the two sides, and curvature determines its coefficient.** $hk$ is the coordinate area and need not be the physically measured area. Reversing the direction around the circuit also reverses the sign of the leading offset.
 
-Thus, by examining the Riemann curvature tensor, we can determine how much and in which direction a vector is displaced after one trip around a small closed curve. In this sense, the Riemann curvature tensor evaluates how space or spacetime is curved, and in which directions.
+Thus, by examining the Riemann curvature tensor, we can determine how much and in which direction a vector changes after being parallel transported around a small closed curve. In this sense, the Riemann curvature tensor evaluates how space or spacetime is curved, and in which directions.
 
 We have now seen that the same curvature appears in the commutator of covariant derivatives and in parallel transport along a small closed curve.
 

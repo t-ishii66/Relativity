@@ -241,7 +241,7 @@ $$
 We have factored out a minus sign from the time coefficient to match the sign convention $(-+++)$.
 Here we consider a region where $A(u)>0$.
 
-Spherical symmetry alone does not make the $dw\,du$ term vanish. Neither time nor the radial direction selects a particular direction on the sphere.
+Spherical symmetry alone does not make the $dw\,du$ term vanish. This is because neither time nor the radial direction selects a particular direction on the sphere.
 
 This term can be removed by redefining the time coordinate. Define a new time coordinate by
 

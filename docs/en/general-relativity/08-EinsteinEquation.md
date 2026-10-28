@@ -312,7 +312,7 @@ Thus, even if the momentum densities of left- and right-moving particles cancel,
 
 Alice: “If the left and right momenta cancel, it feels as though the pressure should disappear too.”
 
-Bob: “For momentum density, we add momenta, but for flux we also count the direction of crossing. A left-moving particle has both negative momentum and negative velocity, so their product is positive. Even if walls are pushed from both sides, the force on each wall remains.”
+Bob: “For momentum density, we add momenta, but for flux we also count the direction of crossing. A left-moving particle has both negative momentum and negative velocity, so their product is positive. Even when the gas pushes the left and right walls in opposite directions, the force on each wall is still there, right?”
 
 ---
 
@@ -346,7 +346,7 @@ T^{\mu\nu} =
 \end{pmatrix}
 $$
 
-This can be written as shown. $\varepsilon$ is the energy density including rest energy and internal energy. This idealization is called a perfect fluid.
+$\varepsilon$ is the energy density including rest energy and internal energy. This idealization is called a perfect fluid.
 
 Even when the gas as a whole is at rest, pressure components remain. In general relativity, curvature is connected not only to mass density, but to the state of matter including energy flow, pressure, and stress. Light and electromagnetic fields also contribute to $T^{\mu\nu}$ because they have energy and momentum.
 
@@ -601,8 +601,6 @@ g^{\alpha\mu}\nabla_\mu R_{\alpha\sigma\nu\lambda}
 =\nabla^\alpha R_{\alpha\sigma\nu\lambda}
 $$
 
-This follows directly.
-
 For the third term, note that exchanging the last two indices changes the sign.
 
 $$
@@ -619,8 +617,6 @@ $$
 -\nabla_\nu R_{\sigma\lambda}
 =0
 $$
-
-We obtain this equation.
 
 ### Extracting the Divergence in the Second Contraction
 
@@ -832,15 +828,11 @@ $$
 R_{\mu\nu}=\kappa\left(T_{\mu\nu}-\frac12g_{\mu\nu}T\right)
 $$
 
-This is the result.
-
 For matter whose pressure and internal-motion energy can be neglected compared with its rest energy, let $\rho$ be its mass density. Then $T_{00}\simeq\rho c^2$ and $T\simeq-\rho c^2$. The time component is
 
 $$
 R_{00}\simeq\frac{\kappa}{2}\rho c^2
 $$
-
-This is the time component.
 
 In the same weak, static field, the leading term in the expression for curvature is
 
@@ -1034,8 +1026,6 @@ $$
 \right)\right|_q
 $$
 
-as desired.
-
 From here until we verify the symmetries, all equations are evaluated at $q$, and we omit $\left.\cdots\right\vert_q$.
 
 The preceding equation is the difference of two derivatives of the connection:
@@ -1070,8 +1060,6 @@ $$
 \right)
 $$
 
-This gives the result above.
-
 For the second term, use the connection formula with $\nu$ replaced by $\mu$:
 
 $$
@@ -1093,8 +1081,6 @@ $$
 -\partial_\nu\partial_\alpha g_{\mu\sigma}
 \right)
 $$
-
-This gives the result above.
 
 Curvature is the first term minus the second, so all three terms inside the parentheses in the second term reverse sign. In particular, the final minus term in the second term becomes plus when it is subtracted. Combining the two results gives
 
@@ -1127,7 +1113,7 @@ R_{\alpha\sigma\mu\nu}
 \end{aligned}
 $$
 
-. Let us use this formula to examine what happens when indices are exchanged.
+Let us use this formula to examine what happens when indices are exchanged.
 
 ### Antisymmetry in the First and Last Pair of Indices
 
@@ -1199,7 +1185,7 @@ $$
 \boxed{R_{\alpha\sigma\mu\nu}=R_{\mu\nu\alpha\sigma}}
 $$
 
-. Exchanging the two indices within either pair changes the sign, but exchanging both pairs as whole units does not.
+Exchanging the two indices within either pair changes the sign, but exchanging both pairs as whole units does not.
 
 We verified these results in local inertial coordinates at $q$. However, every relation obtained is a tensor equation, so it also holds in arbitrary coordinates at the same point. Moreover, $q$ was arbitrary, so these symmetries hold at every point.
 
@@ -1218,7 +1204,7 @@ R_{\sigma\nu}
 =g^{\alpha\mu}R_{\mu\nu\alpha\sigma}
 $$
 
-. Since $\alpha,\mu$ are summed indices, we may exchange their names. The inverse metric is also symmetric, so
+Since $\alpha,\mu$ are summed indices, we may exchange their names. The inverse metric is also symmetric, so
 
 $$
 \begin{aligned}
@@ -1245,7 +1231,7 @@ $$
 \left.\Gamma^\rho_{\mu\nu}\right|_q=0
 $$
 
-. Here $\left.\cdots\right\vert_q$ means that the value is evaluated at $q$.
+Here $\left.\cdots\right\vert_q$ means that the value is evaluated at $q$.
 
 Importantly, the connection vanishes only at the chosen point; it need not vanish nearby. Therefore, we must not set the derivative of the connection, $\partial_\lambda\Gamma^\rho_{\mu\nu}$, to zero as well.
 
@@ -1265,7 +1251,7 @@ $$
 \end{aligned}
 $$
 
-. Here $\beta$ is a summed index. Taking the partial derivative of the entire expression with respect to $x^\lambda$ gives
+Here $\beta$ is a summed index. Taking the partial derivative of the entire expression with respect to $x^\lambda$ gives
 
 $$
 \begin{aligned}
@@ -1309,7 +1295,7 @@ $$
 V^\rho={R^\rho}_{\sigma\mu\nu}A^\sigma B^\mu C^\nu
 $$
 
-. The three lower indices are contracted and only the upper index $\rho$ remains, so $V^\rho$ is a vector. Let us calculate its covariant derivative in two ways and compare them.
+The three lower indices are contracted and only the upper index $\rho$ remains, so $V^\rho$ is a vector. Let us calculate its covariant derivative in two ways and compare them.
 
 First, using the covariant derivative of a vector found in Chapter 6,
 
@@ -1331,7 +1317,7 @@ A^\sigma B^\mu(\partial_\lambda C^\nu)\\
 \end{aligned}
 $$
 
-. Here we used the product rule for ordinary partial derivatives.
+Here we used the product rule for ordinary partial derivatives.
 
 On the other hand, the covariant derivative of a tensor is defined to obey the product rule and to be compatible with index contraction. Therefore, the same quantity can also be written as
 
@@ -1349,7 +1335,7 @@ A^\sigma B^\mu(\nabla_\lambda C^\nu)
 \end{aligned}
 $$
 
-. Substitute
+Substitute
 
 $$
 \begin{aligned}
@@ -1383,8 +1369,6 @@ A^\sigma B^\mu C^\nu\\
 \end{aligned}
 $$
 
-which remains.
-
 Rename the summed indices in the final three terms on the right so that they too can be read as coefficients multiplying $A^\sigma B^\mu C^\nu$. For example, in the first term, exchange the names $\sigma$ and $\beta$:
 
 $$
@@ -1394,7 +1378,7 @@ $$
 {R^\rho}_{\beta\mu\nu}A^\sigma B^\mu C^\nu
 $$
 
-. This does not exchange positions of tensor indices; it merely renames summation symbols, so the sign does not change.
+This does not exchange positions of tensor indices; it merely renames summation symbols, so the sign does not change.
 
 For the remaining two terms, similarly exchange the names $\mu$ and $\beta$, and $\nu$ and $\beta$, respectively:
 
@@ -1411,8 +1395,6 @@ $$
 \end{aligned}
 $$
 
-we obtain the following.
-
 We can now compare all terms as coefficients multiplying $A^\sigma B^\mu C^\nu$. Since the three vectors are arbitrary, choosing each along every direction of the coordinate basis shows that the corresponding coefficients are equal for every $\sigma,\mu,\nu$.
 
 Move the three connection terms on the right to the left and solve for the covariant derivative of curvature:
@@ -1428,7 +1410,7 @@ $$
 \end{aligned}
 $$
 
-. An upper index receives a plus connection term, and a lower index receives a minus connection term.
+An upper index receives a plus connection term, and a lower index receives a minus connection term.
 
 At $q$, all these connection terms also vanish, so
 
@@ -1437,7 +1419,7 @@ $$
 =\left.\partial_\lambda {R^\rho}_{\sigma\mu\nu}\right|_q
 $$
 
-. Thus, we can use the calculation above directly.
+Thus, we can use the calculation above directly.
 
 ### Cyclically Adding Three Derivatives
 
@@ -1476,7 +1458,7 @@ $$
 \end{aligned}
 $$
 
-. If the connection components are sufficiently smooth, the order of their second coordinate partial derivatives can be exchanged, so each of the three parentheses is zero.
+If the connection components are sufficiently smooth, the order of their second coordinate partial derivatives can be exchanged, so each of the three parentheses is zero.
 
 What we exchanged here are **partial derivatives** acting on the connection components, which are functions of the coordinates. We did not exchange covariant derivatives, whose order cannot generally be exchanged.
 
@@ -1516,7 +1498,7 @@ g_{\alpha\rho}\nabla_\lambda {R^\rho}_{\sigma\mu\nu}
 =\nabla_\lambda R_{\alpha\sigma\mu\nu}
 $$
 
-. Lowering the indices of the other two terms in the same way gives
+Lowering the indices of the other two terms in the same way gives
 
 $$
 \boxed{
@@ -1650,8 +1632,6 @@ To return to coordinate time in seconds, as used in Newtonian mechanics, use $w=
 $$
 \frac{d^2x^i}{dt^2}\simeq-c^2\Gamma^i_{00}
 $$
-
-This gives the acceleration expressed using coordinate time in seconds.
 
 ### Relating the Time Component of the Metric to the Potential
 

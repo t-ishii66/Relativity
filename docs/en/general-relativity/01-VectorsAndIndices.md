@@ -252,7 +252,7 @@ $$
 
 If $x^\mu$ is the set of coordinates attached to an event, then $dx^\mu$ describes how much the coordinates of two nearby events differ.
 
-The expression used in the section on Lorentz transformations,
+The expression used in the introductory text on Lorentz transformations,
 
 $$
 ds^2=-dw^2+dx^2
@@ -462,7 +462,7 @@ $$
 
 ## Checking in Two Dimensions
 
-If four-dimensional indices are still difficult to read, we can restrict ourselves to one time coordinate and one space coordinate, just as we did in the section on Lorentz transformations.
+If four-dimensional indices are still difficult to read, we can restrict ourselves to one time coordinate and one space coordinate, just as we did in the introductory text on Lorentz transformations.
 
 In this case,
 
@@ -675,7 +675,7 @@ The negative sign on the time direction is a major difference between spacetime 
 
 ## What Remains When the Coordinates Change
 
-Alice and Bob assign different components to the same infinitesimal displacement.
+Alice and Bob may assign different components to the same infinitesimal displacement, so that
 
 $$
 dx_A^\mu
@@ -683,16 +683,14 @@ dx_A^\mu
 dx_B^\mu
 $$
 
-can occur.
-
-However, when they each calculate the line element in their own coordinates,
+However, when they each calculate the line element in their own coordinates, they obtain
 
 $$
 \eta_{\mu\nu}dx_A^\mu dx_A^\nu =
 \eta_{\mu\nu}dx_B^\mu dx_B^\nu
 $$
 
-This is the index-notation version of the result we confirmed in the section on Lorentz transformations:
+This is the index-notation version of the result we confirmed in the introductory text on Lorentz transformations:
 
 $$
 -dw_A^2+dx_A^2 =

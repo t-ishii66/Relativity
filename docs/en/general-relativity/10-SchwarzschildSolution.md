@@ -609,7 +609,7 @@ $$
 
 The sign of this component reverses because one minus sign is introduced for the time-direction index.
 
-Since a component constructed from the same geometry must have the same value after this time-independent reversal, we have
+Combining this with the fact that a component constructed from the same geometry has a value that does not depend on time, we have
 
 $$
 R_{wr}=-R_{wr}
@@ -742,6 +742,6 @@ Bob: “Next, while distinguishing the numbers in these coordinates from the tim
 
 ---
 
-At $r=r_{\mathrm s}$, zeroes and divergences appear in the coefficients of this coordinate representation. However, that alone does not mean that spacetime itself is broken. We will examine the range in which stationary observers and these coordinates can be used again in a later chapter.
+At $r=r_{\mathrm s}$, zeroes and divergences appear in the coefficients of this coordinate representation. However, that alone does not mean that spacetime itself is broken. We will examine again in a later chapter the range in which stationary observers and these coordinates can be used.
 
 In the next document [“Coordinates as a Canvas and Local Measurements”](./11-CoordinatesAndLocalMeasurements.md), we will reconsider coordinates as markers attached to events in spacetime and organize their correspondence with measurements made by local clocks and rulers.

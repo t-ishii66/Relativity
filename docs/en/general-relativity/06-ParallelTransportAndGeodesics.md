@@ -609,7 +609,7 @@ The right-hand side tells us how to change the components to cancel the change i
 
 ---
 
-Alice: “If we are transporting it parallelly, can’t we just keep its components constant?”
+Alice: “If we are parallel transporting it, can’t we just keep its components constant?”
 
 Bob: “That works in coordinates whose basis does not change. But in coordinates with a changing basis, we need to change the components to keep the same arrow.”
 
@@ -999,7 +999,7 @@ $$
 
 This $p^\mu$ is called the **four-momentum**. Multiplying by a scalar does not change the transformation rule, so four-momentum is also a four-vector.
 
-Here, a four-vector is not a different kind of quantity from a tensor. **A four-vector is a rank-1 tensor with four spacetime components.** The 4 in “four” refers to the number of components, and the 1 in “rank 1” refers to the number of indices.
+Here, a four-vector is not a different kind of quantity from a tensor. **A four-vector is a rank-1 tensor with four spacetime components.** The “four” in “four-vector” refers to the number of components, and the “1” in “rank-1” refers to the number of indices.
 
 ### What Do the Four Components Represent?
 
@@ -1055,7 +1055,7 @@ Bob: “If the observer’s motion changes, both the measured energy and momentu
 >
 > Four-momentum $p^\mu$ is a rank-1 tensor, and both its time and spatial components follow the transformation rule of the same tensor. For every component, we need to consider the correspondence between a coordinate component and the value an observer actually measures.
 >
-> In local inertial coordinates matched to an observer’s clocks and rulers, we can read the four components as “the energy measured by that observer divided by $c$“ and ”the momentum in the three directions measured by that observer.“ The notation $(E/c,p^1,p^2,p^3)$ uses this correspondence. Although only the time component is written as $E/c$, the spatial components also correspond to measured momentum; it is not only the time component that relates to measured values.
+> In local inertial coordinates matched to an observer’s clocks and rulers, we can read the four components as “the energy measured by that observer divided by $c$” and “the momentum in the three directions measured by that observer.” The notation $(E/c,p^1,p^2,p^3)$ uses this correspondence. Although only the time component is written as $E/c$, the spatial components also correspond to measured momentum; it is not only the time component that relates to measured values.
 >
 > If we transform to local inertial coordinates matched to another observer, the four transformed components correspond to the energy and momentum measured by that new observer.
 >

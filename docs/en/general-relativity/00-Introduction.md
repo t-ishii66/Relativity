@@ -28,7 +28,7 @@ After deriving the Schwarzschild solution, which describes spacetime outside a s
 
 Alice: “When you look at the equations of general relativity, it is hard to tell what they are actually doing.”
 
-Bob: “But if we build each new equation from the question that came before it, perhaps they will not seem to appear all at once.”
+Bob: “But if we build each new equation from the question that came before it, they should not all seem to appear out of nowhere.”
 
 Alice: “Then let’s begin by combining the coordinate equations we already know into a single notation.”
 

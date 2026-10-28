@@ -1,7 +1,7 @@
 ---
 title: "Making Sense of Relativity — An intuitive guide to special and general relativity"
-description: "An intuitive guide to special and general relativity. Understand the physical meaning of Einstein's theory through concrete thought experiments — time dilation, length contraction, equivalence principle, curved spacetime, and more."
-keywords: "relativity, special relativity, general relativity, Einstein, time dilation, Lorentz transformation, Galilean transformation, spacetime interval, invariant interval, line element, timelike spacelike lightlike, proper time, coordinate time, simultaneity, length contraction, gravitational redshift, Schwarzschild, black hole, equivalence principle, spacetime, metric tensor, geodesic, thought experiment, twin paradox, E=mc2, mass-energy equivalence, four-momentum, free fall, event horizon"
+description: "An introduction to relativity. The physical meaning of special and general relativity is explained accessibly through thought experiments and dialogue. Conversations among Alice, Bob, and Charlie explore proper time, coordinate time, simultaneity, the equivalence principle, and curved spacetime."
+keywords: "relativity, special relativity, general relativity, Einstein, time dilation, Lorentz transformation, Galilean transformation, spacetime interval, invariant, line element, timelike interval, spacelike interval, lightlike interval, proper time, coordinate time, relativity of simultaneity, length contraction, gravitational redshift, Schwarzschild solution, black hole, invariance of the speed of light, equivalence principle, spacetime, metric tensor, geodesic, free fall, event horizon, E=mc2, four-momentum, thought experiment, twin paradox, mass-energy equivalence"
 permalink: /
 ---
 
@@ -11,17 +11,17 @@ permalink: /
 
 **English** ・ [日本語](README-jp.md)
 
-Last updated: 2026-09-16
+Last updated: 2026-10-26
 
 ---
 
 ## About This Guide
 
-Relativity can feel clear in equations but unclear in physical meaning.
-This site provides a narrative guide to Einstein's theory of relativity with concrete observation setups and thought experiments — covering time dilation, length contraction, the equivalence principle, curved spacetime, and more.
+This introductory guide helps readers who can follow the equations of relativity but struggle to understand their physical meaning.
+It explains Einstein’s special and general relativity in an accessible way through thought experiments and dialogue.
 
-This project is a reader-friendly guide for people who can follow the equations of relativity but still feel unclear about their physical meaning.
-From special relativity to general relativity, it explains proper time, coordinate time, simultaneity, and gravitational effects through concrete thought experiments with Alice, Bob, and Charlie.
+Through concrete setups and observation procedures, this guide works through the feeling that relativity still does not quite make sense, even when you can follow the equations.
+From special to general relativity, it explores proper time, coordinate time, simultaneity, and how things appear in a gravitational field through conversations among Alice, Bob, and Charlie.
 
 **Topics covered:** Einstein's special theory of relativity, general theory of relativity, invariance of the speed of light, Lorentz transformation, time dilation, length contraction (Lorentz contraction), relativity of simultaneity, twin paradox, proper time vs coordinate time, equivalence principle, gravitational time dilation, gravitational redshift, Schwarzschild solution, black holes and event horizons, free fall and geodesics, curved spacetime, metric tensor, four-momentum, $E = mc^2$ (mass-energy equivalence)
 
@@ -65,7 +65,7 @@ Questions and corrections are welcome via the inquiry form (JP/EN): <https://for
 
 ## Related Keywords
 
-relativity explained, relativity for beginners, understanding relativity, special relativity explained, general relativity explained, time dilation explained, what is spacetime, Einstein theory of relativity, twin paradox explained, thought experiments in physics, Lorentz transformation intuition, length contraction explained, equivalence principle explained, gravitational redshift, Schwarzschild metric, black hole event horizon, proper time vs coordinate time, mass-energy equivalence, curved spacetime explained, geodesic motion
+relativity made easy, introduction to relativity, relativity for beginners, relativity explained, special relativity made easy, general relativity made easy, time dilation made easy, Lorentz transformation made easy, Einstein’s relativity, twin paradox explained, black holes and relativity, gravity and time, why the speed of light is invariant, meaning of E=mc2, curved spacetime explained, what is proper time, what is coordinate time, equivalence principle made easy, gravitational redshift explained, introduction to the Schwarzschild solution
 
 ---
 

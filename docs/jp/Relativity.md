@@ -1426,7 +1426,7 @@ $$
 -d\tau^{2}( = ds^{2}) = - dw^{2} + dx^{2}
 $$
 
-である。両辺を $d\tau$ で割ると
+である。両辺を $d\tau^{2}$ で割ると
 
 $$
 -1 = - \left( \frac{dw}{d\tau} \right)^{2} + \left( \frac{dx}{d\tau} \right)^{2}
@@ -1490,13 +1490,13 @@ $$
 ## クレジット
 
 - 書籍タイトル: Making Sense of Relativity
-- Version: 1.1.1
-- 発行日: 2026/9/16
+- Version: 1.2
+- 発行日: 2026/10/28
 - 著者: t-ishii66 / 大学で物理を学ぶ。システムエンジニア。英会話奮闘中。
 - 監修: Codex GPT 5.6, Claude Opus 4.5
 - イラスト: Codex GPT 5.6
 - 漫画制作: ChatGPT 5.3
-- 英語版翻訳: Codex GPT 5.6, Claude Opus 4.5, t-ishii66
+- 英語版翻訳: Codex GPT 6.1 Sol, Claude Opus 4.5, t-ishii66
 
 ## おわりに
 

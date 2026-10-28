@@ -15,7 +15,7 @@ f(r)=1-\frac{r_{\mathrm s}}r,\qquad
 r_{\mathrm s}=\frac{2GM}{c^2}
 $$
 
-Writing this, the metric is
+With this notation, the metric is
 
 $$
 ds^2=-f(r)dw^2+\frac{dr^2}{f(r)}
@@ -134,7 +134,7 @@ If the first signal is sent at $w_1$ and the next at $w_2$, the coordinates of t
 | First | $w_1$ | $w_1+\mathcal D$ |
 | Second | $w_2$ | $w_2+\mathcal D$ |
 
-Comparing the coordinate-time intervals between reception and transmission, the common $\mathcal D$ cancels:
+Comparing the coordinate-time interval between the two receptions with the interval between the two transmissions, the common $\mathcal D$ cancels:
 
 $$
 \begin{aligned}
@@ -237,7 +237,7 @@ $$
 
 Here, it is the ratio of frequencies that is being taken to the far-away limit. This does not mean that light propagation to infinity takes only a finite amount of time.
 
-Conversely, if Charlie outside sends light to Alice inside, the frequency measured by Alice upon reception is higher. This is gravitational blueshift, and it can be found by exchanging the sender and receiver in equation (12.6).
+Conversely, if Charlie at the larger radius sends light to Alice at the smaller radius, the frequency measured by Alice upon reception is higher. This is gravitational blueshift, and it can be found by exchanging the sender and receiver in equation (12.6).
 
 ---
 
@@ -245,7 +245,7 @@ Charlie: “Even though I received the same light as Alice’s device sent, when
 
 Alice: “So my clock and light-emitting device are not malfunctioning at the place where I am.”
 
-Bob: “That’s right. It is the result of reading, on the clocks at the two locations, the intervals between transmission and reception connected by light.”
+Bob: “That’s right. We measure the interval between transmissions with the sender’s clock and the interval between receptions with the receiver’s clock. The light connects the two.”
 
 ---
 

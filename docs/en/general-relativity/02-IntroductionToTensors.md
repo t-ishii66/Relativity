@@ -851,7 +851,7 @@ Alice: “When we doubled the coordinate number, the metric number became $1/4$.
 
 Bob: “The coordinate difference is squared in the line element. To cancel $(2dx)^2$, the metric has to become $1/4$.”
 
-Alice: “So changing the metric does not mean that spacetime itself has changed.”
+Alice: “So even though the metric components have changed like this, spacetime itself has not changed.”
 
 Bob: “Right. This time, we only described the same flat spacetime using a different scale.”
 

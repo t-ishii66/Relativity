@@ -430,7 +430,7 @@ Because of this negative sign, the relationship between two events falls into th
 - A spacelike relationship, for which $ds^2>0$
 - A lightlike relationship, for which $ds^2=0$
 
-This classification corresponds to the inside, outside, and surface of the light cone that we saw in the section on Lorentz transformations.
+This classification corresponds to the inside, outside, and surface of the light cone that we saw in the introductory text on Lorentz transformations.
 
 ## Proper Time
 
@@ -593,11 +593,11 @@ $$
 
 This $ds$ is the proper length between the two points as measured locally with a ruler.
 
-However, when considering the distance between two faraway points, we need to decide “which time’s space” we are measuring.
+However, when considering the distance between two faraway points, we need to decide which events we regard as occurring at the same time.
 
 In curved spacetime, it may not be possible to define “simultaneous” uniquely for clocks that are far apart. Therefore, proper length is not as simple to handle as proper time.
 
-In this document, we will go only as far as reading a small distance in a space chosen to be at the same time from the metric.
+In this document, we will only consider how to read a small spatial distance from the metric after choosing which events are simultaneous.
 
 ## The Line Element of Light
 
@@ -1074,7 +1074,7 @@ $$
 
   holds.
 - In this series, $\tau$ has already been multiplied by $c$, so it has units of distance.
-- A small spacelike distance can be read from the spatial line element after appropriately choosing the same time.
+- A small spacelike distance can be read from the spatial line element after appropriately choosing which events are simultaneous.
 - Along the path of light,
 
 $$
