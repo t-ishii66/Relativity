@@ -17,7 +17,11 @@
 </script>
 
 <!-- keep wide display math and wide tables inside their own scroll box,
-     so a phone-width page never scrolls sideways as a whole -->
+     so a phone-width page never scrolls sideways as a whole.
+     The theme sets word-break: keep-all on tables, which forbids line breaks
+     inside Japanese text and pushes table cells wider than the text column on
+     a PC. Restore normal breaking there only: on a phone it squeezes a column
+     down to one character per line, so narrow screens keep the scroll box. -->
 <style>
   mjx-container[display="true"] {
     overflow-x: auto;
@@ -30,6 +34,11 @@
     width: fit-content;
     max-width: 100%;
     overflow-x: auto;
+  }
+  @media screen and (min-width: 64em) {
+    .main-content table {
+      word-break: normal;
+    }
   }
 </style>
 
