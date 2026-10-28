@@ -11,6 +11,8 @@ permalink: /
 
 **English** ・ [日本語](README-jp.md)
 
+> To view the equations correctly, please see the GitHub Pages version <https://t-ishii66.github.io/Relativity/>. On GitHub, depending on the browser, bold symbols and boxes in equations may not be displayed.
+
 Last updated: 2026-10-26
 
 ---

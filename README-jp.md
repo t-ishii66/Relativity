@@ -11,6 +11,8 @@ lang: ja
 
 [English](README.md) ・ **日本語**
 
+> 数式を正しく表示するには、GitHub Pages 版 <https://t-ishii66.github.io/Relativity/README-jp.html> をご覧ください。GitHub 上の表示では、ブラウザによって数式の太字や囲み枠が反映されないことがあります。
+
 Last updated: 2026-10-26
 
 ---
