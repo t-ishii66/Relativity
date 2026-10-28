@@ -263,9 +263,9 @@ $$
 ds^2=dx^2+dy^2
 $$
 
-The $1$s along the diagonal mean that each coordinate difference can be counted directly as a length.
+The $1$ entries along the diagonal mean that each coordinate difference can be counted directly as a length.
 
-The $0$s outside the diagonal mean that the two coordinate directions meet at right angles.
+The $0$ entries outside the diagonal mean that the two coordinate directions meet at right angles.
 
 The metric is not simply a table of numbers. It is a table that tells us how to read lengths and angles from small coordinate differences when we use those coordinates.
 
