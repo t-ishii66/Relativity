@@ -523,7 +523,7 @@ then
 
 $$
 df =
-\partial_\mu f\,dx^\mu
+\partial_\mu f\thinspace dx^\mu
 $$
 
 $df$ represents the temperature difference between the same two points, so it has the same value even when the coordinates are changed.

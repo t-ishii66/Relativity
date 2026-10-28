@@ -89,7 +89,7 @@ Likes: Melon bread, wide scenery, binoculars.
 
 An inertial frame is a frame moving at constant velocity in a straight line. A rest frame means an inertial frame in which the observer is at rest.
 
-In any inertial frame, the measured speed of light in vacuum is always $3 \times 10^{8}\,[m/s]$. Even if you chase light in a uniformly moving rocket, you still measure the same value. Strange, but experimentally true. This is the principle of invariant light speed.
+In any inertial frame, the measured speed of light in vacuum is always $3 \times 10^{8}\thinspace[m/s]$. Even if you chase light in a uniformly moving rocket, you still measure the same value. Strange, but experimentally true. This is the principle of invariant light speed.
 
 ### Lorentz Transformation
 
@@ -577,7 +577,7 @@ Coordinate time and spatial coordinates provide shared scales for placing events
 
 To make this distinction concrete, imagine placing a “coordinate clock” at every location, all displaying the same coordinate time $w$. These are imaginary clocks that display the coordinate time assigned to events at their locations. On a surface of constant $w$, every coordinate clock shows the same value. When $w$ increases by a given amount, every display increases by that same amount. In this sense, coordinate clocks advance in the same way everywhere.
 
-This book uses $w=ct$, so a display in seconds would read $w/c$. When coordinate time advances by one second—that is, when $w$ increases by $c\times1\,\mathrm{s}$—every coordinate clock’s display in seconds advances by one second. This is how we define the shared scale, rather than a physical law about real clocks.
+This book uses $w=ct$, so a display in seconds would read $w/c$. When coordinate time advances by one second—that is, when $w$ increases by $c\times1\thinspace\mathrm{s}$—every coordinate clock’s display in seconds advances by one second. This is how we define the shared scale, rather than a physical law about real clocks.
 
 If we instead place physical clocks at different locations, each records its own proper time. How many seconds a physical clock records while a coordinate clock advances by one second depends on the clock’s motion and the spacetime metric. Clocks at different locations or with different motions can therefore advance differently. In general, physical clocks do not keep pace with coordinate clocks.
 
@@ -594,7 +594,7 @@ $$
 Then
 
 $$
-dR=f'(r)\,dr
+dR=f'(r)\thinspace dr
 $$
 
 Since $r$ is a flat coordinate, $dr$ corresponds to the same length everywhere, but the length corresponding to $dR$ varies with position.
@@ -813,9 +813,9 @@ $$
 dr=\Delta L\sqrt{1-\frac{a}{r_A}}
 $$
 
-For example, suppose a rod is $10\,\mathrm{m}$ long in an inertial frame. Even after it is taken into a gravitational field, directly measuring it with a ruler still gives $10\,\mathrm{m}$ (both the rod and the ruler are described as contracted on the coordinate canvas). In the Schwarzschild $w-r$ coordinate system used as a canvas, however, its coordinate length becomes no greater than $10\,\mathrm{m}$.
+For example, suppose a rod is $10\thinspace\mathrm{m}$ long in an inertial frame. Even after it is taken into a gravitational field, directly measuring it with a ruler still gives $10\thinspace\mathrm{m}$ (both the rod and the ruler are described as contracted on the coordinate canvas). In the Schwarzschild $w-r$ coordinate system used as a canvas, however, its coordinate length becomes no greater than $10\thinspace\mathrm{m}$.
 
-However, it seems better to regard the length at $r_A$ as a value on the canvas, rather than attaching further meaning to it as length itself. The rod becomes shorter on the canvas—but has it really become shorter? If we go there to check, we always measure just $10\,\mathrm{m}$.
+However, it seems better to regard the length at $r_A$ as a value on the canvas, rather than attaching further meaning to it as length itself. The rod becomes shorter on the canvas—but has it really become shorter? If we go there to check, we always measure just $10\thinspace\mathrm{m}$.
 
 ![](../../images/Alice-clock-measure.png)
 
@@ -959,19 +959,19 @@ So at least $d\tau_B<dw_C$ holds.
 Now make comparison conditions explicit. If Alice and Bob are at nearly the same radius ($r_A\sim r_B$), gravitational slowing is nearly the same for both. But Bob is moving relative to Alice, so by the special-relativistic motion effect Bob’s clock is further slowed from Alice’s perspective. Therefore
 
 $$
-d\tau_B<d\tau_A
+d\tau_B < d\tau_A
 $$
 
 Combine with the already shown gravitational relation
 
 $$
-d\tau_A<d\tau_C
+d\tau_A < d\tau_C
 $$
 
 to get
 
 $$
-d\tau_B<d\tau_A<d\tau_C
+d\tau_B < d\tau_A < d\tau_C
 $$
 
 This conclusion is under the condition that Alice and Bob are compared at nearly the same $r$.

@@ -135,14 +135,14 @@ $$
 
 $$
 \boldsymbol{e}_r =
-\cos\theta\,\boldsymbol{e}_x
-+\sin\theta\,\boldsymbol{e}_y
+\cos\theta\thinspace\boldsymbol{e}_x
++\sin\theta\thinspace\boldsymbol{e}_y
 $$
 
 $$
 \boldsymbol{e}_\theta =
--r\sin\theta\,\boldsymbol{e}_x
-+r\cos\theta\,\boldsymbol{e}_y
+-r\sin\theta\thinspace\boldsymbol{e}_x
++r\cos\theta\thinspace\boldsymbol{e}_y
 $$
 
 となる。したがって、直交座標基底に対する成分は、
@@ -192,9 +192,9 @@ $$
 >
 > $$
 > d\boldsymbol{x} =
-> \boldsymbol e_r\,dr
+> \boldsymbol e_r\thinspace dr
 > +
-> \boldsymbol e_\theta\,d\theta
+> \boldsymbol e_\theta\thinspace d\theta
 > $$
 >
 > の係数を比べて、
@@ -336,7 +336,7 @@ $$
 > \lVert\boldsymbol e_\theta\rVert=r
 > $$
 >
-> である。これは、半径 $r$ の場所で角度を $d\theta$ だけ変えると、実際には $r\,d\theta$ だけ進むことに対応している。
+> である。これは、半径 $r$ の場所で角度を $d\theta$ だけ変えると、実際には $r\thinspace d\theta$ だけ進むことに対応している。
 >
 > 極座標の座標基底 $\boldsymbol e_\theta$ と、角度方向の単位ベクトルは同じではない。単位ベクトルを $\hat{\boldsymbol{e}}_\theta$ と書けば、
 >

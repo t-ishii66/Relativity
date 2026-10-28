@@ -5,8 +5,8 @@
 In the previous document [“Predicting a Spherically Symmetric Spacetime”](./09-SphericallySymmetricSpacetime.md), we narrowed a static, spherically symmetric metric down to the form
 
 $$
-ds^2=-A(r)\,dw^2+B(r)\,dr^2
-+r^2(d\theta^2+\sin^2\theta\,d\phi^2)
+ds^2=-A(r)\thinspace dw^2+B(r)\thinspace dr^2
++r^2(d\theta^2+\sin^2\theta\thinspace d\phi^2)
 $$
 
 Here, $w=ct$, and $r$ is the area radius chosen so that the area of a sphere is $4\pi r^2$.
@@ -584,7 +584,7 @@ $$
 R_{\phi\phi}
 &=\sin^2\theta
 \left(1+\frac1B+\frac{rB'}{B^2}-\frac{rS}{B}\right)\\
-&=\sin^2\theta\,R_{\theta\theta}
+&=\sin^2\theta\thinspace R_{\theta\theta}
 =0
 \end{aligned}
 $$
@@ -593,7 +593,7 @@ $$
 
 The Ricci tensor inherits the spherical symmetry of this metric. As in the discussion of rotations used for the metric in Chapter 9, the cross components between time or the radial direction and the angular directions, as well as the off-diagonal components between angular directions, are zero.
 
-The remaining $R_{wr}$ can be shown to vanish by reversing only the time coordinate, $w'=-w$, while leaving the spatial coordinates unchanged. The present metric is independent of time and has no $dw\,dr$ term, so it is unchanged by this reversal.
+The remaining $R_{wr}$ can be shown to vanish by reversing only the time coordinate, $w'=-w$, while leaving the spatial coordinates unchanged. The present metric is independent of time and has no $dw\thinspace dr$ term, so it is unchanged by this reversal.
 
 On the other hand, the two indices of $R_{wr}$ represent the time direction $w$ and radial direction $r$. Using the transformation law for a tensor with two lower indices, and noting that $r'=r$, gives
 
@@ -679,7 +679,7 @@ is called the Schwarzschild radius. This is a length determined by the mass $M$,
 
 For example, the radius of the Sun’s surface is [about 700,000 km](https://science.nasa.gov/sun/facts/), while the Schwarzschild radius calculated from the Sun’s mass is [about 3 km](https://www.einstein-online.info/en/explandict/schwarzschild-radius/). For an ordinary star like the Sun, $r_{\mathrm s}$ is much smaller than the radius of the star’s surface.
 
-However, this does not mean that there is an event horizon at $r=3\,\mathrm{km}$ inside the Sun. What we found this time is the vacuum solution outside the star, and it cannot be extended unchanged into the interior where matter is present.
+However, this does not mean that there is an event horizon at $r=3\thinspace\mathrm{km}$ inside the Sun. What we found this time is the vacuum solution outside the star, and it cannot be extended unchanged into the interior where matter is present.
 
 Substituting $\ell=r_{\mathrm s}$ into Equation (10.5) gives
 
@@ -694,11 +694,11 @@ $$
 \boxed{
 \begin{aligned}
 ds^2
-&=-A(r)\,dw^2+B(r)\,dr^2
-+r^2(d\theta^2+\sin^2\theta\,d\phi^2)\\
+&=-A(r)\thinspace dw^2+B(r)\thinspace dr^2
++r^2(d\theta^2+\sin^2\theta\thinspace d\phi^2)\\
 &=-\left(1-\frac{r_{\mathrm s}}r\right)dw^2
 +\frac{dr^2}{1-r_{\mathrm s}/r}\\
-&\quad+r^2(d\theta^2+\sin^2\theta\,d\phi^2)
+&\quad+r^2(d\theta^2+\sin^2\theta\thinspace d\phi^2)
 \end{aligned}
 }
 $$
@@ -724,10 +724,10 @@ Let us substitute $A,B$ into the formulas for a stationary clock and a ruler in 
 $$
 \begin{aligned}
 d\tau
-&=\sqrt{A(r)}\,dw
-=\sqrt{1-\frac{r_{\mathrm s}}r}\,dw,\\
+&=\sqrt{A(r)}\thinspace dw
+=\sqrt{1-\frac{r_{\mathrm s}}r}\thinspace dw,\\
 d\ell
-&=\sqrt{B(r)}\,|dr|
+&=\sqrt{B(r)}\thinspace|dr|
 =\frac{|dr|}{\sqrt{1-r_{\mathrm s}/r}}
 \end{aligned}
 $$

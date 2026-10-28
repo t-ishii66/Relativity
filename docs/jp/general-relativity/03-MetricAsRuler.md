@@ -225,8 +225,8 @@ $$
 $$
 ds^2 =
 g_{11}(dx)^2
-+g_{12}dx\,dy
-+g_{21}dy\,dx
++g_{12}dx\thinspace dy
++g_{21}dy\thinspace dx
 +g_{22}(dy)^2
 $$
 
@@ -243,7 +243,7 @@ $$
 $$
 ds^2 =
 g_{11}(dx)^2
-+2g_{12}dx\,dy
++2g_{12}dx\thinspace dy
 +g_{22}(dy)^2
 $$
 
@@ -573,7 +573,7 @@ $$
 
 $$
 \frac{dx_A}{dw_A}
-=\frac{dx_A}{c\,dt_A}
+=\frac{dx_A}{c\thinspace dt_A}
 =\frac{v_A}{c}
 $$
 
@@ -680,7 +680,7 @@ $$
 なので、右向きへ進む光なら、
 
 $$
-dx=c\,dt=dw
+dx=c\thinspace dt=dw
 $$
 
 となる。左向きへ進む場合も含めれば、
@@ -790,8 +790,8 @@ $$
 
 $$
 dx =
-\cos\theta\,dr
--r\sin\theta\,d\theta
+\cos\theta\thinspace dr
+-r\sin\theta\thinspace d\theta
 $$
 
 となる。
@@ -806,8 +806,8 @@ $$
 
 $$
 dy =
-\sin\theta\,dr
-+r\cos\theta\,d\theta
+\sin\theta\thinspace dr
++r\cos\theta\thinspace d\theta
 $$
 
 となる。
@@ -824,9 +824,9 @@ $$
 
 $$
 dx^2 =
-\cos^2\theta\,dr^2
--2r\sin\theta\cos\theta\,dr\,d\theta
-+r^2\sin^2\theta\,d\theta^2
+\cos^2\theta\thinspace dr^2
+-2r\sin\theta\cos\theta\thinspace dr\thinspace d\theta
++r^2\sin^2\theta\thinspace d\theta^2
 $$
 
 である。
@@ -835,14 +835,14 @@ $$
 
 $$
 dy^2 =
-\sin^2\theta\,dr^2
-+2r\sin\theta\cos\theta\,dr\,d\theta
-+r^2\cos^2\theta\,d\theta^2
+\sin^2\theta\thinspace dr^2
++2r\sin\theta\cos\theta\thinspace dr\thinspace d\theta
++r^2\cos^2\theta\thinspace d\theta^2
 $$
 
 である。
 
-二つを足すと、 $dr\,d\theta$ を含む項は打ち消し合う。
+二つを足すと、 $dr\thinspace d\theta$ を含む項は打ち消し合う。
 
 $$
 ds^2 =

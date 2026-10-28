@@ -123,14 +123,14 @@ On the other hand, if we represent the same two vectors using the Cartesian coor
 
 $$
 \boldsymbol{e}_r =
-\cos\theta\,\boldsymbol{e}_x
-+\sin\theta\,\boldsymbol{e}_y
+\cos\theta\thinspace\boldsymbol{e}_x
++\sin\theta\thinspace\boldsymbol{e}_y
 $$
 
 $$
 \boldsymbol{e}_\theta =
--r\sin\theta\,\boldsymbol{e}_x
-+r\cos\theta\,\boldsymbol{e}_y
+-r\sin\theta\thinspace\boldsymbol{e}_x
++r\cos\theta\thinspace\boldsymbol{e}_y
 $$
 
 Thus, the components with respect to the Cartesian coordinate basis are
@@ -176,9 +176,9 @@ $$
 >
 > $$
 > d\boldsymbol{x} =
-> \boldsymbol e_r\,dr
+> \boldsymbol e_r\thinspace dr
 > +
-> \boldsymbol e_\theta\,d\theta
+> \boldsymbol e_\theta\thinspace d\theta
 > $$
 >
 > to obtain
@@ -316,7 +316,7 @@ The metric records the lengths of the basis vectors and the angles between them.
 > \lVert\boldsymbol e_\theta\rVert=r
 > $$
 >
-> This corresponds to the fact that at radius $r$, changing the angle by $d\theta$ actually moves us by $r\,d\theta$.
+> This corresponds to the fact that at radius $r$, changing the angle by $d\theta$ actually moves us by $r\thinspace d\theta$.
 >
 > The polar-coordinate basis vector $\boldsymbol e_\theta$ and the unit vector in the angular direction are not the same. If we write the unit vector as $\hat{\boldsymbol{e}}_\theta$,
 >

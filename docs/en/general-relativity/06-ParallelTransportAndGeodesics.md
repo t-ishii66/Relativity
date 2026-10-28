@@ -1003,7 +1003,7 @@ Here, a four-vector is not a different kind of quantity from a tensor. **A four-
 
 ### What Do the Four Components Represent?
 
-Let us observe a particle in local inertial coordinates matched to an observer’s clocks and rulers. Let the time coordinate be $x^0=w$. Since coordinate time measured in seconds is $t=w/c$, the particle’s three-dimensional velocity is $v^i=dx^i/dt=c\,dx^i/dw$. In these coordinates, just as in special relativity,
+Let us observe a particle in local inertial coordinates matched to an observer’s clocks and rulers. Let the time coordinate be $x^0=w$. Since coordinate time measured in seconds is $t=w/c$, the particle’s three-dimensional velocity is $v^i=dx^i/dt=c\thinspace dx^i/dw$. In these coordinates, just as in special relativity,
 
 $$
 \frac{dw}{d\tau}=\gamma,
@@ -1063,7 +1063,7 @@ Bob: “If the observer’s motion changes, both the measured energy and momentu
 >
 > In general coordinates, neither the time axis nor the spatial axes are necessarily matched to an observer’s clocks, rulers, and motion. Therefore, in general we cannot read $p^0$ directly as measured $E/c$, nor $p^1,p^2,p^3$ directly as measured momentum in three directions. This is a problem of the correspondence between coordinate components and measured values that is common to all four components.
 >
-> On the other hand, $p^\mu=mcU^\mu=mc\,dx^\mu/d\tau$ holds in general coordinates as well. This is because “which coordinates express position” and “what we use to differentiate” are separate matters. Even if coordinates change, the proper time $\tau$ ticked by the particle’s own clock is used for differentiation. What changes are the coordinates $x^\mu$ being differentiated, and the components of four-velocity and four-momentum undergo the same transformation. Therefore, their relation $p^\mu=mcU^\mu$ is preserved.
+> On the other hand, $p^\mu=mcU^\mu=mc\thinspace dx^\mu/d\tau$ holds in general coordinates as well. This is because “which coordinates express position” and “what we use to differentiate” are separate matters. Even if coordinates change, the proper time $\tau$ ticked by the particle’s own clock is used for differentiation. What changes are the coordinates $x^\mu$ being differentiated, and the components of four-velocity and four-momentum undergo the same transformation. Therefore, their relation $p^\mu=mcU^\mu$ is preserved.
 
 ### In Free Fall, Four-Momentum Is Also Parallel Transported
 

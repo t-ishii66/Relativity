@@ -5,8 +5,8 @@
 前の文書[「球対称な時空を予想する」](./09-SphericallySymmetricSpacetime.md)では、静的で球対称な計量を、
 
 $$
-ds^2=-A(r)\,dw^2+B(r)\,dr^2
-+r^2(d\theta^2+\sin^2\theta\,d\phi^2)
+ds^2=-A(r)\thinspace dw^2+B(r)\thinspace dr^2
++r^2(d\theta^2+\sin^2\theta\thinspace d\phi^2)
 $$
 
 という形に絞った。 $w=ct$ であり、 $r$ は球面の面積が $4\pi r^2$ になるように選んだ面積半径である。
@@ -600,7 +600,7 @@ $$
 R_{\phi\phi}
 &=\sin^2\theta
 \left(1+\frac1B+\frac{rB'}{B^2}-\frac{rS}{B}\right)\\
-&=\sin^2\theta\,R_{\theta\theta}
+&=\sin^2\theta\thinspace R_{\theta\theta}
 =0
 \end{aligned}
 $$
@@ -611,7 +611,7 @@ $$
 
 リッチテンソルも、この計量の球対称性を受け継ぐ。第9章で計量に使った回転の議論と同じように、時間・動径と角度の交差成分、および角度どうしの非対角成分はゼロになる。
 
-残る $R_{wr}$ は、時間座標だけを $w'=-w$ と反転し、空間座標は変えない変換で確かめられる。いまの計量は時間に依存せず、 $dw\,dr$ の項もないので、この反転で変わらない。
+残る $R_{wr}$ は、時間座標だけを $w'=-w$ と反転し、空間座標は変えない変換で確かめられる。いまの計量は時間に依存せず、 $dw\thinspace dr$ の項もないので、この反転で変わらない。
 
 一方、 $R_{wr}$ の二つの添字は、 $w$ が時間方向、 $r$ が動径方向を表す。下付き添字を二つ持つテンソルの変換則を使うと、 $r'=r$ なので、
 
@@ -697,7 +697,7 @@ $$
 
 例えば、太陽の表面の半径は[約70万 km](https://science.nasa.gov/sun/facts/)だが、太陽の質量から計算したシュヴァルツシルト半径は[約3 km](https://www.einstein-online.info/en/explandict/schwarzschild-radius/)である。太陽のような普通の星では、 $r_{\mathrm s}$ は星の表面の半径よりはるかに小さい。
 
-ただし、太陽の内部の $r=3\,\mathrm{km}$ に事象の地平面がある、という意味ではない。今回求めたのは星の外側の真空解であり、物質のある内部へそのまま延長して使うことはできない。
+ただし、太陽の内部の $r=3\thinspace\mathrm{km}$ に事象の地平面がある、という意味ではない。今回求めたのは星の外側の真空解であり、物質のある内部へそのまま延長して使うことはできない。
 
 式 (10.5) に $\ell=r_{\mathrm s}$ を代入すると、
 
@@ -712,11 +712,11 @@ $$
 \boxed{
 \begin{aligned}
 ds^2
-&=-A(r)\,dw^2+B(r)\,dr^2
-+r^2(d\theta^2+\sin^2\theta\,d\phi^2)\\
+&=-A(r)\thinspace dw^2+B(r)\thinspace dr^2
++r^2(d\theta^2+\sin^2\theta\thinspace d\phi^2)\\
 &=-\left(1-\frac{r_{\mathrm s}}r\right)dw^2
 +\frac{dr^2}{1-r_{\mathrm s}/r}\\
-&\quad+r^2(d\theta^2+\sin^2\theta\,d\phi^2)
+&\quad+r^2(d\theta^2+\sin^2\theta\thinspace d\phi^2)
 \end{aligned}
 }
 $$
@@ -742,10 +742,10 @@ $$
 $$
 \begin{aligned}
 d\tau
-&=\sqrt{A(r)}\,dw
-=\sqrt{1-\frac{r_{\mathrm s}}r}\,dw,\\
+&=\sqrt{A(r)}\thinspace dw
+=\sqrt{1-\frac{r_{\mathrm s}}r}\thinspace dw,\\
 d\ell
-&=\sqrt{B(r)}\,|dr|
+&=\sqrt{B(r)}\thinspace|dr|
 =\frac{|dr|}{\sqrt{1-r_{\mathrm s}/r}}.
 \end{aligned}
 $$

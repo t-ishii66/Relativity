@@ -207,8 +207,8 @@ then expanding this equation gives
 $$
 ds^2 =
 g_{11}(dx)^2
-+g_{12}dx\,dy
-+g_{21}dy\,dx
++g_{12}dx\thinspace dy
++g_{21}dy\thinspace dx
 +g_{22}(dy)^2
 $$
 
@@ -223,7 +223,7 @@ so we can write
 $$
 ds^2 =
 g_{11}(dx)^2
-+2g_{12}dx\,dy
++2g_{12}dx\thinspace dy
 +g_{22}(dy)^2
 $$
 
@@ -517,7 +517,7 @@ On the other hand, this chapter uses $w_A=ct_A$ as the time coordinate, so
 
 $$
 \frac{dx_A}{dw_A}
-=\frac{dx_A}{c\,dt_A}
+=\frac{dx_A}{c\thinspace dt_A}
 =\frac{v_A}{c}
 $$
 
@@ -614,7 +614,7 @@ $$
 so for light moving to the right,
 
 $$
-dx=c\,dt=dw
+dx=c\thinspace dt=dw
 $$
 
 Including the case of light moving to the left, we have
@@ -712,8 +712,8 @@ so its small change is
 
 $$
 dx =
-\cos\theta\,dr
--r\sin\theta\,d\theta
+\cos\theta\thinspace dr
+-r\sin\theta\thinspace d\theta
 $$
 
 Similarly,
@@ -726,8 +726,8 @@ so
 
 $$
 dy =
-\sin\theta\,dr
-+r\cos\theta\,d\theta
+\sin\theta\thinspace dr
++r\cos\theta\thinspace d\theta
 $$
 
 We substitute these into
@@ -740,21 +740,21 @@ First,
 
 $$
 dx^2 =
-\cos^2\theta\,dr^2
--2r\sin\theta\cos\theta\,dr\,d\theta
-+r^2\sin^2\theta\,d\theta^2
+\cos^2\theta\thinspace dr^2
+-2r\sin\theta\cos\theta\thinspace dr\thinspace d\theta
++r^2\sin^2\theta\thinspace d\theta^2
 $$
 
 Also,
 
 $$
 dy^2 =
-\sin^2\theta\,dr^2
-+2r\sin\theta\cos\theta\,dr\,d\theta
-+r^2\cos^2\theta\,d\theta^2
+\sin^2\theta\thinspace dr^2
++2r\sin\theta\cos\theta\thinspace dr\thinspace d\theta
++r^2\cos^2\theta\thinspace d\theta^2
 $$
 
-When we add the two, the terms containing $dr\,d\theta$ cancel.
+When we add the two, the terms containing $dr\thinspace d\theta$ cancel.
 
 $$
 ds^2 =

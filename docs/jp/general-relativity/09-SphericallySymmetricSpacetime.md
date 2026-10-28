@@ -40,20 +40,20 @@ Bob「まず、どんな時空を探しているかを決めよう。丸い星�
 
 $$
 \begin{aligned}
-ds^2={}&g_{ww}\,dw^2+g_{uu}\,du^2
-+g_{\theta\theta}\,d\theta^2+g_{\phi\phi}\,d\phi^2\\
-&+2g_{wu}\,dw\,du
-+2g_{w\theta}\,dw\,d\theta
-+2g_{w\phi}\,dw\,d\phi\\
-&+2g_{u\theta}\,du\,d\theta
-+2g_{u\phi}\,du\,d\phi
-+2g_{\theta\phi}\,d\theta\,d\phi
+ds^2={}&g_{ww}\thinspace dw^2+g_{uu}\thinspace du^2
++g_{\theta\theta}\thinspace d\theta^2+g_{\phi\phi}\thinspace d\phi^2\\
+&+2g_{wu}\thinspace dw\thinspace du
++2g_{w\theta}\thinspace dw\thinspace d\theta
++2g_{w\phi}\thinspace dw\thinspace d\phi\\
+&+2g_{u\theta}\thinspace du\thinspace d\theta
++2g_{u\phi}\thinspace du\thinspace d\phi
++2g_{\theta\phi}\thinspace d\theta\thinspace d\phi
 \end{aligned}
 $$
 
 となる。四つの対角成分と、六つの交差項の係数を合わせて、十個の独立な成分がある。
 
-各交差項の係数が2なのは、例えば $g_{wu}\,dw\,du$ と $g_{uw}\,du\,dw$ が、計量の対称性によって同じになるからである。
+各交差項の係数が2なのは、例えば $g_{wu}\thinspace dw\thinspace du$ と $g_{uw}\thinspace du\thinspace dw$ が、計量の対称性によって同じになるからである。
 
 ## 球対称は、球面上に特別な方向がないということ
 
@@ -69,10 +69,10 @@ $$
 
 $$
 \begin{aligned}
-X={}&2g_{w\theta}\,dw\,d\theta
-+2g_{w\phi}\,dw\,d\phi\\
-&+2g_{u\theta}\,du\,d\theta
-+2g_{u\phi}\,du\,d\phi.
+X={}&2g_{w\theta}\thinspace dw\thinspace d\theta
++2g_{w\phi}\thinspace dw\thinspace d\phi\\
+&+2g_{u\theta}\thinspace du\thinspace d\theta
++2g_{u\phi}\thinspace du\thinspace d\phi.
 \end{aligned}
 $$
 
@@ -81,17 +81,17 @@ $$
 次に、角度方向の変位を、先ほどの直交する二方向の成分 $\xi,\eta$ で表そう。極を除く点では、 $\theta$ が増える方向と $\phi$ が増える方向を選べば、単位球面上で、
 
 $$
-\xi=d\theta,\qquad \eta=\sin\theta\,d\phi
+\xi=d\theta,\qquad \eta=\sin\theta\thinspace d\phi
 $$
 
 となる。 $\phi$ 方向では緯線の半径が $\sin\theta$ なので、角度の変化 $d\phi$ にこの係数が掛かる。したがって、上の四項に $d\theta=\xi$、 $d\phi=\eta/\sin\theta$ を代入すると、
 
 $$
 \begin{aligned}
-X={}&2g_{w\theta}\,dw\,\xi
-+2\frac{g_{w\phi}}{\sin\theta}\,dw\,\eta\\
-&+2g_{u\theta}\,du\,\xi
-+2\frac{g_{u\phi}}{\sin\theta}\,du\,\eta
+X={}&2g_{w\theta}\thinspace dw\thinspace\xi
++2\frac{g_{w\phi}}{\sin\theta}\thinspace dw\thinspace\eta\\
+&+2g_{u\theta}\thinspace du\thinspace\xi
++2\frac{g_{u\phi}}{\sin\theta}\thinspace du\thinspace\eta
 \end{aligned}
 $$
 
@@ -192,22 +192,22 @@ $$
 第7章で使った、半径 $a$ の球面の線素は、
 
 $$
-d\ell^2=a^2d\theta^2+a^2\sin^2\theta\,d\phi^2
+d\ell^2=a^2d\theta^2+a^2\sin^2\theta\thinspace d\phi^2
 $$
 
-だった。 $\theta$ 方向の角度変化に対応する長さは $a\,d\theta$ であり、 $\phi$ 方向では緯線の半径が $a\sin\theta$ なので、長さは $a\sin\theta\,d\phi$ となる。
+だった。 $\theta$ 方向の角度変化に対応する長さは $a\thinspace d\theta$ であり、 $\phi$ 方向では緯線の半径が $a\sin\theta$ なので、長さは $a\sin\theta\thinspace d\phi$ となる。
 
 先ほど使った単位球面上の変位は、極を除く通常の角度座標では、
 
 $$
-\xi=d\theta,\qquad \eta=\sin\theta\,d\phi
+\xi=d\theta,\qquad \eta=\sin\theta\thinspace d\phi
 $$
 
 と表せる。これを $C(u)(\xi^2+\eta^2)$ に代入すれば、
 
 $$
 d\ell_{\mathrm{angular}}^2
-=C(u)\left(d\theta^2+\sin^2\theta\,d\phi^2\right).
+=C(u)\left(d\theta^2+\sin^2\theta\thinspace d\phi^2\right).
 $$
 
 となる。つまり、角度方向の各成分は、
@@ -223,7 +223,7 @@ $$
 ここで、
 
 $$
-d\Omega^2=d\theta^2+\sin^2\theta\,d\phi^2
+d\Omega^2=d\theta^2+\sin^2\theta\thinspace d\phi^2
 $$
 
 と略記すれば、角度方向の部分は $C(u)d\Omega^2$ である。
@@ -241,41 +241,41 @@ $$
 と名付けると、計量は、
 
 $$
-ds^2=-A(u)\,dw^2+2D(u)\,dw\,du+B(u)\,du^2+C(u)\,d\Omega^2
+ds^2=-A(u)\thinspace dw^2+2D(u)\thinspace dw\thinspace du+B(u)\thinspace du^2+C(u)\thinspace d\Omega^2
 $$
 
 という形になる。時間方向の係数には、符号 $(-+++)$ に合わせてマイナスを取り出した。ここでは $A(u)>0$ の領域を考える。
 
-球対称性だけでは、 $dw\,du$ の項は消えない。時間と動径のどちらも、球面上の特定の向きを選ばないからである。
+球対称性だけでは、 $dw\thinspace du$ の項は消えない。時間と動径のどちらも、球面上の特定の向きを選ばないからである。
 
 この項は、時間座標を選び直して消せる。新しい時間座標を、
 
 $$
 \widetilde w=w+f(u),
 \qquad
-dw=d\widetilde w-f'(u)\,du
+dw=d\widetilde w-f'(u)\thinspace du
 $$
 
 とする。 $f'(u)=df/du$ である。まず、時間と動径の三項を別々に展開しよう。式を短くするため、係数の引数 $(u)$ を省略すると、
 
 $$
 \begin{aligned}
--A\,dw^2
-&=-A(d\widetilde w-f'\,du)^2\\
-&=-A\,d\widetilde w^2+2Af'\,d\widetilde w\,du-A(f')^2du^2,\\
-2D\,dw\,du
-&=2D(d\widetilde w-f'\,du)du\\
-&=2D\,d\widetilde w\,du-2Df'\,du^2
+-A\thinspace dw^2
+&=-A(d\widetilde w-f'\thinspace du)^2\\
+&=-A\thinspace d\widetilde w^2+2Af'\thinspace d\widetilde w\thinspace du-A(f')^2du^2,\\
+2D\thinspace dw\thinspace du
+&=2D(d\widetilde w-f'\thinspace du)du\\
+&=2D\thinspace d\widetilde w\thinspace du-2Df'\thinspace du^2
 \end{aligned}
 $$
 
-となり、 $B\,du^2$ はそのままである。 $d\widetilde w^2$、 $d\widetilde w\,du$、 $du^2$ ごとにまとめると、
+となり、 $B\thinspace du^2$ はそのままである。 $d\widetilde w^2$、 $d\widetilde w\thinspace du$、 $du^2$ ごとにまとめると、
 
 $$
 \begin{aligned}
-&-A\,dw^2+2D\,dw\,du+B\,du^2\\
-&=-A\,d\widetilde w^2
-+2(Af'+D)\,d\widetilde w\,du
+&-A\thinspace dw^2+2D\thinspace dw\thinspace du+B\thinspace du^2\\
+&=-A\thinspace d\widetilde w^2
++2(Af'+D)\thinspace d\widetilde w\thinspace du
 +\left(B-A(f')^2-2Df'\right)du^2.
 \end{aligned}
 $$
@@ -289,7 +289,7 @@ $$
 と選べばよい。 $A(u)>0$ で係数が滑らかな区間なら、例えば基準点 $u_0$ を選び、
 
 $$
-f(u)=-\int_{u_0}^{u}\frac{D(v)}{A(v)}\,dv
+f(u)=-\int_{u_0}^{u}\frac{D(v)}{A(v)}\thinspace dv
 $$
 
 とすれば、この条件を満たす。 $v$ は積分に使う変数である。
@@ -305,9 +305,9 @@ $$
 と変わる。したがって、
 
 $$
-ds^2=-A(u)\,d\widetilde w^2
+ds^2=-A(u)\thinspace d\widetilde w^2
 +\left(B(u)+\frac{D(u)^2}{A(u)}\right)du^2
-+C(u)\,d\Omega^2
++C(u)\thinspace d\Omega^2
 $$
 
 となる。
@@ -323,7 +323,7 @@ $$
 と書こう。時間座標だけを再び $w$ と書けば、
 
 $$
-ds^2=-A(u)\,dw^2+\widetilde B(u)\,du^2+C(u)\,d\Omega^2.
+ds^2=-A(u)\thinspace dw^2+\widetilde B(u)\thinspace du^2+C(u)\thinspace d\Omega^2.
 $$
 
 ## 球面の面積で半径を決める
@@ -334,7 +334,7 @@ $$
 
 普通の球では、半径 $r$ と面積 $S$ の関係は $S=4\pi r^2$ だった。ここでも、まず面積 $S$ を計算し、それを $4\pi r^2$ と書けるように $r$ を決めよう。
 
-球面を $u=\text{一定}$、 $w=\text{一定}$ として取り出す。先ほど、球対称性から角度方向の計量は $C(u)(d\theta^2+\sin^2\theta\,d\phi^2)$ になると分かった。この計量では、 $\theta$ 方向と $\phi$ 方向は直交している。そのため、小区画の二辺の長さを掛ければ面積を求められる。
+球面を $u=\text{一定}$、 $w=\text{一定}$ として取り出す。先ほど、球対称性から角度方向の計量は $C(u)(d\theta^2+\sin^2\theta\thinspace d\phi^2)$ になると分かった。この計量では、 $\theta$ 方向と $\phi$ 方向は直交している。そのため、小区画の二辺の長さを掛ければ面積を求められる。
 
 選んだ球面を緯線と経線で細かく区切り、小さな区画を考えよう。その区画の二辺について、 $\phi$ を固定して $\theta$ を $d\theta$ だけ変えた辺の長さを $d\ell_\theta$、 $\theta$ を固定して $\phi$ を $d\phi$ だけ変えた辺の長さを $d\ell_\phi$ と書く。どちらも球面に沿って測る長さであり、中心から球面までの距離ではない。
 
@@ -342,7 +342,7 @@ $$
 
 $$
 d\ell^2=C(u)d\Omega^2
-=C(u)d\theta^2+C(u)\sin^2\theta\,d\phi^2
+=C(u)d\theta^2+C(u)\sin^2\theta\thinspace d\phi^2
 $$
 
 である。二つの角度方向は直交しているので、小区画を斜めに横切る微小変位について、三平方の定理と同じ形で、
@@ -354,32 +354,32 @@ $$
 と書ける。一方の角度の変化をゼロにして、それぞれの方向だけに進む場合を考えれば、
 
 $$
-d\ell_\theta^2=C(u)\,d\theta^2,\qquad
-d\ell_\phi^2=C(u)\sin^2\theta\,d\phi^2
+d\ell_\theta^2=C(u)\thinspace d\theta^2,\qquad
+d\ell_\phi^2=C(u)\sin^2\theta\thinspace d\phi^2
 $$
 
 となる。角度幅を正に取り、平方根を取れば、
 
 $$
-d\ell_\theta=\sqrt{C(u)}\,d\theta,\qquad
-d\ell_\phi=\sqrt{C(u)}\sin\theta\,d\phi
+d\ell_\theta=\sqrt{C(u)}\thinspace d\theta,\qquad
+d\ell_\phi=\sqrt{C(u)}\sin\theta\thinspace d\phi
 $$
 
 である。直交する二辺の長さを掛ければ、小区画の微小な面積は、
 
 $$
 dS
-=\sqrt{g_{\theta\theta}g_{\phi\phi}}\,d\theta\,d\phi
-=C(u)\sin\theta\,d\theta\,d\phi
+=\sqrt{g_{\theta\theta}g_{\phi\phi}}\thinspace d\theta\thinspace d\phi
+=C(u)\sin\theta\thinspace d\theta\thinspace d\phi
 $$
 
 である。球面全体で積分すると、
 
 $$
 \begin{aligned}
-S&=\int_0^{2\pi}\int_0^\pi C(u)\sin\theta\,d\theta\,d\phi\\
+S&=\int_0^{2\pi}\int_0^\pi C(u)\sin\theta\thinspace d\theta\thinspace d\phi\\
 &=C(u)\left(\int_0^{2\pi}d\phi\right)
-\left(\int_0^\pi\sin\theta\,d\theta\right)\\
+\left(\int_0^\pi\sin\theta\thinspace d\theta\right)\\
 &=C(u)\cdot2\pi\cdot[-\cos\theta]_0^\pi\\
 &=4\pi C(u)
 \end{aligned}
@@ -408,7 +408,7 @@ $$
 $du=(du/dr)dr$ を代入すると、
 
 $$
-\widetilde B(u)\,du^2
+\widetilde B(u)\thinspace du^2
 =\widetilde B(u(r))\left(\frac{du}{dr}\right)^2dr^2.
 $$
 
@@ -422,8 +422,8 @@ $$
 
 $$
 \boxed{
-ds^2=-A(r)\,dw^2+B(r)\,dr^2
-+r^2\left(d\theta^2+\sin^2\theta\,d\phi^2\right)
+ds^2=-A(r)\thinspace dw^2+B(r)\thinspace dr^2
++r^2\left(d\theta^2+\sin^2\theta\thinspace d\phi^2\right)
 }
 \qquad (9.1)
 $$
@@ -445,7 +445,7 @@ $$
 同じ二点の間隔を、もとの座標で表そう。 $dw=d\theta=d\phi=0$ なので、式 (9.1) は $ds^2=B(r)dr^2$ となる。両者を合わせれば、
 
 $$
-d\ell^2=B(r)\,dr^2
+d\ell^2=B(r)\thinspace dr^2
 $$
 
 を得る。このように、キャンバス上の座標の差と、観測者が実際に測る時間や長さを結びつけるのが計量である。今回は、座標の差 $dr$ と物差しで測る長さ $d\ell$ を、 $B(r)$ が結びつけている。
@@ -453,7 +453,7 @@ $$
 $B(r)>0$ とし、長さを正に取れば、
 
 $$
-d\ell=\sqrt{B(r)}\,|dr|
+d\ell=\sqrt{B(r)}\thinspace|dr|
 $$
 
 となる。 $B(r)\ne1$ なら、座標の差 $dr$ と測定する長さは一致しない。
@@ -473,19 +473,19 @@ Bob「ここでは球面の面積を使って、半径の目盛りを決めた�
 観測者の時計と物差しに合わせた局所慣性座標では、その瞬間に観測者は静止しているので、時計の軌道に沿う微小な間隔は $ds^2=-d\tau^2$ となる。同じ間隔を、もとの座標で書けば、 $dr=d\theta=d\phi=0$ より $ds^2=-A(r)dw^2$ である。両者を合わせると、
 
 $$
--d\tau^2=-A(r)\,dw^2
+-d\tau^2=-A(r)\thinspace dw^2
 $$
 
 を得る。両辺の符号を反転すると、
 
 $$
-d\tau^2=A(r)\,dw^2
+d\tau^2=A(r)\thinspace dw^2
 $$
 
 となる。この式は、キャンバス上の時刻の差 $dw$ と、観測者が持つ時計の刻む時間 $d\tau$ を、計量の係数 $A(r)$ が結びつけていることを表す。未来向きの時間の増分を取れば、
 
 $$
-d\tau=\sqrt{A(r)}\,dw
+d\tau=\sqrt{A(r)}\thinspace dw
 $$
 
 となる。 $A(r)$ は座標時と静止する時計の固有時の対応を、 $B(r)$ は動径座標と測定する長さの対応を表す。

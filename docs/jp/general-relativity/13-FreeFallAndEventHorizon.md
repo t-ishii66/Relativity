@@ -22,7 +22,7 @@ $$
 $$
 ds^2=-f(r)dw^2+\frac{dr^2}{f(r)}+r^2d\Omega^2,
 \qquad
-d\Omega^2=d\theta^2+\sin^2\theta\,d\phi^2.
+d\Omega^2=d\theta^2+\sin^2\theta\thinspace d\phi^2.
 \qquad (13.1)
 $$
 
@@ -50,7 +50,7 @@ $$
 
 ---
 
-Alice「Bob の時計も、私の時計と同じように $d\tau=\sqrt f\,dw$ で計算できるの？」
+Alice「Bob の時計も、私の時計と同じように $d\tau=\sqrt f\thinspace dw$ で計算できるの？」
 
 Bob「僕は場所を変えるから、空間方向の項も残るよ。まず、どう落ちるのかを求めよう。」
 

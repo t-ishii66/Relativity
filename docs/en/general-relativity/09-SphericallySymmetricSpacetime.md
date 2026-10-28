@@ -40,20 +40,20 @@ Writing the general line element in these four coordinates gives
 
 $$
 \begin{aligned}
-ds^2={}&g_{ww}\,dw^2+g_{uu}\,du^2
-+g_{\theta\theta}\,d\theta^2+g_{\phi\phi}\,d\phi^2\\
-&+2g_{wu}\,dw\,du
-+2g_{w\theta}\,dw\,d\theta
-+2g_{w\phi}\,dw\,d\phi\\
-&+2g_{u\theta}\,du\,d\theta
-+2g_{u\phi}\,du\,d\phi
-+2g_{\theta\phi}\,d\theta\,d\phi
+ds^2={}&g_{ww}\thinspace dw^2+g_{uu}\thinspace du^2
++g_{\theta\theta}\thinspace d\theta^2+g_{\phi\phi}\thinspace d\phi^2\\
+&+2g_{wu}\thinspace dw\thinspace du
++2g_{w\theta}\thinspace dw\thinspace d\theta
++2g_{w\phi}\thinspace dw\thinspace d\phi\\
+&+2g_{u\theta}\thinspace du\thinspace d\theta
++2g_{u\phi}\thinspace du\thinspace d\phi
++2g_{\theta\phi}\thinspace d\theta\thinspace d\phi
 \end{aligned}
 $$
 
 Thus, there are ten independent components: the four diagonal components together with the coefficients of the six cross terms.
 
-The coefficient of each cross term is 2 because, for example, $g_{wu}\,dw\,du$ and $g_{uw}\,du\,dw$ are equal by the symmetry of the metric.
+The coefficient of each cross term is 2 because, for example, $g_{wu}\thinspace dw\thinspace du$ and $g_{uw}\thinspace du\thinspace dw$ are equal by the symmetry of the metric.
 
 ## Spherical Symmetry Means There Is No Special Direction on a Sphere
 
@@ -69,10 +69,10 @@ We want to examine the cross terms between a displacement in the time or radial 
 
 $$
 \begin{aligned}
-X={}&2g_{w\theta}\,dw\,d\theta
-+2g_{w\phi}\,dw\,d\phi\\
-&+2g_{u\theta}\,du\,d\theta
-+2g_{u\phi}\,du\,d\phi
+X={}&2g_{w\theta}\thinspace dw\thinspace d\theta
++2g_{w\phi}\thinspace dw\thinspace d\phi\\
+&+2g_{u\theta}\thinspace du\thinspace d\theta
++2g_{u\phi}\thinspace du\thinspace d\phi
 \end{aligned}
 $$
 
@@ -81,17 +81,17 @@ For example, the first term is the product of the time-direction displacement $d
 Next, express the angular displacement using the two orthogonal components $\xi,\eta$ introduced above. Away from the poles, if we choose the directions of increasing $\theta$ and increasing $\phi$, then on a unit sphere,
 
 $$
-\xi=d\theta,\qquad \eta=\sin\theta\,d\phi
+\xi=d\theta,\qquad \eta=\sin\theta\thinspace d\phi
 $$
 
 In the $\phi$ direction, the radius of the parallel is $\sin\theta$, so the angular change $d\phi$ is multiplied by this factor. Therefore, substituting $d\theta=\xi$ and $d\phi=\eta/\sin\theta$ into the four terms above gives
 
 $$
 \begin{aligned}
-X={}&2g_{w\theta}\,dw\,\xi
-+2\frac{g_{w\phi}}{\sin\theta}\,dw\,\eta\\
-&+2g_{u\theta}\,du\,\xi
-+2\frac{g_{u\phi}}{\sin\theta}\,du\,\eta
+X={}&2g_{w\theta}\thinspace dw\thinspace\xi
++2\frac{g_{w\phi}}{\sin\theta}\thinspace dw\thinspace\eta\\
+&+2g_{u\theta}\thinspace du\thinspace\xi
++2\frac{g_{u\phi}}{\sin\theta}\thinspace du\thinspace\eta
 \end{aligned}
 $$
 
@@ -186,22 +186,22 @@ $$
 The line element of a sphere of radius $a$ used in Chapter 7 was
 
 $$
-d\ell^2=a^2d\theta^2+a^2\sin^2\theta\,d\phi^2
+d\ell^2=a^2d\theta^2+a^2\sin^2\theta\thinspace d\phi^2
 $$
 
-The length corresponding to an angular change in the $\theta$ direction is $a\,d\theta$. In the $\phi$ direction, the radius of the parallel is $a\sin\theta$, so the length is $a\sin\theta\,d\phi$.
+The length corresponding to an angular change in the $\theta$ direction is $a\thinspace d\theta$. In the $\phi$ direction, the radius of the parallel is $a\sin\theta$, so the length is $a\sin\theta\thinspace d\phi$.
 
 The displacement on the unit sphere used above can be written in the usual angular coordinates, away from the poles, as
 
 $$
-\xi=d\theta,\qquad \eta=\sin\theta\,d\phi
+\xi=d\theta,\qquad \eta=\sin\theta\thinspace d\phi
 $$
 
 Substituting this into $C(u)(\xi^2+\eta^2)$ gives
 
 $$
 d\ell_{\mathrm{angular}}^2
-=C(u)\left(d\theta^2+\sin^2\theta\,d\phi^2\right)
+=C(u)\left(d\theta^2+\sin^2\theta\thinspace d\phi^2\right)
 $$
 
 Thus, the angular components are
@@ -217,7 +217,7 @@ We did not assume the metric of a sphere from the beginning; this form was narro
 Writing
 
 $$
-d\Omega^2=d\theta^2+\sin^2\theta\,d\phi^2
+d\Omega^2=d\theta^2+\sin^2\theta\thinspace d\phi^2
 $$
 
 for short, the angular part is $C(u)d\Omega^2$.
@@ -235,42 +235,42 @@ $$
 Then the metric has the form
 
 $$
-ds^2=-A(u)\,dw^2+2D(u)\,dw\,du+B(u)\,du^2+C(u)\,d\Omega^2
+ds^2=-A(u)\thinspace dw^2+2D(u)\thinspace dw\thinspace du+B(u)\thinspace du^2+C(u)\thinspace d\Omega^2
 $$
 
 We have factored out a minus sign from the time coefficient to match the sign convention $(-+++)$.
 Here we consider a region where $A(u)>0$.
 
-Spherical symmetry alone does not make the $dw\,du$ term vanish. This is because neither time nor the radial direction selects a particular direction on the sphere.
+Spherical symmetry alone does not make the $dw\thinspace du$ term vanish. This is because neither time nor the radial direction selects a particular direction on the sphere.
 
 This term can be removed by redefining the time coordinate. Define a new time coordinate by
 
 $$
 \widetilde w=w+f(u),
 \qquad
-dw=d\widetilde w-f'(u)\,du
+dw=d\widetilde w-f'(u)\thinspace du
 $$
 
 where $f'(u)=df/du$. First expand the three terms involving time and the radial direction separately. To keep the equations short, omit the argument $(u)$ from the coefficients:
 
 $$
 \begin{aligned}
--A\,dw^2
-&=-A(d\widetilde w-f'\,du)^2\\
-&=-A\,d\widetilde w^2+2Af'\,d\widetilde w\,du-A(f')^2du^2,\\
-2D\,dw\,du
-&=2D(d\widetilde w-f'\,du)du\\
-&=2D\,d\widetilde w\,du-2Df'\,du^2
+-A\thinspace dw^2
+&=-A(d\widetilde w-f'\thinspace du)^2\\
+&=-A\thinspace d\widetilde w^2+2Af'\thinspace d\widetilde w\thinspace du-A(f')^2du^2,\\
+2D\thinspace dw\thinspace du
+&=2D(d\widetilde w-f'\thinspace du)du\\
+&=2D\thinspace d\widetilde w\thinspace du-2Df'\thinspace du^2
 \end{aligned}
 $$
 
-while $B\,du^2$ remains unchanged. Grouping the terms by $d\widetilde w^2$, $d\widetilde w\,du$, and $du^2$ gives
+while $B\thinspace du^2$ remains unchanged. Grouping the terms by $d\widetilde w^2$, $d\widetilde w\thinspace du$, and $du^2$ gives
 
 $$
 \begin{aligned}
-&-A\,dw^2+2D\,dw\,du+B\,du^2\\
-&=-A\,d\widetilde w^2
-+2(Af'+D)\,d\widetilde w\,du
+&-A\thinspace dw^2+2D\thinspace dw\thinspace du+B\thinspace du^2\\
+&=-A\thinspace d\widetilde w^2
++2(Af'+D)\thinspace d\widetilde w\thinspace du
 +\left(B-A(f')^2-2Df'\right)du^2
 \end{aligned}
 $$
@@ -284,7 +284,7 @@ $$
 to make it zero. On an interval where $A(u)>0$ and the coefficients are smooth, choose a reference point $u_0$ and set
 
 $$
-f(u)=-\int_{u_0}^{u}\frac{D(v)}{A(v)}\,dv
+f(u)=-\int_{u_0}^{u}\frac{D(v)}{A(v)}\thinspace dv
 $$
 
 which satisfies this condition. $v$ is the variable used for integration.
@@ -300,9 +300,9 @@ $$
 Therefore,
 
 $$
-ds^2=-A(u)\,d\widetilde w^2
+ds^2=-A(u)\thinspace d\widetilde w^2
 +\left(B(u)+\frac{D(u)^2}{A(u)}\right)du^2
-+C(u)\,d\Omega^2
++C(u)\thinspace d\Omega^2
 $$
 
 On a fixed sphere, $f(u)$ is constant, so this change corresponds to shifting the zero point of the time scale separately on each sphere. It has not changed the geometry of spacetime.
@@ -316,7 +316,7 @@ $$
 Writing the time coordinate as $w$ again, we have
 
 $$
-ds^2=-A(u)\,dw^2+\widetilde B(u)\,du^2+C(u)\,d\Omega^2
+ds^2=-A(u)\thinspace dw^2+\widetilde B(u)\thinspace du^2+C(u)\thinspace d\Omega^2
 $$
 
 ## Determining the Radius from the Area of a Sphere
@@ -327,7 +327,7 @@ First, let us find the area of one sphere. The current $u$ is a marker distingui
 
 For an ordinary sphere, the relation between radius $r$ and area $S$ is $S=4\pi r^2$. Here too, first calculate the area $S$, then define $r$ so that it can be written as $4\pi r^2$.
 
-Take out a sphere with $u=\text{constant}$ and $w=\text{constant}$. We found above from spherical symmetry that the angular metric is $C(u)(d\theta^2+\sin^2\theta\,d\phi^2)$. In this metric, the $\theta$ and $\phi$ directions are orthogonal. Therefore, we can find the area by multiplying the lengths of the two sides of a small patch.
+Take out a sphere with $u=\text{constant}$ and $w=\text{constant}$. We found above from spherical symmetry that the angular metric is $C(u)(d\theta^2+\sin^2\theta\thinspace d\phi^2)$. In this metric, the $\theta$ and $\phi$ directions are orthogonal. Therefore, we can find the area by multiplying the lengths of the two sides of a small patch.
 
 Divide the chosen sphere finely with parallels and meridians, and consider a small patch. For its two sides, call the length of the side where $\phi$ is fixed and $\theta$ changes by $d\theta$, $d\ell_\theta$, and the length of the side where $\theta$ is fixed and $\phi$ changes by $d\phi$, $d\ell_\phi$. Both are lengths measured along the sphere, not distances from the center to the sphere.
 
@@ -335,7 +335,7 @@ If $d\ell$ is the length of a small displacement along the sphere, then
 
 $$
 d\ell^2=C(u)d\Omega^2
-=C(u)d\theta^2+C(u)\sin^2\theta\,d\phi^2
+=C(u)d\theta^2+C(u)\sin^2\theta\thinspace d\phi^2
 $$
 
 Since the two angular directions are orthogonal, a small displacement crossing the patch diagonally can be written in the same form as the Pythagorean theorem:
@@ -347,32 +347,32 @@ $$
 If we set one angular change to zero and move only in each direction, respectively, then
 
 $$
-d\ell_\theta^2=C(u)\,d\theta^2,\qquad
-d\ell_\phi^2=C(u)\sin^2\theta\,d\phi^2
+d\ell_\theta^2=C(u)\thinspace d\theta^2,\qquad
+d\ell_\phi^2=C(u)\sin^2\theta\thinspace d\phi^2
 $$
 
 Taking the angular widths to be positive and taking square roots gives
 
 $$
-d\ell_\theta=\sqrt{C(u)}\,d\theta,\qquad
-d\ell_\phi=\sqrt{C(u)}\sin\theta\,d\phi
+d\ell_\theta=\sqrt{C(u)}\thinspace d\theta,\qquad
+d\ell_\phi=\sqrt{C(u)}\sin\theta\thinspace d\phi
 $$
 
 Multiplying the lengths of the two orthogonal sides, the small area of the patch is
 
 $$
 dS
-=\sqrt{g_{\theta\theta}g_{\phi\phi}}\,d\theta\,d\phi
-=C(u)\sin\theta\,d\theta\,d\phi
+=\sqrt{g_{\theta\theta}g_{\phi\phi}}\thinspace d\theta\thinspace d\phi
+=C(u)\sin\theta\thinspace d\theta\thinspace d\phi
 $$
 
 Integrating over the whole sphere gives
 
 $$
 \begin{aligned}
-S&=\int_0^{2\pi}\int_0^\pi C(u)\sin\theta\,d\theta\,d\phi\\
+S&=\int_0^{2\pi}\int_0^\pi C(u)\sin\theta\thinspace d\theta\thinspace d\phi\\
 &=C(u)\left(\int_0^{2\pi}d\phi\right)
-\left(\int_0^\pi\sin\theta\,d\theta\right)\\
+\left(\int_0^\pi\sin\theta\thinspace d\theta\right)\\
 &=C(u)\cdot2\pi\cdot[-\cos\theta]_0^\pi\\
 &=4\pi C(u)
 \end{aligned}
@@ -399,7 +399,7 @@ This makes $r$ increase outward, so $u$ can conversely be expressed as a functio
 Substituting $du=(du/dr)dr$ gives
 
 $$
-\widetilde B(u)\,du^2
+\widetilde B(u)\thinspace du^2
 =\widetilde B(u(r))\left(\frac{du}{dr}\right)^2dr^2
 $$
 
@@ -413,8 +413,8 @@ We abbreviate $A(u(r))$ in the time direction as $A(r)$. Since $C(u)=r^2$ in the
 
 $$
 \boxed{
-ds^2=-A(r)\,dw^2+B(r)\,dr^2
-+r^2\left(d\theta^2+\sin^2\theta\,d\phi^2\right)
+ds^2=-A(r)\thinspace dw^2+B(r)\thinspace dr^2
++r^2\left(d\theta^2+\sin^2\theta\thinspace d\phi^2\right)
 }
 \qquad (9.1)
 $$
@@ -436,7 +436,7 @@ The length here is a small length measured with the ruler of an observer station
 Express the separation between the same two points in the original coordinates. Since $dw=d\theta=d\phi=0$, equation (9.1) gives $ds^2=B(r)dr^2$. Combining the two expressions gives
 
 $$
-d\ell^2=B(r)\,dr^2
+d\ell^2=B(r)\thinspace dr^2
 $$
 
 In this way, the metric connects coordinate differences on the canvas with times and lengths actually measured by an observer. Here, $B(r)$ connects the coordinate difference $dr$ with the length $d\ell$ measured by a ruler.
@@ -444,7 +444,7 @@ In this way, the metric connects coordinate differences on the canvas with times
 Taking $B(r)>0$ and the length to be positive gives
 
 $$
-d\ell=\sqrt{B(r)}\,|dr|
+d\ell=\sqrt{B(r)}\thinspace|dr|
 $$
 
 If $B(r)\ne1$, the coordinate difference $dr$ and the measured length do not agree.
@@ -464,19 +464,19 @@ On the other hand, $w$ is the coordinate time assigned to events when drawing th
 In local inertial coordinates suited to the observer’s clock and ruler, the observer is stationary at that instant, so the infinitesimal interval along the clock’s worldline is $ds^2=-d\tau^2$. Written in the original coordinates, the same interval has $ds^2=-A(r)dw^2$ because $dr=d\theta=d\phi=0$. Combining the two gives
 
 $$
--d\tau^2=-A(r)\,dw^2
+-d\tau^2=-A(r)\thinspace dw^2
 $$
 
 Reversing the signs on both sides gives
 
 $$
-d\tau^2=A(r)\,dw^2
+d\tau^2=A(r)\thinspace dw^2
 $$
 
 This equation expresses that the metric coefficient $A(r)$ connects the time difference $dw$ on the canvas with the time $d\tau$ shown by the observer’s clock. Taking a future-directed time increment gives
 
 $$
-d\tau=\sqrt{A(r)}\,dw
+d\tau=\sqrt{A(r)}\thinspace dw
 $$
 
 $A(r)$ represents the correspondence between coordinate time and the proper time of a stationary clock, while $B(r)$ represents the correspondence between radial coordinate and measured length.

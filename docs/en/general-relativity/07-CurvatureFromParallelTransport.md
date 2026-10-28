@@ -402,7 +402,7 @@ On the next edge, use the connection and vector at $A$. The connection also chan
 $$
 \Gamma^\rho_{\nu\sigma}(A)
 =\Gamma^\rho_{\nu\sigma}(P)
-+h\,\partial_\mu\Gamma^\rho_{\nu\sigma}(P)+O(h^2)
++h\thinspace\partial_\mu\Gamma^\rho_{\nu\sigma}(P)+O(h^2)
 $$
 
 Next, moving from $A$ a width $k$ in the $\nu$ direction gives
@@ -427,7 +427,7 @@ V_{PAQ}^\rho
 ={}&V^\rho-h\Gamma^\rho_{\mu\sigma}V^\sigma\\
 &-k\left(
 \Gamma^\rho_{\nu\lambda}
-+h\,\partial_\mu\Gamma^\rho_{\nu\lambda}
++h\thinspace\partial_\mu\Gamma^\rho_{\nu\lambda}
 \right)
 \left(
 V^\lambda-h\Gamma^\lambda_{\mu\sigma}V^\sigma
@@ -482,7 +482,7 @@ The expression in parentheses is the Riemann curvature tensor found earlier. The
 
 $$
 V_{PAQ}^\rho-V_{PBQ}^\rho
-=-hk\,{R^\rho}_{\sigma\mu\nu}V^\sigma
+=-hk\thinspace{R^\rho}_{\sigma\mu\nu}V^\sigma
 +O(h^2k,hk^2)
 $$
 
@@ -503,7 +503,7 @@ The difference is already of order $hk$, so corrections added along the return p
 $$
 \boxed{
 \Delta V^\rho
-=-{R^\rho}_{\sigma\mu\nu}V^\sigma\,hk
+=-{R^\rho}_{\sigma\mu\nu}V^\sigma\thinspace hk
 +O(h^2k,hk^2)
 }
 $$
@@ -665,7 +665,7 @@ $$
 ds^2 =
 a^2d\theta^2
 +
-a^2\sin^2\theta\,d\phi^2
+a^2\sin^2\theta\thinspace d\phi^2
 $$
 
 ![A diagram dividing a small movement on a sphere into the polar-angle and azimuthal-angle directions](../../../images/general-relativity/07/sphere-line-element.png)

@@ -19,7 +19,7 @@ With this notation, the metric is
 
 $$
 ds^2=-f(r)dw^2+\frac{dr^2}{f(r)}
-+r^2(d\theta^2+\sin^2\theta\,d\phi^2)
++r^2(d\theta^2+\sin^2\theta\thinspace d\phi^2)
 \qquad (12.1)
 $$
 
@@ -28,7 +28,7 @@ The scale of $w$ is chosen so that it advances by the same amount as the proper 
 The proper time of an observer at rest at that location and the reading of a ruler in the radial direction were
 
 $$
-d\tau=\sqrt{f(r)}\,dw,\qquad
+d\tau=\sqrt{f(r)}\thinspace dw,\qquad
 d\ell=\frac{|dr|}{\sqrt{f(r)}}
 \qquad (12.2)
 $$
@@ -50,7 +50,7 @@ Bob: “Let us also examine the path the light takes before it arrives. If we me
 Suppose Alice is at rest at $r_{\mathrm{Alice}}$ near the star, while Charlie is at rest farther out at $r_{\mathrm{Charlie}}$.
 
 $$
-r_{\mathrm s}<r_{\mathrm{Alice}}<r_{\mathrm{Charlie}}
+r_{\mathrm s} < r_{\mathrm{Alice}} < r_{\mathrm{Charlie}}
 $$
 
 Both are outside the star’s surface, supported by a platform, rocket, or something similar, and remain in place without changing $r,\theta,\phi$. They are aligned in the same angular direction, with Charlie receiving the light Alice sends outward.
@@ -168,10 +168,10 @@ Since both remain at the same locations, these two factors are constant. Integra
 
 $$
 \Delta\tau_{\mathrm{Alice}}
-=\sqrt{f_{\mathrm{Alice}}}\,\Delta w,
+=\sqrt{f_{\mathrm{Alice}}}\thinspace\Delta w,
 \qquad
 \Delta\tau_{\mathrm{Charlie}}
-=\sqrt{f_{\mathrm{Charlie}}}\,\Delta w
+=\sqrt{f_{\mathrm{Charlie}}}\thinspace\Delta w
 $$
 
 Eliminating the same $\Delta w$ gives
@@ -191,7 +191,7 @@ For example, if $f_{\mathrm{Alice}}=0.81$ and $f_{\mathrm{Charlie}}=0.9025$, the
 $$
 \Delta\tau_{\mathrm{Charlie}}
 =\frac{0.95}{0.9}\Delta\tau_{\mathrm{Alice}}
-\simeq1.056\,\Delta\tau_{\mathrm{Alice}}
+\simeq1.056\thinspace\Delta\tau_{\mathrm{Alice}}
 $$
 
 In seconds, signals sent by Alice at one-second intervals on her clock are received by Charlie at intervals of about 1.056 seconds on his clock. Dividing both proper times by $c$ does not change this ratio.
@@ -262,7 +262,7 @@ Near the star, its absolute value is smaller than $c$. Does this mean that the s
 At Alice’s point, use local components adapted to the clock and ruler. From Chapter 11,
 
 $$
-dW=\sqrt{f(r)}\,dw,\qquad
+dW=\sqrt{f(r)}\thinspace dw,\qquad
 dX=\frac{dr}{\sqrt{f(r)}}
 $$
 
@@ -270,7 +270,7 @@ Take the positive direction of $X$ to be outward. Comparing these along the ligh
 
 $$
 \frac{dX}{dW}
-=\frac{dr/\sqrt{f(r)}}{\sqrt{f(r)}\,dw}
+=\frac{dr/\sqrt{f(r)}}{\sqrt{f(r)}\thinspace dw}
 =\frac1{f(r)}\frac{dr}{dw}
 =\pm1
 $$
@@ -309,7 +309,7 @@ Let us organize the path that led to the result.
 |---|---|---|
 | Path of radial light | $dr/dw=\pm f(r)$ | $ds^2=0$ along the light path |
 | Coordinate-time interval of two signals | $\Delta w_{\mathrm{receive}}=\Delta w_{\mathrm{send}}$ | The metric does not depend on time, and the sender and receiver are at rest |
-| Interval measured by the two clocks | $\Delta\tau_{\mathrm{Charlie}}/\Delta\tau_{\mathrm{Alice}}=\sqrt{f_{\mathrm{Charlie}}/f_{\mathrm{Alice}}}$ | $d\tau=\sqrt f\,dw$ at each location |
+| Interval measured by the two clocks | $\Delta\tau_{\mathrm{Charlie}}/\Delta\tau_{\mathrm{Alice}}=\sqrt{f_{\mathrm{Charlie}}/f_{\mathrm{Alice}}}$ | $d\tau=\sqrt f\thinspace dw$ at each location |
 | Frequencies measured by the two people | $\nu_{\mathrm{Charlie}}/\nu_{\mathrm{Alice}}=\sqrt{f_{\mathrm{Alice}}/f_{\mathrm{Charlie}}}$ | Each counts the same number of oscillations with their own clock |
 | Locally measured speed of light | $c$ | Convert both clock and ruler readings into local readings |
 

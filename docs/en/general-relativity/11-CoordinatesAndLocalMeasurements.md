@@ -8,7 +8,7 @@ $$
 ds^2
 =-\left(1-\frac{r_{\mathrm s}}r\right)dw^2
 +\frac{dr^2}{1-r_{\mathrm s}/r}
-+r^2(d\theta^2+\sin^2\theta\,d\phi^2)
++r^2(d\theta^2+\sin^2\theta\thinspace d\phi^2)
 $$
 
 where $r_{\mathrm s}=2GM/c^2$.
@@ -61,7 +61,7 @@ Using the metric, we write
 $$
 ds^2
 =-f(r)dw^2+\frac{dr^2}{f(r)}
-+r^2d\theta^2+r^2\sin^2\theta\,d\phi^2
++r^2d\theta^2+r^2\sin^2\theta\thinspace d\phi^2
 \qquad (11.1)
 $$
 
@@ -153,13 +153,13 @@ $$
 Reversing the signs on both sides and taking the future-directed coordinate increment $dw>0$ gives
 
 $$
-\boxed{d\tau=\sqrt{f(r)}\,dw}
+\boxed{d\tau=\sqrt{f(r)}\thinspace dw}
 \qquad (11.2)
 $$
 
 The left side is the increment of proper time on Alice’s clock. The $dw$ on the right side is the difference in coordinate time assigned to the same two events. Since both $\tau$ and $w$ are quantities obtained by multiplying ordinary time by $c$, $\sqrt{f(r)}$ directly represents the ratio of the rates of the clocks.
 
-For example, if $f(r)=0.81$ at a place where the clock is at rest, then $d\tau=0.9\,dw$. In seconds, while coordinate time advances by $1$ second, the clock records $0.9$ seconds. Dividing both by the same constant $c$ does not change the ratio. This does not mean that the clock is malfunctioning. The observer carrying that clock conducts experiments using the time recorded by their own clock.
+For example, if $f(r)=0.81$ at a place where the clock is at rest, then $d\tau=0.9\thinspace dw$. In seconds, while coordinate time advances by $1$ second, the clock records $0.9$ seconds. Dividing both by the same constant $c$ does not change the ratio. This does not mean that the clock is malfunctioning. The observer carrying that clock conducts experiments using the time recorded by their own clock.
 
 This value represents the rate compared with coordinate time $w$. What is seen when looking at a distant clock through light will be considered in the next chapter, including how light propagates.
 
@@ -223,7 +223,7 @@ If we move only in the $\phi$ direction,
 $$
 dw=dr=d\theta=0
 \quad\Longrightarrow\quad
-d\ell_\phi=r\sin\theta\,|d\phi|
+d\ell_\phi=r\sin\theta\thinspace|d\phi|
 $$
 
 Here we use the usual angular coordinates with $0<\theta<\pi$.
@@ -236,10 +236,10 @@ Let us bring together the correspondences so far. Matching the clock of an obser
 
 $$
 \begin{aligned}
-dW&=\sqrt{f(r)}\,dw,\\
+dW&=\sqrt{f(r)}\thinspace dw,\\
 dX&=\frac{dr}{\sqrt{f(r)}},\\
-dY&=r\,d\theta,\\
-dZ&=r\sin\theta\,d\phi
+dY&=r\thinspace d\theta,\\
+dZ&=r\sin\theta\thinspace d\phi
 \end{aligned}
 \qquad (11.4)
 $$
@@ -255,7 +255,7 @@ $$
 
 $$
 dY^2=r^2d\theta^2,\qquad
-dZ^2=r^2\sin^2\theta\,d\phi^2
+dZ^2=r^2\sin^2\theta\thinspace d\phi^2
 $$
 
 Replacing each term in equation (11.1),
@@ -286,7 +286,7 @@ Thus we can see that clock measurements and ruler measurements are read from the
 
 The $dW,dX,dY,dZ$ here are infinitesimal components matched to clocks and rulers at that point. We must not regard these relations as the definition of one set of coordinates $W,X,Y,Z$ that can be used throughout spacetime.
 
-For example, as $r$ changes, the conversion factor in $dW=\sqrt{f(r)}\,dw$ also changes. A time scale matched to a clock at one location will not necessarily match a clock at another location in the same way.
+For example, as $r$ changes, the conversion factor in $dW=\sqrt{f(r)}\thinspace dw$ also changes. A time scale matched to a clock at one location will not necessarily match a clock at another location in the same way.
 
 At each point, we can choose local inertial coordinates adapted to the observer at that instant. However, we cannot connect the choices at every point and cover a wide region of curved spacetime with one inertial coordinate system.
 
@@ -372,7 +372,7 @@ Suppose stationary observer Alice is at the place Bob passes through, carrying a
 
 $$
 dX=\frac{dr}{\sqrt{f(r)}},\qquad
-dW=\sqrt{f(r)}\,dw
+dW=\sqrt{f(r)}\thinspace dw
 $$
 
 Converting $dW$ into elapsed time in seconds gives $dW/c$. Let the radial speed of Bob measured by Alice using the clock and rulers at that place be $v_{\mathrm{Bob}}$. Then
@@ -401,7 +401,7 @@ d\tau_{\mathrm{Bob}}
 &=dw\sqrt{
 f(r)-\frac{f(r)^2v_{\mathrm{Bob}}^2}{c^2f(r)}
 }\\
-&=\sqrt{f(r)}\,dw
+&=\sqrt{f(r)}\thinspace dw
 \sqrt{1-\frac{v_{\mathrm{Bob}}^2}{c^2}}\\
 &=dW\sqrt{1-\frac{v_{\mathrm{Bob}}^2}{c^2}}
 \end{aligned}
@@ -417,9 +417,9 @@ Let us organize the correspondences used in this chapter.
 
 | What is being compared | Expression in coordinates | Expression matched to a stationary observer |
 |---|---|---|
-| Small elapsed time on a clock | $dw$ | $dW=\sqrt{f(r)}\,dw$. For the observer’s own clock, $dW=d\tau$ |
+| Small elapsed time on a clock | $dw$ | $dW=\sqrt{f(r)}\thinspace dw$. For the observer’s own clock, $dW=d\tau$ |
 | Small displacement in the radial direction | $dr$ | $dX=dr/\sqrt{f(r)}$. The length is $\lvert dX\rvert$ |
-| Small displacement along the spherical surface | $d\theta,d\phi$ | $dY=r\,d\theta,\ dZ=r\sin\theta\,d\phi$ |
+| Small displacement along the spherical surface | $d\theta,d\phi$ | $dY=r\thinspace d\theta,\ dZ=r\sin\theta\thinspace d\phi$ |
 | Speed in the radial direction | $dr/dw$ | $v_{\mathrm{Bob}}=c(dr/dw)/f(r)$ |
 
 Coordinates are used to organize and draw events. The metric connects differences in those coordinates to the readings of the specified observer’s clock and rulers.

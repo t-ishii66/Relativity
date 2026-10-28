@@ -444,7 +444,7 @@ $$
 $$
 \Gamma^\rho_{\nu\sigma}(A)
 =\Gamma^\rho_{\nu\sigma}(P)
-+h\,\partial_\mu\Gamma^\rho_{\nu\sigma}(P)+O(h^2)
++h\thinspace\partial_\mu\Gamma^\rho_{\nu\sigma}(P)+O(h^2)
 $$
 
 と変化する。次に、 $A$ から $\nu$ 方向へ幅 $k$ だけ進むと、同じ平行移動の式から、
@@ -469,7 +469,7 @@ V_{PAQ}^\rho
 ={}&V^\rho-h\Gamma^\rho_{\mu\sigma}V^\sigma\\
 &-k\left(
 \Gamma^\rho_{\nu\lambda}
-+h\,\partial_\mu\Gamma^\rho_{\nu\lambda}
++h\thinspace\partial_\mu\Gamma^\rho_{\nu\lambda}
 \right)
 \left(
 V^\lambda-h\Gamma^\lambda_{\mu\sigma}V^\sigma
@@ -524,7 +524,7 @@ $$
 
 $$
 V_{PAQ}^\rho-V_{PBQ}^\rho
-=-hk\,{R^\rho}_{\sigma\mu\nu}V^\sigma
+=-hk\thinspace{R^\rho}_{\sigma\mu\nu}V^\sigma
 +O(h^2k,hk^2)
 $$
 
@@ -545,7 +545,7 @@ $$
 $$
 \boxed{
 \Delta V^\rho
-=-{R^\rho}_{\sigma\mu\nu}V^\sigma\,hk
+=-{R^\rho}_{\sigma\mu\nu}V^\sigma\thinspace hk
 +O(h^2k,hk^2)
 }
 $$
@@ -730,7 +730,7 @@ $$
 ds^2 =
 a^2d\theta^2
 +
-a^2\sin^2\theta\,d\phi^2
+a^2\sin^2\theta\thinspace d\phi^2
 $$
 
 である。

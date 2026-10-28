@@ -19,7 +19,7 @@ $$
 
 $$
 ds^2=-f(r)dw^2+\frac{dr^2}{f(r)}
-+r^2(d\theta^2+\sin^2\theta\,d\phi^2)
++r^2(d\theta^2+\sin^2\theta\thinspace d\phi^2)
 \qquad (12.1)
 $$
 
@@ -28,7 +28,7 @@ $$
 その場所に静止する観測者の固有時と、動径方向の物差しの読みは、
 
 $$
-d\tau=\sqrt{f(r)}\,dw,\qquad
+d\tau=\sqrt{f(r)}\thinspace dw,\qquad
 d\ell=\frac{|dr|}{\sqrt{f(r)}}
 \qquad (12.2)
 $$
@@ -50,7 +50,7 @@ Bob「光が届くまでの道筋も調べよう。送った間隔と届いた�
 Alice は星の近くの $r_{\mathrm{Alice}}$ に、Charlie はそれより外側の $r_{\mathrm{Charlie}}$ に静止しているとする。
 
 $$
-r_{\mathrm s}<r_{\mathrm{Alice}}<r_{\mathrm{Charlie}}
+r_{\mathrm s} < r_{\mathrm{Alice}} < r_{\mathrm{Charlie}}
 $$
 
 二人とも星の表面より外側にいて、台やロケットなどに支えられ、 $r,\theta,\phi$ を変えずにとどまる。二人は同じ角度の方向に並び、Alice が外向きに送る光を Charlie が受け取る。
@@ -168,10 +168,10 @@ $$
 
 $$
 \Delta\tau_{\mathrm{Alice}}
-=\sqrt{f_{\mathrm{Alice}}}\,\Delta w,
+=\sqrt{f_{\mathrm{Alice}}}\thinspace\Delta w,
 \qquad
 \Delta\tau_{\mathrm{Charlie}}
-=\sqrt{f_{\mathrm{Charlie}}}\,\Delta w
+=\sqrt{f_{\mathrm{Charlie}}}\thinspace\Delta w
 $$
 
 となる。同じ $\Delta w$ を消去すると、
@@ -193,7 +193,7 @@ $$
 $$
 \Delta\tau_{\mathrm{Charlie}}
 =\frac{0.95}{0.9}\Delta\tau_{\mathrm{Alice}}
-\simeq1.056\,\Delta\tau_{\mathrm{Alice}}.
+\simeq1.056\thinspace\Delta\tau_{\mathrm{Alice}}.
 $$
 
 秒で言えば、Alice が自分の時計で1秒間隔で送った信号を、Charlie は自分の時計で約1.056秒間隔で受け取る。両方の固有時を $c$ で割っても、この比は変わらない。
@@ -264,7 +264,7 @@ $$
 Alice のいる一点で、時計と物差しに合わせた局所的な成分を使おう。第11章より、
 
 $$
-dW=\sqrt{f(r)}\,dw,\qquad
+dW=\sqrt{f(r)}\thinspace dw,\qquad
 dX=\frac{dr}{\sqrt{f(r)}}
 $$
 
@@ -272,7 +272,7 @@ $$
 
 $$
 \frac{dX}{dW}
-=\frac{dr/\sqrt{f(r)}}{\sqrt{f(r)}\,dw}
+=\frac{dr/\sqrt{f(r)}}{\sqrt{f(r)}\thinspace dw}
 =\frac1{f(r)}\frac{dr}{dw}
 =\pm1.
 $$
@@ -311,7 +311,7 @@ $$
 |---|---|---|
 | 動径方向の光の道筋 | $dr/dw=\pm f(r)$ | 光に沿って $ds^2=0$ |
 | 二つの信号の座標時の間隔 | $\Delta w_{\mathrm{receive}}=\Delta w_{\mathrm{send}}$ | 計量が時間に依存せず、送受信者が静止している |
-| 二人の時計で測る間隔 | $\Delta\tau_{\mathrm{Charlie}}/\Delta\tau_{\mathrm{Alice}}=\sqrt{f_{\mathrm{Charlie}}/f_{\mathrm{Alice}}}$ | 各場所で $d\tau=\sqrt f\,dw$ |
+| 二人の時計で測る間隔 | $\Delta\tau_{\mathrm{Charlie}}/\Delta\tau_{\mathrm{Alice}}=\sqrt{f_{\mathrm{Charlie}}/f_{\mathrm{Alice}}}$ | 各場所で $d\tau=\sqrt f\thinspace dw$ |
 | 二人が測る振動数 | $\nu_{\mathrm{Charlie}}/\nu_{\mathrm{Alice}}=\sqrt{f_{\mathrm{Alice}}/f_{\mathrm{Charlie}}}$ | 同じ振動回数を、それぞれの時計で数える |
 | その場で測る光速 | $c$ | 時計と物差しの両方を局所的な読みへ換算する |
 

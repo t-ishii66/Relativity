@@ -605,7 +605,7 @@ $$
 
 $$
 df =
-\partial_\mu f\,dx^\mu
+\partial_\mu f\thinspace dx^\mu
 $$
 
 となる。

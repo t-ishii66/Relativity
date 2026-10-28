@@ -132,7 +132,7 @@ Bob: “That is because we need to specify not only where it is carried, but als
 
 Let us check the relationship between density and flux with a simple collection of particles. Suppose particles of mass $m$ all move at the same speed in the same direction. That is, every particle has the same velocity vector $\boldsymbol v=(v^1,v^2,v^3)$. This does not mean that the three components $v^1,v^2,v^3$ are equal to one another.
 
-For example, the collection could consist entirely of particles moving with $(v^1,v^2,v^3)=(2,3,0)\,\mathrm{m/s}$.
+For example, the collection could consist entirely of particles moving with $(v^1,v^2,v^3)=(2,3,0)\thinspace\mathrm{m/s}$.
 
 Let $n$ be the particle number density measured by this observer, $E$ the energy of one particle, and $p^i$ its momentum. Then
 
@@ -147,13 +147,13 @@ We simply multiply the number of particles in a unit volume by the amount per pa
 Next, consider a surface of area $\Delta A$ perpendicular to the $j$ direction. First suppose $v^j>0$. During a short time $\Delta t$, the particles that cross this surface are those that were in a region of thickness $v^j\Delta t$ in front of it. The volume of that region is
 
 $$
-\Delta V_{\mathrm{pass}}=v^j\Delta t\,\Delta A
+\Delta V_{\mathrm{pass}}=v^j\Delta t\thinspace\Delta A
 $$
 
 so the number of particles that cross is
 
 $$
-\Delta N=n v^j\Delta t\,\Delta A
+\Delta N=n v^j\Delta t\thinspace\Delta A
 $$
 
 
@@ -170,13 +170,13 @@ Bob: “Yes. We consider the region where particles that reach the surface durin
 Since each particle carries energy $E$, the energy flux—energy carried net in the positive $j$ direction per unit time and unit area—is
 
 $$
-F^j=\frac{E\Delta N}{\Delta t\,\Delta A}=nEv^j
+F^j=\frac{E\Delta N}{\Delta t\thinspace\Delta A}=nEv^j
 $$
 
 Similarly, since each particle carries $i$-direction momentum $p^i$,
 
 $$
-\Pi^{ij}=\frac{p^i\Delta N}{\Delta t\,\Delta A}=np^iv^j
+\Pi^{ij}=\frac{p^i\Delta N}{\Delta t\thinspace\Delta A}=np^iv^j
 $$
 
 For $v^j<0$, the same expressions apply if we count the direction across the surface through its sign. Here $i,j$ are fixed, and no sum is taken.
@@ -243,7 +243,7 @@ Here $u^\mu$ is the four-velocity of particles flowing through the box, defined 
 Using these, every component of the table above can be written as
 
 $$
-\boxed{T^{\mu\nu}=n_0mc^2\,u^\mu u^\nu}
+\boxed{T^{\mu\nu}=n_0mc^2\thinspace u^\mu u^\nu}
 $$
 
 Indeed, using $E=\gamma mc^2$, $p^i=\gamma mv^i$, and $n=\gamma n_0$ gives
@@ -378,8 +378,8 @@ $F^1$ is energy carried per unit time and unit area. Omitting the time and $y,z$
 
 $$
 \begin{aligned}
-\text{inflow from the left}&\simeq F^1(x)\,\Delta A\,\Delta t,\\
-\text{outflow to the right}&\simeq F^1(x+\Delta x)\,\Delta A\,\Delta t
+\text{inflow from the left}&\simeq F^1(x)\thinspace\Delta A\thinspace\Delta t,\\
+\text{outflow to the right}&\simeq F^1(x+\Delta x)\thinspace\Delta A\thinspace\Delta t
 \end{aligned}
 $$
 
@@ -388,9 +388,9 @@ Therefore, the increase in the box’s energy due to flow through these two surf
 $$
 \begin{aligned}
 \Delta E_x
-&\simeq \bigl[F^1(x)-F^1(x+\Delta x)\bigr]\Delta A\,\Delta t\\
-&\simeq -\frac{\partial F^1}{\partial x}\Delta x\,\Delta A\,\Delta t\\
-&=-\frac{\partial F^1}{\partial x}\Delta V\,\Delta t
+&\simeq \bigl[F^1(x)-F^1(x+\Delta x)\bigr]\Delta A\thinspace\Delta t\\
+&\simeq -\frac{\partial F^1}{\partial x}\Delta x\thinspace\Delta A\thinspace\Delta t\\
+&=-\frac{\partial F^1}{\partial x}\Delta V\thinspace\Delta t
 \end{aligned}
 $$
 
@@ -411,9 +411,9 @@ If $F^1$ is negative, the actual flow is opposite to the arrows. Even then, its 
 There are also two opposing surfaces in each of the $y$ and $z$ directions. The same calculation gives
 
 $$
-\Delta E_y\simeq-\frac{\partial F^2}{\partial y}\Delta V\,\Delta t,
+\Delta E_y\simeq-\frac{\partial F^2}{\partial y}\Delta V\thinspace\Delta t,
 \qquad
-\Delta E_z\simeq-\frac{\partial F^3}{\partial z}\Delta V\,\Delta t
+\Delta E_z\simeq-\frac{\partial F^3}{\partial z}\Delta V\thinspace\Delta t
 $$
 
 The increase due to flow through all six surfaces is the sum of these three terms.
@@ -423,21 +423,21 @@ On the other hand, since the box’s volume is fixed, its increase in energy can
 $$
 \Delta E_{\mathrm{box}}
 \simeq \bigl[\varepsilon(t+\Delta t)-\varepsilon(t)\bigr]\Delta V
-\simeq \frac{\partial\varepsilon}{\partial t}\Delta t\,\Delta V
+\simeq \frac{\partial\varepsilon}{\partial t}\Delta t\thinspace\Delta V
 $$
 
 This equals the total increase due to inflow and outflow, so we obtain
 
 $$
-\frac{\partial\varepsilon}{\partial t}\Delta V\,\Delta t
+\frac{\partial\varepsilon}{\partial t}\Delta V\thinspace\Delta t
 =-\left(
 \frac{\partial F^1}{\partial x}
 +\frac{\partial F^2}{\partial y}
 +\frac{\partial F^3}{\partial z}
-\right)\Delta V\,\Delta t
+\right)\Delta V\thinspace\Delta t
 $$
 
-as an equality of the leading terms. Dividing both sides by $\Delta V\,\Delta t$ and taking the limit as the box and time interval become small gives
+as an equality of the leading terms. Dividing both sides by $\Delta V\thinspace\Delta t$ and taking the limit as the box and time interval become small gives
 
 $$
 \frac{\partial\varepsilon}{\partial t}
@@ -838,15 +838,15 @@ In the same weak, static field, the leading term in the expression for curvature
 
 $$
 R_{00}\simeq\sum_{i=1}^3\partial_i\Gamma^i_{00}
-\simeq\frac{1}{c^2}\nabla_{\!\mathrm{space}}^2\Phi
+\simeq\frac{1}{c^2}\nabla_{\negthinspace\mathrm{space}}^2\Phi
 $$
 
-Here, $\nabla_{\!\mathrm{space}}^2=\partial_x^2+\partial_y^2+\partial_z^2$ is the sum of spatial derivatives in Newtonian theory, distinguished from the notation for a covariant derivative.
+Here, $\nabla_{\negthinspace\mathrm{space}}^2=\partial_x^2+\partial_y^2+\partial_z^2$ is the sum of spatial derivatives in Newtonian theory, distinguished from the notation for a covariant derivative.
 
 The Poisson equation satisfied by the Newtonian gravitational potential is
 
 $$
-\nabla_{\!\mathrm{space}}^2\Phi=4\pi G\rho
+\nabla_{\negthinspace\mathrm{space}}^2\Phi=4\pi G\rho
 $$
 
 Comparing the two expressions for $R_{00}$ gives
@@ -1912,13 +1912,13 @@ The field magnitude is constant on the sphere, so multiplying by its area $4\pi 
 
 $$
 \oint\boldsymbol E\cdot d\boldsymbol S
-=\frac{Q}{4\pi\varepsilon_0r^2}\,4\pi r^2
+=\frac{Q}{4\pi\varepsilon_0r^2}\thinspace4\pi r^2
 =\frac{Q}{\varepsilon_0},
 $$
 
 $$
 \oint\boldsymbol g\cdot d\boldsymbol S
-=-\frac{GM}{r^2}\,4\pi r^2
+=-\frac{GM}{r^2}\thinspace4\pi r^2
 =-4\pi GM
 $$
 
@@ -1935,7 +1935,7 @@ Bob: “When the radius doubles, the field strength becomes one quarter while th
 This relation extends to any closed surface. Express the extent of the surface as seen from a point source by the solid angle $d\Omega$. If $\vartheta$ is the angle between the outward normal and the radial direction,
 
 $$
-d\Omega=\frac{\cos\vartheta\,dS}{r^2}
+d\Omega=\frac{\cos\vartheta\thinspace dS}{r^2}
 $$
 
 For a closed surface enclosing the point source, the sum of these signed solid angles is $4\pi$. If the point source is outside, entering and leaving contributions cancel, giving zero.
@@ -1944,10 +1944,10 @@ Therefore, flux is determined not by the shape of the closed surface, but by the
 
 $$
 \oint_{\partial\mathcal V}\boldsymbol E\cdot d\boldsymbol S
-=\frac1{\varepsilon_0}\int_{\mathcal V}\rho_e\,dV,
+=\frac1{\varepsilon_0}\int_{\mathcal V}\rho_e\thinspace dV,
 \qquad
 \oint_{\partial\mathcal V}\boldsymbol g\cdot d\boldsymbol S
-=-4\pi G\int_{\mathcal V}\rho\,dV
+=-4\pi G\int_{\mathcal V}\rho\thinspace dV
 $$
 
 Here $\rho_e$ is charge density and $\rho$ is mass density. These are Gauss’s laws for the respective fields.
@@ -1958,14 +1958,14 @@ By the divergence theorem, the flux through a closed surface equals the integral
 
 $$
 \oint_{\partial\mathcal V}\boldsymbol g\cdot d\boldsymbol S
-=\int_{\mathcal V}\nabla\cdot\boldsymbol g\,dV
+=\int_{\mathcal V}\nabla\cdot\boldsymbol g\thinspace dV
 $$
 
 Therefore, for gravity,
 
 $$
-\int_{\mathcal V}\nabla\cdot\boldsymbol g\,dV
-=-4\pi G\int_{\mathcal V}\rho\,dV
+\int_{\mathcal V}\nabla\cdot\boldsymbol g\thinspace dV
+=-4\pi G\int_{\mathcal V}\rho\thinspace dV
 $$
 
 Since this holds for every small region, for a smooth mass distribution it holds at every point:

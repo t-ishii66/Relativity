@@ -8,7 +8,7 @@ $$
 ds^2
 =-\left(1-\frac{r_{\mathrm s}}r\right)dw^2
 +\frac{dr^2}{1-r_{\mathrm s}/r}
-+r^2(d\theta^2+\sin^2\theta\,d\phi^2)
++r^2(d\theta^2+\sin^2\theta\thinspace d\phi^2)
 $$
 
 を得た。ここで $r_{\mathrm s}=2GM/c^2$ である。
@@ -63,7 +63,7 @@ $r$ はどの球面かを、 $\theta,\phi$ はその球面上のどの位置か�
 $$
 ds^2
 =-f(r)dw^2+\frac{dr^2}{f(r)}
-+r^2d\theta^2+r^2\sin^2\theta\,d\phi^2
++r^2d\theta^2+r^2\sin^2\theta\thinspace d\phi^2
 \qquad (11.1)
 $$
 
@@ -157,7 +157,7 @@ $$
 両辺の符号を反転し、未来向きの座標の増分 $dw>0$ を取ると、
 
 $$
-\boxed{d\tau=\sqrt{f(r)}\,dw}
+\boxed{d\tau=\sqrt{f(r)}\thinspace dw}
 \qquad (11.2)
 $$
 
@@ -165,7 +165,7 @@ $$
 
 左辺は、Alice が持つ時計の固有時の増分である。右辺の $dw$ は、同じ二つの出来事に付けた座標時の差である。 $\tau$ も $w$ も通常の時間に $c$ を掛けた量なので、 $\sqrt{f(r)}$ は、そのまま時計の進み方の比を表す。
 
-例えば、静止する場所で $f(r)=0.81$ なら、 $d\tau=0.9\,dw$ である。秒で言えば、座標時が $1$ 秒進む間に、時計は $0.9$ 秒を刻む。両者を同じ定数 $c$ で割っても比は変わらない。これは、時計が故障しているという意味ではない。その時計を持つ観測者は、自分の時計が刻む時間を使って実験する。
+例えば、静止する場所で $f(r)=0.81$ なら、 $d\tau=0.9\thinspace dw$ である。秒で言えば、座標時が $1$ 秒進む間に、時計は $0.9$ 秒を刻む。両者を同じ定数 $c$ で割っても比は変わらない。これは、時計が故障しているという意味ではない。その時計を持つ観測者は、自分の時計が刻む時間を使って実験する。
 
 この数値は、座標時 $w$ と比べた進み方を表している。離れた時計を光で眺めたときに何が見えるかは、光の伝わり方も含めて次章で考える。
 
@@ -229,7 +229,7 @@ $\phi$ 方向だけに進むなら、
 $$
 dw=dr=d\theta=0
 \quad\Longrightarrow\quad
-d\ell_\phi=r\sin\theta\,|d\phi|.
+d\ell_\phi=r\sin\theta\thinspace|d\phi|.
 $$
 
 ここでは $0<\theta<\pi$ の通常の角度座標を使っている。
@@ -242,10 +242,10 @@ $$
 
 $$
 \begin{aligned}
-dW&=\sqrt{f(r)}\,dw,\\
+dW&=\sqrt{f(r)}\thinspace dw,\\
 dX&=\frac{dr}{\sqrt{f(r)}},\\
-dY&=r\,d\theta,\\
-dZ&=r\sin\theta\,d\phi
+dY&=r\thinspace d\theta,\\
+dZ&=r\sin\theta\thinspace d\phi
 \end{aligned}
 \qquad (11.4)
 $$
@@ -261,7 +261,7 @@ $$
 
 $$
 dY^2=r^2d\theta^2,\qquad
-dZ^2=r^2\sin^2\theta\,d\phi^2.
+dZ^2=r^2\sin^2\theta\thinspace d\phi^2.
 $$
 
 式 (11.1) の各項を置き換えると、
@@ -292,7 +292,7 @@ $$
 
 ここでの $dW,dX,dY,dZ$ は、その点で時計と物差しに合わせた微小成分である。これらの関係を、そのまま時空全体で使える一組の座標 $W,X,Y,Z$ の定義と考えてはいけない。
 
-例えば、 $r$ が変われば $dW=\sqrt{f(r)}\,dw$ の換算係数も変わる。ある場所の時計に合わせた時間の目盛りが、そのまま別の場所の時計にも合うとは限らない。
+例えば、 $r$ が変われば $dW=\sqrt{f(r)}\thinspace dw$ の換算係数も変わる。ある場所の時計に合わせた時間の目盛りが、そのまま別の場所の時計にも合うとは限らない。
 
 各点では、その瞬間の観測者に合わせた局所慣性座標を選べる。しかし、各点での選び方をつなげて、曲がった時空の広い領域を一つの慣性座標で覆えるわけではない。
 
@@ -378,7 +378,7 @@ Bob が通過する場所に、時計と物差しを持つ静止した観測者 
 
 $$
 dX=\frac{dr}{\sqrt{f(r)}},\qquad
-dW=\sqrt{f(r)}\,dw
+dW=\sqrt{f(r)}\thinspace dw
 $$
 
 である。 $dW$ を秒単位の経過時間に直すと $dW/c$ になる。Alice がその場の時計と物差しで測る Bob の動径方向の速度を $v_{\mathrm{Bob}}$ と書くと、
@@ -407,7 +407,7 @@ d\tau_{\mathrm{Bob}}
 &=dw\sqrt{
 f(r)-\frac{f(r)^2v_{\mathrm{Bob}}^2}{c^2f(r)}
 }\\
-&=\sqrt{f(r)}\,dw
+&=\sqrt{f(r)}\thinspace dw
 \sqrt{1-\frac{v_{\mathrm{Bob}}^2}{c^2}}\\
 &=dW\sqrt{1-\frac{v_{\mathrm{Bob}}^2}{c^2}}.
 \end{aligned}
@@ -423,9 +423,9 @@ $$
 
 | 比べるもの | 座標での表現 | 静止する観測者に合わせた表現 |
 |---|---|---|
-| 時計の微小な経過時間 | $dw$ | $dW=\sqrt{f(r)}\,dw$。観測者自身の時計では $dW=d\tau$ |
+| 時計の微小な経過時間 | $dw$ | $dW=\sqrt{f(r)}\thinspace dw$。観測者自身の時計では $dW=d\tau$ |
 | 動径方向の微小な変位 | $dr$ | $dX=dr/\sqrt{f(r)}$。長さは $\lvert dX\rvert$ |
-| 球面に沿う微小な変位 | $d\theta,d\phi$ | $dY=r\,d\theta,\ dZ=r\sin\theta\,d\phi$ |
+| 球面に沿う微小な変位 | $d\theta,d\phi$ | $dY=r\thinspace d\theta,\ dZ=r\sin\theta\thinspace d\phi$ |
 | 動径方向の速度 | $dr/dw$ | $v_{\mathrm{Bob}}=c(dr/dw)/f(r)$ |
 
 座標は、出来事を整理して描くために使う。計量は、その座標の差を、指定した観測者の時計や物差しの読みへ結びつける。

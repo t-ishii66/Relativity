@@ -22,7 +22,7 @@ $$
 $$
 ds^2=-f(r)dw^2+\frac{dr^2}{f(r)}+r^2d\Omega^2,
 \qquad
-d\Omega^2=d\theta^2+\sin^2\theta\,d\phi^2
+d\Omega^2=d\theta^2+\sin^2\theta\thinspace d\phi^2
 \qquad (13.1)
 $$
 
@@ -50,7 +50,7 @@ and the advance of Charlie’s clock agrees with the advance of coordinate time.
 
 ---
 
-Alice: “Can Bob’s clock also be calculated as $d\tau=\sqrt f\,dw$, just like my clock?”
+Alice: “Can Bob’s clock also be calculated as $d\tau=\sqrt f\thinspace dw$, just like my clock?”
 
 Bob: “I change position, so the spatial term remains too. First, let’s find out how I fall.”
 

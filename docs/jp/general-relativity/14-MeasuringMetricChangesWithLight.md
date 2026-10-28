@@ -59,7 +59,7 @@ Alice は $r=r_{\mathrm A}$ に静止し、その外側の $r=r_{\mathrm B}$ に
 動径方向の光では $d\Omega=0$、 $ds^2=0$ だから、
 
 $$
-0=-f\,dw^2+\frac{dr^2}{f}.
+0=-f\thinspace dw^2+\frac{dr^2}{f}.
 $$
 
 両辺を整理すると、
@@ -88,7 +88,7 @@ $$
 ここまではキャンバス上の時間の差である。Alice の時計へ換算するには、静止した Alice の軌道で、
 
 $$
-d\tau_{\mathrm A}=\sqrt{f(r_{\mathrm A})}\,dw
+d\tau_{\mathrm A}=\sqrt{f(r_{\mathrm A})}\thinspace dw
 $$
 
 を使う。よって、
@@ -187,7 +187,7 @@ $$
 微小な座標の幅について書き直せば、
 
 $$
-|dr|=\sqrt{f(r)}\,d\ell
+|dr|=\sqrt{f(r)}\thinspace d\ell
 $$
 
 である。星に近いほど $f(r)$ は小さいので、同じ物差しの長さ $d\ell$ に対応する座標の幅も小さくなる。
@@ -196,8 +196,8 @@ $$
 
 $$
 r_{\mathrm A}-r_-
-<\sqrt{f(r_{\mathrm A})}\,L
-<r_+-r_{\mathrm A}.
+<\sqrt{f(r_{\mathrm A})}\thinspace L
+< r_+-r_{\mathrm A}.
 $$
 
 つまり、物差しで測った長さは左右とも $L$ でも、左側の座標の幅のほうが小さくなる。
@@ -206,7 +206,7 @@ $$
 
 では、左側の座標の幅が小さくなるぶん、光の往復時間の違いもなくなるのだろうか。
 
-光の進む式 (14.1) に、 $\lvert dr\rvert=\sqrt{f(r)}\,d\ell$ を代入すると、
+光の進む式 (14.1) に、 $\lvert dr\rvert=\sqrt{f(r)}\thinspace d\ell$ を代入すると、
 
 $$
 dw=\frac{|dr|}{f(r)}
@@ -217,8 +217,8 @@ $$
 
 $$
 d\tau_{\mathrm A}
-=\sqrt{f(r_{\mathrm A})}\,dw
-=\sqrt{\frac{f(r_{\mathrm A})}{f(r)}}\,d\ell
+=\sqrt{f(r_{\mathrm A})}\thinspace dw
+=\sqrt{\frac{f(r_{\mathrm A})}{f(r)}}\thinspace d\ell
 $$
 
 となる。ここで、 $d\ell$ と $d\tau_{\mathrm A}$ は異なる場所に対応していることに注意しよう。
@@ -258,15 +258,15 @@ $$
 $$
 d\ell=\frac{|dr|}{\sqrt{f(r)}},
 \qquad
-d\tau=\sqrt{f(r)}\,dw.
+d\tau=\sqrt{f(r)}\thinspace dw.
 $$
 
 光について $dw=\lvert dr\rvert/f(r)$ を代入すると、
 
 $$
 \frac{d\ell}{d\tau/c}
-=\frac{|dr|/\sqrt{f(r)}}{\sqrt{f(r)}\,dw/c}
-=c\frac{|dr|}{f(r)\,dw}
+=\frac{|dr|/\sqrt{f(r)}}{\sqrt{f(r)}\thinspace dw/c}
+=c\frac{|dr|}{f(r)\thinspace dw}
 =c
 $$
 

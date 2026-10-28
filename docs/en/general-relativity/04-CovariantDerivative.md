@@ -163,16 +163,16 @@ Therefore, in
 
 $$
 d\boldsymbol{x} =
-dr\,\boldsymbol{e}_r
+dr\thinspace\boldsymbol{e}_r
 +
-d\theta\,\boldsymbol{e}_\theta,
+d\theta\thinspace\boldsymbol{e}_\theta,
 $$
 
 the length in the angular direction is
 
 $$
-\left|d\theta\,\boldsymbol{e}_\theta\right| =
-r\,d\theta
+\left|d\theta\thinspace\boldsymbol{e}_\theta\right| =
+r\thinspace d\theta
 $$
 
 This is the same reason that $r^2$ appeared in
@@ -230,9 +230,9 @@ Bob: “That is because $(1,0)$ is not the vector itself. It is a set of compone
 
 $$
 \boldsymbol{V}(P) =
-1\,\boldsymbol{e}_r(P)
+1\thinspace\boldsymbol{e}_r(P)
 +
-0\,\boldsymbol{e}_\theta(P) =
+0\thinspace\boldsymbol{e}_\theta(P) =
 \boldsymbol{e}_r(P)
 $$
 
@@ -240,9 +240,9 @@ Bob: “At Q, on the other hand, it is”
 
 $$
 \boldsymbol{V}(Q) =
-1\,\boldsymbol{e}_r(Q)
+1\thinspace\boldsymbol{e}_r(Q)
 +
-0\,\boldsymbol{e}_\theta(Q) =
+0\thinspace\boldsymbol{e}_\theta(Q) =
 \boldsymbol{e}_r(Q)
 $$
 
@@ -517,9 +517,9 @@ On the other hand, an infinitesimal displacement in polar coordinates can be exp
 
 $$
 d\boldsymbol{x} =
-\boldsymbol{e}_r\,dr
+\boldsymbol{e}_r\thinspace dr
 +
-\boldsymbol{e}_\theta\,d\theta
+\boldsymbol{e}_\theta\thinspace d\theta
 $$
 
 Comparing the vectors that multiply $dr$ and $d\theta$ in the two equations, respectively, we find that the polar-coordinate basis is
@@ -928,7 +928,7 @@ Thus, expressing the same vector in the polar-coordinate basis gives
 
 $$
 \boldsymbol{V} =
-\cos\theta\,\boldsymbol{e}_r -
+\cos\theta\thinspace\boldsymbol{e}_r -
 \frac{\sin\theta}{r}\boldsymbol{e}_\theta
 $$
 

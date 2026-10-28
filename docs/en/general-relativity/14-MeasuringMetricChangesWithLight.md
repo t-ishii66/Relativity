@@ -57,7 +57,7 @@ Alice remains at rest at $r=r_{\mathrm A}$, and a mirror is held at rest outside
 For radial light, $d\Omega=0$ and $ds^2=0$, so
 
 $$
-0=-f\,dw^2+\frac{dr^2}{f}
+0=-f\thinspace dw^2+\frac{dr^2}{f}
 $$
 
 Rearranging both sides gives
@@ -86,7 +86,7 @@ $$
 So far, this is a difference in time on the coordinate canvas. To convert it to Alice’s clock, we use
 
 $$
-d\tau_{\mathrm A}=\sqrt{f(r_{\mathrm A})}\,dw
+d\tau_{\mathrm A}=\sqrt{f(r_{\mathrm A})}\thinspace dw
 $$
 
 along the path of the stationary Alice. Thus,
@@ -183,7 +183,7 @@ $$
 Rewriting this in terms of a small coordinate width gives
 
 $$
-|dr|=\sqrt{f(r)}\,d\ell
+|dr|=\sqrt{f(r)}\thinspace d\ell
 $$
 
 The closer we are to the star, the smaller $f(r)$ becomes, so the coordinate width corresponding to the same ruler length $d\ell$ also becomes smaller.
@@ -192,8 +192,8 @@ Along the left path, $f(r)<f(r_{\mathrm A})$, while along the right path, $f(r)>
 
 $$
 r_{\mathrm A}-r_-
-<\sqrt{f(r_{\mathrm A})}\,L
-<r_+-r_{\mathrm A}
+<\sqrt{f(r_{\mathrm A})}\thinspace L
+< r_+-r_{\mathrm A}
 $$
 
 Thus, even though the lengths measured with rulers are $L$ on both sides, the coordinate width on the left is smaller.
@@ -202,7 +202,7 @@ Thus, even though the lengths measured with rulers are $L$ on both sides, the co
 
 Does the smaller coordinate width on the left eliminate the difference between the round-trip times?
 
-Substituting $\lvert dr\rvert=\sqrt{f(r)}\,d\ell$ into equation (14.1), which describes the motion of light, gives
+Substituting $\lvert dr\rvert=\sqrt{f(r)}\thinspace d\ell$ into equation (14.1), which describes the motion of light, gives
 
 $$
 dw=\frac{|dr|}{f(r)}
@@ -213,8 +213,8 @@ Converting this further to Alice’s clock at the light source, the increase on 
 
 $$
 d\tau_{\mathrm A}
-=\sqrt{f(r_{\mathrm A})}\,dw
-=\sqrt{\frac{f(r_{\mathrm A})}{f(r)}}\,d\ell
+=\sqrt{f(r_{\mathrm A})}\thinspace dw
+=\sqrt{\frac{f(r_{\mathrm A})}{f(r)}}\thinspace d\ell
 $$
 
 Notice here that $d\ell$ and $d\tau_{\mathrm A}$ correspond to different locations.
@@ -254,15 +254,15 @@ As we also confirmed in Chapter 12, the small length and proper time measured by
 $$
 d\ell=\frac{|dr|}{\sqrt{f(r)}},
 \qquad
-d\tau=\sqrt{f(r)}\,dw
+d\tau=\sqrt{f(r)}\thinspace dw
 $$
 
 For light, substituting $dw=\lvert dr\rvert/f(r)$ gives
 
 $$
 \frac{d\ell}{d\tau/c}
-=\frac{|dr|/\sqrt{f(r)}}{\sqrt{f(r)}\,dw/c}
-=c\frac{|dr|}{f(r)\,dw}
+=\frac{|dr|/\sqrt{f(r)}}{\sqrt{f(r)}\thinspace dw/c}
+=c\frac{|dr|}{f(r)\thinspace dw}
 =c
 $$
 

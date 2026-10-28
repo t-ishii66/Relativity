@@ -179,16 +179,16 @@ $\boldsymbol e_\theta$ は、角度方向を向く長さ $1$ の単位ベクト�
 
 $$
 d\boldsymbol{x} =
-dr\,\boldsymbol{e}_r
+dr\thinspace\boldsymbol{e}_r
 +
-d\theta\,\boldsymbol{e}_\theta
+d\theta\thinspace\boldsymbol{e}_\theta
 $$
 
 の角度方向の長さは、
 
 $$
-\left|d\theta\,\boldsymbol{e}_\theta\right| =
-r\,d\theta
+\left|d\theta\thinspace\boldsymbol{e}_\theta\right| =
+r\thinspace d\theta
 $$
 
 となる。
@@ -252,9 +252,9 @@ Bob「 $(1,0)$ はベクトルそのものではなく、基底に掛ける成�
 
 $$
 \boldsymbol{V}(P) =
-1\,\boldsymbol{e}_r(P)
+1\thinspace\boldsymbol{e}_r(P)
 +
-0\,\boldsymbol{e}_\theta(P) =
+0\thinspace\boldsymbol{e}_\theta(P) =
 \boldsymbol{e}_r(P)
 $$
 
@@ -262,9 +262,9 @@ Bob「と書ける。一方、Q点では、」
 
 $$
 \boldsymbol{V}(Q) =
-1\,\boldsymbol{e}_r(Q)
+1\thinspace\boldsymbol{e}_r(Q)
 +
-0\,\boldsymbol{e}_\theta(Q) =
+0\thinspace\boldsymbol{e}_\theta(Q) =
 \boldsymbol{e}_r(Q)
 $$
 
@@ -569,9 +569,9 @@ $$
 
 $$
 d\boldsymbol{x} =
-\boldsymbol{e}_r\,dr
+\boldsymbol{e}_r\thinspace dr
 +
-\boldsymbol{e}_\theta\,d\theta
+\boldsymbol{e}_\theta\thinspace d\theta
 $$
 
 と表す。
@@ -1028,7 +1028,7 @@ $$
 
 $$
 \boldsymbol{V} =
-\cos\theta\,\boldsymbol{e}_r -
+\cos\theta\thinspace\boldsymbol{e}_r -
 \frac{\sin\theta}{r}\boldsymbol{e}_\theta
 $$
 

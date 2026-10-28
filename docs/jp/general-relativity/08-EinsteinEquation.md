@@ -132,7 +132,7 @@ Bob「どちらへ運ぶかに加えて、どの方向の運動量を運ぶか�
 
 密度と流束の関係を、簡単な粒子の集団で確かめよう。質量 $m$ の粒子が、すべて同じ方向に同じ速さで動いているとする。つまり、どの粒子も同じ速度ベクトル $\boldsymbol v=(v^1,v^2,v^3)$ を持つ。ただし、三つの成分 $v^1,v^2,v^3$ が互いに等しいという意味ではない。
 
-例えば、すべての粒子が $(v^1,v^2,v^3)=(2,3,0)\,\mathrm{m/s}$ で動く集団でもよい。
+例えば、すべての粒子が $(v^1,v^2,v^3)=(2,3,0)\thinspace\mathrm{m/s}$ で動く集団でもよい。
 
 この観測者が測る粒子数密度を $n$、粒子一個のエネルギーを $E$、運動量を $p^i$ とすれば、
 
@@ -147,13 +147,13 @@ $$
 次に、 $j$ 方向に垂直な、面積 $\Delta A$ の面を考える。まず $v^j>0$ としよう。短い時間 $\Delta t$ の間にこの面を通過するのは、面の手前で、厚さ $v^j\Delta t$ の範囲にいた粒子である。その範囲の体積は、
 
 $$
-\Delta V_{\mathrm{pass}}=v^j\Delta t\,\Delta A
+\Delta V_{\mathrm{pass}}=v^j\Delta t\thinspace\Delta A
 $$
 
 なので、通過する粒子数は、
 
 $$
-\Delta N=n v^j\Delta t\,\Delta A
+\Delta N=n v^j\Delta t\thinspace\Delta A
 $$
 
 となる。
@@ -171,13 +171,13 @@ Bob「うん。その時間内に面へ届く粒子が、最初にどの範囲�
 一個がエネルギー $E$ を運ぶため、エネルギー流束（単位時間・単位面積あたりに、正の $j$ 方向へ正味で運ばれるエネルギー）は、
 
 $$
-F^j=\frac{E\Delta N}{\Delta t\,\Delta A}=nEv^j
+F^j=\frac{E\Delta N}{\Delta t\thinspace\Delta A}=nEv^j
 $$
 
 である。同様に、一個が運ぶ $i$ 方向の運動量は $p^i$ だから、
 
 $$
-\Pi^{ij}=\frac{p^i\Delta N}{\Delta t\,\Delta A}=np^iv^j
+\Pi^{ij}=\frac{p^i\Delta N}{\Delta t\thinspace\Delta A}=np^iv^j
 $$
 
 となる。 $v^j<0$ の場合も、面を通る向きを符号で数えれば同じ式を使える。ここでは $i,j$ を固定しており、和は取っていない。
@@ -244,7 +244,7 @@ $$
 これらを使うと、先ほどの表の全成分は、
 
 $$
-\boxed{T^{\mu\nu}=n_0mc^2\,u^\mu u^\nu}
+\boxed{T^{\mu\nu}=n_0mc^2\thinspace u^\mu u^\nu}
 $$
 
 と書ける。実際、 $E=\gamma mc^2$、 $p^i=\gamma mv^i$、 $n=\gamma n_0$ を使えば、
@@ -379,8 +379,8 @@ $F^1$ は、単位時間・単位面積あたりに運ばれるエネルギー�
 
 $$
 \begin{aligned}
-\text{左からの流入}&\simeq F^1(x)\,\Delta A\,\Delta t,\\
-\text{右への流出}&\simeq F^1(x+\Delta x)\,\Delta A\,\Delta t
+\text{左からの流入}&\simeq F^1(x)\thinspace\Delta A\thinspace\Delta t,\\
+\text{右への流出}&\simeq F^1(x+\Delta x)\thinspace\Delta A\thinspace\Delta t
 \end{aligned}
 $$
 
@@ -389,9 +389,9 @@ $$
 $$
 \begin{aligned}
 \Delta E_x
-&\simeq \bigl[F^1(x)-F^1(x+\Delta x)\bigr]\Delta A\,\Delta t\\
-&\simeq -\frac{\partial F^1}{\partial x}\Delta x\,\Delta A\,\Delta t\\
-&=-\frac{\partial F^1}{\partial x}\Delta V\,\Delta t
+&\simeq \bigl[F^1(x)-F^1(x+\Delta x)\bigr]\Delta A\thinspace\Delta t\\
+&\simeq -\frac{\partial F^1}{\partial x}\Delta x\thinspace\Delta A\thinspace\Delta t\\
+&=-\frac{\partial F^1}{\partial x}\Delta V\thinspace\Delta t
 \end{aligned}
 $$
 
@@ -413,9 +413,9 @@ $F^1$ が負なら、実際の流れは矢印と逆向きになる。その場�
 $y$ 方向と $z$ 方向にも、それぞれ向かい合う二つの面がある。同じ計算をすると、
 
 $$
-\Delta E_y\simeq-\frac{\partial F^2}{\partial y}\Delta V\,\Delta t,
+\Delta E_y\simeq-\frac{\partial F^2}{\partial y}\Delta V\thinspace\Delta t,
 \qquad
-\Delta E_z\simeq-\frac{\partial F^3}{\partial z}\Delta V\,\Delta t
+\Delta E_z\simeq-\frac{\partial F^3}{\partial z}\Delta V\thinspace\Delta t
 $$
 
 となる。六つの面すべてを通る流れによる増加は、この三つの和である。
@@ -425,21 +425,21 @@ $$
 $$
 \Delta E_{\mathrm{box}}
 \simeq \bigl[\varepsilon(t+\Delta t)-\varepsilon(t)\bigr]\Delta V
-\simeq \frac{\partial\varepsilon}{\partial t}\Delta t\,\Delta V
+\simeq \frac{\partial\varepsilon}{\partial t}\Delta t\thinspace\Delta V
 $$
 
 と書ける。これが流入と流出による増加の合計に等しいので、
 
 $$
-\frac{\partial\varepsilon}{\partial t}\Delta V\,\Delta t
+\frac{\partial\varepsilon}{\partial t}\Delta V\thinspace\Delta t
 =-\left(
 \frac{\partial F^1}{\partial x}
 +\frac{\partial F^2}{\partial y}
 +\frac{\partial F^3}{\partial z}
-\right)\Delta V\,\Delta t
+\right)\Delta V\thinspace\Delta t
 $$
 
-を主要な項の等式として得る。両辺を $\Delta V\,\Delta t$ で割り、箱と時間間隔を小さくする極限を取れば、
+を主要な項の等式として得る。両辺を $\Delta V\thinspace\Delta t$ で割り、箱と時間間隔を小さくする極限を取れば、
 
 $$
 \frac{\partial\varepsilon}{\partial t}
@@ -850,15 +850,15 @@ $$
 
 $$
 R_{00}\simeq\sum_{i=1}^3\partial_i\Gamma^i_{00}
-\simeq\frac{1}{c^2}\nabla_{\!\mathrm{space}}^2\Phi
+\simeq\frac{1}{c^2}\nabla_{\negthinspace\mathrm{space}}^2\Phi
 $$
 
-である。ここで $\nabla_{\!\mathrm{space}}^2=\partial_x^2+\partial_y^2+\partial_z^2$ は、ニュートン理論の空間微分の和であり、共変微分の記号とは区別している。
+である。ここで $\nabla_{\negthinspace\mathrm{space}}^2=\partial_x^2+\partial_y^2+\partial_z^2$ は、ニュートン理論の空間微分の和であり、共変微分の記号とは区別している。
 
 ニュートンの重力ポテンシャルが満たすポアソン方程式は、
 
 $$
-\nabla_{\!\mathrm{space}}^2\Phi=4\pi G\rho
+\nabla_{\negthinspace\mathrm{space}}^2\Phi=4\pi G\rho
 $$
 
 である。二つの $R_{00}$ を比較すると、
@@ -1944,13 +1944,13 @@ $$
 
 $$
 \oint\boldsymbol E\cdot d\boldsymbol S
-=\frac{Q}{4\pi\varepsilon_0r^2}\,4\pi r^2
+=\frac{Q}{4\pi\varepsilon_0r^2}\thinspace4\pi r^2
 =\frac{Q}{\varepsilon_0},
 $$
 
 $$
 \oint\boldsymbol g\cdot d\boldsymbol S
-=-\frac{GM}{r^2}\,4\pi r^2
+=-\frac{GM}{r^2}\thinspace4\pi r^2
 =-4\pi GM
 $$
 
@@ -1967,7 +1967,7 @@ Bob「半径を2倍にすると、場の大きさは4分の1、球面積は4倍�
 この関係は、任意の閉曲面にも広げられる。点源から見た面の広がりを立体角 $d\Omega$ で表すと、外向き法線と動径方向の角度を $\vartheta$ として、
 
 $$
-d\Omega=\frac{\cos\vartheta\,dS}{r^2}
+d\Omega=\frac{\cos\vartheta\thinspace dS}{r^2}
 $$
 
 である。点源を囲む閉曲面では、この符号付き立体角の和が $4\pi$ になる。点源が外にある場合は、入る寄与と出る寄与が相殺してゼロになる。
@@ -1976,10 +1976,10 @@ $$
 
 $$
 \oint_{\partial\mathcal V}\boldsymbol E\cdot d\boldsymbol S
-=\frac1{\varepsilon_0}\int_{\mathcal V}\rho_e\,dV,
+=\frac1{\varepsilon_0}\int_{\mathcal V}\rho_e\thinspace dV,
 \qquad
 \oint_{\partial\mathcal V}\boldsymbol g\cdot d\boldsymbol S
-=-4\pi G\int_{\mathcal V}\rho\,dV
+=-4\pi G\int_{\mathcal V}\rho\thinspace dV
 $$
 
 を得る。 $\rho_e$ は電荷密度、 $\rho$ は質量密度である。これが、それぞれの場のガウスの法則である。
@@ -1990,14 +1990,14 @@ $$
 
 $$
 \oint_{\partial\mathcal V}\boldsymbol g\cdot d\boldsymbol S
-=\int_{\mathcal V}\nabla\cdot\boldsymbol g\,dV.
+=\int_{\mathcal V}\nabla\cdot\boldsymbol g\thinspace dV.
 $$
 
 したがって、重力については、
 
 $$
-\int_{\mathcal V}\nabla\cdot\boldsymbol g\,dV
-=-4\pi G\int_{\mathcal V}\rho\,dV
+\int_{\mathcal V}\nabla\cdot\boldsymbol g\thinspace dV
+=-4\pi G\int_{\mathcal V}\rho\thinspace dV
 $$
 
 となる。任意の小領域で成り立つので、滑らかな質量分布では各点で、
